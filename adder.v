@@ -1,5 +1,5 @@
 // Ripple Carry Adder
-module adder(A,B, Result);
+module adder(A, B, Result);
 
 input [7:0] A, B;
 output [7:0] Result;
