@@ -2,6 +2,7 @@ module DataPath (
   input wire clock, clear,
   input wire [7:0] A,
   input wire [7:0] RegisterAimmediate,
+  input wire RAout, RBout, RZout,
   input wire RAin, RBin, RZin
 );
 
