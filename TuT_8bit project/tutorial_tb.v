@@ -4,7 +4,7 @@ module tutorial_tb();
   reg [7:0] AddImmediate;
   reg [7:0] RegisterAimmediate;
 
-  reg [3:0] present_state
+  reg [3:0] present_state;
 
 DataPath DP(
   clock, clear,
