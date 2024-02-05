@@ -1,8 +1,8 @@
 module half_adder( 
-  input a, b,
-  output sum,carry_out
+  input in_A, in_B,
+  output out_Sum, Cout
 );
-// gate level design of half adder  
-  xor x1(sum, a, b);
-  and a1(carry_out,a, b);
+// S = A XOR B
+  xor x1(out_Sum, in_A, in_B);
+  and a1(Cout, in_A, in_B);
 endmodule
