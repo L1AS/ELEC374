@@ -56,5 +56,6 @@ assign wire_C[1] = wire_G[0] | (wire_P[0] & wire_C[0]);
 assign wire_C[2] = wire_G[1] | (wire_P[1] & wire_C[1]);
 assign wire_C[3] = wire_G[2] | (wire_P[2] & wire_C[2]);
 assign wire_C[4] = wire_G[3] | (wire_P[3] & wire_C[3]);
-// Sum S = in_A XOR in_B XOR wire_C
-assign wire_SUM = in_A ^ in_B ^ wire_C[4:1];
+assign out_Sum = {wire_C[WIDTH], wire_SUM};atenation
+// Concatenation
+assign out_Sum = {wire_C[4], wire_SUM};
