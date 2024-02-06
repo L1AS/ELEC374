@@ -5,7 +5,7 @@ module cla_gen#(parameter = WIDTH)(
 );
 
 wire [WIDTH:0] wire_C; // carry intermediate
-wire [WIDTH-1:0] wire_G, wire_P, w_SUM; // carry generate, carry propagate, sum
+wire [WIDTH-1:0] wire_G, wire_P, wire_SUM; // carry generate, carry propagate, sum
 
 // full adder, consider use generate function in verilog
 gen var i;
@@ -16,10 +16,23 @@ generate
             .in_A (in_A[i]),
             .in_B (in_B[i]),
             .Cin (wire_C[i]),
-            .out_Sum (w_SUM[i])
+            .out_Sum (wire_SUM[i])
             .Cout()
         );
     end
+endgenerate
+
+assign wire_C[0] = 1'b0;
 // Generate Terms G = A * B (a.k.a A AND B)
-assign G = in_A & in_B; 
-// P = A XOR B
+// P = A XOR B or A OR B
+generate
+    for (j = 0, j < WIDTH, j = j + 1)
+    begin
+        assign wire_G[j] = in_A[j] & in_B[j];
+        assign wire_P[j] = in_A[j] ^ in_B[j];
+        assign wire_C[j+1] = wire_G[j] | (wire_P[j] & wire_C[j]);    
+    end
+endgenerate
+
+// Concatenation
+assign out_Sum = {wire_C[WIDTH], wire_SUM};
