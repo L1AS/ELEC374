@@ -11,32 +11,32 @@ wire [3:0] wire_G, wire_P, wire_SUM; // generate term, propagate term, sum
 full_adder full_adder_bit0 (
     .in_A(in_A[0]),
     .in_B(in_B[0]),
-    .Cin(wire_C),
-    .out_Sum(out_Sum),
+    .Cin(wire_C[0]),
+    .out_Sum(wire_SUM[0]),
     .Cout()
 );
 
 full_adder full_adder_bit1 (
     .in_A(in_A[1]),
     .in_B(in_B[1]),
-    .Cin(wire_C),
-    .out_Sum(out_Sum),
+    .Cin(wire_C[wire_C[1]]),
+    .out_Sum(wire_SUM[1]),
     .Cout()
 );
 
 full_adder full_adder_bit2 (
     .in_A(in_A[2]),
     .in_B(in_B[2]),
-    .Cin(wire_C),
-    .out_Sum(out_Sum),
+    .Cin(wire_C[2]),
+    .out_Sum(wire_SUM[2]),
     .Cout()
 );
 
 full_adder full_adder_bit3 (
     .in_A(in_A[3]),
     .in_B(in_B[3]),
-    .Cin(wire_C),
-    .out_Sum(out_Sum),
+    .Cin(wire_C[3]),
+    .out_Sum(wire_SUM[3]),
     .Cout()
 );
 // Generate function Gi = Ai * Bi (a.k.a Ai AND Bi)
