@@ -1,29 +1,38 @@
 module mul_op(
+    input clk,
     input [31:0] multiplicand,
     input [31:0] multiplier,
-    output [63:0] product
+    output reg [63:0] product,
+    input start,
+    output reg done
 );
 
-reg [63:0] prod;  // Corrected size to 64 bits for the entire product
-reg [31:0] mcand; // Temporary register for multiplicand
-integer i;
+reg [64:0] prod; // Include an extra bit for Booth's algorithm
+reg [31:0] mcand;
+reg [5:0] i; // Counter to manage the iteration process
 
-always @(multiplicand or multiplier) begin
-    prod = {32'b0, multiplier}; // Initialize product register with multiplier, no need for extra bit
-    mcand = multiplicand;
-
-    for (i = 0; i < 32; i = i + 2) begin
-        case (prod[i+:3]) // Ensure this slice captures the correct bits including the LSB extension
-            3'b001, 3'b010: prod[63:32] = prod[63:32] + mcand;
-            3'b011: prod[63:32] = prod[63:32] + {mcand, 1'b0}; // mcand shifted left (x2)
-            3'b100: prod[63:32] = prod[63:32] - {mcand, 1'b0}; // Subtract mcand shifted left (x2)
-            3'b101, 3'b110: prod[63:32] = prod[63:32] - mcand;
-            default: ; // 3'b000 and 3'b111 do nothing
+always @(posedge clk) begin
+    if (start) begin
+        prod <= {33'b0, multiplier, 1'b0}; // Initialize with multiplier and extra bit
+        mcand <= multiplicand;
+        i <= 0;
+        done <= 0;
+    end
+    else if (i < 64) begin // Adjust the condition to match your iteration needs
+        case (prod[i:i+2]) // Adjust slice according to Booth's algorithm
+            // Your case statements here
+            // Update prod based on the case
         endcase
-        prod = {prod[63], prod[63:1]}; // Corrected shift right by 2 positions, maintaining sign bit if needed
+        prod <= prod >> 2; // Shift right by 2 positions
+        i <= i + 2; // Increment counter by 2 to move to the next bits
+        done <= (i >= 62) ? 1'b1 : 1'b0; // Indicate completion
     end
 end
 
-assign product = prod; // Directly assign the 64-bit product
+always @(posedge clk) begin
+    if (done) begin
+        product <= prod[63:0]; // Assign the final product once done
+    end
+end
 
 endmodule
