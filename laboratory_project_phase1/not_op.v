@@ -1,4 +1,4 @@
-module and_op (
+module not_op (
   input wire[31:0] Breg,
   output wire[31:0] Notout
 );
