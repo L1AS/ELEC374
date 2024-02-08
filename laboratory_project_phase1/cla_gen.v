@@ -1,4 +1,4 @@
-module cla_gen#(parameter = WIDTH)(
+module cla_gen#(parameter WIDTH = 32)(
     input [WIDTH-1:0] in_A, in_B,
     input Cin,  // carry in
     output [WIDTH-1:0] out_Sum,
