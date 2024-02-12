@@ -33,13 +33,13 @@ module cla_gen_tb ();
 		reg_ADD_2 = 32'd2;
 		#10;
 		
-		// case 3: Requires a carry, 5 + 6 = 11 
-		reg_ADD_1 = 32'd5;
+		// case 3: Requires a carry, -5 + 6 = 1 
+		reg_ADD_1 = -32'd5;
 		reg_ADD_2 = 32'd6;
 		#10;
-		// case 4: Requires a carry, 7 + 7 = 14 
-		reg_ADD_1 = 32'd7;
-		reg_ADD_2 = 32'd7;
+		// case 4: Requires a carry, -7 + (-7) = -14 
+		reg_ADD_1 = -32'd7;
+		reg_ADD_2 = -32'd7;
 		#10;
 	end
 endmodule
