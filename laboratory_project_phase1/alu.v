@@ -4,6 +4,8 @@ module alu (
   input [3:0] opcode,
   output reg [63:0] out_Result
 );
+
+parameter add = 5'b0000, sub = 5'b0001, mul = 5'b0010, div = 5'b0011,
 // opcodes
 /*
 0000 = add

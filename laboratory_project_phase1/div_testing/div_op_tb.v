@@ -5,14 +5,12 @@ module div_op_tb;
   // Testbench signals
   reg signed [31:0] dividend, divisor;
   wire [31:0] remainder, quotient;
-  wire error;
   // Instantiate the device Under Test (DUT)
   div_op DUT(
     .dividend(dividend),
     .divisor(divisor),
     .remainder(remainder),
-	 .quotient(quotient),
-	 .error(error)
+	 .quotient(quotient)
   );
 
   initial begin
@@ -50,11 +48,25 @@ module div_op_tb;
 	 dividend = -99;
 	 divisor = -5;
 	 #10
+	 
+	 dividend = 100;
+	 divisor = 5;
+	 #10
+	 
+	 dividend = -88;
+	 divisor = -7;
+	 #10
+	 
+	 dividend = 29;
+	 divisor = 2;
+	 #10
 
     // Test case 5: Large numbers
     dividend = 32'h7FFFFFFF; // Max positive value for a signed integer
     divisor = 2;
     #10;
+	 
+	 
 
     // Add more test cases as needed
 
@@ -63,8 +75,8 @@ module div_op_tb;
 
   // Optional: Monitor changes
   initial begin
-    $monitor("Time = %t, error = %b, dividend = %d, divisor = %d, remainder = %h, quotient = %h",
-             $time, error, dividend, divisor, remainder, quotient);
+    $monitor("Time = %t, dividend = %d, divisor = %d, remainder = %d, quotient = %d",
+             $time, dividend, divisor, remainder, quotient);
   end
 
 endmodule
