@@ -1,4 +1,4 @@
-module register #(parameter WIDTH = 32)(
+module register_gen #(parameter WIDTH = 32)(
     input clear, clock, enable, 
     input [WIDTH-1:0]BusMuxOut, 
     output wire [WIDTH-1:0]BusMuxIn

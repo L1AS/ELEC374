@@ -1,4 +1,4 @@
-module cla_gen#(parameter WIDTH = 32)(
+module add_op#(parameter WIDTH = 32)(
 	input signed [WIDTH-1:0] in_add1, in_add2,
 	input Cin,  // carry in
 	output signed [WIDTH-1:0] out_Sum,
