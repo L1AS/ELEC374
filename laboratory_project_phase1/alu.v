@@ -1,68 +1,68 @@
 module alu (
-  input clear, clock, IncPC
+  input clear, clock, IncPC,
   input wire [31:0] A_reg, B_reg, // ALU 32-bit inputs
   input [4:0] opcode,
   output reg [63:0] out_result
 );
 
-  parameter and = 5'b00000, or = 5'b00001, add = 5'b00010, sub = 5'b00011,
-            mul = 5'b00100, div = 5'b00101, shr = 5'b00110, shra = 5'b00111,
-            shl = 5'b01000, ror = 5'b01001, rol = 5'b01010, neg = 5'b01011,
-            not = 5'b01100;
+  parameter anding = 5'b00000, oring = 5'b00001, addition = 5'b00010, subtraction = 5'b00011,
+            multiply= 5'b00100, divide = 5'b00101, shift_R = 5'b00110, shift_RA= 5'b00111,
+            shift_L = 5'b01000, rotate_R = 5'b01001, rotate_L = 5'b01010, negate = 5'b01011,
+            noting = 5'b01100;
 
-  wire [31:0] IncPC_out, and_out, or_out, add_out, sub_out, shr_out,
+  wire [31:0] IncPC_out, and_out, or_out, add_out, subtraction_out, shr_out,
               shra_out, shl_out, ror_out, rol_out, neg_out, not_out;
   wire [63:0] div_out, mul_out;
 
   always @(*) begin
     case(opcode)
-      and: begin
+      anding: begin
         out_result[31:0] <= and_out;
         out_result[64:32] <= 32'b0;
       end
-      or: begin
+      oring: begin
         out_result[31:0] <= or_out;
         out_result[64:32] <= 32'b0;
       end
-      add: begin
+      addition: begin
         out_result[31:0] <= add_out;
         out_result[64:32] <= 32'b0;
       end
-      sub: begin
+      subtraction: begin
         out_result[31:0] <= sub_out;
         out_result[64:32] <= 32'b0;
       end
-      mul: begin
+      multiply: begin
         out_result <= mul_out;
       end
-      div: begin
+      divide: begin
         out_result <= div_out;
       end
-      shr: begin
+      shift_R: begin
         out_result[31:0] <= shr_out;
         out_result[64:32] <= 32'b0;
       end
-      shra: begin
+      shift_RA: begin
         out_result[31:0] <= shra_out;
         out_result[64:32] <= 32'b0;
       end
-      shl: begin
+      shift_L: begin
         out_result[31:0] <= shl_out;
         out_result[64:32] <= 32'b0;
       end
-      ror: begin
+      rotate_R: begin
         out_result[31:0] <= ror_out;
         out_result[64:32] <= 32'b0;
       end
-      rol: begin
+      rotate_L: begin
         out_result[31:0] <= rol_out;
         out_result[64:32] <= 32'b0;
       end
-      neg: begin
+      negate: begin
         out_result[31:0] <= neg_out;
         out_result[64:32] <= 32'b0;
       end
-      not: begin
+      noting: begin
         out_result[31:0] <= not_out;
         out_result[64:32] <= 32'b0;
       end
@@ -73,8 +73,8 @@ module alu (
   end
 
   IncPC pc_inc(A_reg, IncPC, IncPC_out);
-  add_op add (add_out); // DONE
-  sub_op sub (sub_out); // TODO
+  add_op add (A_reg, B_reg, add_out); // DONE
+  sub_op sub (A_reg, B_reg, sub_out); // TODO
   mul_op dul (A_reg, B_reg, mul_out); // TODO
   div_op div (A_reg, B_reg, div_out); // TODO
 
@@ -83,9 +83,9 @@ module alu (
   shl_op shl (A_reg, B_reg, shl_out); // TODO
   ror_op ror (A_reg, B_reg, ror_out); // DONE
   rol_op aol (A_reg, B_reg, rol_out); // DONE
-  and_op and (A_reg, B_reg, Andout); 
-  or_op or (A_reg, B_reg, orout); 
+  and_op and_ (A_reg, B_reg, Andout); 
+  or_op or_ (A_reg, B_reg, orout); 
   neg_op neg (B_reg, neg_out);
-  not_op not (B_reg, not_out);
+  not_op not_ (B_reg, not_out);
   
 endmodule

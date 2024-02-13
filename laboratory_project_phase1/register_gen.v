@@ -3,7 +3,7 @@ module register #(parameter WIDTH = 32)(
     input [WIDTH-1:0]BusMuxOut, 
     output wire [WIDTH-1:0]BusMuxIn
 ); 
-reg [WIDTH1:0]q; 
+reg [WIDTH-1:0]q; 
 initial q = {WIDTH{1'b0}};
 always @ (posedge clock)
         begin

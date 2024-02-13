@@ -4,7 +4,7 @@ module and_tb;
     reg Clock, clear, // Clock and clear signal
         PCout, Zlowout, Zhighout, MDRout,  // Control signals
         MARin, Zin, PCin, MDRin, IRin, Yin, // More control signals
-        IncPC, Read, <Operation>, // Even more control signals
+        IncPC, Read, AND, // Even more control signals
         R0out, R0in, 
         R1out, R1in, 
         R2out, R2in, 
@@ -58,7 +58,7 @@ module and_tb;
             PCout, PCin, 
             Zhighout, Zlowout, Zin,
             MDRout, MDRin, MARin,
-            InPortout, Read, <Operation>, Yin,
+            InPortout, Read, IRin Yin,
             Mdatain
     );
 
@@ -139,7 +139,7 @@ module and_tb;
                 R2out <= 1; Yin <= 1; 
             end
             T4: begin
-                R3out <= 1; <Operation> <= 1; Zin <= 1; 
+                R3out <= 1; AND <= 1; Zin <= 1; 
             end
             T5: begin
                 Zlowout <= 1; R1in <= 1;        

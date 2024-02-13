@@ -21,7 +21,7 @@ module DataPath (
              PCout, PCin, 
              Zhighout, Zlowout, Zin,
              MDRout, MDRin, MARin,
-             InPortout, Cout, IRin, Yin
+             InPortout, Cout, IRin, Yin,
   input[31:0] Mdatain
 );
 
@@ -52,7 +52,7 @@ module DataPath (
   wire [31:0] BusMuxOut;
   wire [4:0] BusMuxSignal;
   wire [31:0] MDRMuxOut;
-  wire [63:0] 
+  wire [63:0] alu_out;
   wire read;
 
   // registers

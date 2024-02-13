@@ -5,13 +5,15 @@ module encoder_32_to_5 (
   output reg [4:0] encodedOutput
 );
 
-always@(*) begin
-  // Encode the input data
-  for (int i = 31; i >= 0; i = i - 1) begin
-    if (encoderInput[i] == 1'b1) begin
-      encodedOutput <= 5'b00001 * i;
-      break;
+  integer  i;
+
+  always@(*) begin
+    // Encode the input data
+    for (i = 31; i >= 0; i = i - 1) begin
+      if (encoderInput[i] == 1'b1) begin
+        encodedOutput <= 5'b00001 * i;
+        i = -1;
+      end
     end
   end
-end
 endmodule
