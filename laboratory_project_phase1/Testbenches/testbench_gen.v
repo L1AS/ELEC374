@@ -1,12 +1,13 @@
 `timescale 1ns / 10ps
 
-module and_tb;
-    reg PCout, Zlowout, MDRout, R2out, R3out; // Control signals
-    reg MARin, Zin, PCin, MDRin, IRin, Yin; // More control signals
-    reg IncPC, Read, AND, // Even more control signals
-    reg R0out, R0in,
-        R1out, R1in,
-        R2out, R2in,
+module <testbench>_tb;
+    reg Clock, clear, // Clock and clear signal
+        PCout, Zlowout, Zhighout, MDRout,  // Control signals
+        MARin, Zin, PCin, MDRin, IRin, Yin, // More control signals
+        IncPC, Read, <Operation>, // Even more control signals
+        R0out, R0in, 
+        R1out, R1in, 
+        R2out, R2in, 
         R3out, R3in,
         R4out, R4in,
         R5out, R5in,
@@ -19,8 +20,10 @@ module and_tb;
         R12out, R12in,
         R13out, R13in,
         R14out, R14in,
-        R15out, R15in, 
-    reg Clock; // Clock signal
+        R15out, R15in,
+        HIout, HIin,
+        LOout, LOin,
+        InPortout;
     reg [31:0] Mdatain; // Data to be written
 
     // State definitions
@@ -55,7 +58,7 @@ module and_tb;
             PCout, PCin, 
             Zhighout, Zlowout, Zin,
             MDRout, MDRin, MARin,
-            InPortout, Read, AND, Yin
+            InPortout, Read, <Operation>, Yin
     );
 
     // Clock generation
@@ -79,7 +82,8 @@ module and_tb;
             T2: Present_state = T3;
             T3: Present_state = T4;
             T4: Present_state = T5;
-            T5: ; // No next state defined for T5, assuming end of test or loop back to another state
+            T5: //Present_state = T6; // enable for division/multiplication
+            // T6: ; // No next state defined for T6, assuming end of test or loop back to another state
         endcase
     end
 
@@ -92,19 +96,18 @@ module and_tb;
                 IncPC <= 0; Read <= 0; AND <= 0; R1in <= 0; R2in <= 0; R3in <= 0;
                 Mdatain <= 32'h00000000;
             end
-            Reg_load1a: begin
-                Mdatain <= 32'h00000012;
+            Reg_load1a: begin   
+                Mdatain <= 32'hxxxxxxxx;  //prepare memory data for R2
                 Read <= 0; MDRin <= 0;
                 #10 Read <= 1; MDRin <= 1;
                 #15 Read <= 0; MDRin <= 0;
-            end
             end
             Reg_load1b: begin
                 #10 MDRout <= 1; R2in <= 1; 
                 #15 MDRout <= 0; R2in <= 0; // initialize R2 with the value $12 
                 end
             Reg_load2a: begin 
-                Mdatain <= 32’h00000014;
+                Mdatain <= 32’hxxxxxxxx;   //prepare memory data for R3
                 #10 Read <= 1; MDRin <= 1; 
                 #15 Read <= 0; MDRin <= 0; 
             end
@@ -113,7 +116,7 @@ module and_tb;
                 #15 MDRout <= 0; R3in <= 0; // initialize R3 with the value $14 
             end
             Reg_load3a: begin 
-                Mdatain <= 32’h00000018;
+                Mdatain <= 32’hxxxxxxxx;    ////prepare memory data for R1
                 #10 Read <= 1; MDRin <= 1; 
                 #15 Read <= 0; MDRin <= 0;
             end
@@ -126,7 +129,7 @@ module and_tb;
             end
             T1: begin
                 Zlowout <= 1; PCin <= 1; Read <= 1; MDRin <= 1;
-                Mdatain <= 32’h28918000; // opcode for “and R1, R2, R3”
+                Mdatain <= 32’hxxxxxxxx; // opcode for “and R1, R2, R3”
             end
             T2: begin
                 MDRout <= 1; IRin <= 1; 
@@ -135,11 +138,14 @@ module and_tb;
                 R2out <= 1; Yin <= 1; 
             end
             T4: begin
-                R3out <= 1; AND <= 1; Zin <= 1; 
+                R3out <= 1; <Operation> <= 1; Zin <= 1; 
             end
             T5: begin
-                Zlowout <= 1; R1in <= 1; 
+                Zlowout <= 1; R1in <= 1;        
             end
+            // T6: begin   //only for division and multiplication
+            //     Zhighout <= 1;
+            // end
             
             // Continue defining other states similarly...
         endcase
