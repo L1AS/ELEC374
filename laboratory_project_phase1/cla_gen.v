@@ -1,7 +1,8 @@
 module cla_gen#(parameter WIDTH = 32)(
-    input signed [WIDTH-1:0] in_add1, in_add2,
-    input Cin,  // carry in
-    output signed [WIDTH-1:0] out_Sum
+	input signed [WIDTH-1:0] in_add1, in_add2,
+	input Cin,  // carry in
+	output signed [WIDTH-1:0] out_Sum,
+	output [WIDTH:0] Cout
 );
 
 	wire [WIDTH:0] wire_C; // carry intermediate
@@ -22,7 +23,7 @@ module cla_gen#(parameter WIDTH = 32)(
 		end
 	endgenerate
 
-	assign wire_C[0] = 1'b0;
+	assign wire_C[0] = Cin;
 	// Generate Terms G = A * B (a.k.a A AND B)
 	// P = A XOR B or A OR B
 	genvar j;
@@ -35,7 +36,8 @@ module cla_gen#(parameter WIDTH = 32)(
 		end
 	endgenerate
 
-	// Concatenation
-	assign out_Sum = {wire_C[WIDTH], wire_SUM};
+	// Assign cla result and carry out
+	assign out_Sum = wire_SUM [WIDTH-1:0];
+	assign Cout = wire_C [WIDTH:0];
 
 endmodule
