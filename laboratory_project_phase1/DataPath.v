@@ -54,38 +54,38 @@ module DataPath (
   wire Read;
 
   // registers
-  register_32_bit R0 (clear, clock, R0in, BusMuxOut, BusMuxInR0);
-  register_32_bit R1 (clear, clock, R1in, BusMuxOut, BusMuxInR1);
-  register_32_bit R2 (clear, clock, R2in, BusMuxOut, BusMuxInR2);
-  register_32_bit R3 (clear, clock, R3in, BusMuxOut, BusMuxInR3);
-  register_32_bit R4 (clear, clock, R4in, BusMuxOut, BusMuxInR4);
-  register_32_bit R5 (clear, clock, R5in, BusMuxOut, BusMuxInR5);
-  register_32_bit R6 (clear, clock, R6in, BusMuxOut, BusMuxInR6);
-  register_32_bit R7 (clear, clock, R7in, BusMuxOut, BusMuxInR7);
-  register_32_bit R8 (clear, clock, R8in, BusMuxOut, BusMuxInR8);
-  register_32_bit R9 (clear, clock, R9in, BusMuxOut, BusMuxInR9);
-  register_32_bit R10 (clear, clock, R10in, BusMuxOut, BusMuxInR10);
-  register_32_bit R11 (clear, clock, R11in, BusMuxOut, BusMuxInR11);
-  register_32_bit R12 (clear, clock, R12in, BusMuxOut, BusMuxInR12);
-  register_32_bit R13 (clear, clock, R13in, BusMuxOut, BusMuxInR13);
-  register_32_bit R14 (clear, clock, R14in, BusMuxOut, BusMuxInR14);
-  register_32_bit R15 (clear, clock, R15in, BusMuxOut, BusMuxInR15);
+  register_gen R0 (clear, clock, R0in, BusMuxOut, BusMuxInR0);
+  register_gen R1 (clear, clock, R1in, BusMuxOut, BusMuxInR1);
+  register_gen R2 (clear, clock, R2in, BusMuxOut, BusMuxInR2);
+  register_gen R3 (clear, clock, R3in, BusMuxOut, BusMuxInR3);
+  register_gen R4 (clear, clock, R4in, BusMuxOut, BusMuxInR4);
+  register_gen R5 (clear, clock, R5in, BusMuxOut, BusMuxInR5);
+  register_gen R6 (clear, clock, R6in, BusMuxOut, BusMuxInR6);
+  register_gen R7 (clear, clock, R7in, BusMuxOut, BusMuxInR7);
+  register_gen R8 (clear, clock, R8in, BusMuxOut, BusMuxInR8);
+  register_gen R9 (clear, clock, R9in, BusMuxOut, BusMuxInR9);
+  register_gen R10 (clear, clock, R10in, BusMuxOut, BusMuxInR10);
+  register_gen R11 (clear, clock, R11in, BusMuxOut, BusMuxInR11);
+  register_gen R12 (clear, clock, R12in, BusMuxOut, BusMuxInR12);
+  register_gen R13 (clear, clock, R13in, BusMuxOut, BusMuxInR13);
+  register_gen R14 (clear, clock, R14in, BusMuxOut, BusMuxInR14);
+  register_gen R15 (clear, clock, R15in, BusMuxOut, BusMuxInR15);
 
-  register_32_bit HI (clear, clock, HIin, BusMuxOut, BusMuxInHI);
-  register_32_bit LO (clear, clock, LOin, BusMuxOut, BusMuxInLO);
+  register_gen HI (clear, clock, HIin, BusMuxOut, BusMuxInHI);
+  register_gen LO (clear, clock, LOin, BusMuxOut, BusMuxInLO);
 
-  register_32_bit Y (clear, clock, Yin, BusMuxOut, BusMuxInY);
-  register_32_bit Zhigh (clear, clock, Zin, ALUOut[63:32], BusMuxInZhigh);
-  register_32_bit Zlow (clear, clock, Zin, ALUOut[31:0], BusMuxInZlow);
+  register_gen Y (clear, clock, Yin, BusMuxOut, BusMuxInY);
+  register_gen Zhigh (clear, clock, Zin, ALUOut[63:32], BusMuxInZhigh);
+  register_gen Zlow (clear, clock, Zin, ALUOut[31:0], BusMuxInZlow);
 
-  register_32_bit PC (clear, clock, PCin, BusMuxOut, BusMuxInPC);
-  register_32_bit IR (clear, clock, IRin, BusMuxOut, BusMuxInIR);
+  register_gen PC (clear, clock, PCin, BusMuxOut, BusMuxInPC);
+  register_gen IR (clear, clock, IRin, BusMuxOut, BusMuxInIR);
 
-  register_32_bit MAR (clear, clock, MARin, BusMuxOut, BusMuxInMAR);
+  register_gen MAR (clear, clock, MARin, BusMuxOut, BusMuxInMAR);
 
   // MDR
   mux_2_to_1 MDRMux (BusMuxOut, WHATSHOULDBEHERE, Read, MDRMuxOut);
-  register_32_bit MDR (clear, clock, MDRin, MDRMuxOut, BusMuxInMDR);
+  register_gen MDR (clear, clock, MDRin, MDRMuxOut, BusMuxInMDR);
 
   // Bus
   encoder_32_to_5 BusEncoder (
@@ -103,6 +103,9 @@ module DataPath (
   );
 
   // ALU
-  alu ALU ();
+  alu ALU (
+
+    
+  );
 
 endmodule
