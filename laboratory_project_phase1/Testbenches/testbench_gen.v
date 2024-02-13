@@ -58,7 +58,8 @@ module <testbench>_tb;
             PCout, PCin, 
             Zhighout, Zlowout, Zin,
             MDRout, MDRin, MARin,
-            InPortout, Read, <Operation>, Yin
+            InPortout, Read, <Operation>, Yin,
+            Mdatain
     );
 
     // Clock generation
@@ -129,7 +130,7 @@ module <testbench>_tb;
             end
             T1: begin
                 Zlowout <= 1; PCin <= 1; Read <= 1; MDRin <= 1;
-                Mdatain <= 32’hxxxxxxxx; // opcode for “and R1, R2, R3”
+                Mdatain <= 32’h00000000; // opcode for “and R1, R2, R3”
             end
             T2: begin
                 MDRout <= 1; IRin <= 1; 

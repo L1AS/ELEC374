@@ -6,7 +6,7 @@ module mux_2_to_1 (
   input wire signal, 
 );
  
-always@(*)begin
+always@(*) begin
   if (signal) begin
     out <= input2[31:0];
   end
