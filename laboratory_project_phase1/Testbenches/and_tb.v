@@ -22,8 +22,7 @@ module and_tb;
         R14out, R14in,
         R15out, R15in,
         HIout, HIin,
-        LOout, LOin,
-        InPortout;
+        LOout, LOin;
     reg [31:0] Mdatain; // Data to be written
 
     // State definitions
@@ -58,7 +57,7 @@ module and_tb;
             PCout, PCin, 
             Zhighout, Zlowout, Zin,
             MDRout, MDRin, MARin,
-            InPortout, Read, IRin Yin,
+            IncPC, Read, IRin Yin,
             Mdatain
     );
 

@@ -6,13 +6,16 @@ module encoder_32_to_5 (
 );
 
   integer  i;
+  reg found;
 
   always@(*) begin
     // Encode the input data
-    for (i = 31; i >= 0; i = i - 1) begin
+      encodedOutput = 5'b0;
+		found = 1'b1;
+    for (i = 31; i >= 0 && found; i = i - 1) begin
       if (encoderInput[i] == 1'b1) begin
-        encodedOutput <= 5'b00001 * i;
-        i = -1;
+        encodedOutput = i[4:0];
+        found = 1'b0;
       end
     end
   end

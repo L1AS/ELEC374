@@ -21,8 +21,8 @@ module DataPath (
              PCout, PCin, 
              Zhighout, Zlowout, Zin,
              MDRout, MDRin, MARin,
-             InPortout, Cout, IRin, Yin,
-  input[31:0] Mdatain
+             IncPC, Cout, IRin, Yin,
+             input[31:0] Mdatain
 );
 
   wire [31:0] BusMuxInR0, 
@@ -48,7 +48,12 @@ module DataPath (
               BusMuxInPC, 
               BusMuxInMDR, 
               BusMuxInInPort, 
-              Csignextended;
+              Csignextended,
+              BusMuxInY,
+              BusMuxInIR,
+              BusMuxInMAR;
+
+
   wire [31:0] BusMuxOut;
   wire [4:0] BusMuxSignal;
   wire [31:0] MDRMuxOut;
@@ -93,7 +98,7 @@ module DataPath (
   encoder_32_to_5 BusEncoder (
     { 8'b0, R0out, R1out, R2out, R3out, R4out, R5out, R6out, R7out, R8out, 
       R9out, R10out, R11out, R12out, R13out, R14out, R15out, HIout, LOout, 
-      Zhighout, Zlowout, PCout, MDRout, InPortout, Cout }, BusMuxSignal
+      Zhighout, Zlowout, PCout, MDRout, IncPC, Cout }, BusMuxSignal
   );
 
   mux_32_to_1 BusMux (
