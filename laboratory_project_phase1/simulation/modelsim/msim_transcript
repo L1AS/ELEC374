@@ -1,0 +1,2894 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Phase1SRC_2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:09 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v 
+# -- Compiling module sub_op
+# 
+# Top level modules:
+# 	sub_op
+# End time: 00:03:09 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:09 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v 
+# -- Compiling module shr_op
+# 
+# Top level modules:
+# 	shr_op
+# End time: 00:03:09 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:09 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v 
+# -- Compiling module shra_op
+# 
+# Top level modules:
+# 	shra_op
+# End time: 00:03:09 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:09 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v 
+# -- Compiling module shl_op
+# 
+# Top level modules:
+# 	shl_op
+# End time: 00:03:09 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:09 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v 
+# -- Compiling module ror_op
+# 
+# Top level modules:
+# 	ror_op
+# End time: 00:03:10 on Feb 14,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:10 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v 
+# -- Compiling module rol_op
+# 
+# Top level modules:
+# 	rol_op
+# End time: 00:03:10 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:10 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v 
+# -- Compiling module register_gen
+# 
+# Top level modules:
+# 	register_gen
+# End time: 00:03:10 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:10 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v 
+# -- Compiling module or_op
+# 
+# Top level modules:
+# 	or_op
+# End time: 00:03:10 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:10 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v 
+# -- Compiling module not_op
+# 
+# Top level modules:
+# 	not_op
+# End time: 00:03:10 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:10 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v 
+# -- Compiling module neg_op
+# 
+# Top level modules:
+# 	neg_op
+# End time: 00:03:10 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:10 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v 
+# -- Compiling module mux_32_to_1
+# 
+# Top level modules:
+# 	mux_32_to_1
+# End time: 00:03:10 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:10 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v 
+# -- Compiling module mux_2_to_1
+# 
+# Top level modules:
+# 	mux_2_to_1
+# End time: 00:03:10 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:10 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v 
+# -- Compiling module mul_op
+# 
+# Top level modules:
+# 	mul_op
+# End time: 00:03:10 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:10 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v 
+# -- Compiling module IncPC
+# 
+# Top level modules:
+# 	IncPC
+# End time: 00:03:10 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:10 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 00:03:10 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:10 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v 
+# -- Compiling module encoder_32_to_5
+# 
+# Top level modules:
+# 	encoder_32_to_5
+# End time: 00:03:10 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/div_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:10 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/div_op.v 
+# -- Compiling module div_op
+# 
+# Top level modules:
+# 	div_op
+# End time: 00:03:10 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:10 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_op.v 
+# -- Compiling module and_op
+# 
+# Top level modules:
+# 	and_op
+# End time: 00:03:11 on Feb 14,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:11 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 00:03:11 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:11 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v 
+# -- Compiling module add_op
+# 
+# Top level modules:
+# 	add_op
+# End time: 00:03:11 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:11 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 00:03:11 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:11 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_tb.v 
+# -- Compiling module and_tb
+# 
+# Top level modules:
+# 	and_tb
+# End time: 00:03:11 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  and_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" and_tb 
+# Start time: 00:03:11 on Feb 14,2024
+# Loading work.and_tb
+# Loading work.Datapath
+# Loading work.register_gen
+# Loading work.mux_2_to_1
+# Loading work.encoder_32_to_5
+# Loading work.mux_32_to_1
+# Loading work.alu
+# Loading work.IncPC
+# Loading work.add_op
+# Loading work.sub_op
+# Loading work.mul_op
+# Loading work.div_op
+# Loading work.shr_op
+# Loading work.shra_op
+# Loading work.shl_op
+# Loading work.ror_op
+# Loading work.rol_op
+# Loading work.and_op
+# Loading work.or_op
+# Loading work.neg_op
+# Loading work.not_op
+# Loading work.full_adder
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 500 ns
+add wave -position 23  sim:/and_tb/DUT/BusMuxSignal
+restart
+run 500ns
+do Phase1SRC_2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:17 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v 
+# -- Compiling module sub_op
+# 
+# Top level modules:
+# 	sub_op
+# End time: 00:07:17 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:17 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v 
+# -- Compiling module shr_op
+# 
+# Top level modules:
+# 	shr_op
+# End time: 00:07:17 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:17 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v 
+# -- Compiling module shra_op
+# 
+# Top level modules:
+# 	shra_op
+# End time: 00:07:18 on Feb 14,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:18 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v 
+# -- Compiling module shl_op
+# 
+# Top level modules:
+# 	shl_op
+# End time: 00:07:18 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:18 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v 
+# -- Compiling module ror_op
+# 
+# Top level modules:
+# 	ror_op
+# End time: 00:07:18 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:18 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v 
+# -- Compiling module rol_op
+# 
+# Top level modules:
+# 	rol_op
+# End time: 00:07:18 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:18 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v 
+# -- Compiling module register_gen
+# 
+# Top level modules:
+# 	register_gen
+# End time: 00:07:18 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:18 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v 
+# -- Compiling module or_op
+# 
+# Top level modules:
+# 	or_op
+# End time: 00:07:18 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:18 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v 
+# -- Compiling module not_op
+# 
+# Top level modules:
+# 	not_op
+# End time: 00:07:18 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:18 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v 
+# -- Compiling module neg_op
+# 
+# Top level modules:
+# 	neg_op
+# End time: 00:07:18 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:18 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v 
+# -- Compiling module mux_32_to_1
+# 
+# Top level modules:
+# 	mux_32_to_1
+# End time: 00:07:18 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:18 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v 
+# -- Compiling module mux_2_to_1
+# 
+# Top level modules:
+# 	mux_2_to_1
+# End time: 00:07:18 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:18 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v 
+# -- Compiling module mul_op
+# 
+# Top level modules:
+# 	mul_op
+# End time: 00:07:18 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:18 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v 
+# -- Compiling module IncPC
+# 
+# Top level modules:
+# 	IncPC
+# End time: 00:07:18 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:18 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 00:07:18 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:19 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v 
+# -- Compiling module encoder_32_to_5
+# ** Error: (vlog-13069) C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v(10): near "=": syntax error, unexpected '=', expecting '('.
+# End time: 00:07:19 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./Phase1SRC_2_run_msim_rtl_verilog.do line 23
+# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/Gi..."
+do Phase1SRC_2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:28 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v 
+# -- Compiling module sub_op
+# 
+# Top level modules:
+# 	sub_op
+# End time: 00:07:28 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:28 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v 
+# -- Compiling module shr_op
+# 
+# Top level modules:
+# 	shr_op
+# End time: 00:07:28 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:28 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v 
+# -- Compiling module shra_op
+# 
+# Top level modules:
+# 	shra_op
+# End time: 00:07:28 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:28 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v 
+# -- Compiling module shl_op
+# 
+# Top level modules:
+# 	shl_op
+# End time: 00:07:28 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:28 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v 
+# -- Compiling module ror_op
+# 
+# Top level modules:
+# 	ror_op
+# End time: 00:07:28 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:28 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v 
+# -- Compiling module rol_op
+# 
+# Top level modules:
+# 	rol_op
+# End time: 00:07:29 on Feb 14,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:29 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v 
+# -- Compiling module register_gen
+# 
+# Top level modules:
+# 	register_gen
+# End time: 00:07:29 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:29 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v 
+# -- Compiling module or_op
+# 
+# Top level modules:
+# 	or_op
+# End time: 00:07:29 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:29 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v 
+# -- Compiling module not_op
+# 
+# Top level modules:
+# 	not_op
+# End time: 00:07:29 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:29 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v 
+# -- Compiling module neg_op
+# 
+# Top level modules:
+# 	neg_op
+# End time: 00:07:29 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:29 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v 
+# -- Compiling module mux_32_to_1
+# 
+# Top level modules:
+# 	mux_32_to_1
+# End time: 00:07:29 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:29 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v 
+# -- Compiling module mux_2_to_1
+# 
+# Top level modules:
+# 	mux_2_to_1
+# End time: 00:07:29 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:29 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v 
+# -- Compiling module mul_op
+# 
+# Top level modules:
+# 	mul_op
+# End time: 00:07:29 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:29 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v 
+# -- Compiling module IncPC
+# 
+# Top level modules:
+# 	IncPC
+# End time: 00:07:29 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:29 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 00:07:29 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:29 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v 
+# -- Compiling module encoder_32_to_5
+# 
+# Top level modules:
+# 	encoder_32_to_5
+# End time: 00:07:29 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/div_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:29 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/div_op.v 
+# -- Compiling module div_op
+# 
+# Top level modules:
+# 	div_op
+# End time: 00:07:29 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:29 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_op.v 
+# -- Compiling module and_op
+# 
+# Top level modules:
+# 	and_op
+# End time: 00:07:29 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:30 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 00:07:30 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:30 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v 
+# -- Compiling module add_op
+# 
+# Top level modules:
+# 	add_op
+# End time: 00:07:30 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:30 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 00:07:30 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:30 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_tb.v 
+# -- Compiling module and_tb
+# 
+# Top level modules:
+# 	and_tb
+# End time: 00:07:30 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  and_tb
+# End time: 00:07:31 on Feb 14,2024, Elapsed time: 0:04:20
+# Errors: 4, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" and_tb 
+# Start time: 00:07:31 on Feb 14,2024
+# Loading work.and_tb
+# Loading work.Datapath
+# Loading work.register_gen
+# Loading work.mux_2_to_1
+# Loading work.encoder_32_to_5
+# Loading work.mux_32_to_1
+# Loading work.alu
+# Loading work.IncPC
+# Loading work.add_op
+# Loading work.sub_op
+# Loading work.mul_op
+# Loading work.div_op
+# Loading work.shr_op
+# Loading work.shra_op
+# Loading work.shl_op
+# Loading work.ror_op
+# Loading work.rol_op
+# Loading work.and_op
+# Loading work.or_op
+# Loading work.neg_op
+# Loading work.not_op
+# Loading work.full_adder
+# ** Warning: (vsim-3015) C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v(100): [PCDPC] - Port size (32) does not match connection size (31) for port 'encoderInput'. The port definition is at: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /and_tb/DUT/BusEncoder File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 500 ns
+add wave -position 23  sim:/and_tb/DUT/BusMuxSignal
+restart
+# ** Warning: (vsim-3015) C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v(100): [PCDPC] - Port size (32) does not match connection size (31) for port 'encoderInput'. The port definition is at: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /and_tb/DUT/BusEncoder File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v
+do Phase1SRC_2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:09:38 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v 
+# -- Compiling module sub_op
+# 
+# Top level modules:
+# 	sub_op
+# End time: 00:09:38 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:09:38 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v 
+# -- Compiling module shr_op
+# 
+# Top level modules:
+# 	shr_op
+# End time: 00:09:38 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:09:38 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v 
+# -- Compiling module shra_op
+# 
+# Top level modules:
+# 	shra_op
+# End time: 00:09:38 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:09:38 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v 
+# -- Compiling module shl_op
+# 
+# Top level modules:
+# 	shl_op
+# End time: 00:09:38 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:09:38 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v 
+# -- Compiling module ror_op
+# 
+# Top level modules:
+# 	ror_op
+# End time: 00:09:38 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:09:38 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v 
+# -- Compiling module rol_op
+# 
+# Top level modules:
+# 	rol_op
+# End time: 00:09:38 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:09:38 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v 
+# -- Compiling module register_gen
+# 
+# Top level modules:
+# 	register_gen
+# End time: 00:09:38 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:09:38 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v 
+# -- Compiling module or_op
+# 
+# Top level modules:
+# 	or_op
+# End time: 00:09:38 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:09:38 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v 
+# -- Compiling module not_op
+# 
+# Top level modules:
+# 	not_op
+# End time: 00:09:38 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:09:38 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v 
+# -- Compiling module neg_op
+# 
+# Top level modules:
+# 	neg_op
+# End time: 00:09:38 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:09:38 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v 
+# -- Compiling module mux_32_to_1
+# 
+# Top level modules:
+# 	mux_32_to_1
+# End time: 00:09:38 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:09:38 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v 
+# -- Compiling module mux_2_to_1
+# 
+# Top level modules:
+# 	mux_2_to_1
+# End time: 00:09:39 on Feb 14,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:09:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v 
+# -- Compiling module mul_op
+# 
+# Top level modules:
+# 	mul_op
+# End time: 00:09:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:09:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v 
+# -- Compiling module IncPC
+# 
+# Top level modules:
+# 	IncPC
+# End time: 00:09:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:09:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 00:09:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:09:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v 
+# -- Compiling module encoder_32_to_5
+# 
+# Top level modules:
+# 	encoder_32_to_5
+# End time: 00:09:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/div_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:09:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/div_op.v 
+# -- Compiling module div_op
+# 
+# Top level modules:
+# 	div_op
+# End time: 00:09:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:09:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_op.v 
+# -- Compiling module and_op
+# 
+# Top level modules:
+# 	and_op
+# End time: 00:09:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:09:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 00:09:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:09:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v 
+# -- Compiling module add_op
+# 
+# Top level modules:
+# 	add_op
+# End time: 00:09:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:09:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 00:09:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:09:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_tb.v 
+# -- Compiling module and_tb
+# 
+# Top level modules:
+# 	and_tb
+# End time: 00:09:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  and_tb
+# End time: 00:09:41 on Feb 14,2024, Elapsed time: 0:02:10
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" and_tb 
+# Start time: 00:09:41 on Feb 14,2024
+# Loading work.and_tb
+# Loading work.Datapath
+# Loading work.register_gen
+# Loading work.mux_2_to_1
+# Loading work.encoder_32_to_5
+# Loading work.mux_32_to_1
+# Loading work.alu
+# Loading work.IncPC
+# Loading work.add_op
+# Loading work.sub_op
+# Loading work.mul_op
+# Loading work.div_op
+# Loading work.shr_op
+# Loading work.shra_op
+# Loading work.shl_op
+# Loading work.ror_op
+# Loading work.rol_op
+# Loading work.and_op
+# Loading work.or_op
+# Loading work.neg_op
+# Loading work.not_op
+# Loading work.full_adder
+# ** Warning: (vsim-3015) C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v(100): [PCDPC] - Port size (32) does not match connection size (31) for port 'encoderInput'. The port definition is at: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /and_tb/DUT/BusEncoder File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 500 ns
+add wave -position 23  sim:/and_tb/DUT/BusMuxSignal
+restart
+# ** Warning: (vsim-3015) C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v(100): [PCDPC] - Port size (32) does not match connection size (31) for port 'encoderInput'. The port definition is at: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /and_tb/DUT/BusEncoder File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v
+run 500ns
+do Phase1SRC_2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:36 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v 
+# -- Compiling module sub_op
+# 
+# Top level modules:
+# 	sub_op
+# End time: 00:17:36 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:36 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v 
+# -- Compiling module shr_op
+# 
+# Top level modules:
+# 	shr_op
+# End time: 00:17:36 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:36 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v 
+# -- Compiling module shra_op
+# 
+# Top level modules:
+# 	shra_op
+# End time: 00:17:36 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:36 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v 
+# -- Compiling module shl_op
+# 
+# Top level modules:
+# 	shl_op
+# End time: 00:17:36 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:36 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v 
+# -- Compiling module ror_op
+# 
+# Top level modules:
+# 	ror_op
+# End time: 00:17:36 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:36 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v 
+# -- Compiling module rol_op
+# 
+# Top level modules:
+# 	rol_op
+# End time: 00:17:36 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:36 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v 
+# -- Compiling module register_gen
+# 
+# Top level modules:
+# 	register_gen
+# End time: 00:17:36 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:37 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v 
+# -- Compiling module or_op
+# 
+# Top level modules:
+# 	or_op
+# End time: 00:17:37 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:37 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v 
+# -- Compiling module not_op
+# 
+# Top level modules:
+# 	not_op
+# End time: 00:17:37 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:37 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v 
+# -- Compiling module neg_op
+# 
+# Top level modules:
+# 	neg_op
+# End time: 00:17:37 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:37 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v 
+# -- Compiling module mux_32_to_1
+# 
+# Top level modules:
+# 	mux_32_to_1
+# End time: 00:17:37 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:37 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v 
+# -- Compiling module mux_2_to_1
+# 
+# Top level modules:
+# 	mux_2_to_1
+# End time: 00:17:37 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:37 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v 
+# -- Compiling module mul_op
+# 
+# Top level modules:
+# 	mul_op
+# End time: 00:17:37 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:37 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v 
+# -- Compiling module IncPC
+# 
+# Top level modules:
+# 	IncPC
+# End time: 00:17:37 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:37 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 00:17:37 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:37 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v 
+# -- Compiling module encoder_32_to_5
+# 
+# Top level modules:
+# 	encoder_32_to_5
+# End time: 00:17:37 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/div_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:37 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/div_op.v 
+# -- Compiling module div_op
+# 
+# Top level modules:
+# 	div_op
+# End time: 00:17:37 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:37 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_op.v 
+# -- Compiling module and_op
+# 
+# Top level modules:
+# 	and_op
+# End time: 00:17:37 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:37 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 00:17:37 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:37 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v 
+# -- Compiling module add_op
+# 
+# Top level modules:
+# 	add_op
+# End time: 00:17:37 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:37 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 00:17:38 on Feb 14,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:38 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_tb.v 
+# -- Compiling module and_tb
+# 
+# Top level modules:
+# 	and_tb
+# End time: 00:17:38 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  and_tb
+# End time: 00:17:39 on Feb 14,2024, Elapsed time: 0:07:58
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" and_tb 
+# Start time: 00:17:39 on Feb 14,2024
+# Loading work.and_tb
+# Loading work.Datapath
+# Loading work.register_gen
+# Loading work.mux_2_to_1
+# Loading work.encoder_32_to_5
+# Loading work.mux_32_to_1
+# Loading work.alu
+# Loading work.IncPC
+# Loading work.add_op
+# Loading work.sub_op
+# Loading work.mul_op
+# Loading work.div_op
+# Loading work.shr_op
+# Loading work.shra_op
+# Loading work.shl_op
+# Loading work.ror_op
+# Loading work.rol_op
+# Loading work.and_op
+# Loading work.or_op
+# Loading work.neg_op
+# Loading work.not_op
+# Loading work.full_adder
+# ** Warning: (vsim-3015) C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v(100): [PCDPC] - Port size (32) does not match connection size (31) for port 'encoderInput'. The port definition is at: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /and_tb/DUT/BusEncoder File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 500 ns
+add wave -position 23  sim:/and_tb/DUT/BusMuxSignal
+restart
+# ** Warning: (vsim-3015) C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v(100): [PCDPC] - Port size (32) does not match connection size (31) for port 'encoderInput'. The port definition is at: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /and_tb/DUT/BusEncoder File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v
+run 500ns
+add wave -position end  sim:/and_tb/DUT/alu_out
+restart
+# ** Warning: (vsim-3015) C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v(100): [PCDPC] - Port size (32) does not match connection size (31) for port 'encoderInput'. The port definition is at: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /and_tb/DUT/BusEncoder File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v
+do Phase1SRC_2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:18 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v 
+# -- Compiling module sub_op
+# 
+# Top level modules:
+# 	sub_op
+# End time: 00:23:18 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:18 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v 
+# -- Compiling module shr_op
+# 
+# Top level modules:
+# 	shr_op
+# End time: 00:23:18 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:18 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v 
+# -- Compiling module shra_op
+# 
+# Top level modules:
+# 	shra_op
+# End time: 00:23:18 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:18 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v 
+# -- Compiling module shl_op
+# 
+# Top level modules:
+# 	shl_op
+# End time: 00:23:18 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:18 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v 
+# -- Compiling module ror_op
+# 
+# Top level modules:
+# 	ror_op
+# End time: 00:23:18 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:18 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v 
+# -- Compiling module rol_op
+# 
+# Top level modules:
+# 	rol_op
+# End time: 00:23:18 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:19 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v 
+# -- Compiling module register_gen
+# 
+# Top level modules:
+# 	register_gen
+# End time: 00:23:19 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:19 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v 
+# -- Compiling module or_op
+# 
+# Top level modules:
+# 	or_op
+# End time: 00:23:19 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:19 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v 
+# -- Compiling module not_op
+# 
+# Top level modules:
+# 	not_op
+# End time: 00:23:19 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:19 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v 
+# -- Compiling module neg_op
+# 
+# Top level modules:
+# 	neg_op
+# End time: 00:23:19 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:19 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v 
+# -- Compiling module mux_32_to_1
+# 
+# Top level modules:
+# 	mux_32_to_1
+# End time: 00:23:19 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:19 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v 
+# -- Compiling module mux_2_to_1
+# 
+# Top level modules:
+# 	mux_2_to_1
+# End time: 00:23:19 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:19 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v 
+# -- Compiling module mul_op
+# 
+# Top level modules:
+# 	mul_op
+# End time: 00:23:19 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:19 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v 
+# -- Compiling module IncPC
+# 
+# Top level modules:
+# 	IncPC
+# End time: 00:23:19 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:19 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 00:23:19 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:19 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v 
+# -- Compiling module encoder_32_to_5
+# 
+# Top level modules:
+# 	encoder_32_to_5
+# End time: 00:23:19 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/div_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:19 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/div_op.v 
+# -- Compiling module div_op
+# 
+# Top level modules:
+# 	div_op
+# End time: 00:23:19 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:19 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_op.v 
+# -- Compiling module and_op
+# 
+# Top level modules:
+# 	and_op
+# End time: 00:23:19 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:19 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 00:23:19 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:20 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v 
+# -- Compiling module add_op
+# 
+# Top level modules:
+# 	add_op
+# End time: 00:23:20 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:20 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 00:23:20 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:20 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_tb.v 
+# -- Compiling module and_tb
+# 
+# Top level modules:
+# 	and_tb
+# End time: 00:23:20 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  and_tb
+# End time: 00:23:21 on Feb 14,2024, Elapsed time: 0:05:42
+# Errors: 0, Warnings: 3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" and_tb 
+# Start time: 00:23:21 on Feb 14,2024
+# Loading work.and_tb
+# Loading work.Datapath
+# Loading work.register_gen
+# Loading work.mux_2_to_1
+# Loading work.encoder_32_to_5
+# Loading work.mux_32_to_1
+# Loading work.alu
+# Loading work.IncPC
+# Loading work.add_op
+# Loading work.sub_op
+# Loading work.mul_op
+# Loading work.div_op
+# Loading work.shr_op
+# Loading work.shra_op
+# Loading work.shl_op
+# Loading work.ror_op
+# Loading work.rol_op
+# Loading work.and_op
+# Loading work.or_op
+# Loading work.neg_op
+# Loading work.not_op
+# Loading work.full_adder
+# ** Warning: (vsim-3015) C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v(100): [PCDPC] - Port size (32) does not match connection size (31) for port 'encoderInput'. The port definition is at: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /and_tb/DUT/BusEncoder File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 500 ns
+add wave -position 23  sim:/and_tb/Present_state
+add wave -position 24  sim:/and_tb/DUT/alu_out
+add wave -position 24  sim:/and_tb/DUT/BusMuxSignal
+restart
+# ** Warning: (vsim-3015) C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v(100): [PCDPC] - Port size (32) does not match connection size (31) for port 'encoderInput'. The port definition is at: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /and_tb/DUT/BusEncoder File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v
+run 500ns
+add wave -position 54  sim:/and_tb/DUT/BusMuxInZlow
+add wave -position 54  sim:/and_tb/DUT/BusMuxInR1
+add wave -position 54  sim:/and_tb/DUT/BusMuxInR2
+add wave -position 54  sim:/and_tb/DUT/BusMuxInR3
+do Phase1SRC_2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:47 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v 
+# -- Compiling module sub_op
+# 
+# Top level modules:
+# 	sub_op
+# End time: 00:25:47 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:47 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v 
+# -- Compiling module shr_op
+# 
+# Top level modules:
+# 	shr_op
+# End time: 00:25:47 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:47 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v 
+# -- Compiling module shra_op
+# 
+# Top level modules:
+# 	shra_op
+# End time: 00:25:47 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:47 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v 
+# -- Compiling module shl_op
+# 
+# Top level modules:
+# 	shl_op
+# End time: 00:25:47 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:47 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v 
+# -- Compiling module ror_op
+# 
+# Top level modules:
+# 	ror_op
+# End time: 00:25:47 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:47 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v 
+# -- Compiling module rol_op
+# 
+# Top level modules:
+# 	rol_op
+# End time: 00:25:47 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:47 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v 
+# -- Compiling module register_gen
+# 
+# Top level modules:
+# 	register_gen
+# End time: 00:25:47 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:47 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v 
+# -- Compiling module or_op
+# 
+# Top level modules:
+# 	or_op
+# End time: 00:25:47 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:47 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v 
+# -- Compiling module not_op
+# 
+# Top level modules:
+# 	not_op
+# End time: 00:25:47 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:47 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v 
+# -- Compiling module neg_op
+# 
+# Top level modules:
+# 	neg_op
+# End time: 00:25:47 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:47 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v 
+# -- Compiling module mux_32_to_1
+# 
+# Top level modules:
+# 	mux_32_to_1
+# End time: 00:25:48 on Feb 14,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:48 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v 
+# -- Compiling module mux_2_to_1
+# 
+# Top level modules:
+# 	mux_2_to_1
+# End time: 00:25:48 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:48 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v 
+# -- Compiling module mul_op
+# 
+# Top level modules:
+# 	mul_op
+# End time: 00:25:48 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:48 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v 
+# -- Compiling module IncPC
+# 
+# Top level modules:
+# 	IncPC
+# End time: 00:25:48 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:48 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 00:25:48 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:48 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v 
+# -- Compiling module encoder_32_to_5
+# 
+# Top level modules:
+# 	encoder_32_to_5
+# End time: 00:25:48 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/div_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:48 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/div_op.v 
+# -- Compiling module div_op
+# 
+# Top level modules:
+# 	div_op
+# End time: 00:25:48 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:48 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_op.v 
+# -- Compiling module and_op
+# 
+# Top level modules:
+# 	and_op
+# End time: 00:25:48 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:48 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 00:25:48 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:48 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v 
+# -- Compiling module add_op
+# 
+# Top level modules:
+# 	add_op
+# End time: 00:25:48 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:48 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 00:25:48 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:48 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_tb.v 
+# -- Compiling module and_tb
+# 
+# Top level modules:
+# 	and_tb
+# End time: 00:25:48 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  and_tb
+# End time: 00:25:50 on Feb 14,2024, Elapsed time: 0:02:29
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" and_tb 
+# Start time: 00:25:50 on Feb 14,2024
+# Loading work.and_tb
+# Loading work.Datapath
+# Loading work.register_gen
+# Loading work.mux_2_to_1
+# Loading work.encoder_32_to_5
+# Loading work.mux_32_to_1
+# Loading work.alu
+# Loading work.IncPC
+# Loading work.add_op
+# Loading work.sub_op
+# Loading work.mul_op
+# Loading work.div_op
+# Loading work.shr_op
+# Loading work.shra_op
+# Loading work.shl_op
+# Loading work.ror_op
+# Loading work.rol_op
+# Loading work.and_op
+# Loading work.or_op
+# Loading work.neg_op
+# Loading work.not_op
+# Loading work.full_adder
+# ** Warning: (vsim-3015) C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v(100): [PCDPC] - Port size (32) does not match connection size (31) for port 'encoderInput'. The port definition is at: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /and_tb/DUT/BusEncoder File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 500 ns
+add wave -position 23  sim:/and_tb/DUT/BusMuxInR1
+add wave -position 24  sim:/and_tb/DUT/BusMuxInR2
+add wave -position 25  sim:/and_tb/DUT/BusMuxInR3
+add wave -position 26  sim:/and_tb/DUT/BusMuxInZlow
+do Phase1SRC_2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:04 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v 
+# -- Compiling module sub_op
+# 
+# Top level modules:
+# 	sub_op
+# End time: 00:27:04 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:04 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v 
+# -- Compiling module shr_op
+# 
+# Top level modules:
+# 	shr_op
+# End time: 00:27:04 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:04 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v 
+# -- Compiling module shra_op
+# 
+# Top level modules:
+# 	shra_op
+# End time: 00:27:04 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:04 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v 
+# -- Compiling module shl_op
+# 
+# Top level modules:
+# 	shl_op
+# End time: 00:27:04 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:04 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v 
+# -- Compiling module ror_op
+# 
+# Top level modules:
+# 	ror_op
+# End time: 00:27:04 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:04 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v 
+# -- Compiling module rol_op
+# 
+# Top level modules:
+# 	rol_op
+# End time: 00:27:04 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:04 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v 
+# -- Compiling module register_gen
+# 
+# Top level modules:
+# 	register_gen
+# End time: 00:27:04 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:04 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v 
+# -- Compiling module or_op
+# 
+# Top level modules:
+# 	or_op
+# End time: 00:27:04 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:04 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v 
+# -- Compiling module not_op
+# 
+# Top level modules:
+# 	not_op
+# End time: 00:27:04 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:04 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v 
+# -- Compiling module neg_op
+# 
+# Top level modules:
+# 	neg_op
+# End time: 00:27:04 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:04 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v 
+# -- Compiling module mux_32_to_1
+# 
+# Top level modules:
+# 	mux_32_to_1
+# End time: 00:27:04 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:04 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v 
+# -- Compiling module mux_2_to_1
+# 
+# Top level modules:
+# 	mux_2_to_1
+# End time: 00:27:04 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:04 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v 
+# -- Compiling module mul_op
+# 
+# Top level modules:
+# 	mul_op
+# End time: 00:27:05 on Feb 14,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:05 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v 
+# -- Compiling module IncPC
+# 
+# Top level modules:
+# 	IncPC
+# End time: 00:27:05 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:05 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 00:27:05 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:05 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v 
+# -- Compiling module encoder_32_to_5
+# 
+# Top level modules:
+# 	encoder_32_to_5
+# End time: 00:27:05 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/div_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:05 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/div_op.v 
+# -- Compiling module div_op
+# 
+# Top level modules:
+# 	div_op
+# End time: 00:27:05 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:05 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_op.v 
+# -- Compiling module and_op
+# 
+# Top level modules:
+# 	and_op
+# End time: 00:27:05 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:05 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 00:27:05 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:05 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v 
+# -- Compiling module add_op
+# 
+# Top level modules:
+# 	add_op
+# End time: 00:27:05 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:05 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 00:27:05 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:05 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_tb.v 
+# -- Compiling module and_tb
+# 
+# Top level modules:
+# 	and_tb
+# End time: 00:27:05 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  and_tb
+# End time: 00:27:07 on Feb 14,2024, Elapsed time: 0:01:17
+# Errors: 0, Warnings: 1
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" and_tb 
+# Start time: 00:27:07 on Feb 14,2024
+# Loading work.and_tb
+# Loading work.Datapath
+# Loading work.register_gen
+# Loading work.mux_2_to_1
+# Loading work.encoder_32_to_5
+# Loading work.mux_32_to_1
+# Loading work.alu
+# Loading work.IncPC
+# Loading work.add_op
+# Loading work.sub_op
+# Loading work.mul_op
+# Loading work.div_op
+# Loading work.shr_op
+# Loading work.shra_op
+# Loading work.shl_op
+# Loading work.ror_op
+# Loading work.rol_op
+# Loading work.and_op
+# Loading work.or_op
+# Loading work.neg_op
+# Loading work.not_op
+# Loading work.full_adder
+# ** Warning: (vsim-3015) C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v(100): [PCDPC] - Port size (32) does not match connection size (31) for port 'encoderInput'. The port definition is at: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /and_tb/DUT/BusEncoder File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v
+# ** Fatal: (vsim-3365) C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v(106): Too many port connections. Expected 25, found 26.
+#    Time: 0 ps  Iteration: 0  Instance: /and_tb/DUT/BusMux File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Phase1SRC_2_run_msim_rtl_verilog.do PAUSED at line 32
+do Phase1SRC_2_run_msim_rtl_verilog.do
+# transcript on
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:23 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v 
+# -- Compiling module sub_op
+# 
+# Top level modules:
+# 	sub_op
+# End time: 00:28:23 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:23 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v 
+# -- Compiling module shr_op
+# 
+# Top level modules:
+# 	shr_op
+# End time: 00:28:23 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:23 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v 
+# -- Compiling module shra_op
+# 
+# Top level modules:
+# 	shra_op
+# End time: 00:28:23 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:23 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v 
+# -- Compiling module shl_op
+# 
+# Top level modules:
+# 	shl_op
+# End time: 00:28:23 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:23 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v 
+# -- Compiling module ror_op
+# 
+# Top level modules:
+# 	ror_op
+# End time: 00:28:23 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:23 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v 
+# -- Compiling module rol_op
+# 
+# Top level modules:
+# 	rol_op
+# End time: 00:28:23 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:23 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v 
+# -- Compiling module register_gen
+# 
+# Top level modules:
+# 	register_gen
+# End time: 00:28:23 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:23 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v 
+# -- Compiling module or_op
+# 
+# Top level modules:
+# 	or_op
+# End time: 00:28:23 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:23 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v 
+# -- Compiling module not_op
+# 
+# Top level modules:
+# 	not_op
+# End time: 00:28:23 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:24 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v 
+# -- Compiling module neg_op
+# 
+# Top level modules:
+# 	neg_op
+# End time: 00:28:24 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:24 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v 
+# -- Compiling module mux_32_to_1
+# 
+# Top level modules:
+# 	mux_32_to_1
+# End time: 00:28:24 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:24 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v 
+# -- Compiling module mux_2_to_1
+# 
+# Top level modules:
+# 	mux_2_to_1
+# End time: 00:28:24 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:24 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v 
+# -- Compiling module mul_op
+# 
+# Top level modules:
+# 	mul_op
+# End time: 00:28:24 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:24 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v 
+# -- Compiling module IncPC
+# 
+# Top level modules:
+# 	IncPC
+# End time: 00:28:24 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:24 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 00:28:24 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:24 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v 
+# -- Compiling module encoder_32_to_5
+# 
+# Top level modules:
+# 	encoder_32_to_5
+# End time: 00:28:24 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/div_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:24 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/div_op.v 
+# -- Compiling module div_op
+# 
+# Top level modules:
+# 	div_op
+# End time: 00:28:24 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:24 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_op.v 
+# -- Compiling module and_op
+# 
+# Top level modules:
+# 	and_op
+# End time: 00:28:24 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:24 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 00:28:24 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:24 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v 
+# -- Compiling module add_op
+# 
+# Top level modules:
+# 	add_op
+# End time: 00:28:24 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:24 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 00:28:24 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:24 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_tb.v 
+# -- Compiling module and_tb
+# 
+# Top level modules:
+# 	and_tb
+# End time: 00:28:24 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  and_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" and_tb 
+# Start time: 00:27:07 on Feb 14,2024
+# Loading work.and_tb
+# Loading work.Datapath
+# Loading work.register_gen
+# Loading work.mux_2_to_1
+# Loading work.encoder_32_to_5
+# Loading work.mux_32_to_1
+# Loading work.alu
+# Loading work.IncPC
+# Loading work.add_op
+# Loading work.sub_op
+# Loading work.mul_op
+# Loading work.div_op
+# Loading work.shr_op
+# Loading work.shra_op
+# Loading work.shl_op
+# Loading work.ror_op
+# Loading work.rol_op
+# Loading work.and_op
+# Loading work.or_op
+# Loading work.neg_op
+# Loading work.not_op
+# Loading work.full_adder
+# ** Fatal: (vsim-3365) C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v(106): Too many port connections. Expected 25, found 26.
+#    Time: 0 ps  Iteration: 0  Instance: /and_tb/DUT/BusMux File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Phase1SRC_2_run_msim_rtl_verilog.do PAUSED at line 32
+do Phase1SRC_2_run_msim_rtl_verilog.do
+# transcript on
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:15 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v 
+# -- Compiling module sub_op
+# 
+# Top level modules:
+# 	sub_op
+# End time: 00:29:16 on Feb 14,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:16 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v 
+# -- Compiling module shr_op
+# 
+# Top level modules:
+# 	shr_op
+# End time: 00:29:16 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:16 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v 
+# -- Compiling module shra_op
+# 
+# Top level modules:
+# 	shra_op
+# End time: 00:29:16 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:16 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v 
+# -- Compiling module shl_op
+# 
+# Top level modules:
+# 	shl_op
+# End time: 00:29:16 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:16 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v 
+# -- Compiling module ror_op
+# 
+# Top level modules:
+# 	ror_op
+# End time: 00:29:16 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:16 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v 
+# -- Compiling module rol_op
+# 
+# Top level modules:
+# 	rol_op
+# End time: 00:29:16 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:16 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v 
+# -- Compiling module register_gen
+# 
+# Top level modules:
+# 	register_gen
+# End time: 00:29:16 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:16 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v 
+# -- Compiling module or_op
+# 
+# Top level modules:
+# 	or_op
+# End time: 00:29:16 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:16 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v 
+# -- Compiling module not_op
+# 
+# Top level modules:
+# 	not_op
+# End time: 00:29:16 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:16 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v 
+# -- Compiling module neg_op
+# 
+# Top level modules:
+# 	neg_op
+# End time: 00:29:16 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:16 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v 
+# -- Compiling module mux_32_to_1
+# 
+# Top level modules:
+# 	mux_32_to_1
+# End time: 00:29:16 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:16 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v 
+# -- Compiling module mux_2_to_1
+# 
+# Top level modules:
+# 	mux_2_to_1
+# End time: 00:29:16 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:16 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v 
+# -- Compiling module mul_op
+# 
+# Top level modules:
+# 	mul_op
+# End time: 00:29:16 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:16 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v 
+# -- Compiling module IncPC
+# 
+# Top level modules:
+# 	IncPC
+# End time: 00:29:16 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:16 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 00:29:16 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:17 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v 
+# -- Compiling module encoder_32_to_5
+# 
+# Top level modules:
+# 	encoder_32_to_5
+# End time: 00:29:17 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/div_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:17 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/div_op.v 
+# -- Compiling module div_op
+# 
+# Top level modules:
+# 	div_op
+# End time: 00:29:17 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:17 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_op.v 
+# -- Compiling module and_op
+# 
+# Top level modules:
+# 	and_op
+# End time: 00:29:17 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:17 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 00:29:17 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:17 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v 
+# -- Compiling module add_op
+# 
+# Top level modules:
+# 	add_op
+# End time: 00:29:17 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:17 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 00:29:17 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:17 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_tb.v 
+# -- Compiling module and_tb
+# 
+# Top level modules:
+# 	and_tb
+# End time: 00:29:17 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  and_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" and_tb 
+# Start time: 00:27:07 on Feb 14,2024
+# Loading work.and_tb
+# Loading work.Datapath
+# Loading work.register_gen
+# Loading work.mux_2_to_1
+# Loading work.encoder_32_to_5
+# Loading work.mux_32_to_1
+# Loading work.alu
+# Loading work.IncPC
+# Loading work.add_op
+# Loading work.sub_op
+# Loading work.mul_op
+# Loading work.div_op
+# Loading work.shr_op
+# Loading work.shra_op
+# Loading work.shl_op
+# Loading work.ror_op
+# Loading work.rol_op
+# Loading work.and_op
+# Loading work.or_op
+# Loading work.neg_op
+# Loading work.not_op
+# Loading work.full_adder
+# ** Fatal: (vsim-3365) C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v(105): Too many port connections. Expected 25, found 26.
+#    Time: 0 ps  Iteration: 0  Instance: /and_tb/DUT/BusMux File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Phase1SRC_2_run_msim_rtl_verilog.do PAUSED at line 32
+do Phase1SRC_2_run_msim_rtl_verilog.do
+# transcript on
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v 
+# -- Compiling module sub_op
+# 
+# Top level modules:
+# 	sub_op
+# End time: 00:29:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v 
+# -- Compiling module shr_op
+# 
+# Top level modules:
+# 	shr_op
+# End time: 00:29:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v 
+# -- Compiling module shra_op
+# 
+# Top level modules:
+# 	shra_op
+# End time: 00:29:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v 
+# -- Compiling module shl_op
+# 
+# Top level modules:
+# 	shl_op
+# End time: 00:29:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v 
+# -- Compiling module ror_op
+# 
+# Top level modules:
+# 	ror_op
+# End time: 00:29:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v 
+# -- Compiling module rol_op
+# 
+# Top level modules:
+# 	rol_op
+# End time: 00:29:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v 
+# -- Compiling module register_gen
+# 
+# Top level modules:
+# 	register_gen
+# End time: 00:29:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v 
+# -- Compiling module or_op
+# 
+# Top level modules:
+# 	or_op
+# End time: 00:29:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v 
+# -- Compiling module not_op
+# 
+# Top level modules:
+# 	not_op
+# End time: 00:29:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v 
+# -- Compiling module neg_op
+# 
+# Top level modules:
+# 	neg_op
+# End time: 00:29:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v 
+# -- Compiling module mux_32_to_1
+# 
+# Top level modules:
+# 	mux_32_to_1
+# End time: 00:29:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v 
+# -- Compiling module mux_2_to_1
+# 
+# Top level modules:
+# 	mux_2_to_1
+# End time: 00:29:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v 
+# -- Compiling module mul_op
+# 
+# Top level modules:
+# 	mul_op
+# End time: 00:29:39 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:39 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v 
+# -- Compiling module IncPC
+# 
+# Top level modules:
+# 	IncPC
+# End time: 00:29:40 on Feb 14,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:40 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 00:29:40 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:40 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v 
+# -- Compiling module encoder_32_to_5
+# 
+# Top level modules:
+# 	encoder_32_to_5
+# End time: 00:29:40 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/div_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:40 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/div_op.v 
+# -- Compiling module div_op
+# 
+# Top level modules:
+# 	div_op
+# End time: 00:29:40 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:40 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_op.v 
+# -- Compiling module and_op
+# 
+# Top level modules:
+# 	and_op
+# End time: 00:29:40 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:40 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 00:29:40 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:40 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v 
+# -- Compiling module add_op
+# 
+# Top level modules:
+# 	add_op
+# End time: 00:29:40 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:40 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 00:29:40 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:29:40 on Feb 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1" C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_tb.v 
+# -- Compiling module and_tb
+# 
+# Top level modules:
+# 	and_tb
+# End time: 00:29:40 on Feb 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  and_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" and_tb 
+# Start time: 00:27:07 on Feb 14,2024
+# Loading work.and_tb
+# Loading work.Datapath
+# Loading work.register_gen
+# Loading work.mux_2_to_1
+# Loading work.encoder_32_to_5
+# Loading work.mux_32_to_1
+# Loading work.alu
+# Loading work.IncPC
+# Loading work.add_op
+# Loading work.sub_op
+# Loading work.mul_op
+# Loading work.div_op
+# Loading work.shr_op
+# Loading work.shra_op
+# Loading work.shl_op
+# Loading work.ror_op
+# Loading work.rol_op
+# Loading work.and_op
+# Loading work.or_op
+# Loading work.neg_op
+# Loading work.not_op
+# Loading work.full_adder
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 500 ns
+add wave -position 23  sim:/and_tb/Present_state
+add wave -position 24  sim:/and_tb/DUT/BusMuxSignal
+add wave -position 25  sim:/and_tb/DUT/BusMuxInZlow
+add wave -position 26  sim:/and_tb/DUT/BusMuxInR1
+add wave -position 27  sim:/and_tb/DUT/BusMuxInR2
+add wave -position 28  sim:/and_tb/DUT/BusMuxInR3
+restart
+run 500ns
+add wave -position 29  sim:/and_tb/DUT/alu_out
+restart
+run 500ns
+add wave -position 30  sim:/and_tb/DUT/BusMuxInMDR
+restart
+run 500ns
+# End time: 00:41:14 on Feb 14,2024, Elapsed time: 0:14:07
+# Errors: 3, Warnings: 1
