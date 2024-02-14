@@ -94,7 +94,7 @@ module and_tb;
             Default: begin
                 PCout <= 0; Zlowout <= 0; MDRout <= 0; R2out <= 0; R3out <= 0;
                 MARin <= 0; Zin <= 0; PCin <= 0; MDRin <= 1; IRin <= 0; Yin <= 0;
-                IncPC <= 0; Read <= 0; AND <= 0; R1in <= 0; R2in <= 0; R3in <= 0;
+                IncPC <= 0; Read <= 0; R1in <= 0; R2in <= 0; R3in <= 0;
                 Mdatain <= 32'h00000000;
             end
             Reg_load1a: begin   
@@ -131,7 +131,6 @@ module and_tb;
             T1: begin
                 Zlowout <= 1; PCin <= 1; Read <= 1; MDRin <= 1;
                 Mdatain <= 32'h00000000; // opcode for “and R1, R2, R3”
-                opcode <= 5'b0;
             end
             T2: begin
                 MDRout <= 1; IRin <= 1; 
@@ -140,7 +139,7 @@ module and_tb;
                 R2out <= 1; Yin <= 1; 
             end
             T4: begin
-                R3out <= 1; operation <= 1; Zin <= 1; 
+                R3out <= 1; operation <= 5'b0; Zin <= 1; 
             end
             T5: begin
                 Zlowout <= 1; R1in <= 1;        

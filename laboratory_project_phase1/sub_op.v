@@ -10,6 +10,7 @@ module sub_op#(parameter WIDTH = 32)(
     add_op substract_i (
         .in_add1 (in_term1),
         .in_add2 (neg_in_term2),
+        .Cin(1'b0),
         .out_Sum (out_difference)
     );
 endmodule

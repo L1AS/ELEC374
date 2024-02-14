@@ -1,4 +1,4 @@
-module DataPath (
+module Datapath (
   input wire clock, clear,
   input wire R0out, R0in,
              R1out, R1in,
@@ -83,7 +83,7 @@ module DataPath (
   register_gen HI (clear, clock, HIin, BusMuxOut, BusMuxInHI);
   register_gen LO (clear, clock, LOin, BusMuxOut, BusMuxInLO);
 
-  register_gen Y (clear, clock, Yin, Yout, BusMuxInY);
+  register_gen RY (clear, clock, Yin, BusMuxOut, BusMuxInY);
   register_gen Zhigh (clear, clock, Zin, alu_out[63:32], BusMuxInZhigh);
   register_gen Zlow (clear, clock, Zin, alu_out[31:0], BusMuxInZlow);
 
@@ -113,7 +113,7 @@ module DataPath (
 
   // ALU
   alu ALU (
-    .clear(clear), .clock(clock), .IncPC(IncPC), .A_reg(Yout), .B_reg(BusMuxOut), 
+    .clear(clear), .clock(clock), .IncPC(IncPC), .A_reg(BusMuxInY), .B_reg(BusMuxOut), 
     .opcode(opcode), .out_result(alu_out)
   );
 

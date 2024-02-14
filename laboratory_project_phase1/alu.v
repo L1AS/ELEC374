@@ -11,10 +11,17 @@ module alu (
             noting = 5'b01100;
 
   wire [31:0] IncPC_out, and_out, or_out, add_out, sub_out, shr_out,
-              shra_out, shl_out, ror_out, rol_out, neg_out, not_out;
-  wire [63:0] div_out, mul_out;
+              shra_out, shl_out, ror_out, rol_out, neg_out, not_out,
+              div_remain, div_quotient;
+  wire [63:0] mul_out;
 
   always @(*) begin
+
+    if(IncPC) begin
+		out_result[31:0] <= IncPC_out;
+		out_result[63:32] <= 32'b0;
+	  end 
+
     case(opcode)
       anding: begin
         out_result[31:0] <= and_out;
@@ -36,7 +43,8 @@ module alu (
         out_result <= mul_out;
       end
       divide: begin
-        out_result <= div_out;
+        out_result[63:32] <= div_remain;
+        out_result[31:0] <= div_quotient;
       end
       shift_R: begin
         out_result[31:0] <= shr_out;
@@ -67,16 +75,16 @@ module alu (
         out_result[63:32] <= 32'b0;
       end
       default: begin
-        out_result = 64'b0;
+        out_result <= 64'b0;
       end
     endcase
   end
 
   IncPC pc_inc(A_reg, IncPC, IncPC_out);
-  add_op add (A_reg, B_reg, add_out); // DONE
+  add_op add (A_reg, B_reg, 1'b0, add_out); // DONE
   sub_op sub (A_reg, B_reg, sub_out); // TODO
   mul_op dul (A_reg, B_reg, mul_out); // TODO
-  div_op div (A_reg, B_reg, div_out); // TODO
+  div_op div (A_reg, B_reg, div_remain, div_quotient); // TODO
 
   shr_op shr (A_reg, B_reg, shr_out); // TODO
   shra_op shra (A_reg, B_reg, shra_out); // TODO
