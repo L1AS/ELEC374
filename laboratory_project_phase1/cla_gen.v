@@ -13,7 +13,7 @@ module cla_gen#(parameter WIDTH = 32)(
 	generate
 		for (i = 0; i < WIDTH; i = i + 1) 
 		begin: gen_sum
-			full_adder full_adder_i (
+			bit_cell bit_cell_i (
 				.in_A (in_add1[i]),
 				.in_B (in_add2[i]),
 				.Cin (wire_C[i]),
