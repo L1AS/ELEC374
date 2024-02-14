@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/simulation/modelsim
 vadd_op
-Z1 !s110 1707888580
+Z1 !s110 1707933029
 !i10b 1
 !s100 >TeSBR;5kfkOaI^n7m1Qh2
 I2b9UG6FYZh59mF9:TTc7o3
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1707888580.000000
+Z4 !s108 1707933029.000000
 !s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v|
 !i113 1
@@ -178,7 +178,7 @@ R3
 r1
 !s85 0
 31
-R4
+Z9 !s108 1707933028.000000
 !s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v|
 !i113 1
@@ -186,7 +186,7 @@ R5
 R6
 R7
 vIncPC
-R1
+Z10 !s110 1707933028
 !i10b 1
 !s100 E^zXPMaZgaiiG4k_=iIie1
 IJS>E`c70_LcAW7Him35cX0
@@ -200,7 +200,7 @@ R3
 r1
 !s85 0
 31
-Z9 !s108 1707888579.000000
+R9
 !s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v|
 !i113 1
@@ -209,7 +209,7 @@ R6
 R7
 n@inc@p@c
 vmul_op
-Z10 !s110 1707888579
+R10
 !i10b 1
 !s100 EUB_Io4Te6^X@EI4KLeki1
 IaJ^D?_]WzCIYFe5^]Jlj[1
@@ -443,7 +443,7 @@ R3
 r1
 !s85 0
 31
-R9
+Z11 !s108 1707933027.000000
 !s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v|
 !i113 1
@@ -473,7 +473,7 @@ R5
 R6
 R7
 vsub_op
-R10
+!s110 1707933027
 !i10b 1
 !s100 W47hZEkbfnf1iVaIaBXY_1
 I_L3l0B?e8`^2<`hM;0idM3
@@ -487,7 +487,7 @@ R3
 r1
 !s85 0
 31
-R9
+R11
 !s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v|
 !i113 1

@@ -1,5 +1,5 @@
 Analysis & Elaboration report for Phase1SRC_2
-Wed Feb 14 00:02:46 2024
+Wed Feb 14 13:45:10 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,38 +40,38 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
  32. Parameter Settings for User Entity Instance: alu:ALU|sub_op:sub|add_op:substract_i
  33. Analysis & Elaboration Settings
  34. Port Connectivity Checks: "alu:ALU|sub_op:sub|add_op:substract_i"
- 35. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[31].full_adder_i"
- 36. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[30].full_adder_i"
- 37. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[29].full_adder_i"
- 38. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[28].full_adder_i"
- 39. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[27].full_adder_i"
- 40. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[26].full_adder_i"
- 41. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[25].full_adder_i"
- 42. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[24].full_adder_i"
- 43. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[23].full_adder_i"
- 44. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[22].full_adder_i"
- 45. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[21].full_adder_i"
- 46. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[20].full_adder_i"
- 47. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[19].full_adder_i"
- 48. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[18].full_adder_i"
- 49. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[17].full_adder_i"
- 50. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[16].full_adder_i"
- 51. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[15].full_adder_i"
- 52. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[14].full_adder_i"
- 53. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[13].full_adder_i"
- 54. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[12].full_adder_i"
- 55. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[11].full_adder_i"
- 56. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[10].full_adder_i"
- 57. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[9].full_adder_i"
- 58. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[8].full_adder_i"
- 59. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[7].full_adder_i"
- 60. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[6].full_adder_i"
- 61. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[5].full_adder_i"
- 62. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[4].full_adder_i"
- 63. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[3].full_adder_i"
- 64. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[2].full_adder_i"
- 65. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[1].full_adder_i"
- 66. Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[0].full_adder_i"
+ 35. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[31].b_cell_i"
+ 36. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[30].b_cell_i"
+ 37. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[29].b_cell_i"
+ 38. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[28].b_cell_i"
+ 39. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[27].b_cell_i"
+ 40. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[26].b_cell_i"
+ 41. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[25].b_cell_i"
+ 42. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[24].b_cell_i"
+ 43. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[23].b_cell_i"
+ 44. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[22].b_cell_i"
+ 45. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[21].b_cell_i"
+ 46. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[20].b_cell_i"
+ 47. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[19].b_cell_i"
+ 48. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[18].b_cell_i"
+ 49. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[17].b_cell_i"
+ 50. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[16].b_cell_i"
+ 51. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[15].b_cell_i"
+ 52. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[14].b_cell_i"
+ 53. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[13].b_cell_i"
+ 54. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[12].b_cell_i"
+ 55. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[11].b_cell_i"
+ 56. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[10].b_cell_i"
+ 57. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[9].b_cell_i"
+ 58. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[8].b_cell_i"
+ 59. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[7].b_cell_i"
+ 60. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[6].b_cell_i"
+ 61. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[5].b_cell_i"
+ 62. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[4].b_cell_i"
+ 63. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[3].b_cell_i"
+ 64. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[2].b_cell_i"
+ 65. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[1].b_cell_i"
+ 66. Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[0].b_cell_i"
  67. Port Connectivity Checks: "alu:ALU|add_op:add"
  68. Port Connectivity Checks: "alu:ALU|IncPC:pc_inc"
  69. Port Connectivity Checks: "encoder_32_to_5:BusEncoder"
@@ -104,7 +104,7 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Wed Feb 14 00:02:46 2024       ;
+; Analysis & Elaboration Status ; Successful - Wed Feb 14 13:45:10 2024       ;
 ; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                 ; Phase1SRC_2                                 ;
 ; Top-level Entity Name         ; Datapath                                    ;
@@ -533,292 +533,292 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+-------+----------+-----------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[31].full_adder_i" ;
-+------+--------+----------+---------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                 ;
-+------+--------+----------+---------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                  ;
-+------+--------+----------+---------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[31].b_cell_i" ;
++------+--------+----------+-------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                         ;
++------+--------+----------+-------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                          ;
++------+--------+----------+-------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[30].full_adder_i" ;
-+------+--------+----------+---------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                 ;
-+------+--------+----------+---------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                  ;
-+------+--------+----------+---------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[30].b_cell_i" ;
++------+--------+----------+-------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                         ;
++------+--------+----------+-------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                          ;
++------+--------+----------+-------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[29].full_adder_i" ;
-+------+--------+----------+---------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                 ;
-+------+--------+----------+---------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                  ;
-+------+--------+----------+---------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[29].b_cell_i" ;
++------+--------+----------+-------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                         ;
++------+--------+----------+-------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                          ;
++------+--------+----------+-------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[28].full_adder_i" ;
-+------+--------+----------+---------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                 ;
-+------+--------+----------+---------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                  ;
-+------+--------+----------+---------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[28].b_cell_i" ;
++------+--------+----------+-------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                         ;
++------+--------+----------+-------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                          ;
++------+--------+----------+-------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[27].full_adder_i" ;
-+------+--------+----------+---------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                 ;
-+------+--------+----------+---------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                  ;
-+------+--------+----------+---------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[27].b_cell_i" ;
++------+--------+----------+-------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                         ;
++------+--------+----------+-------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                          ;
++------+--------+----------+-------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[26].full_adder_i" ;
-+------+--------+----------+---------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                 ;
-+------+--------+----------+---------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                  ;
-+------+--------+----------+---------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[26].b_cell_i" ;
++------+--------+----------+-------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                         ;
++------+--------+----------+-------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                          ;
++------+--------+----------+-------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[25].full_adder_i" ;
-+------+--------+----------+---------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                 ;
-+------+--------+----------+---------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                  ;
-+------+--------+----------+---------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[25].b_cell_i" ;
++------+--------+----------+-------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                         ;
++------+--------+----------+-------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                          ;
++------+--------+----------+-------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[24].full_adder_i" ;
-+------+--------+----------+---------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                 ;
-+------+--------+----------+---------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                  ;
-+------+--------+----------+---------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[24].b_cell_i" ;
++------+--------+----------+-------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                         ;
++------+--------+----------+-------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                          ;
++------+--------+----------+-------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[23].full_adder_i" ;
-+------+--------+----------+---------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                 ;
-+------+--------+----------+---------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                  ;
-+------+--------+----------+---------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[23].b_cell_i" ;
++------+--------+----------+-------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                         ;
++------+--------+----------+-------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                          ;
++------+--------+----------+-------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[22].full_adder_i" ;
-+------+--------+----------+---------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                 ;
-+------+--------+----------+---------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                  ;
-+------+--------+----------+---------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[22].b_cell_i" ;
++------+--------+----------+-------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                         ;
++------+--------+----------+-------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                          ;
++------+--------+----------+-------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[21].full_adder_i" ;
-+------+--------+----------+---------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                 ;
-+------+--------+----------+---------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                  ;
-+------+--------+----------+---------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[21].b_cell_i" ;
++------+--------+----------+-------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                         ;
++------+--------+----------+-------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                          ;
++------+--------+----------+-------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[20].full_adder_i" ;
-+------+--------+----------+---------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                 ;
-+------+--------+----------+---------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                  ;
-+------+--------+----------+---------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[20].b_cell_i" ;
++------+--------+----------+-------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                         ;
++------+--------+----------+-------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                          ;
++------+--------+----------+-------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[19].full_adder_i" ;
-+------+--------+----------+---------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                 ;
-+------+--------+----------+---------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                  ;
-+------+--------+----------+---------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[19].b_cell_i" ;
++------+--------+----------+-------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                         ;
++------+--------+----------+-------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                          ;
++------+--------+----------+-------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[18].full_adder_i" ;
-+------+--------+----------+---------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                 ;
-+------+--------+----------+---------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                  ;
-+------+--------+----------+---------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[18].b_cell_i" ;
++------+--------+----------+-------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                         ;
++------+--------+----------+-------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                          ;
++------+--------+----------+-------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[17].full_adder_i" ;
-+------+--------+----------+---------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                 ;
-+------+--------+----------+---------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                  ;
-+------+--------+----------+---------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[17].b_cell_i" ;
++------+--------+----------+-------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                         ;
++------+--------+----------+-------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                          ;
++------+--------+----------+-------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[16].full_adder_i" ;
-+------+--------+----------+---------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                 ;
-+------+--------+----------+---------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                  ;
-+------+--------+----------+---------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[16].b_cell_i" ;
++------+--------+----------+-------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                         ;
++------+--------+----------+-------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                          ;
++------+--------+----------+-------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[15].full_adder_i" ;
-+------+--------+----------+---------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                 ;
-+------+--------+----------+---------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                  ;
-+------+--------+----------+---------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[15].b_cell_i" ;
++------+--------+----------+-------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                         ;
++------+--------+----------+-------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                          ;
++------+--------+----------+-------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[14].full_adder_i" ;
-+------+--------+----------+---------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                 ;
-+------+--------+----------+---------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                  ;
-+------+--------+----------+---------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[14].b_cell_i" ;
++------+--------+----------+-------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                         ;
++------+--------+----------+-------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                          ;
++------+--------+----------+-------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[13].full_adder_i" ;
-+------+--------+----------+---------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                 ;
-+------+--------+----------+---------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                  ;
-+------+--------+----------+---------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[13].b_cell_i" ;
++------+--------+----------+-------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                         ;
++------+--------+----------+-------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                          ;
++------+--------+----------+-------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[12].full_adder_i" ;
-+------+--------+----------+---------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                 ;
-+------+--------+----------+---------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                  ;
-+------+--------+----------+---------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[12].b_cell_i" ;
++------+--------+----------+-------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                         ;
++------+--------+----------+-------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                          ;
++------+--------+----------+-------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[11].full_adder_i" ;
-+------+--------+----------+---------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                 ;
-+------+--------+----------+---------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                  ;
-+------+--------+----------+---------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[11].b_cell_i" ;
++------+--------+----------+-------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                         ;
++------+--------+----------+-------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                          ;
++------+--------+----------+-------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[10].full_adder_i" ;
-+------+--------+----------+---------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                 ;
-+------+--------+----------+---------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                  ;
-+------+--------+----------+---------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[10].b_cell_i" ;
++------+--------+----------+-------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                         ;
++------+--------+----------+-------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                          ;
++------+--------+----------+-------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[9].full_adder_i" ;
-+------+--------+----------+--------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                ;
-+------+--------+----------+--------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                 ;
-+------+--------+----------+--------------------------------------------------------+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[9].b_cell_i" ;
++------+--------+----------+------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                        ;
++------+--------+----------+------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                         ;
++------+--------+----------+------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[8].full_adder_i" ;
-+------+--------+----------+--------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                ;
-+------+--------+----------+--------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                 ;
-+------+--------+----------+--------------------------------------------------------+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[8].b_cell_i" ;
++------+--------+----------+------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                        ;
++------+--------+----------+------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                         ;
++------+--------+----------+------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[7].full_adder_i" ;
-+------+--------+----------+--------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                ;
-+------+--------+----------+--------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                 ;
-+------+--------+----------+--------------------------------------------------------+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[7].b_cell_i" ;
++------+--------+----------+------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                        ;
++------+--------+----------+------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                         ;
++------+--------+----------+------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[6].full_adder_i" ;
-+------+--------+----------+--------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                ;
-+------+--------+----------+--------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                 ;
-+------+--------+----------+--------------------------------------------------------+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[6].b_cell_i" ;
++------+--------+----------+------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                        ;
++------+--------+----------+------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                         ;
++------+--------+----------+------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[5].full_adder_i" ;
-+------+--------+----------+--------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                ;
-+------+--------+----------+--------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                 ;
-+------+--------+----------+--------------------------------------------------------+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[5].b_cell_i" ;
++------+--------+----------+------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                        ;
++------+--------+----------+------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                         ;
++------+--------+----------+------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[4].full_adder_i" ;
-+------+--------+----------+--------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                ;
-+------+--------+----------+--------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                 ;
-+------+--------+----------+--------------------------------------------------------+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[4].b_cell_i" ;
++------+--------+----------+------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                        ;
++------+--------+----------+------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                         ;
++------+--------+----------+------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[3].full_adder_i" ;
-+------+--------+----------+--------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                ;
-+------+--------+----------+--------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                 ;
-+------+--------+----------+--------------------------------------------------------+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[3].b_cell_i" ;
++------+--------+----------+------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                        ;
++------+--------+----------+------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                         ;
++------+--------+----------+------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[2].full_adder_i" ;
-+------+--------+----------+--------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                ;
-+------+--------+----------+--------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                 ;
-+------+--------+----------+--------------------------------------------------------+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[2].b_cell_i" ;
++------+--------+----------+------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                        ;
++------+--------+----------+------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                         ;
++------+--------+----------+------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[1].full_adder_i" ;
-+------+--------+----------+--------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                ;
-+------+--------+----------+--------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                 ;
-+------+--------+----------+--------------------------------------------------------+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[1].b_cell_i" ;
++------+--------+----------+------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                        ;
++------+--------+----------+------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                         ;
++------+--------+----------+------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|full_adder:gen_sum[0].full_adder_i" ;
-+------+--------+----------+--------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                ;
-+------+--------+----------+--------------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                                 ;
-+------+--------+----------+--------------------------------------------------------+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[0].b_cell_i" ;
++------+--------+----------+------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                        ;
++------+--------+----------+------------------------------------------------+
+; Cout ; Output ; Info     ; Explicitly unconnected                         ;
++------+--------+----------+------------------------------------------------+
 
 
 +------------------------------------------------+
@@ -844,7 +844,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------------+-------+----------+--------------+
 ; Port                 ; Type  ; Severity ; Details      ;
 +----------------------+-------+----------+--------------+
-; encoderInput[31..24] ; Input ; Info     ; Stuck at GND ;
+; encoderInput[31..23] ; Input ; Info     ; Stuck at GND ;
 +----------------------+-------+----------+--------------+
 
 
@@ -872,83 +872,83 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Wed Feb 14 00:02:35 2024
+    Info: Processing started: Wed Feb 14 13:44:54 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Phase1SRC_2 -c Phase1SRC_2 --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file sub_tb.v
-    Info (12023): Found entity 1: sub_tb File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_tb.v Line: 3
-Info (12021): Found 1 design units, including 1 entities, in source file sub_op.v
-    Info (12023): Found entity 1: sub_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/sub_op.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file shr_op.v
-    Info (12023): Found entity 1: shr_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shr_op.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file shra_op.v
-    Info (12023): Found entity 1: shra_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shra_op.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file shl_op.v
-    Info (12023): Found entity 1: shl_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/shl_op.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file ror_op.v
-    Info (12023): Found entity 1: ror_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ror_op.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file rol_op.v
-    Info (12023): Found entity 1: rol_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/rol_op.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file register_gen.v
-    Info (12023): Found entity 1: register_gen File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/register_gen.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file or_op.v
-    Info (12023): Found entity 1: or_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/or_op.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file not_op.v
-    Info (12023): Found entity 1: not_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/not_op.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file neg_op.v
-    Info (12023): Found entity 1: neg_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/neg_op.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file mux_32_to_1.v
-    Info (12023): Found entity 1: mux_32_to_1 File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_32_to_1.v Line: 3
-Info (12021): Found 1 design units, including 1 entities, in source file mux_2_to_1.v
-    Info (12023): Found entity 1: mux_2_to_1 File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mux_2_to_1.v Line: 3
-Info (12021): Found 1 design units, including 1 entities, in source file mul_op.v
-    Info (12023): Found entity 1: mul_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/mul_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/b_cell.v
+    Info (12023): Found entity 1: b_cell File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/b_cell.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file reg/register_gen.v
+    Info (12023): Found entity 1: register_gen File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/REG/register_gen.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file bus/mux_32_to_1.v
+    Info (12023): Found entity 1: mux_32_to_1 File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/BUS/mux_32_to_1.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file bus/mux_2_to_1.v
+    Info (12023): Found entity 1: mux_2_to_1 File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/BUS/mux_2_to_1.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file bus/encoder_32_to_5.v
+    Info (12023): Found entity 1: encoder_32_to_5 File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/BUS/encoder_32_to_5.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file bus/datapath.v
+    Info (12023): Found entity 1: Datapath File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/BUS/Datapath.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/sub_tb.v
+    Info (12023): Found entity 1: sub_tb File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/sub_tb.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file alu/sub_op.v
+    Info (12023): Found entity 1: sub_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/sub_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/shra_op.v
+    Info (12023): Found entity 1: shra_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/shra_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/shr_op.v
+    Info (12023): Found entity 1: shr_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/shr_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/shl_op.v
+    Info (12023): Found entity 1: shl_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/shl_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/ror_op.v
+    Info (12023): Found entity 1: ror_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/ror_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/rol_op.v
+    Info (12023): Found entity 1: rol_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/rol_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/or_op.v
+    Info (12023): Found entity 1: or_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/or_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/not_op.v
+    Info (12023): Found entity 1: not_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/not_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/neg_op.v
+    Info (12023): Found entity 1: neg_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/neg_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/mul_op.v
+    Info (12023): Found entity 1: mul_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/mul_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/div_op.v
+    Info (12023): Found entity 1: div_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/div_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/and_tb.v
+    Info (12023): Found entity 1: and_tb File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/and_tb.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file alu/and_op.v
+    Info (12023): Found entity 1: and_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/and_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/alu.v
+    Info (12023): Found entity 1: alu File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/alu.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/add_op.v
+    Info (12023): Found entity 1: add_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/add_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file incpc.v
     Info (12023): Found entity 1: IncPC File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/IncPC.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file full_adder.v
-    Info (12023): Found entity 1: full_adder File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/full_adder.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file encoder_32_to_5.v
-    Info (12023): Found entity 1: encoder_32_to_5 File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/encoder_32_to_5.v Line: 2
-Info (12021): Found 1 design units, including 1 entities, in source file div_op.v
-    Info (12023): Found entity 1: div_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/div_op.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file and_tb.v
-    Info (12023): Found entity 1: and_tb File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_tb.v Line: 3
-Info (12021): Found 1 design units, including 1 entities, in source file and_op.v
-    Info (12023): Found entity 1: and_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/and_op.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file alu.v
-    Info (12023): Found entity 1: alu File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file add_op.v
-    Info (12023): Found entity 1: add_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file datapath.v
-    Info (12023): Found entity 1: Datapath File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v Line: 1
 Info (12127): Elaborating entity "Datapath" for the top level hierarchy
-Info (12128): Elaborating entity "register_gen" for hierarchy "register_gen:R0" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v Line: 66
-Info (12128): Elaborating entity "mux_2_to_1" for hierarchy "mux_2_to_1:MDRMux" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v Line: 96
-Info (12128): Elaborating entity "encoder_32_to_5" for hierarchy "encoder_32_to_5:BusEncoder" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v Line: 104
-Info (12128): Elaborating entity "mux_32_to_1" for hierarchy "mux_32_to_1:BusMux" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v Line: 112
-Info (12128): Elaborating entity "alu" for hierarchy "alu:ALU" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/Datapath.v Line: 118
-Info (12128): Elaborating entity "IncPC" for hierarchy "alu:ALU|IncPC:pc_inc" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v Line: 83
-Info (12128): Elaborating entity "add_op" for hierarchy "alu:ALU|add_op:add" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v Line: 84
-Info (12128): Elaborating entity "full_adder" for hierarchy "alu:ALU|add_op:add|full_adder:gen_sum[0].full_adder_i" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/add_op.v Line: 22
-Info (12128): Elaborating entity "sub_op" for hierarchy "alu:ALU|sub_op:sub" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v Line: 85
-Info (12128): Elaborating entity "mul_op" for hierarchy "alu:ALU|mul_op:dul" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v Line: 86
-Info (12128): Elaborating entity "div_op" for hierarchy "alu:ALU|div_op:div" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v Line: 87
-Info (12128): Elaborating entity "shr_op" for hierarchy "alu:ALU|shr_op:shr" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v Line: 89
-Info (12128): Elaborating entity "shra_op" for hierarchy "alu:ALU|shra_op:shra" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v Line: 90
-Info (12128): Elaborating entity "shl_op" for hierarchy "alu:ALU|shl_op:shl" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v Line: 91
-Info (12128): Elaborating entity "ror_op" for hierarchy "alu:ALU|ror_op:ror" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v Line: 92
-Info (12128): Elaborating entity "rol_op" for hierarchy "alu:ALU|rol_op:aol" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v Line: 93
-Info (12128): Elaborating entity "and_op" for hierarchy "alu:ALU|and_op:and_" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v Line: 94
-Info (12128): Elaborating entity "or_op" for hierarchy "alu:ALU|or_op:or_" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v Line: 95
-Info (12128): Elaborating entity "neg_op" for hierarchy "alu:ALU|neg_op:neg" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v Line: 96
-Info (12128): Elaborating entity "not_op" for hierarchy "alu:ALU|not_op:not_" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/alu.v Line: 97
+Info (12128): Elaborating entity "register_gen" for hierarchy "register_gen:R0" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/BUS/Datapath.v Line: 64
+Info (12128): Elaborating entity "mux_2_to_1" for hierarchy "mux_2_to_1:MDRMux" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/BUS/Datapath.v Line: 94
+Info (12128): Elaborating entity "encoder_32_to_5" for hierarchy "encoder_32_to_5:BusEncoder" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/BUS/Datapath.v Line: 102
+Info (12128): Elaborating entity "mux_32_to_1" for hierarchy "mux_32_to_1:BusMux" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/BUS/Datapath.v Line: 110
+Info (12128): Elaborating entity "alu" for hierarchy "alu:ALU" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/BUS/Datapath.v Line: 116
+Info (12128): Elaborating entity "IncPC" for hierarchy "alu:ALU|IncPC:pc_inc" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/alu.v Line: 83
+Info (12128): Elaborating entity "add_op" for hierarchy "alu:ALU|add_op:add" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/alu.v Line: 84
+Info (12128): Elaborating entity "b_cell" for hierarchy "alu:ALU|add_op:add|b_cell:gen_sum[0].b_cell_i" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/add_op.v Line: 22
+Info (12128): Elaborating entity "sub_op" for hierarchy "alu:ALU|sub_op:sub" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/alu.v Line: 85
+Info (12128): Elaborating entity "mul_op" for hierarchy "alu:ALU|mul_op:dul" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/alu.v Line: 86
+Info (12128): Elaborating entity "div_op" for hierarchy "alu:ALU|div_op:div" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/alu.v Line: 87
+Info (12128): Elaborating entity "shr_op" for hierarchy "alu:ALU|shr_op:shr" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/alu.v Line: 89
+Info (12128): Elaborating entity "shra_op" for hierarchy "alu:ALU|shra_op:shra" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/alu.v Line: 90
+Info (12128): Elaborating entity "shl_op" for hierarchy "alu:ALU|shl_op:shl" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/alu.v Line: 91
+Info (12128): Elaborating entity "ror_op" for hierarchy "alu:ALU|ror_op:ror" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/alu.v Line: 92
+Info (12128): Elaborating entity "rol_op" for hierarchy "alu:ALU|rol_op:aol" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/alu.v Line: 93
+Info (12128): Elaborating entity "and_op" for hierarchy "alu:ALU|and_op:and_" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/alu.v Line: 94
+Info (12128): Elaborating entity "or_op" for hierarchy "alu:ALU|or_op:or_" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/alu.v Line: 95
+Info (12128): Elaborating entity "neg_op" for hierarchy "alu:ALU|neg_op:neg" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/alu.v Line: 96
+Info (12128): Elaborating entity "not_op" for hierarchy "alu:ALU|not_op:not_" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/ALU/alu.v Line: 97
 Info (144001): Generated suppressed messages file C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/laboratory_project_phase1/output_files/Phase1SRC_2.map.smsg
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4783 megabytes
-    Info: Processing ended: Wed Feb 14 00:02:46 2024
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:10
+    Info: Peak virtual memory: 4784 megabytes
+    Info: Processing ended: Wed Feb 14 13:45:10 2024
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:16
 
 
 +--------------------------------------------+

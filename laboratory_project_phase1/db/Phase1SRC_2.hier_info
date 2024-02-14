@@ -45,7 +45,7 @@ Zin => Zin.IN2
 MDRout => MDRout.IN1
 MDRin => MDRin.IN1
 MARin => MARin.IN1
-IncPC => IncPC.IN2
+IncPC => IncPC.IN1
 Cout => Cout.IN1
 IRin => IRin.IN1
 Yin => Yin.IN1
@@ -4300,7 +4300,6 @@ encoderInput[0] => always0.IN0
 encoderInput[0] => WideOr0.IN6
 encoderInput[0] => WideOr2.IN10
 encoderInput[0] => WideOr3.IN10
-encoderInput[0] => WideOr4.IN11
 encoderInput[0] => always0.IN0
 encoderInput[1] => always0.IN1
 encoderInput[1] => always0.IN1
@@ -5065,38 +5064,6 @@ BusMuxInMDR[28] => Mux3.IN30
 BusMuxInMDR[29] => Mux2.IN30
 BusMuxInMDR[30] => Mux1.IN30
 BusMuxInMDR[31] => Mux0.IN30
-BusMuxInInPort[0] => ~NO_FANOUT~
-BusMuxInInPort[1] => ~NO_FANOUT~
-BusMuxInInPort[2] => ~NO_FANOUT~
-BusMuxInInPort[3] => ~NO_FANOUT~
-BusMuxInInPort[4] => ~NO_FANOUT~
-BusMuxInInPort[5] => ~NO_FANOUT~
-BusMuxInInPort[6] => ~NO_FANOUT~
-BusMuxInInPort[7] => ~NO_FANOUT~
-BusMuxInInPort[8] => ~NO_FANOUT~
-BusMuxInInPort[9] => ~NO_FANOUT~
-BusMuxInInPort[10] => ~NO_FANOUT~
-BusMuxInInPort[11] => ~NO_FANOUT~
-BusMuxInInPort[12] => ~NO_FANOUT~
-BusMuxInInPort[13] => ~NO_FANOUT~
-BusMuxInInPort[14] => ~NO_FANOUT~
-BusMuxInInPort[15] => ~NO_FANOUT~
-BusMuxInInPort[16] => ~NO_FANOUT~
-BusMuxInInPort[17] => ~NO_FANOUT~
-BusMuxInInPort[18] => ~NO_FANOUT~
-BusMuxInInPort[19] => ~NO_FANOUT~
-BusMuxInInPort[20] => ~NO_FANOUT~
-BusMuxInInPort[21] => ~NO_FANOUT~
-BusMuxInInPort[22] => ~NO_FANOUT~
-BusMuxInInPort[23] => ~NO_FANOUT~
-BusMuxInInPort[24] => ~NO_FANOUT~
-BusMuxInInPort[25] => ~NO_FANOUT~
-BusMuxInInPort[26] => ~NO_FANOUT~
-BusMuxInInPort[27] => ~NO_FANOUT~
-BusMuxInInPort[28] => ~NO_FANOUT~
-BusMuxInInPort[29] => ~NO_FANOUT~
-BusMuxInInPort[30] => ~NO_FANOUT~
-BusMuxInInPort[31] => ~NO_FANOUT~
 Csignextended[0] => Mux31.IN31
 Csignextended[1] => Mux30.IN31
 Csignextended[2] => Mux29.IN31
@@ -5911,41 +5878,41 @@ in_add2[29] => in_add2[29].IN1
 in_add2[30] => in_add2[30].IN1
 in_add2[31] => in_add2[31].IN1
 Cin => wire_C[0].IN1
-out_Sum[0] <= full_adder:gen_sum[0].full_adder_i.out_Sum
-out_Sum[1] <= full_adder:gen_sum[1].full_adder_i.out_Sum
-out_Sum[2] <= full_adder:gen_sum[2].full_adder_i.out_Sum
-out_Sum[3] <= full_adder:gen_sum[3].full_adder_i.out_Sum
-out_Sum[4] <= full_adder:gen_sum[4].full_adder_i.out_Sum
-out_Sum[5] <= full_adder:gen_sum[5].full_adder_i.out_Sum
-out_Sum[6] <= full_adder:gen_sum[6].full_adder_i.out_Sum
-out_Sum[7] <= full_adder:gen_sum[7].full_adder_i.out_Sum
-out_Sum[8] <= full_adder:gen_sum[8].full_adder_i.out_Sum
-out_Sum[9] <= full_adder:gen_sum[9].full_adder_i.out_Sum
-out_Sum[10] <= full_adder:gen_sum[10].full_adder_i.out_Sum
-out_Sum[11] <= full_adder:gen_sum[11].full_adder_i.out_Sum
-out_Sum[12] <= full_adder:gen_sum[12].full_adder_i.out_Sum
-out_Sum[13] <= full_adder:gen_sum[13].full_adder_i.out_Sum
-out_Sum[14] <= full_adder:gen_sum[14].full_adder_i.out_Sum
-out_Sum[15] <= full_adder:gen_sum[15].full_adder_i.out_Sum
-out_Sum[16] <= full_adder:gen_sum[16].full_adder_i.out_Sum
-out_Sum[17] <= full_adder:gen_sum[17].full_adder_i.out_Sum
-out_Sum[18] <= full_adder:gen_sum[18].full_adder_i.out_Sum
-out_Sum[19] <= full_adder:gen_sum[19].full_adder_i.out_Sum
-out_Sum[20] <= full_adder:gen_sum[20].full_adder_i.out_Sum
-out_Sum[21] <= full_adder:gen_sum[21].full_adder_i.out_Sum
-out_Sum[22] <= full_adder:gen_sum[22].full_adder_i.out_Sum
-out_Sum[23] <= full_adder:gen_sum[23].full_adder_i.out_Sum
-out_Sum[24] <= full_adder:gen_sum[24].full_adder_i.out_Sum
-out_Sum[25] <= full_adder:gen_sum[25].full_adder_i.out_Sum
-out_Sum[26] <= full_adder:gen_sum[26].full_adder_i.out_Sum
-out_Sum[27] <= full_adder:gen_sum[27].full_adder_i.out_Sum
-out_Sum[28] <= full_adder:gen_sum[28].full_adder_i.out_Sum
-out_Sum[29] <= full_adder:gen_sum[29].full_adder_i.out_Sum
-out_Sum[30] <= full_adder:gen_sum[30].full_adder_i.out_Sum
-out_Sum[31] <= full_adder:gen_sum[31].full_adder_i.out_Sum
+out_Sum[0] <= b_cell:gen_sum[0].b_cell_i.out_Sum
+out_Sum[1] <= b_cell:gen_sum[1].b_cell_i.out_Sum
+out_Sum[2] <= b_cell:gen_sum[2].b_cell_i.out_Sum
+out_Sum[3] <= b_cell:gen_sum[3].b_cell_i.out_Sum
+out_Sum[4] <= b_cell:gen_sum[4].b_cell_i.out_Sum
+out_Sum[5] <= b_cell:gen_sum[5].b_cell_i.out_Sum
+out_Sum[6] <= b_cell:gen_sum[6].b_cell_i.out_Sum
+out_Sum[7] <= b_cell:gen_sum[7].b_cell_i.out_Sum
+out_Sum[8] <= b_cell:gen_sum[8].b_cell_i.out_Sum
+out_Sum[9] <= b_cell:gen_sum[9].b_cell_i.out_Sum
+out_Sum[10] <= b_cell:gen_sum[10].b_cell_i.out_Sum
+out_Sum[11] <= b_cell:gen_sum[11].b_cell_i.out_Sum
+out_Sum[12] <= b_cell:gen_sum[12].b_cell_i.out_Sum
+out_Sum[13] <= b_cell:gen_sum[13].b_cell_i.out_Sum
+out_Sum[14] <= b_cell:gen_sum[14].b_cell_i.out_Sum
+out_Sum[15] <= b_cell:gen_sum[15].b_cell_i.out_Sum
+out_Sum[16] <= b_cell:gen_sum[16].b_cell_i.out_Sum
+out_Sum[17] <= b_cell:gen_sum[17].b_cell_i.out_Sum
+out_Sum[18] <= b_cell:gen_sum[18].b_cell_i.out_Sum
+out_Sum[19] <= b_cell:gen_sum[19].b_cell_i.out_Sum
+out_Sum[20] <= b_cell:gen_sum[20].b_cell_i.out_Sum
+out_Sum[21] <= b_cell:gen_sum[21].b_cell_i.out_Sum
+out_Sum[22] <= b_cell:gen_sum[22].b_cell_i.out_Sum
+out_Sum[23] <= b_cell:gen_sum[23].b_cell_i.out_Sum
+out_Sum[24] <= b_cell:gen_sum[24].b_cell_i.out_Sum
+out_Sum[25] <= b_cell:gen_sum[25].b_cell_i.out_Sum
+out_Sum[26] <= b_cell:gen_sum[26].b_cell_i.out_Sum
+out_Sum[27] <= b_cell:gen_sum[27].b_cell_i.out_Sum
+out_Sum[28] <= b_cell:gen_sum[28].b_cell_i.out_Sum
+out_Sum[29] <= b_cell:gen_sum[29].b_cell_i.out_Sum
+out_Sum[30] <= b_cell:gen_sum[30].b_cell_i.out_Sum
+out_Sum[31] <= b_cell:gen_sum[31].b_cell_i.out_Sum
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[0].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[0].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -5956,7 +5923,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[1].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[1].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -5967,7 +5934,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[2].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[2].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -5978,7 +5945,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[3].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[3].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -5989,7 +5956,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[4].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[4].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6000,7 +5967,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[5].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[5].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6011,7 +5978,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[6].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[6].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6022,7 +5989,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[7].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[7].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6033,7 +6000,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[8].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[8].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6044,7 +6011,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[9].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[9].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6055,7 +6022,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[10].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[10].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6066,7 +6033,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[11].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[11].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6077,7 +6044,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[12].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[12].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6088,7 +6055,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[13].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[13].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6099,7 +6066,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[14].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[14].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6110,7 +6077,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[15].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[15].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6121,7 +6088,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[16].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[16].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6132,7 +6099,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[17].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[17].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6143,7 +6110,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[18].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[18].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6154,7 +6121,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[19].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[19].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6165,7 +6132,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[20].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[20].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6176,7 +6143,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[21].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[21].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6187,7 +6154,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[22].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[22].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6198,7 +6165,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[23].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[23].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6209,7 +6176,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[24].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[24].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6220,7 +6187,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[25].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[25].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6231,7 +6198,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[26].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[26].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6242,7 +6209,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[27].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[27].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6253,7 +6220,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[28].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[28].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6264,7 +6231,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[29].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[29].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6275,7 +6242,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[30].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[30].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6286,7 +6253,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|add_op:add|full_adder:gen_sum[31].full_adder_i
+|Datapath|alu:ALU|add_op:add|b_cell:gen_sum[31].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6462,41 +6429,41 @@ in_add2[29] => in_add2[29].IN1
 in_add2[30] => in_add2[30].IN1
 in_add2[31] => in_add2[31].IN1
 Cin => wire_C[0].IN1
-out_Sum[0] <= full_adder:gen_sum[0].full_adder_i.out_Sum
-out_Sum[1] <= full_adder:gen_sum[1].full_adder_i.out_Sum
-out_Sum[2] <= full_adder:gen_sum[2].full_adder_i.out_Sum
-out_Sum[3] <= full_adder:gen_sum[3].full_adder_i.out_Sum
-out_Sum[4] <= full_adder:gen_sum[4].full_adder_i.out_Sum
-out_Sum[5] <= full_adder:gen_sum[5].full_adder_i.out_Sum
-out_Sum[6] <= full_adder:gen_sum[6].full_adder_i.out_Sum
-out_Sum[7] <= full_adder:gen_sum[7].full_adder_i.out_Sum
-out_Sum[8] <= full_adder:gen_sum[8].full_adder_i.out_Sum
-out_Sum[9] <= full_adder:gen_sum[9].full_adder_i.out_Sum
-out_Sum[10] <= full_adder:gen_sum[10].full_adder_i.out_Sum
-out_Sum[11] <= full_adder:gen_sum[11].full_adder_i.out_Sum
-out_Sum[12] <= full_adder:gen_sum[12].full_adder_i.out_Sum
-out_Sum[13] <= full_adder:gen_sum[13].full_adder_i.out_Sum
-out_Sum[14] <= full_adder:gen_sum[14].full_adder_i.out_Sum
-out_Sum[15] <= full_adder:gen_sum[15].full_adder_i.out_Sum
-out_Sum[16] <= full_adder:gen_sum[16].full_adder_i.out_Sum
-out_Sum[17] <= full_adder:gen_sum[17].full_adder_i.out_Sum
-out_Sum[18] <= full_adder:gen_sum[18].full_adder_i.out_Sum
-out_Sum[19] <= full_adder:gen_sum[19].full_adder_i.out_Sum
-out_Sum[20] <= full_adder:gen_sum[20].full_adder_i.out_Sum
-out_Sum[21] <= full_adder:gen_sum[21].full_adder_i.out_Sum
-out_Sum[22] <= full_adder:gen_sum[22].full_adder_i.out_Sum
-out_Sum[23] <= full_adder:gen_sum[23].full_adder_i.out_Sum
-out_Sum[24] <= full_adder:gen_sum[24].full_adder_i.out_Sum
-out_Sum[25] <= full_adder:gen_sum[25].full_adder_i.out_Sum
-out_Sum[26] <= full_adder:gen_sum[26].full_adder_i.out_Sum
-out_Sum[27] <= full_adder:gen_sum[27].full_adder_i.out_Sum
-out_Sum[28] <= full_adder:gen_sum[28].full_adder_i.out_Sum
-out_Sum[29] <= full_adder:gen_sum[29].full_adder_i.out_Sum
-out_Sum[30] <= full_adder:gen_sum[30].full_adder_i.out_Sum
-out_Sum[31] <= full_adder:gen_sum[31].full_adder_i.out_Sum
+out_Sum[0] <= b_cell:gen_sum[0].b_cell_i.out_Sum
+out_Sum[1] <= b_cell:gen_sum[1].b_cell_i.out_Sum
+out_Sum[2] <= b_cell:gen_sum[2].b_cell_i.out_Sum
+out_Sum[3] <= b_cell:gen_sum[3].b_cell_i.out_Sum
+out_Sum[4] <= b_cell:gen_sum[4].b_cell_i.out_Sum
+out_Sum[5] <= b_cell:gen_sum[5].b_cell_i.out_Sum
+out_Sum[6] <= b_cell:gen_sum[6].b_cell_i.out_Sum
+out_Sum[7] <= b_cell:gen_sum[7].b_cell_i.out_Sum
+out_Sum[8] <= b_cell:gen_sum[8].b_cell_i.out_Sum
+out_Sum[9] <= b_cell:gen_sum[9].b_cell_i.out_Sum
+out_Sum[10] <= b_cell:gen_sum[10].b_cell_i.out_Sum
+out_Sum[11] <= b_cell:gen_sum[11].b_cell_i.out_Sum
+out_Sum[12] <= b_cell:gen_sum[12].b_cell_i.out_Sum
+out_Sum[13] <= b_cell:gen_sum[13].b_cell_i.out_Sum
+out_Sum[14] <= b_cell:gen_sum[14].b_cell_i.out_Sum
+out_Sum[15] <= b_cell:gen_sum[15].b_cell_i.out_Sum
+out_Sum[16] <= b_cell:gen_sum[16].b_cell_i.out_Sum
+out_Sum[17] <= b_cell:gen_sum[17].b_cell_i.out_Sum
+out_Sum[18] <= b_cell:gen_sum[18].b_cell_i.out_Sum
+out_Sum[19] <= b_cell:gen_sum[19].b_cell_i.out_Sum
+out_Sum[20] <= b_cell:gen_sum[20].b_cell_i.out_Sum
+out_Sum[21] <= b_cell:gen_sum[21].b_cell_i.out_Sum
+out_Sum[22] <= b_cell:gen_sum[22].b_cell_i.out_Sum
+out_Sum[23] <= b_cell:gen_sum[23].b_cell_i.out_Sum
+out_Sum[24] <= b_cell:gen_sum[24].b_cell_i.out_Sum
+out_Sum[25] <= b_cell:gen_sum[25].b_cell_i.out_Sum
+out_Sum[26] <= b_cell:gen_sum[26].b_cell_i.out_Sum
+out_Sum[27] <= b_cell:gen_sum[27].b_cell_i.out_Sum
+out_Sum[28] <= b_cell:gen_sum[28].b_cell_i.out_Sum
+out_Sum[29] <= b_cell:gen_sum[29].b_cell_i.out_Sum
+out_Sum[30] <= b_cell:gen_sum[30].b_cell_i.out_Sum
+out_Sum[31] <= b_cell:gen_sum[31].b_cell_i.out_Sum
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[0].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[0].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6507,7 +6474,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[1].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[1].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6518,7 +6485,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[2].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[2].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6529,7 +6496,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[3].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[3].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6540,7 +6507,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[4].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[4].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6551,7 +6518,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[5].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[5].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6562,7 +6529,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[6].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[6].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6573,7 +6540,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[7].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[7].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6584,7 +6551,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[8].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[8].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6595,7 +6562,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[9].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[9].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6606,7 +6573,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[10].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[10].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6617,7 +6584,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[11].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[11].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6628,7 +6595,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[12].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[12].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6639,7 +6606,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[13].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[13].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6650,7 +6617,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[14].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[14].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6661,7 +6628,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[15].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[15].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6672,7 +6639,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[16].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[16].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6683,7 +6650,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[17].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[17].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6694,7 +6661,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[18].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[18].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6705,7 +6672,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[19].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[19].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6716,7 +6683,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[20].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[20].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6727,7 +6694,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[21].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[21].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6738,7 +6705,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[22].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[22].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6749,7 +6716,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[23].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[23].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6760,7 +6727,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[24].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[24].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6771,7 +6738,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[25].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[25].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6782,7 +6749,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[26].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[26].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6793,7 +6760,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[27].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[27].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6804,7 +6771,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[28].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[28].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6815,7 +6782,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[29].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[29].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6826,7 +6793,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[30].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[30].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1
@@ -6837,7 +6804,7 @@ out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|full_adder:gen_sum[31].full_adder_i
+|Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[31].b_cell_i
 in_A => w1.IN0
 in_A => w3.IN0
 in_B => w1.IN1

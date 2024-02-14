@@ -56,7 +56,6 @@ module Datapath (
 
 
   wire [31:0] BusMuxOut;
-  wire [31:0] Yout;
   wire [4:0] BusMuxSignal;
   wire [31:0] MDRMuxOut;
   wire [63:0] alu_out;
