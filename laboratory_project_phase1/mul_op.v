@@ -6,6 +6,8 @@ module mul_op (
 	reg [63:0] spartprod [15:0];	// signed partial product
 	reg [2:0] carry_control [15:0];
 	reg [63:0] product;
+	
+	assign z = 32'b0;
 
 
 
