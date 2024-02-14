@@ -58,7 +58,7 @@ module add_tb;
             PCout, PCin, 
             Zhighout, Zlowout, Zin,
             MDRout, MDRin, MARin,
-            InPortout, Read, IRin, Yin, AND
+            InPortout, Read, IRin, Yin, operation
     );
 
     // Clock generation
