@@ -22,7 +22,8 @@ module DataPath (
              Zhighout, Zlowout, Zin,
              MDRout, MDRin, MARin,
              IncPC, Cout, IRin, Yin,
-             input[31:0] Mdatain
+             input[31:0] Mdatain,
+             input[4:0] opcode
 );
 
   wire [31:0] BusMuxInR0, 
@@ -55,6 +56,7 @@ module DataPath (
 
 
   wire [31:0] BusMuxOut;
+  wire [31:0] Yout;
   wire [4:0] BusMuxSignal;
   wire [31:0] MDRMuxOut;
   wire [63:0] alu_out;
@@ -81,7 +83,7 @@ module DataPath (
   register_gen HI (clear, clock, HIin, BusMuxOut, BusMuxInHI);
   register_gen LO (clear, clock, LOin, BusMuxOut, BusMuxInLO);
 
-  register_gen Y (clear, clock, Yin, BusMuxOut, BusMuxInY);
+  register_gen Y (clear, clock, Yin, Yout, BusMuxInY);
   register_gen Zhigh (clear, clock, Zin, alu_out[63:32], BusMuxInZhigh);
   register_gen Zlow (clear, clock, Zin, alu_out[31:0], BusMuxInZlow);
 
@@ -111,7 +113,8 @@ module DataPath (
 
   // ALU
   alu ALU (
-    clear, clock, IncPC, Y, BusMuxOut, IR[4:0], alu_out
+    .clear(clear), .clock(clock), .IncPC(IncPC), .A_reg(Yout), .B_reg(BusMuxOut), 
+    .opcode(opcode), .out_result(alu_out)
   );
 
 endmodule

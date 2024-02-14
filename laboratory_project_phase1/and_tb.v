@@ -24,6 +24,7 @@ module and_tb;
         HIout, HIin,
         LOout, LOin;
     reg [31:0] Mdatain; // Data to be written
+    reg [4:0] opcode;
 
     // State definitions
     parameter Default = 4'b0000, Reg_load1a = 4'b0001, Reg_load1b = 4'b0010, 
@@ -57,8 +58,8 @@ module and_tb;
             PCout, PCin, 
             Zhighout, Zlowout, Zin,
             MDRout, MDRin, MARin,
-            IncPC, Read, IRin Yin,
-            Mdatain
+            IncPC, Read, IRin, Yin,
+            Mdatain, opcode
     );
 
     // Clock generation
@@ -82,7 +83,7 @@ module and_tb;
             T2: Present_state = T3;
             T3: Present_state = T4;
             T4: Present_state = T5;
-            T5: //Present_state = T6; // enable for division/multiplication
+            T5: ;//Present_state = T6; // enable for division/multiplication
             // T6: ; // No next state defined for T6, assuming end of test or loop back to another state
         endcase
     end
@@ -97,7 +98,7 @@ module and_tb;
                 Mdatain <= 32'h00000000;
             end
             Reg_load1a: begin   
-                Mdatain <= 32'hxxxxxxxx;  //prepare memory data for R2
+                Mdatain <= 32'h00000000;  //prepare memory data for R2
                 Read <= 0; MDRin <= 0;
                 #10 Read <= 1; MDRin <= 1;
                 #15 Read <= 0; MDRin <= 0;
@@ -107,7 +108,7 @@ module and_tb;
                 #15 MDRout <= 0; R2in <= 0; // initialize R2 with the value $12 
                 end
             Reg_load2a: begin 
-                Mdatain <= 32’hxxxxxxxx;   //prepare memory data for R3
+                Mdatain <= 32'h00000000;   //prepare memory data for R3
                 #10 Read <= 1; MDRin <= 1; 
                 #15 Read <= 0; MDRin <= 0; 
             end
@@ -116,7 +117,7 @@ module and_tb;
                 #15 MDRout <= 0; R3in <= 0; // initialize R3 with the value $14 
             end
             Reg_load3a: begin 
-                Mdatain <= 32’hxxxxxxxx;    ////prepare memory data for R1
+                Mdatain <= 32'h00000000;    ////prepare memory data for R1
                 #10 Read <= 1; MDRin <= 1; 
                 #15 Read <= 0; MDRin <= 0;
             end
@@ -129,7 +130,8 @@ module and_tb;
             end
             T1: begin
                 Zlowout <= 1; PCin <= 1; Read <= 1; MDRin <= 1;
-                Mdatain <= 32’h00000000; // opcode for “and R1, R2, R3”
+                Mdatain <= 32'h00000000; // opcode for “and R1, R2, R3”
+                opcode <= 5'b0;
             end
             T2: begin
                 MDRout <= 1; IRin <= 1; 
