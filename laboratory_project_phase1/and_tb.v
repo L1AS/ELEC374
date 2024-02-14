@@ -4,7 +4,7 @@ module and_tb;
     reg Clock, clear, // Clock and clear signal
         PCout, Zlowout, Zhighout, MDRout,  // Control signals
         MARin, Zin, PCin, MDRin, IRin, Yin, // More control signals
-        IncPC, Read, // Even more control signals
+        IncPC, Read, Cout, // Even more control signals
         R0out, R0in, 
         R1out, R1in, 
         R2out, R2in, 
@@ -36,30 +36,30 @@ module and_tb;
 
     // Instantiate the Device Under Test (DUT)
     Datapath DUT (
-            Clock, clear, 
-            R0out, R0in,
-            R1out, R1in,
-            R2out, R2in,
-            R3out, R3in,
-            R4out, R4in,
-            R5out, R5in,
-            R6out, R6in,
-            R7out, R7in,
-            R8out, R8in,
-            R9out, R9in,
-            R10out, R10in,
-            R11out, R11in,
-            R12out, R12in,
-            R13out, R13in,
-            R14out, R14in,
-            R15out, R15in, 
-            HIout, HIin,
-            LOout, LOin,
-            PCout, PCin, 
-            Zhighout, Zlowout, Zin,
-            MDRout, MDRin, MARin,
-            IncPC, Read, IRin, Yin,
-            Mdatain, operation
+            .clock(Clock), .clear(clear), 
+            .R0out(R0out), .R0in(R0in),
+            .R1out(R1out), .R1in(R1out),
+            .R2out(R2out), .R2in(R2in),
+            .R3out(R3out), .R3in(R3in),
+            .R4out(R4out), .R4in(R4in),
+            .R5out(R5out), .R5in(R5in),
+            .R6out(R6out), .R6in(R6in),
+            .R7out(R7out), .R7in(R7in),
+            .R8out(R8out), .R8in(R8in),
+            .R9out(R9out), .R9in(R9in),
+            .R10out(R10out), .R10in(R10in),
+            .R11out(R11out), .R11in(R11in),
+            .R12out(R12out), .R12in(R12in),
+            .R13out(R13out), .R13in(R13in),
+            .R14out(R14out), .R14in(R14in),
+            .R15out(R15out), .R15in(R15in), 
+            .HIout(HIout), .HIin(HIin),
+            .LOout(LOout), .LOin(LOin),
+            .PCout(PCout), .PCin(PCin), 
+            .Zhighout(Zhighout), .Zlowout(Zlowout), .Zin(Zin),
+            .MDRout(MDRout), .MDRin(MDRin), .MARin(MARin),
+            .IncPC(IncPC), .Read(Read), .IRin(IRin), .Yin(Yin),
+            .Mdatain(Mdatain), .opcode(operation), .Cout(Cout)
     );
 
     // Clock generation
@@ -94,11 +94,11 @@ module and_tb;
             Default: begin
                 PCout <= 0; Zlowout <= 0; MDRout <= 0; R2out <= 0; R3out <= 0;
                 MARin <= 0; Zin <= 0; PCin <= 0; MDRin <= 1; IRin <= 0; Yin <= 0;
-                IncPC <= 0; Read <= 0; R1in <= 0; R2in <= 0; R3in <= 0;
+                IncPC <= 0; Read <= 0; R1in <= 0; Cout <= 0; R2in <= 0; R3in <= 0;
                 Mdatain <= 32'h00000000;
             end
             Reg_load1a: begin   
-                Mdatain <= 32'h00000000;  //prepare memory data for R2
+                Mdatain <= 32'h00000001;  //prepare memory data for R2
                 Read <= 0; MDRin <= 0;
                 #10 Read <= 1; MDRin <= 1;
                 #15 Read <= 0; MDRin <= 0;
@@ -108,7 +108,7 @@ module and_tb;
                 #15 MDRout <= 0; R2in <= 0; // initialize R2 with the value $12 
                 end
             Reg_load2a: begin 
-                Mdatain <= 32'h00000000;   //prepare memory data for R3
+                Mdatain <= 32'h00000001;   //prepare memory data for R3
                 #10 Read <= 1; MDRin <= 1; 
                 #15 Read <= 0; MDRin <= 0; 
             end
@@ -122,27 +122,33 @@ module and_tb;
                 #15 Read <= 0; MDRin <= 0;
             end
             Reg_load3b: begin
-                #10 MDRout <= 1; R1in <= 1; 
-                #15 MDRout <= 0; R1in <= 0; // initialize R1 with the value $18 
+                #10 MDRout <= 1; R0in <= 1; 
+                #15 MDRout <= 0; R0in <= 0; // initialize R1 with the value $18 
             end
             T0: begin // see if you need to de-assert these signals
                 PCout <= 1; MARin <= 1; IncPC <= 1; Zin <= 1;
+                #15 PCout <= 0; MARin <= 0; IncPC <= 0; Zin <= 0;
             end
             T1: begin
-                Zlowout <= 1; PCin <= 1; Read <= 1; MDRin <= 1;
-                Mdatain <= 32'h00000000; // opcode for “and R1, R2, R3”
+                #10 Zlowout <= 1; PCin <= 1; Read <= 1; MDRin <= 1;
+                Mdatain <= 32'h00000; // opcode for “and R1, R2, R3”
+                #15 Zlowout <= 0; PCin <= 0; Read <= 0; MDRin <= 0;
             end
             T2: begin
                 MDRout <= 1; IRin <= 1; 
+                #15 MDRout <= 0; IRin <= 0;
             end
             T3: begin
                 R2out <= 1; Yin <= 1; 
+                #15 R2out <= 0; Yin <= 0;
             end
             T4: begin
                 R3out <= 1; operation <= 5'b0; Zin <= 1; 
+                #15 R3out <= 0; Zin <= 0; 
             end
             T5: begin
-                Zlowout <= 1; R1in <= 1;        
+                Zlowout <= 1; R1in <= 1; 
+                #15 Zlowout <= 0; R1in <= 0;        
             end
             // T6: begin   //only for division and multiplication
             //     Zhighout <= 1;

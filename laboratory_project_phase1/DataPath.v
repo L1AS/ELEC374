@@ -22,6 +22,7 @@ module Datapath (
              Zhighout, Zlowout, Zin,
              MDRout, MDRin, MARin,
              IncPC, Cout, IRin, Yin,
+             Read,
              input[31:0] Mdatain,
              input[4:0] opcode
 );
@@ -47,8 +48,7 @@ module Datapath (
               BusMuxInZhigh, 
               BusMuxInZlow, 
               BusMuxInPC, 
-              BusMuxInMDR, 
-              BusMuxInInPort, 
+              BusMuxInMDR,  
               Csignextended,
               BusMuxInY,
               BusMuxInIR,
@@ -60,7 +60,6 @@ module Datapath (
   wire [4:0] BusMuxSignal;
   wire [31:0] MDRMuxOut;
   wire [63:0] alu_out;
-  wire read;
 
   // registers
   register_gen R0 (clear, clock, R0in, BusMuxOut, BusMuxInR0);
@@ -93,21 +92,21 @@ module Datapath (
   register_gen MAR (clear, clock, MARin, BusMuxOut, BusMuxInMAR);
 
   // MDR
-  mux_2_to_1 MDRMux (BusMuxOut, Mdatain, read, MDRMuxOut);
+  mux_2_to_1 MDRMux (BusMuxOut, Mdatain, Read, MDRMuxOut);
   register_gen MDR (clear, clock, MDRin, MDRMuxOut, BusMuxInMDR);
 
   // Bus
   encoder_32_to_5 BusEncoder (
-    { 8'b0, R0out, R1out, R2out, R3out, R4out, R5out, R6out, R7out, R8out, 
+    { 9'b0, R0out, R1out, R2out, R3out, R4out, R5out, R6out, R7out, R8out, 
       R9out, R10out, R11out, R12out, R13out, R14out, R15out, HIout, LOout, 
-      Zhighout, Zlowout, PCout, MDRout, IncPC, Cout }, BusMuxSignal
+      Zhighout, Zlowout, PCout, MDRout, Cout}, BusMuxSignal
   );
 
   mux_32_to_1 BusMux (
     BusMuxInR0, BusMuxInR1, BusMuxInR2, BusMuxInR3, BusMuxInR4, BusMuxInR5, 
     BusMuxInR6, BusMuxInR7, BusMuxInR8, BusMuxInR9, BusMuxInR10, BusMuxInR11, 
     BusMuxInR12, BusMuxInR13, BusMuxInR14, BusMuxInR15, BusMuxInHI, BusMuxInLO, 
-    BusMuxInZhigh, BusMuxInZlow, BusMuxInPC, BusMuxInMDR, BusMuxInInPort, 
+    BusMuxInZhigh, BusMuxInZlow, BusMuxInPC, BusMuxInMDR, 
     Csignextended, BusMuxOut, BusMuxSignal
   );
 

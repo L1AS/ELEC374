@@ -6,7 +6,7 @@ module mux_32_to_1 (
                     BusMuxInR5, BusMuxInR6, BusMuxInR7, BusMuxInR8, BusMuxInR9, 
                     BusMuxInR10, BusMuxInR11, BusMuxInR12, BusMuxInR13, BusMuxInR14, 
                     BusMuxInR15, BusMuxInHI, BusMuxInLO, BusMuxInZhigh, BusMuxInZlow, 
-                    BusMuxInPC, BusMuxInMDR, BusMuxInInPort, Csignextended,
+                    BusMuxInPC, BusMuxInMDR, Csignextended,
 	// Multiplexer's output that feeds to the bus
 	output reg [31:0] BusMuxOut,
 	// Select signal for the multiplexer
@@ -38,8 +38,7 @@ always@(*) begin
     5'b10011: BusMuxOut <= BusMuxInZlow[31:0];
     5'b10100: BusMuxOut <= BusMuxInPC[31:0];
     5'b10101: BusMuxOut <= BusMuxInMDR[31:0];
-    5'b10110: BusMuxOut <= BusMuxInInPort[31:0];
-    5'b10111: BusMuxOut <= Csignextended[31:0];
+    5'b10110: BusMuxOut <= Csignextended[31:0];
 	  default: BusMuxOut <= 32'd0;
   endcase
 end
