@@ -105,7 +105,7 @@ module and_tb;
             end
             Reg_load1b: begin
                 #10 MDRout <= 1; R2in <= 1; 
-                #15 MDRout <= 0; R2in <= 0; // initialize R2 with the value $12 
+                #15 MDRout <= 0; R2in <= 0; // initialize R2 with the value $1 
                 end
             Reg_load2a: begin 
                 Mdatain <= 32'h00000001;   //prepare memory data for R3
@@ -114,16 +114,16 @@ module and_tb;
             end
             Reg_load2b: begin
                 #10 MDRout <= 1; R3in <= 1; 
-                #15 MDRout <= 0; R3in <= 0; // initialize R3 with the value $14 
+                #15 MDRout <= 0; R3in <= 0; // initialize R3 with the value $1
             end
             Reg_load3a: begin 
-                Mdatain <= 32'h00000000;    ////prepare memory data for R1
+                Mdatain <= 32'h00000000;    ////prepare memory data for R0
                 #10 Read <= 1; MDRin <= 1; 
                 #15 Read <= 0; MDRin <= 0;
             end
             Reg_load3b: begin
                 #10 MDRout <= 1; R0in <= 1; 
-                #15 MDRout <= 0; R0in <= 0; // initialize R1 with the value $18 
+                #15 MDRout <= 0; R0in <= 0; // initialize R0 with the value $0 
             end
             T0: begin // see if you need to de-assert these signals
                 PCout <= 1; MARin <= 1; IncPC <= 1; Zin <= 1;

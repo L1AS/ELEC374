@@ -1,10 +1,10 @@
 `timescale 1ns / 10ps
 
-module not_tb;
+module and_tb;
     reg Clock, clear, // Clock and clear signal
         PCout, Zlowout, Zhighout, MDRout,  // Control signals
         MARin, Zin, PCin, MDRin, IRin, Yin, // More control signals
-        IncPC, Read, ADD, // Even more control signals
+        IncPC, Read, Cout, // Even more control signals
         R0out, R0in, 
         R1out, R1in, 
         R2out, R2in, 
@@ -22,9 +22,9 @@ module not_tb;
         R14out, R14in,
         R15out, R15in,
         HIout, HIin,
-        LOout, LOin,
-        InPortout;
+        LOout, LOin;
     reg [31:0] Mdatain; // Data to be written
+    reg [4:0] operation;
 
     // State definitions
     parameter Default = 4'b0000, Reg_load1a = 4'b0001, Reg_load1b = 4'b0010, 
@@ -36,29 +36,30 @@ module not_tb;
 
     // Instantiate the Device Under Test (DUT)
     Datapath DUT (
-            Clock, clear, 
-            R0out, R0in,
-            R1out, R1in,
-            R2out, R2in,
-            R3out, R3in,
-            R4out, R4in,
-            R5out, R5in,
-            R6out, R6in,
-            R7out, R7in,
-            R8out, R8in,
-            R9out, R9in,
-            R10out, R10in,
-            R11out, R11in,
-            R12out, R12in,
-            R13out, R13in,
-            R14out, R14in,
-            R15out, R15in, 
-            HIout, HIin,
-            LOout, LOin,
-            PCout, PCin, 
-            Zhighout, Zlowout, Zin,
-            MDRout, MDRin, MARin,
-            InPortout, Read, IRin, Yin, operation
+            .clock(Clock), .clear(clear), 
+            .R0out(R0out), .R0in(R0in),
+            .R1out(R1out), .R1in(R1out),
+            .R2out(R2out), .R2in(R2in),
+            .R3out(R3out), .R3in(R3in),
+            .R4out(R4out), .R4in(R4in),
+            .R5out(R5out), .R5in(R5in),
+            .R6out(R6out), .R6in(R6in),
+            .R7out(R7out), .R7in(R7in),
+            .R8out(R8out), .R8in(R8in),
+            .R9out(R9out), .R9in(R9in),
+            .R10out(R10out), .R10in(R10in),
+            .R11out(R11out), .R11in(R11in),
+            .R12out(R12out), .R12in(R12in),
+            .R13out(R13out), .R13in(R13in),
+            .R14out(R14out), .R14in(R14in),
+            .R15out(R15out), .R15in(R15in), 
+            .HIout(HIout), .HIin(HIin),
+            .LOout(LOout), .LOin(LOin),
+            .PCout(PCout), .PCin(PCin), 
+            .Zhighout(Zhighout), .Zlowout(Zlowout), .Zin(Zin),
+            .MDRout(MDRout), .MDRin(MDRin), .MARin(MARin),
+            .IncPC(IncPC), .Read(Read), .IRin(IRin), .Yin(Yin),
+            .Mdatain(Mdatain), .opcode(operation), .Cout(Cout)
     );
 
     // Clock generation
@@ -81,8 +82,8 @@ module not_tb;
             T1: Present_state = T2;
             T2: Present_state = T3;
             T3: Present_state = T4;
-            T4: Present_state = T5;
-            T5: //Present_state = T6; // enable for division/multiplication
+            T4: ;//Present_state = T5;
+            //T5: ;//Present_state = T6; // enable for division/multiplication
             // T6: ; // No next state defined for T6, assuming end of test or loop back to another state
         endcase
     end
@@ -117,19 +118,24 @@ module not_tb;
             end
             T0: begin // see if you need to de-assert these signals
                 PCout <= 1; MARin <= 1; IncPC <= 1; Zin <= 1;
+                #15 PCout <= 0; MARin <= 0; IncPC <= 0; Zin <= 0;
             end
             T1: begin
                 Zlowout <= 1; PCin <= 1; Read <= 1; MDRin <= 1;
                 Mdatain <= 32'h0000000C; // opcode for “not R6, R7”
+                #15 Zlowout <= 0; PCin <= 0; Read <= 0; MDRin <= 0;
             end
             T2: begin
-                MDRout <= 1; IRin <= 1; 
+                MDRout <= 1; IRin <= 1;
+                #15 MDRout <= 0; IRin <= 0; 
             end
             T3: begin
-                R7out <= 1; operation <= 5b'01100; Zin <= 1; 
+                R7out <= 1; operation <= 5b'01100; Zin <= 1;
+                #15 R7out <= 0; Zin <= 0;  
             end
             T4: begin
-                Zlowout <= 1; R6in <= 1;        
+                Zlowout <= 1; R6in <= 1;
+                #15 Zlowout <= 0; R6in <= 0;        
             end
             // T5: begin   //only for division and multiplication
             //     Zhighout <= 1;
