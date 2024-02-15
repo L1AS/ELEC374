@@ -1,5 +1,5 @@
 module alu (
-  input clear, clock, IncPC,
+  input IncPC,
   input wire [31:0] A_reg, B_reg, // ALU 32-bit inputs
   input [4:0] opcode,
   output reg [63:0] out_result
@@ -8,7 +8,7 @@ module alu (
   parameter anding = 5'b00000, oring = 5'b00001, addition = 5'b00010, subtraction = 5'b00011,
             multiply= 5'b00100, divide = 5'b00101, shift_R = 5'b00110, shift_RA= 5'b00111,
             shift_L = 5'b01000, rotate_R = 5'b01001, rotate_L = 5'b01010, negate = 5'b01011,
-            noting = 5'b01100;
+            noting = 5'b01100, nop = 5'b01101;
 
   wire [31:0] IncPC_out, and_out, or_out, add_out, sub_out, shr_out,
               shra_out, shl_out, ror_out, rol_out, neg_out, not_out,
@@ -16,12 +16,7 @@ module alu (
   wire [63:0] mul_out;
 
   always @(*) begin
-
-    if(IncPC) begin
-		out_result[31:0] <= IncPC_out;
-		out_result[63:32] <= 32'b0;
-	  end 
-
+    out_result <= 64'b0;
     case(opcode)
       anding: begin
         out_result[31:0] <= and_out;
@@ -74,13 +69,21 @@ module alu (
         out_result[31:0] <= not_out;
         out_result[63:32] <= 32'b0;
       end
+      nop: begin
+
+      end 
       default: begin
         out_result <= 64'b0;
       end
     endcase
+
+    // if(IncPC) begin
+		//   out_result[31:0] <= IncPC_out;
+		//   out_result[63:32] <= 32'b0;
+	  // end 
   end
 
-  IncPC pc_inc(A_reg, IncPC, IncPC_out);
+  //IncPC pc_inc(A_reg, IncPC, IncPC_out);
   add_op add (A_reg, B_reg, 1'b0, add_out); // DONE
   sub_op sub (A_reg, B_reg, sub_out); // TODO
   mul_op dul (A_reg, B_reg, mul_out); // TODO

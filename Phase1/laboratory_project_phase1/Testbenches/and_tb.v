@@ -2,7 +2,7 @@
 
 module and_tb;
     reg Clock, clear, // Clock and clear signal
-        PCout, Zlowout, Zhighout, MDRout,  // Control signals
+        PCout, Zlowout, Zhighout, MDRout, inPortOut,   // Control signals
         MARin, Zin, PCin, MDRin, IRin, Yin, // More control signals
         IncPC, Read, Cout, // Even more control signals
         R0out, R0in, 
@@ -23,7 +23,7 @@ module and_tb;
         R15out, R15in,
         HIout, HIin,
         LOout, LOin;
-    reg [31:0] Mdatain; // Data to be written
+    reg [31:0] BusMuxInInport; // Data to be written
     reg [4:0] operation;
 
     // State definitions
@@ -59,7 +59,8 @@ module and_tb;
             .Zhighout(Zhighout), .Zlowout(Zlowout), .Zin(Zin),
             .MDRout(MDRout), .MDRin(MDRin), .MARin(MARin),
             .IncPC(IncPC), .Read(Read), .IRin(IRin), .Yin(Yin),
-            .Mdatain(Mdatain), .opcode(operation), .Cout(Cout)
+            .BusMuxInInport(BusMuxInInport), .opcode(operation), .Cout(Cout),
+            .inPortOut(inPortOut)
     );
 
     // Clock generation
@@ -92,61 +93,83 @@ module and_tb;
     always @(Present_state) begin
         case (Present_state)
             Default: begin
-                PCout <= 0; Zlowout <= 0; MDRout <= 0; R2out <= 0; R3out <= 0;
-                MARin <= 0; Zin <= 0; PCin <= 0; MDRin <= 1; IRin <= 0; Yin <= 0;
-                IncPC <= 0; Read <= 0; R1in <= 0; Cout <= 0; R2in <= 0; R3in <= 0;
-                Mdatain <= 32'h00000000;
+                PCout <= 0; MDRout <= 0; MARin <= 0; Zin <= 0; 
+                PCin <= 0; MDRin <= 1; IRin <= 0; Yin <= 0;
+                IncPC <= 0; Read <= 0; R1in <= 0; 
+                Cout <= 0; R2in <= 0; R3in <= 0;
+                inPortOut <= 0; clear <= 0;
+                Zlowout <= 0; Zhighout<= 0;
+                R0out <= 0; R0in <= 0;
+                R1out <= 0; R1in <= 0;
+                R2out <= 0; R2in <= 0; 
+                R3out <= 0; R3in <= 0;
+                R4out <= 0; R4in <= 0;
+                R5out <= 0; R5in <= 0;
+                R6out <= 0; R6in <= 0;
+                R7out <= 0; R7in <= 0;
+                R8out <= 0; R8in <= 0;
+                R9out <= 0; R9in <= 0;
+                R10out <= 0; R10in <= 0;
+                R11out <= 0; R11in <= 0;
+                R12out <= 0; R12in <= 0;
+                R13out <= 0; R13in <= 0;
+                R14out <= 0; R14in <= 0;
+                R15out <= 0; R15in <= 0;
+                HIout <= 0; HIin <= 0;
+                LOout <= 0; LOin <= 0;
+                BusMuxInInport <= 32'h00000000; inPortOut <= 1; 
+                operation <= 5'b01101; //assert nop
             end
-            Reg_load1a: begin   
-                Mdatain <= 32'h00000001;  //prepare memory data for R2
+            Reg_load1a: begin   // 1
+                BusMuxInInport <= 32'h00000001; inPortOut <= 1;   //prepare memory data for R2
                 Read <= 0; MDRin <= 0;
                 #10 Read <= 1; MDRin <= 1;
-                #15 Read <= 0; MDRin <= 0;
+                #15 Read <= 0; MDRin <= 0; inPortOut <= 0; 
             end
-            Reg_load1b: begin
+            Reg_load1b: begin //2
                 #10 MDRout <= 1; R2in <= 1; 
                 #15 MDRout <= 0; R2in <= 0; // initialize R2 with the value $12 
                 end
-            Reg_load2a: begin 
-                Mdatain <= 32'h00000001;   //prepare memory data for R3
+            Reg_load2a: begin //3
+                BusMuxInInport <= 32'h00000001; inPortOut <= 1;    //prepare memory data for R3
                 #10 Read <= 1; MDRin <= 1; 
-                #15 Read <= 0; MDRin <= 0; 
+                #15 Read <= 0; MDRin <= 0; inPortOut <= 0; 
             end
-            Reg_load2b: begin
+            Reg_load2b: begin //4
                 #10 MDRout <= 1; R3in <= 1; 
                 #15 MDRout <= 0; R3in <= 0; // initialize R3 with the value $14 
             end
-            Reg_load3a: begin 
-                Mdatain <= 32'h00000000;    ////prepare memory data for R1
+            Reg_load3a: begin //5
+                BusMuxInInport <= 32'h00000000; inPortOut <= 1;   ////prepare memory data for R1
                 #10 Read <= 1; MDRin <= 1; 
-                #15 Read <= 0; MDRin <= 0;
+                #15 Read <= 0; MDRin <= 0; inPortOut <= 0; 
             end
-            Reg_load3b: begin
+            Reg_load3b: begin //6
                 #10 MDRout <= 1; R0in <= 1; 
                 #15 MDRout <= 0; R0in <= 0; // initialize R1 with the value $18 
             end
-            T0: begin // see if you need to de-assert these signals
+            T0: begin // 7
                 PCout <= 1; MARin <= 1; IncPC <= 1; Zin <= 1;
                 #15 PCout <= 0; MARin <= 0; IncPC <= 0; Zin <= 0;
             end
-            T1: begin
-                #10 Zlowout <= 1; PCin <= 1; Read <= 1; MDRin <= 1;
-                Mdatain <= 32'h00000; // opcode for “and R1, R2, R3”
-                #15 Zlowout <= 0; PCin <= 0; Read <= 0; MDRin <= 0;
+            T1: begin //8
+                Zlowout <= 1; PCin <= 1; Read <= 1; MDRin <= 1;
+                #10 BusMuxInInport <= 32'h83500000; // opcode for “and R1, R2, R3”
+                #15 Zlowout <= 0; PCin <= 0; Read <= 0; MDRin <= 0; inPortOut <= 0; 
             end
-            T2: begin
+            T2: begin //9
                 MDRout <= 1; IRin <= 1; 
                 #15 MDRout <= 0; IRin <= 0;
             end
-            T3: begin
+            T3: begin //10
                 R2out <= 1; Yin <= 1; 
                 #15 R2out <= 0; Yin <= 0;
             end
-            T4: begin
+            T4: begin //11
                 R3out <= 1; operation <= 5'b0; Zin <= 1; 
                 #15 R3out <= 0; Zin <= 0; 
             end
-            T5: begin
+            T5: begin //12
                 Zlowout <= 1; R1in <= 1; 
                 #15 Zlowout <= 0; R1in <= 0;        
             end

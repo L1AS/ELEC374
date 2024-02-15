@@ -25,6 +25,7 @@ vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/E
 vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/and_op.v}
 vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v}
 vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/add_op.v}
+vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1 {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/IncPC.v}
 
 vlog -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/Testbenches {C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/Testbenches/and_tb.v}
 

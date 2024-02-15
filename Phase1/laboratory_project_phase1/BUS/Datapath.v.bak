@@ -103,8 +103,8 @@ module Datapath (
     BusMuxInR0, BusMuxInR1, BusMuxInR2, BusMuxInR3, BusMuxInR4, BusMuxInR5, 
     BusMuxInR6, BusMuxInR7, BusMuxInR8, BusMuxInR9, BusMuxInR10, BusMuxInR11, 
     BusMuxInR12, BusMuxInR13, BusMuxInR14, BusMuxInR15, BusMuxInHI, BusMuxInLO, 
-    BusMuxInZhigh, BusMuxInZlow, BusMuxInPC, BusMuxInMDR, 
-    Csignextended, BusMuxInInport, BusMuxOut, BusMuxSignal
+    BusMuxInZhigh, BusMuxInZlow, BusMuxInPC, BusMuxInMDR, BusMuxInInport,
+    Csignextended, BusMuxOut, BusMuxSignal
   );
 
   // ALU
