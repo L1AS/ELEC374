@@ -1,6 +1,6 @@
 Analysis & Elaboration report for Phase1SRC_2
-Thu Feb 15 11:42:45 2024
-Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Thu Feb 15 17:33:21 2024
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
 ---------------------
@@ -100,22 +100,22 @@ refer to the applicable agreement for further details.
 
 
 
-+---------------------------------------------------------------------------------+
-; Analysis & Elaboration Summary                                                  ;
-+-------------------------------+-------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Thu Feb 15 11:42:45 2024           ;
-; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
-; Revision Name                 ; Phase1SRC_2                                     ;
-; Top-level Entity Name         ; Datapath                                        ;
-; Family                        ; Cyclone V                                       ;
-; Logic utilization (in ALMs)   ; N/A until Partition Merge                       ;
-; Total registers               ; N/A until Partition Merge                       ;
-; Total pins                    ; N/A until Partition Merge                       ;
-; Total virtual pins            ; N/A until Partition Merge                       ;
-; Total block memory bits       ; N/A until Partition Merge                       ;
-; Total PLLs                    ; N/A until Partition Merge                       ;
-; Total DLLs                    ; N/A until Partition Merge                       ;
-+-------------------------------+-------------------------------------------------+
++-----------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                              ;
++-------------------------------+---------------------------------------------+
+; Analysis & Elaboration Status ; Successful - Thu Feb 15 17:33:21 2024       ;
+; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                 ; Phase1SRC_2                                 ;
+; Top-level Entity Name         ; Datapath                                    ;
+; Family                        ; Cyclone V                                   ;
+; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
+; Total registers               ; N/A until Partition Merge                   ;
+; Total pins                    ; N/A until Partition Merge                   ;
+; Total virtual pins            ; N/A until Partition Merge                   ;
+; Total block memory bits       ; N/A until Partition Merge                   ;
+; Total PLLs                    ; N/A until Partition Merge                   ;
+; Total DLLs                    ; N/A until Partition Merge                   ;
++-------------------------------+---------------------------------------------+
 
 
 +------------------------------------------+
@@ -862,114 +862,114 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
-    Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Thu Feb 15 11:42:33 2024
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Thu Feb 15 17:33:09 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Phase1SRC_2 -c Phase1SRC_2 --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/sub_tb.v
-    Info (12023): Found entity 1: sub_tb File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/Testbenches/sub_tb.v Line: 3
+    Info (12023): Found entity 1: sub_tb File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches/sub_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/shra_tb.v
-    Info (12023): Found entity 1: shra_tb File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/Testbenches/shra_tb.v Line: 3
+    Info (12023): Found entity 1: shra_tb File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches/shra_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/shr_tb.v
-    Info (12023): Found entity 1: shr_tb File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/Testbenches/shr_tb.v Line: 3
+    Info (12023): Found entity 1: shr_tb File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches/shr_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/shl_tb.v
-    Info (12023): Found entity 1: shl_tb File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/Testbenches/shl_tb.v Line: 3
+    Info (12023): Found entity 1: shl_tb File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches/shl_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/ror_tb.v
-    Info (12023): Found entity 1: ror_tb File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/Testbenches/ror_tb.v Line: 3
+    Info (12023): Found entity 1: ror_tb File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches/ror_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/rol_tb.v
-    Info (12023): Found entity 1: rol_tb File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/Testbenches/rol_tb.v Line: 3
+    Info (12023): Found entity 1: rol_tb File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches/rol_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/or_tb.v
-    Info (12023): Found entity 1: or_tb File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/Testbenches/or_tb.v Line: 3
+    Info (12023): Found entity 1: or_tb File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches/or_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/not_tb.v
-    Info (12023): Found entity 1: not_tb File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/Testbenches/not_tb.v Line: 3
+    Info (12023): Found entity 1: not_tb File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches/not_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/neg_tb.v
-    Info (12023): Found entity 1: neg_tb File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/Testbenches/neg_tb.v Line: 3
+    Info (12023): Found entity 1: neg_tb File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches/neg_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/mul_tb.v
-    Info (12023): Found entity 1: mul_tb File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/Testbenches/mul_tb.v Line: 3
+    Info (12023): Found entity 1: mul_tb File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches/mul_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/div_tb.v
-    Info (12023): Found entity 1: div_tb File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/Testbenches/div_tb.v Line: 3
+    Info (12023): Found entity 1: div_tb File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches/div_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/add_tb.v
-    Info (12023): Found entity 1: add_tb File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/Testbenches/add_tb.v Line: 3
+    Info (12023): Found entity 1: add_tb File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches/add_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file reg/incpc.v
-    Info (12023): Found entity 1: IncPC File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/REG/IncPC.v Line: 1
+    Info (12023): Found entity 1: IncPC File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/REG/IncPC.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/and_tb.v
-    Info (12023): Found entity 1: and_tb File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/Testbenches/and_tb.v Line: 3
+    Info (12023): Found entity 1: and_tb File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches/and_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file alu/b_cell.v
-    Info (12023): Found entity 1: b_cell File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/b_cell.v Line: 1
+    Info (12023): Found entity 1: b_cell File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/b_cell.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file reg/register_gen.v
-    Info (12023): Found entity 1: register_gen File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/REG/register_gen.v Line: 1
+    Info (12023): Found entity 1: register_gen File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/REG/register_gen.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file bus/mux_32_to_1.v
-    Info (12023): Found entity 1: mux_32_to_1 File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_32_to_1.v Line: 3
+    Info (12023): Found entity 1: mux_32_to_1 File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_32_to_1.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file bus/mux_2_to_1.v
-    Info (12023): Found entity 1: mux_2_to_1 File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_2_to_1.v Line: 3
+    Info (12023): Found entity 1: mux_2_to_1 File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_2_to_1.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file bus/encoder_32_to_5.v
-    Info (12023): Found entity 1: encoder_32_to_5 File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS/encoder_32_to_5.v Line: 2
+    Info (12023): Found entity 1: encoder_32_to_5 File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/encoder_32_to_5.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file bus/datapath.v
-    Info (12023): Found entity 1: Datapath File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 1
+    Info (12023): Found entity 1: Datapath File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/sub_op.v
-    Info (12023): Found entity 1: sub_op File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/sub_op.v Line: 1
+    Info (12023): Found entity 1: sub_op File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/sub_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/shra_op.v
-    Info (12023): Found entity 1: shra_op File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/shra_op.v Line: 1
+    Info (12023): Found entity 1: shra_op File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shra_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/shr_op.v
-    Info (12023): Found entity 1: shr_op File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/shr_op.v Line: 1
+    Info (12023): Found entity 1: shr_op File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shr_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/shl_op.v
-    Info (12023): Found entity 1: shl_op File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/shl_op.v Line: 1
+    Info (12023): Found entity 1: shl_op File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shl_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/ror_op.v
-    Info (12023): Found entity 1: ror_op File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/ror_op.v Line: 1
+    Info (12023): Found entity 1: ror_op File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/ror_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/rol_op.v
-    Info (12023): Found entity 1: rol_op File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/rol_op.v Line: 1
+    Info (12023): Found entity 1: rol_op File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/rol_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/or_op.v
-    Info (12023): Found entity 1: or_op File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/or_op.v Line: 1
+    Info (12023): Found entity 1: or_op File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/or_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/not_op.v
-    Info (12023): Found entity 1: not_op File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/not_op.v Line: 1
+    Info (12023): Found entity 1: not_op File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/not_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/neg_op.v
-    Info (12023): Found entity 1: neg_op File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/neg_op.v Line: 1
+    Info (12023): Found entity 1: neg_op File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/neg_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/mul_op.v
-    Info (12023): Found entity 1: mul_op File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v Line: 1
+    Info (12023): Found entity 1: mul_op File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/div_op.v
-    Info (12023): Found entity 1: div_op File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/div_op.v Line: 1
+    Info (12023): Found entity 1: div_op File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/div_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/and_op.v
-    Info (12023): Found entity 1: and_op File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/and_op.v Line: 1
+    Info (12023): Found entity 1: and_op File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/and_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/alu.v
-    Info (12023): Found entity 1: alu File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 1
+    Info (12023): Found entity 1: alu File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/add_op.v
-    Info (12023): Found entity 1: add_op File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/add_op.v Line: 1
+    Info (12023): Found entity 1: add_op File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/add_op.v Line: 1
 Info (12127): Elaborating entity "Datapath" for the top level hierarchy
-Info (12128): Elaborating entity "register_gen" for hierarchy "register_gen:R0" File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 63
-Info (12128): Elaborating entity "mux_2_to_1" for hierarchy "mux_2_to_1:MDRMux" File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 93
-Info (12128): Elaborating entity "encoder_32_to_5" for hierarchy "encoder_32_to_5:BusEncoder" File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 101
-Info (12128): Elaborating entity "mux_32_to_1" for hierarchy "mux_32_to_1:BusMux" File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 109
-Info (12128): Elaborating entity "alu" for hierarchy "alu:ALU" File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 115
-Info (12128): Elaborating entity "add_op" for hierarchy "alu:ALU|add_op:add" File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 87
-Info (12128): Elaborating entity "b_cell" for hierarchy "alu:ALU|add_op:add|b_cell:gen_sum[0].b_cell_i" File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/add_op.v Line: 22
-Info (12128): Elaborating entity "sub_op" for hierarchy "alu:ALU|sub_op:sub" File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 88
-Info (12128): Elaborating entity "mul_op" for hierarchy "alu:ALU|mul_op:dul" File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 89
-Warning (10199): Verilog HDL Case Statement warning at mul_op.v(27): case item expression never matches the case expression File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v Line: 27
-Warning (10199): Verilog HDL Case Statement warning at mul_op.v(28): case item expression never matches the case expression File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v Line: 28
-Warning (10199): Verilog HDL Case Statement warning at mul_op.v(30): case item expression never matches the case expression File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v Line: 30
-Warning (10230): Verilog HDL assignment warning at mul_op.v(35): truncated value with size 66 to match size of target (64) File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v Line: 35
-Info (12128): Elaborating entity "div_op" for hierarchy "alu:ALU|div_op:div" File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 90
-Info (12128): Elaborating entity "shr_op" for hierarchy "alu:ALU|shr_op:shr" File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 92
-Info (12128): Elaborating entity "shra_op" for hierarchy "alu:ALU|shra_op:shra" File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 93
-Info (12128): Elaborating entity "shl_op" for hierarchy "alu:ALU|shl_op:shl" File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 94
-Info (12128): Elaborating entity "ror_op" for hierarchy "alu:ALU|ror_op:ror" File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 95
-Info (12128): Elaborating entity "rol_op" for hierarchy "alu:ALU|rol_op:aol" File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 96
-Info (12128): Elaborating entity "and_op" for hierarchy "alu:ALU|and_op:and_" File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 97
-Info (12128): Elaborating entity "or_op" for hierarchy "alu:ALU|or_op:or_" File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 98
-Info (12128): Elaborating entity "neg_op" for hierarchy "alu:ALU|neg_op:neg" File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 99
-Info (12128): Elaborating entity "not_op" for hierarchy "alu:ALU|not_op:not_" File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 100
-Info (144001): Generated suppressed messages file C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/output_files/Phase1SRC_2.map.smsg
+Info (12128): Elaborating entity "register_gen" for hierarchy "register_gen:R0" File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 63
+Info (12128): Elaborating entity "mux_2_to_1" for hierarchy "mux_2_to_1:MDRMux" File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 93
+Info (12128): Elaborating entity "encoder_32_to_5" for hierarchy "encoder_32_to_5:BusEncoder" File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 101
+Info (12128): Elaborating entity "mux_32_to_1" for hierarchy "mux_32_to_1:BusMux" File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 109
+Info (12128): Elaborating entity "alu" for hierarchy "alu:ALU" File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 115
+Info (12128): Elaborating entity "add_op" for hierarchy "alu:ALU|add_op:add" File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 87
+Info (12128): Elaborating entity "b_cell" for hierarchy "alu:ALU|add_op:add|b_cell:gen_sum[0].b_cell_i" File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/add_op.v Line: 22
+Info (12128): Elaborating entity "sub_op" for hierarchy "alu:ALU|sub_op:sub" File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 88
+Info (12128): Elaborating entity "mul_op" for hierarchy "alu:ALU|mul_op:dul" File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 89
+Warning (10199): Verilog HDL Case Statement warning at mul_op.v(27): case item expression never matches the case expression File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v Line: 27
+Warning (10199): Verilog HDL Case Statement warning at mul_op.v(28): case item expression never matches the case expression File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v Line: 28
+Warning (10199): Verilog HDL Case Statement warning at mul_op.v(30): case item expression never matches the case expression File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v Line: 30
+Warning (10230): Verilog HDL assignment warning at mul_op.v(35): truncated value with size 66 to match size of target (64) File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v Line: 35
+Info (12128): Elaborating entity "div_op" for hierarchy "alu:ALU|div_op:div" File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 90
+Info (12128): Elaborating entity "shr_op" for hierarchy "alu:ALU|shr_op:shr" File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 92
+Info (12128): Elaborating entity "shra_op" for hierarchy "alu:ALU|shra_op:shra" File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 93
+Info (12128): Elaborating entity "shl_op" for hierarchy "alu:ALU|shl_op:shl" File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 94
+Info (12128): Elaborating entity "ror_op" for hierarchy "alu:ALU|ror_op:ror" File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 95
+Info (12128): Elaborating entity "rol_op" for hierarchy "alu:ALU|rol_op:aol" File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 96
+Info (12128): Elaborating entity "and_op" for hierarchy "alu:ALU|and_op:and_" File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 97
+Info (12128): Elaborating entity "or_op" for hierarchy "alu:ALU|or_op:or_" File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 98
+Info (12128): Elaborating entity "neg_op" for hierarchy "alu:ALU|neg_op:neg" File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 99
+Info (12128): Elaborating entity "not_op" for hierarchy "alu:ALU|not_op:not_" File: C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 100
+Info (144001): Generated suppressed messages file C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/output_files/Phase1SRC_2.map.smsg
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4793 megabytes
-    Info: Processing ended: Thu Feb 15 11:42:45 2024
+    Info: Peak virtual memory: 4781 megabytes
+    Info: Processing ended: Thu Feb 15 17:33:21 2024
     Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:10
+    Info: Total CPU time (on all processors): 00:00:29
 
 
 +--------------------------------------------+
 ; Analysis & Elaboration Suppressed Messages ;
 +--------------------------------------------+
-The suppressed messages can be found in C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/output_files/Phase1SRC_2.map.smsg.
+The suppressed messages can be found in C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/output_files/Phase1SRC_2.map.smsg.
 
 

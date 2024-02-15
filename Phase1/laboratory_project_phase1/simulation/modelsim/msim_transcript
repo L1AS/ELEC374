@@ -1,4 +1,4 @@
-# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
 # do Phase1SRC_2_run_msim_rtl_verilog.do
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
@@ -7,225 +7,225 @@
 # vmap work rtl_work
 # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
 # vmap work rtl_work 
-# Copying C:/intelFPGA/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/b_cell.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/b_cell.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:01 on Feb 15,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/b_cell.v 
+# Start time: 16:56:39 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/b_cell.v 
 # -- Compiling module b_cell
 # 
 # Top level modules:
 # 	b_cell
-# End time: 11:43:01 on Feb 15,2024, Elapsed time: 0:00:00
+# End time: 16:56:39 on Feb 15,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/REG {C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/REG/register_gen.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/REG {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/REG/register_gen.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:02 on Feb 15,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/REG" C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/REG/register_gen.v 
+# Start time: 16:56:40 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/REG" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/REG/register_gen.v 
 # -- Compiling module register_gen
 # 
 # Top level modules:
 # 	register_gen
-# End time: 11:43:02 on Feb 15,2024, Elapsed time: 0:00:00
+# End time: 16:56:40 on Feb 15,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS {C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_32_to_1.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_32_to_1.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:02 on Feb 15,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS" C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_32_to_1.v 
+# Start time: 16:56:40 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_32_to_1.v 
 # -- Compiling module mux_32_to_1
 # 
 # Top level modules:
 # 	mux_32_to_1
-# End time: 11:43:02 on Feb 15,2024, Elapsed time: 0:00:00
+# End time: 16:56:40 on Feb 15,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS {C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_2_to_1.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_2_to_1.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:02 on Feb 15,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS" C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_2_to_1.v 
+# Start time: 16:56:40 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_2_to_1.v 
 # -- Compiling module mux_2_to_1
 # 
 # Top level modules:
 # 	mux_2_to_1
-# End time: 11:43:02 on Feb 15,2024, Elapsed time: 0:00:00
+# End time: 16:56:40 on Feb 15,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS {C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS/encoder_32_to_5.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/encoder_32_to_5.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:02 on Feb 15,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS" C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS/encoder_32_to_5.v 
+# Start time: 16:56:40 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/encoder_32_to_5.v 
 # -- Compiling module encoder_32_to_5
 # 
 # Top level modules:
 # 	encoder_32_to_5
-# End time: 11:43:02 on Feb 15,2024, Elapsed time: 0:00:00
+# End time: 16:56:40 on Feb 15,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS {C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:02 on Feb 15,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS" C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v 
+# Start time: 16:56:40 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v 
 # -- Compiling module Datapath
 # 
 # Top level modules:
 # 	Datapath
-# End time: 11:43:02 on Feb 15,2024, Elapsed time: 0:00:00
+# End time: 16:56:40 on Feb 15,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/sub_op.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/sub_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:02 on Feb 15,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/sub_op.v 
+# Start time: 16:56:40 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/sub_op.v 
 # -- Compiling module sub_op
 # 
 # Top level modules:
 # 	sub_op
-# End time: 11:43:02 on Feb 15,2024, Elapsed time: 0:00:00
+# End time: 16:56:40 on Feb 15,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/shra_op.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shra_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:02 on Feb 15,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/shra_op.v 
+# Start time: 16:56:40 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shra_op.v 
 # -- Compiling module shra_op
 # 
 # Top level modules:
 # 	shra_op
-# End time: 11:43:02 on Feb 15,2024, Elapsed time: 0:00:00
+# End time: 16:56:40 on Feb 15,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/shr_op.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shr_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:02 on Feb 15,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/shr_op.v 
+# Start time: 16:56:40 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shr_op.v 
 # -- Compiling module shr_op
 # 
 # Top level modules:
 # 	shr_op
-# End time: 11:43:02 on Feb 15,2024, Elapsed time: 0:00:00
+# End time: 16:56:40 on Feb 15,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/shl_op.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shl_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:02 on Feb 15,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/shl_op.v 
+# Start time: 16:56:40 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shl_op.v 
 # -- Compiling module shl_op
 # 
 # Top level modules:
 # 	shl_op
-# End time: 11:43:02 on Feb 15,2024, Elapsed time: 0:00:00
+# End time: 16:56:40 on Feb 15,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/ror_op.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/ror_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:02 on Feb 15,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/ror_op.v 
+# Start time: 16:56:40 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/ror_op.v 
 # -- Compiling module ror_op
 # 
 # Top level modules:
 # 	ror_op
-# End time: 11:43:02 on Feb 15,2024, Elapsed time: 0:00:00
+# End time: 16:56:40 on Feb 15,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/rol_op.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/rol_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:02 on Feb 15,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/rol_op.v 
+# Start time: 16:56:40 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/rol_op.v 
 # -- Compiling module rol_op
 # 
 # Top level modules:
 # 	rol_op
-# End time: 11:43:02 on Feb 15,2024, Elapsed time: 0:00:00
+# End time: 16:56:40 on Feb 15,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/or_op.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/or_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:02 on Feb 15,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/or_op.v 
+# Start time: 16:56:40 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/or_op.v 
 # -- Compiling module or_op
 # 
 # Top level modules:
 # 	or_op
-# End time: 11:43:03 on Feb 15,2024, Elapsed time: 0:00:01
+# End time: 16:56:40 on Feb 15,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/not_op.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/not_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:03 on Feb 15,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/not_op.v 
+# Start time: 16:56:41 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/not_op.v 
 # -- Compiling module not_op
 # 
 # Top level modules:
 # 	not_op
-# End time: 11:43:03 on Feb 15,2024, Elapsed time: 0:00:00
+# End time: 16:56:41 on Feb 15,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/neg_op.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/neg_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:03 on Feb 15,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/neg_op.v 
+# Start time: 16:56:41 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/neg_op.v 
 # -- Compiling module neg_op
 # 
 # Top level modules:
 # 	neg_op
-# End time: 11:43:03 on Feb 15,2024, Elapsed time: 0:00:00
+# End time: 16:56:41 on Feb 15,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:03 on Feb 15,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v 
+# Start time: 16:56:41 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v 
 # -- Compiling module mul_op
 # 
 # Top level modules:
 # 	mul_op
-# End time: 11:43:03 on Feb 15,2024, Elapsed time: 0:00:00
+# End time: 16:56:41 on Feb 15,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/div_op.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/div_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:03 on Feb 15,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/div_op.v 
+# Start time: 16:56:41 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/div_op.v 
 # -- Compiling module div_op
 # 
 # Top level modules:
 # 	div_op
-# End time: 11:43:03 on Feb 15,2024, Elapsed time: 0:00:00
+# End time: 16:56:41 on Feb 15,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/and_op.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/and_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:03 on Feb 15,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/and_op.v 
+# Start time: 16:56:41 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/and_op.v 
 # -- Compiling module and_op
 # 
 # Top level modules:
 # 	and_op
-# End time: 11:43:03 on Feb 15,2024, Elapsed time: 0:00:00
+# End time: 16:56:41 on Feb 15,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:03 on Feb 15,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v 
+# Start time: 16:56:41 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 11:43:03 on Feb 15,2024, Elapsed time: 0:00:00
+# End time: 16:56:41 on Feb 15,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/add_op.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/add_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:03 on Feb 15,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/add_op.v 
+# Start time: 16:56:41 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/add_op.v 
 # -- Compiling module add_op
 # 
 # Top level modules:
 # 	add_op
-# End time: 11:43:03 on Feb 15,2024, Elapsed time: 0:00:00
+# End time: 16:56:41 on Feb 15,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/Testbenches {C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/Testbenches/ror_tb.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches/div_tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:03 on Feb 15,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/Testbenches" C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/Testbenches/ror_tb.v 
-# -- Compiling module ror_tb
+# Start time: 16:56:41 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches/div_tb.v 
+# -- Compiling module div_tb
 # 
 # Top level modules:
-# 	ror_tb
-# End time: 11:43:03 on Feb 15,2024, Elapsed time: 0:00:00
+# 	div_tb
+# End time: 16:56:41 on Feb 15,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  ror_tb
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" ror_tb 
-# Start time: 11:43:03 on Feb 15,2024
-# Loading work.ror_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  div_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" div_tb 
+# Start time: 16:56:41 on Feb 15,2024
+# Loading work.div_tb
 # Loading work.Datapath
 # Loading work.register_gen
 # Loading work.mux_2_to_1
@@ -250,17 +250,829 @@
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: 19tja3  Hostname: BMH-214-20  ProcessID: 3048
-#           Attempting to use alternate WLF file "./wlftkrvebm".
+#           Attempting to use alternate WLF file "./wlft3jgqgq".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftkrvebm
+#           Using alternate file: ./wlft3jgqgq
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run 500 ns
-add wave -position 16  sim:/ror_tb/DUT/MDRMuxOut
-
+add wave -position end  sim:/div_tb/DUT/BusMuxOut
+add wave -position end  sim:/div_tb/DUT/BusMuxInLO
+add wave -position 56  sim:/div_tb/DUT/BusMuxInHI
+add wave -position end  sim:/div_tb/DUT/BusMuxInZlow
+add wave -position end  sim:/div_tb/DUT/BusMuxInZhigh
+restart
+run 300ns
+# WARNING: No extended dataflow license exists
+do Phase1SRC_2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/simulation/modelsim/rtl_work/_lib.qdb".
+# Error 31: Unable to unlink file "C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/simulation/modelsim/rtl_work/_lib1_0.qdb".
+# Error 31: Unable to unlink file "C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/simulation/modelsim/rtl_work/_lib1_0.qpg".
+# Error 31: Unable to unlink file "C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/simulation/modelsim/rtl_work/_lib1_0.qtl".
+# Error 133: Unable to remove directory "C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# ** Error: (vlib-35) Failed to create directory "rtl_work".
+# File exists. (errno = EEXIST)
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/b_cell.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:49 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/b_cell.v 
+# -- Compiling module b_cell
+# 
+# Top level modules:
+# 	b_cell
+# End time: 17:18:49 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/REG {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/REG/register_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:49 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/REG" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/REG/register_gen.v 
+# -- Compiling module register_gen
+# 
+# Top level modules:
+# 	register_gen
+# End time: 17:18:49 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_32_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:49 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_32_to_1.v 
+# -- Compiling module mux_32_to_1
+# 
+# Top level modules:
+# 	mux_32_to_1
+# End time: 17:18:49 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:49 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_2_to_1.v 
+# -- Compiling module mux_2_to_1
+# 
+# Top level modules:
+# 	mux_2_to_1
+# End time: 17:18:49 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/encoder_32_to_5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:49 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/encoder_32_to_5.v 
+# -- Compiling module encoder_32_to_5
+# 
+# Top level modules:
+# 	encoder_32_to_5
+# End time: 17:18:49 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:49 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 17:18:49 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/sub_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:49 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/sub_op.v 
+# -- Compiling module sub_op
+# 
+# Top level modules:
+# 	sub_op
+# End time: 17:18:49 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shra_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:49 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shra_op.v 
+# -- Compiling module shra_op
+# 
+# Top level modules:
+# 	shra_op
+# End time: 17:18:49 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shr_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:50 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shr_op.v 
+# -- Compiling module shr_op
+# 
+# Top level modules:
+# 	shr_op
+# End time: 17:18:50 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shl_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:50 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shl_op.v 
+# -- Compiling module shl_op
+# 
+# Top level modules:
+# 	shl_op
+# End time: 17:18:50 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/ror_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:50 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/ror_op.v 
+# -- Compiling module ror_op
+# 
+# Top level modules:
+# 	ror_op
+# End time: 17:18:50 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/rol_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:50 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/rol_op.v 
+# -- Compiling module rol_op
+# 
+# Top level modules:
+# 	rol_op
+# End time: 17:18:50 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/or_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:50 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/or_op.v 
+# -- Compiling module or_op
+# 
+# Top level modules:
+# 	or_op
+# End time: 17:18:50 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/not_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:50 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/not_op.v 
+# -- Compiling module not_op
+# 
+# Top level modules:
+# 	not_op
+# End time: 17:18:50 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/neg_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:50 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/neg_op.v 
+# -- Compiling module neg_op
+# 
+# Top level modules:
+# 	neg_op
+# End time: 17:18:50 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:50 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v 
+# -- Compiling module mul_op
+# 
+# Top level modules:
+# 	mul_op
+# End time: 17:18:50 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/div_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:50 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/div_op.v 
+# -- Compiling module div_op
+# 
+# Top level modules:
+# 	div_op
+# End time: 17:18:50 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/and_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:50 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/and_op.v 
+# -- Compiling module and_op
+# 
+# Top level modules:
+# 	and_op
+# End time: 17:18:50 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:50 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 17:18:50 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/add_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:50 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/add_op.v 
+# -- Compiling module add_op
+# 
+# Top level modules:
+# 	add_op
+# End time: 17:18:50 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches/div_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:18:50 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches/div_tb.v 
+# -- Compiling module div_tb
+# 
+# Top level modules:
+# 	div_tb
+# End time: 17:18:50 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  div_tb
+# End time: 17:18:51 on Feb 15,2024, Elapsed time: 0:22:10
+# Errors: 0, Warnings: 3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" div_tb 
+# Start time: 17:18:51 on Feb 15,2024
+# Loading work.div_tb
+# Loading work.Datapath
+# Loading work.register_gen
+# Loading work.mux_2_to_1
+# Loading work.encoder_32_to_5
+# Loading work.mux_32_to_1
+# Loading work.alu
+# Loading work.add_op
+# Loading work.sub_op
+# Loading work.mul_op
+# Loading work.div_op
+# Loading work.shr_op
+# Loading work.shra_op
+# Loading work.shl_op
+# Loading work.ror_op
+# Loading work.rol_op
+# Loading work.and_op
+# Loading work.or_op
+# Loading work.neg_op
+# Loading work.not_op
+# Loading work.b_cell
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: 19tja3  Hostname: BMH-214-20  ProcessID: 3048
+#           Attempting to use alternate WLF file "./wlft99xnh0".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft99xnh0
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 500 ns
+add wave -position end  sim:/div_tb/DUT/BusMuxOut
+add wave -position end  sim:/div_tb/DUT/BusMuxInHI
+add wave -position 28  sim:/div_tb/DUT/BusMuxInLO
+add wave -position end  sim:/div_tb/DUT/BusMuxInZlow
+add wave -position end  sim:/div_tb/DUT/BusMuxInZhigh
 restart
 run 500ns
-# End time: 11:43:48 on Feb 15,2024, Elapsed time: 0:00:45
+restart
+run 280ns
+do Phase1SRC_2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/b_cell.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:47 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/b_cell.v 
+# -- Compiling module b_cell
+# 
+# Top level modules:
+# 	b_cell
+# End time: 17:26:47 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/REG {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/REG/register_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:47 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/REG" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/REG/register_gen.v 
+# -- Compiling module register_gen
+# 
+# Top level modules:
+# 	register_gen
+# End time: 17:26:47 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_32_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:47 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_32_to_1.v 
+# -- Compiling module mux_32_to_1
+# 
+# Top level modules:
+# 	mux_32_to_1
+# End time: 17:26:47 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:47 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_2_to_1.v 
+# -- Compiling module mux_2_to_1
+# 
+# Top level modules:
+# 	mux_2_to_1
+# End time: 17:26:47 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/encoder_32_to_5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:48 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/encoder_32_to_5.v 
+# -- Compiling module encoder_32_to_5
+# 
+# Top level modules:
+# 	encoder_32_to_5
+# End time: 17:26:48 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:48 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 17:26:48 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/sub_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:48 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/sub_op.v 
+# -- Compiling module sub_op
+# 
+# Top level modules:
+# 	sub_op
+# End time: 17:26:48 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shra_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:48 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shra_op.v 
+# -- Compiling module shra_op
+# 
+# Top level modules:
+# 	shra_op
+# End time: 17:26:48 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shr_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:48 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shr_op.v 
+# -- Compiling module shr_op
+# 
+# Top level modules:
+# 	shr_op
+# End time: 17:26:48 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shl_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:48 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shl_op.v 
+# -- Compiling module shl_op
+# 
+# Top level modules:
+# 	shl_op
+# End time: 17:26:48 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/ror_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:48 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/ror_op.v 
+# -- Compiling module ror_op
+# 
+# Top level modules:
+# 	ror_op
+# End time: 17:26:48 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/rol_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:48 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/rol_op.v 
+# -- Compiling module rol_op
+# 
+# Top level modules:
+# 	rol_op
+# End time: 17:26:48 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/or_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:48 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/or_op.v 
+# -- Compiling module or_op
+# 
+# Top level modules:
+# 	or_op
+# End time: 17:26:48 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/not_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:48 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/not_op.v 
+# -- Compiling module not_op
+# 
+# Top level modules:
+# 	not_op
+# End time: 17:26:48 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/neg_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:48 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/neg_op.v 
+# -- Compiling module neg_op
+# 
+# Top level modules:
+# 	neg_op
+# End time: 17:26:48 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:48 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v 
+# -- Compiling module mul_op
+# 
+# Top level modules:
+# 	mul_op
+# End time: 17:26:48 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/div_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:48 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/div_op.v 
+# -- Compiling module div_op
+# 
+# Top level modules:
+# 	div_op
+# End time: 17:26:48 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/and_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:48 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/and_op.v 
+# -- Compiling module and_op
+# 
+# Top level modules:
+# 	and_op
+# End time: 17:26:48 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:48 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 17:26:49 on Feb 15,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/add_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:49 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/add_op.v 
+# -- Compiling module add_op
+# 
+# Top level modules:
+# 	add_op
+# End time: 17:26:49 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches/mul_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:49 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches/mul_tb.v 
+# -- Compiling module mul_tb
+# 
+# Top level modules:
+# 	mul_tb
+# End time: 17:26:49 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  mul_tb
+# End time: 17:26:50 on Feb 15,2024, Elapsed time: 0:07:59
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" mul_tb 
+# Start time: 17:26:50 on Feb 15,2024
+# Loading work.mul_tb
+# Loading work.Datapath
+# Loading work.register_gen
+# Loading work.mux_2_to_1
+# Loading work.encoder_32_to_5
+# Loading work.mux_32_to_1
+# Loading work.alu
+# Loading work.add_op
+# Loading work.sub_op
+# Loading work.mul_op
+# Loading work.div_op
+# Loading work.shr_op
+# Loading work.shra_op
+# Loading work.shl_op
+# Loading work.ror_op
+# Loading work.rol_op
+# Loading work.and_op
+# Loading work.or_op
+# Loading work.neg_op
+# Loading work.not_op
+# Loading work.b_cell
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: 19tja3  Hostname: BMH-214-20  ProcessID: 3048
+#           Attempting to use alternate WLF file "./wlft7z5vkz".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft7z5vkz
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 500 ns
+add wave -position end  sim:/mul_tb/DUT/BusMuxInZhigh
+add wave -position end  sim:/mul_tb/DUT/BusMuxInZlow
+add wave -position end  sim:/mul_tb/DUT/BusMuxInHI
+add wave -position end  sim:/mul_tb/DUT/BusMuxInLO
+restart
+run 280ns
+do Phase1SRC_2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/b_cell.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:51 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/b_cell.v 
+# -- Compiling module b_cell
+# 
+# Top level modules:
+# 	b_cell
+# End time: 17:33:51 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/REG {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/REG/register_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:51 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/REG" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/REG/register_gen.v 
+# -- Compiling module register_gen
+# 
+# Top level modules:
+# 	register_gen
+# End time: 17:33:51 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_32_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:51 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_32_to_1.v 
+# -- Compiling module mux_32_to_1
+# 
+# Top level modules:
+# 	mux_32_to_1
+# End time: 17:33:51 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:51 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_2_to_1.v 
+# -- Compiling module mux_2_to_1
+# 
+# Top level modules:
+# 	mux_2_to_1
+# End time: 17:33:51 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/encoder_32_to_5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:52 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/encoder_32_to_5.v 
+# -- Compiling module encoder_32_to_5
+# 
+# Top level modules:
+# 	encoder_32_to_5
+# End time: 17:33:52 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:52 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 17:33:52 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/sub_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:52 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/sub_op.v 
+# -- Compiling module sub_op
+# 
+# Top level modules:
+# 	sub_op
+# End time: 17:33:52 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shra_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:52 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shra_op.v 
+# -- Compiling module shra_op
+# 
+# Top level modules:
+# 	shra_op
+# End time: 17:33:52 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shr_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:52 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shr_op.v 
+# -- Compiling module shr_op
+# 
+# Top level modules:
+# 	shr_op
+# End time: 17:33:52 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shl_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:52 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/shl_op.v 
+# -- Compiling module shl_op
+# 
+# Top level modules:
+# 	shl_op
+# End time: 17:33:52 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/ror_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:52 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/ror_op.v 
+# -- Compiling module ror_op
+# 
+# Top level modules:
+# 	ror_op
+# End time: 17:33:52 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/rol_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:52 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/rol_op.v 
+# -- Compiling module rol_op
+# 
+# Top level modules:
+# 	rol_op
+# End time: 17:33:52 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/or_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:52 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/or_op.v 
+# -- Compiling module or_op
+# 
+# Top level modules:
+# 	or_op
+# End time: 17:33:52 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/not_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:52 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/not_op.v 
+# -- Compiling module not_op
+# 
+# Top level modules:
+# 	not_op
+# End time: 17:33:52 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/neg_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:52 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/neg_op.v 
+# -- Compiling module neg_op
+# 
+# Top level modules:
+# 	neg_op
+# End time: 17:33:52 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:52 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v 
+# -- Compiling module mul_op
+# 
+# Top level modules:
+# 	mul_op
+# End time: 17:33:52 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/div_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:52 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/div_op.v 
+# -- Compiling module div_op
+# 
+# Top level modules:
+# 	div_op
+# End time: 17:33:52 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/and_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:52 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/and_op.v 
+# -- Compiling module and_op
+# 
+# Top level modules:
+# 	and_op
+# End time: 17:33:52 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:53 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 17:33:53 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/add_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:53 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/ALU/add_op.v 
+# -- Compiling module add_op
+# 
+# Top level modules:
+# 	add_op
+# End time: 17:33:53 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches {C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches/mul_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:53 on Feb 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches" C:/Users/sheng/Documents/ELEC374/ELEC374/Phase1/laboratory_project_phase1/Testbenches/mul_tb.v 
+# -- Compiling module mul_tb
+# 
+# Top level modules:
+# 	mul_tb
+# End time: 17:33:53 on Feb 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  mul_tb
+# End time: 17:33:54 on Feb 15,2024, Elapsed time: 0:07:04
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" mul_tb 
+# Start time: 17:33:54 on Feb 15,2024
+# Loading work.mul_tb
+# Loading work.Datapath
+# Loading work.register_gen
+# Loading work.mux_2_to_1
+# Loading work.encoder_32_to_5
+# Loading work.mux_32_to_1
+# Loading work.alu
+# Loading work.add_op
+# Loading work.sub_op
+# Loading work.mul_op
+# Loading work.div_op
+# Loading work.shr_op
+# Loading work.shra_op
+# Loading work.shl_op
+# Loading work.ror_op
+# Loading work.rol_op
+# Loading work.and_op
+# Loading work.or_op
+# Loading work.neg_op
+# Loading work.not_op
+# Loading work.b_cell
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: 19tja3  Hostname: BMH-214-20  ProcessID: 3048
+#           Attempting to use alternate WLF file "./wlftvs9xjg".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftvs9xjg
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 500 ns
+add wave -position end  sim:/mul_tb/DUT/BusMuxInZhigh
+add wave -position end  sim:/mul_tb/DUT/BusMuxInZlow
+add wave -position end  sim:/mul_tb/DUT/BusMuxInHI
+add wave -position end  sim:/mul_tb/DUT/BusMuxInLO
+restart
+run 280ns
+# End time: 17:38:34 on Feb 15,2024, Elapsed time: 0:04:40
 # Errors: 0, Warnings: 2

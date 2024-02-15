@@ -1,0 +1,488 @@
+|cla_gen_tb
+
+
+|cla_gen_tb|cla_gen:DUT
+in_add1[0] => in_add1[0].IN1
+in_add1[1] => in_add1[1].IN1
+in_add1[2] => in_add1[2].IN1
+in_add1[3] => in_add1[3].IN1
+in_add1[4] => in_add1[4].IN1
+in_add1[5] => in_add1[5].IN1
+in_add1[6] => in_add1[6].IN1
+in_add1[7] => in_add1[7].IN1
+in_add1[8] => in_add1[8].IN1
+in_add1[9] => in_add1[9].IN1
+in_add1[10] => in_add1[10].IN1
+in_add1[11] => in_add1[11].IN1
+in_add1[12] => in_add1[12].IN1
+in_add1[13] => in_add1[13].IN1
+in_add1[14] => in_add1[14].IN1
+in_add1[15] => in_add1[15].IN1
+in_add1[16] => in_add1[16].IN1
+in_add1[17] => in_add1[17].IN1
+in_add1[18] => in_add1[18].IN1
+in_add1[19] => in_add1[19].IN1
+in_add1[20] => in_add1[20].IN1
+in_add1[21] => in_add1[21].IN1
+in_add1[22] => in_add1[22].IN1
+in_add1[23] => in_add1[23].IN1
+in_add1[24] => in_add1[24].IN1
+in_add1[25] => in_add1[25].IN1
+in_add1[26] => in_add1[26].IN1
+in_add1[27] => in_add1[27].IN1
+in_add1[28] => in_add1[28].IN1
+in_add1[29] => in_add1[29].IN1
+in_add1[30] => in_add1[30].IN1
+in_add1[31] => in_add1[31].IN1
+in_add2[0] => in_add2[0].IN1
+in_add2[1] => in_add2[1].IN1
+in_add2[2] => in_add2[2].IN1
+in_add2[3] => in_add2[3].IN1
+in_add2[4] => in_add2[4].IN1
+in_add2[5] => in_add2[5].IN1
+in_add2[6] => in_add2[6].IN1
+in_add2[7] => in_add2[7].IN1
+in_add2[8] => in_add2[8].IN1
+in_add2[9] => in_add2[9].IN1
+in_add2[10] => in_add2[10].IN1
+in_add2[11] => in_add2[11].IN1
+in_add2[12] => in_add2[12].IN1
+in_add2[13] => in_add2[13].IN1
+in_add2[14] => in_add2[14].IN1
+in_add2[15] => in_add2[15].IN1
+in_add2[16] => in_add2[16].IN1
+in_add2[17] => in_add2[17].IN1
+in_add2[18] => in_add2[18].IN1
+in_add2[19] => in_add2[19].IN1
+in_add2[20] => in_add2[20].IN1
+in_add2[21] => in_add2[21].IN1
+in_add2[22] => in_add2[22].IN1
+in_add2[23] => in_add2[23].IN1
+in_add2[24] => in_add2[24].IN1
+in_add2[25] => in_add2[25].IN1
+in_add2[26] => in_add2[26].IN1
+in_add2[27] => in_add2[27].IN1
+in_add2[28] => in_add2[28].IN1
+in_add2[29] => in_add2[29].IN1
+in_add2[30] => in_add2[30].IN1
+in_add2[31] => in_add2[31].IN1
+Cin => wire_C[0].IN1
+out_Sum[0] <= full_adder:gen_sum[0].full_adder_i.out_Sum
+out_Sum[1] <= full_adder:gen_sum[1].full_adder_i.out_Sum
+out_Sum[2] <= full_adder:gen_sum[2].full_adder_i.out_Sum
+out_Sum[3] <= full_adder:gen_sum[3].full_adder_i.out_Sum
+out_Sum[4] <= full_adder:gen_sum[4].full_adder_i.out_Sum
+out_Sum[5] <= full_adder:gen_sum[5].full_adder_i.out_Sum
+out_Sum[6] <= full_adder:gen_sum[6].full_adder_i.out_Sum
+out_Sum[7] <= full_adder:gen_sum[7].full_adder_i.out_Sum
+out_Sum[8] <= full_adder:gen_sum[8].full_adder_i.out_Sum
+out_Sum[9] <= full_adder:gen_sum[9].full_adder_i.out_Sum
+out_Sum[10] <= full_adder:gen_sum[10].full_adder_i.out_Sum
+out_Sum[11] <= full_adder:gen_sum[11].full_adder_i.out_Sum
+out_Sum[12] <= full_adder:gen_sum[12].full_adder_i.out_Sum
+out_Sum[13] <= full_adder:gen_sum[13].full_adder_i.out_Sum
+out_Sum[14] <= full_adder:gen_sum[14].full_adder_i.out_Sum
+out_Sum[15] <= full_adder:gen_sum[15].full_adder_i.out_Sum
+out_Sum[16] <= full_adder:gen_sum[16].full_adder_i.out_Sum
+out_Sum[17] <= full_adder:gen_sum[17].full_adder_i.out_Sum
+out_Sum[18] <= full_adder:gen_sum[18].full_adder_i.out_Sum
+out_Sum[19] <= full_adder:gen_sum[19].full_adder_i.out_Sum
+out_Sum[20] <= full_adder:gen_sum[20].full_adder_i.out_Sum
+out_Sum[21] <= full_adder:gen_sum[21].full_adder_i.out_Sum
+out_Sum[22] <= full_adder:gen_sum[22].full_adder_i.out_Sum
+out_Sum[23] <= full_adder:gen_sum[23].full_adder_i.out_Sum
+out_Sum[24] <= full_adder:gen_sum[24].full_adder_i.out_Sum
+out_Sum[25] <= full_adder:gen_sum[25].full_adder_i.out_Sum
+out_Sum[26] <= full_adder:gen_sum[26].full_adder_i.out_Sum
+out_Sum[27] <= full_adder:gen_sum[27].full_adder_i.out_Sum
+out_Sum[28] <= full_adder:gen_sum[28].full_adder_i.out_Sum
+out_Sum[29] <= full_adder:gen_sum[29].full_adder_i.out_Sum
+out_Sum[30] <= full_adder:gen_sum[30].full_adder_i.out_Sum
+out_Sum[31] <= full_adder:gen_sum[31].full_adder_i.out_Sum
+Cout[0] <= wire_C[0].DB_MAX_OUTPUT_PORT_TYPE
+Cout[1] <= wire_C[1].DB_MAX_OUTPUT_PORT_TYPE
+Cout[2] <= wire_C[2].DB_MAX_OUTPUT_PORT_TYPE
+Cout[3] <= wire_C[3].DB_MAX_OUTPUT_PORT_TYPE
+Cout[4] <= wire_C[4].DB_MAX_OUTPUT_PORT_TYPE
+Cout[5] <= wire_C[5].DB_MAX_OUTPUT_PORT_TYPE
+Cout[6] <= wire_C[6].DB_MAX_OUTPUT_PORT_TYPE
+Cout[7] <= wire_C[7].DB_MAX_OUTPUT_PORT_TYPE
+Cout[8] <= wire_C[8].DB_MAX_OUTPUT_PORT_TYPE
+Cout[9] <= wire_C[9].DB_MAX_OUTPUT_PORT_TYPE
+Cout[10] <= wire_C[10].DB_MAX_OUTPUT_PORT_TYPE
+Cout[11] <= wire_C[11].DB_MAX_OUTPUT_PORT_TYPE
+Cout[12] <= wire_C[12].DB_MAX_OUTPUT_PORT_TYPE
+Cout[13] <= wire_C[13].DB_MAX_OUTPUT_PORT_TYPE
+Cout[14] <= wire_C[14].DB_MAX_OUTPUT_PORT_TYPE
+Cout[15] <= wire_C[15].DB_MAX_OUTPUT_PORT_TYPE
+Cout[16] <= wire_C[16].DB_MAX_OUTPUT_PORT_TYPE
+Cout[17] <= wire_C[17].DB_MAX_OUTPUT_PORT_TYPE
+Cout[18] <= wire_C[18].DB_MAX_OUTPUT_PORT_TYPE
+Cout[19] <= wire_C[19].DB_MAX_OUTPUT_PORT_TYPE
+Cout[20] <= wire_C[20].DB_MAX_OUTPUT_PORT_TYPE
+Cout[21] <= wire_C[21].DB_MAX_OUTPUT_PORT_TYPE
+Cout[22] <= wire_C[22].DB_MAX_OUTPUT_PORT_TYPE
+Cout[23] <= wire_C[23].DB_MAX_OUTPUT_PORT_TYPE
+Cout[24] <= wire_C[24].DB_MAX_OUTPUT_PORT_TYPE
+Cout[25] <= wire_C[25].DB_MAX_OUTPUT_PORT_TYPE
+Cout[26] <= wire_C[26].DB_MAX_OUTPUT_PORT_TYPE
+Cout[27] <= wire_C[27].DB_MAX_OUTPUT_PORT_TYPE
+Cout[28] <= wire_C[28].DB_MAX_OUTPUT_PORT_TYPE
+Cout[29] <= wire_C[29].DB_MAX_OUTPUT_PORT_TYPE
+Cout[30] <= wire_C[30].DB_MAX_OUTPUT_PORT_TYPE
+Cout[31] <= wire_C[31].DB_MAX_OUTPUT_PORT_TYPE
+Cout[32] <= wire_C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[0].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[1].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[2].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[3].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[4].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[5].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[6].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[7].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[8].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[9].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[10].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[11].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[12].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[13].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[14].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[15].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[16].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[17].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[18].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[19].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[20].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[21].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[22].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[23].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[24].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[25].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[26].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[27].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[28].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[29].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[30].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_gen_tb|cla_gen:DUT|full_adder:gen_sum[31].full_adder_i
+in_A => w1.IN0
+in_A => w3.IN0
+in_B => w1.IN1
+in_B => w3.IN1
+Cin => w2.IN1
+Cin => out_Sum.IN1
+out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
