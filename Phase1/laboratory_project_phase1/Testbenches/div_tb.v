@@ -2,7 +2,7 @@
 
 module div_tb;
     reg clock, clear, // clock and clear signal
-        PCout, Zlowout, Zhighout, MDRout,  // Control signals
+        PCout, Zlowout, Zhighout, MDRout, inPortOut,   // Control signals
         MARin, Zin, PCin, MDRin, IRin, Yin, // More control signals
         IncPC, Read, Cout, // Even more control signals
         R0out, R0in, 
@@ -29,9 +29,8 @@ module div_tb;
     // State definitions
     parameter Default = 4'b0000, Reg_load1a = 4'b0001, Reg_load1b = 4'b0010, 
               Reg_load2a = 4'b0011, Reg_load2b = 4'b0100, Reg_load3a = 4'b0101, 
-              Reg_load3b = 4'b0110, Reg_load4a = 4'b0111, Reg_load4b = 4'b1000, 
-              T0 = 4'b1001, T1 = 4'b1010, T2 = 4'b1011, T3 = 4'b1100,
-              T4 = 4'b1101, T5 = 4'b1110, T6 = 4'b1111;
+              Reg_load3b = 4'b0110, T0 = 4'b0111, T1 = 4'b1000, T2 = 4'b1001, 
+              T3 = 4'b1010, T4 = 4'b1011, T5 = 4'b1100, T6 = 4'b1101;
     
     reg [3:0] Present_state = Default;
 
@@ -60,7 +59,8 @@ module div_tb;
             .Zhighout(Zhighout), .Zlowout(Zlowout), .Zin(Zin),
             .MDRout(MDRout), .MDRin(MDRin), .MARin(MARin),
             .IncPC(IncPC), .Read(Read), .IRin(IRin), .Yin(Yin),
-            .Mdatain(Mdatain), .opcode(operation), .Cout(Cout)
+            .Mdatain(Mdatain), .opcode(operation), .Cout(Cout),
+            .inPortOut(inPortOut)
     );
 
     // clock generation
@@ -78,16 +78,15 @@ module div_tb;
             Reg_load2a: Present_state = Reg_load2b;
             Reg_load2b: Present_state = Reg_load3a;
             Reg_load3a: Present_state = Reg_load3b;
-            Reg_load3b: Present_state = Reg_load4a;
-            Reg_load4a: Present_state = Reg_load4b;
-            Reg_load4b: Present_state = T0;
+            Reg_load3b: Present_state = T0;
             T0: Present_state = T1;
             T1: Present_state = T2;
             T2: Present_state = T3;
             T3: Present_state = T4;
             T4: Present_state = T5;
-            T5: Present_state = T6; // enable for division/multiplication
-            T6: ; // No next state defined for T6, assuming end of test or loop back to another state
+            T5: Present_state = T6;
+				T6: Present_state = Default; // enable for division/multiplication
+            // No next state defined for T6, assuming end of test or loop back to another state
         endcase
     end
 
@@ -95,76 +94,85 @@ module div_tb;
     always @(Present_state) begin
         case (Present_state)
             Default: begin
-                PCout <= 0; Zlowout <= 0; MDRout <= 0; R4out <= 0; R5out <= 0;
-                MARin <= 0; Zin <= 0; PCin <= 0; MDRin <= 0; IRin <=0; Yin <= 0;
-                IncPC <= 0; Read <= 0; operation <= 0; R4in <= 0; R5in <= 0;
-                Mdatain <= 32'h00000000;
+                PCout <= 0; MDRout <= 0; MARin <= 0; Zin <= 0; 
+                PCin <= 0; MDRin <= 0; IRin <= 0; Yin <= 0;
+                IncPC <= 0; Read <= 0; R1in <= 0; 
+                Cout <= 0; R2in <= 0; R3in <= 0;
+                inPortOut <= 0; clear <= 0;
+                Zlowout <= 0; Zhighout<= 0;
+					 inPortOut <= 0;
+                R0out <= 0; R0in <= 0;
+                R1out <= 0; R1in <= 0;
+                R2out <= 0; R2in <= 0; 
+                R3out <= 0; R3in <= 0;
+                R4out <= 0; R4in <= 0;
+                R5out <= 0; R5in <= 0;
+                R6out <= 0; R6in <= 0;
+                R7out <= 0; R7in <= 0;
+                R8out <= 0; R8in <= 0;
+                R9out <= 0; R9in <= 0;
+                R10out <= 0; R10in <= 0;
+                R11out <= 0; R11in <= 0;
+                R12out <= 0; R12in <= 0;
+                R13out <= 0; R13in <= 0;
+                R14out <= 0; R14in <= 0;
+                R15out <= 0; R15in <= 0;
+                HIout <= 0; HIin <= 0;
+                LOout <= 0; LOin <= 0;
+                Mdatain <= 32'h00000000;  
+                operation <= 5'b01101; //assert nop
+					 inPortOut <= 0;
             end
-            Reg_load1a: begin   
-                Mdatain <= 32'h00000009;  //prepare memory data for R4
-                Read <= 0; MDRin <= 0;
-                #10 Read <= 1; MDRin <= 1;
-                #15 Read <= 0; MDRin <= 0;
+            Reg_load1a: begin   // 1
+                Mdatain <= 32'h00000009;   //prepare memory data for R4
+                Read <= 1; MDRin <= 1;
             end
-            Reg_load1b: begin
-                #10 MDRout <= 1; R4in <= 1; 
-                #15 MDRout <= 0; R4in <= 0; // initialize R4 with the value $9 
+            Reg_load1b: begin //2
+					 Read <= 0; MDRin <= 0;
+                MDRout <= 1; R4in <= 1; 
                 end
-            Reg_load2a: begin 
-                Mdatain <= 32'h00000004;   //prepare memory data for R5
-                #10 Read <= 1; MDRin <= 1; 
-                #15 Read <= 0; MDRin <= 0; 
+            Reg_load2a: begin //3
+					 MDRout <= 0; R4in <= 0; // initialize R4 with the value $9
+                Mdatain <= 32'h00000002;   //prepare memory data for R5
+                Read <= 1; MDRin <= 1; 
             end
-            Reg_load2b: begin
-                #10 MDRout <= 1; R5in <= 1; 
-                #15 MDRout <= 0; R5in <= 0; // initialize R5 with the value $4 
+            Reg_load2b: begin //4
+					 Read <= 0; MDRin <= 0;
+                MDRout <= 1; R5in <= 1; 
             end
-            Reg_load3a: begin 
-                Mdatain <= 32'h00000000;    ////prepare memory data for LO
-                #10 Read <= 1; MDRin <= 1; 
-                #15 Read <= 0; MDRin <= 0;
+            T0: begin // 7
+				    MDRout <= 0; R5in <= 0; // initialize R5 with the value $2
+                PCout <= 1; MARin <= 1; IncPC <= 1; Zin <= 1;    
             end
-            Reg_load3b: begin
-                #10 MDRout <= 1; LOin <= 1; 
-                #15 MDRout <= 0; LOin <= 0; // initialize LO with the value $0?
-            end
-            Reg_load4a: begin 
-                Mdatain <= 32'h00000000;    ////prepare memory data for HI
-                #10 Read <= 1; MDRin <= 1; 
-                #15 Read <= 0; MDRin <= 0;
-            end
-            Reg_load4b: begin
-                #10 MDRout <= 1; HIin <= 1; 
-                #15 MDRout <= 0; HIin <= 0; // initialize HI with the value $0?
-            end
-            T0: begin // see if you need to de-assert these signals
-                PCout <= 1; MARin <= 1; IncPC <= 1; Zin <= 1;
-                #15 PCout <= 0; MARin <= 0; IncPC <= 0; Zin <= 0;
-            end
-            T1: begin
+            T1: begin //8
+				    PCout <= 0; MARin <= 0; IncPC <= 0; Zin <= 0;
                 Zlowout <= 1; PCin <= 1; Read <= 1; MDRin <= 1;
-                Mdatain <= 32'h00000005; // opcode for “div R4, R5”
-                #15 Zlowout <= 0; PCin <= 0; Read <= 0; MDRin <= 0;
+                Mdatain <= 32'b10000_0100_0101_0000000000000000000; // opcode for “div R4, R5”
+                
             end
-            T2: begin
-                MDRout <= 1; IRin <= 1;
-                #15 MDRout <= 0; IRin <= 0;
+            T2: begin //9
+				    Zlowout <= 0; PCin <= 0; Read <= 0; MDRin <= 0;
+                MDRout <= 1; IRin <= 1; 
+                
             end
-            T3: begin
-                R4out <= 1; Yin <= 1;
-                #15 R4out <= 0; Yin <= 0;
+            T3: begin //10
+				      
+					 MDRout <= 0; IRin <= 0;
+                R4out <= 1; Yin <= 1; 
+                
             end
-            T4: begin
-                R5out <= 1; operation <= 5'b00101; Zin <= 1;
-                #15 R5out <= 0; Zin <= 0;
+            T4: begin //11
+				    R4out <= 0; Yin <= 0;
+                R5out <= 1; operation <= 5'b10000; Zin <= 1; 
+                
             end
-            T5: begin
-                Zlowout <= 1; LOin <= 1;
-                #15 Zlowout <= 0; LOin <= 0;          
+            T5: begin //12
+					 R5out <= 0; Zin <= 0; 
+                Zlowout <= 1; LOin <= 1; // expected value: 4 (quotient)
             end
-            T6: begin   //only for division and multiplication
-                Zhighout <= 1; HIin <= 1;
-                #15 Zhighout <= 0; HIin <= 0;
+            T6: begin //13 only for division and multiplication
+                Zlowout <= 0; LOin <= 0;
+					 Zhighout <= 1; HIin <= 1; // expected value: 1 (remainder)
             end
             
             // Continue defining other states similarly...
