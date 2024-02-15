@@ -63,10 +63,14 @@ module add_tb;
     );
 
     // Clock generation
-    initial begin
-        Clock = 0;
-        forever #10 Clock = ~Clock;
-    end
+	 initial begin
+		Clock = 0;
+	 end
+    always #10 Clock = ~Clock;
+//	 initial begin
+//        Clock = 0;
+//        forever #10 Clock = ~Clock;
+//    end
 
     // State transitions
     always @(posedge Clock) begin
@@ -93,7 +97,7 @@ module add_tb;
         case (Present_state)
             Default: begin
                 PCout <= 0; Zlowout <= 0; MDRout <= 0; R2out <= 0; R3out <= 0;
-                MARin <= 0; Zin <= 0; PCin <= 0; MDRin <= 1; IRin <= 0; Yin <= 0;
+                MARin <= 0; Zin <= 0; PCin <= 0; MDRin <= 0; IRin <= 0; Yin <= 0;
                 IncPC <= 0; Read <= 0; operation <= 0; R1in <= 0; R2in <= 0; R3in <= 0;
                 Mdatain <= 32'h00000000;
             end
@@ -143,7 +147,7 @@ module add_tb;
                 #15 R2out <= 0; Yin <= 0;
             end
             T4: begin
-                R3out <= 1; operation <= 5b'00010; Zin <= 1;
+                R3out <= 1; operation <= 5'b00010; Zin <= 1;
                 #15 R3out <= 0; Zin <= 0;
             end
             T5: begin

@@ -96,7 +96,7 @@ module mul_tb;
         case (Present_state)
             Default: begin
                 PCout <= 0; Zlowout <= 0; MDRout <= 0; R4out <= 0; R5out <= 0;
-                MARin <= 0; Zin <= 0; PCin <= 0; MDRin <= 1; IRin <=0; Yin <= 0;
+                MARin <= 0; Zin <= 0; PCin <= 0; MDRin <= 0; IRin <=0; Yin <= 0;
                 IncPC <= 0; Read <= 0; operation <= 0; R4in <= 0; R5in <= 0;
                 Mdatain <= 32'h00000000;
             end
@@ -155,7 +155,7 @@ module mul_tb;
                 #15 R4out <= 0; Yin <= 0;
             end
             T4: begin
-                R5out <= 1; operation <= 5b'00100; Zin <= 1;
+                R5out <= 1; operation <= 5'b00100; Zin <= 1;
                 #15 R5out <= 0; Zin <= 0;
             end
             T5: begin

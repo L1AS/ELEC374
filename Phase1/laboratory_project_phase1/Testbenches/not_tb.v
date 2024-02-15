@@ -1,6 +1,6 @@
 `timescale 1ns / 10ps
 
-module and_tb;
+module not_tb;
     reg Clock, clear, // Clock and clear signal
         PCout, Zlowout, Zhighout, MDRout,  // Control signals
         MARin, Zin, PCin, MDRin, IRin, Yin, // More control signals
@@ -93,7 +93,7 @@ module and_tb;
         case (Present_state)
             Default: begin
                 PCout <= 0; Zlowout <= 0; MDRout <= 0; R6out <= 0; R7out <= 0;
-                MARin <= 0; Zin <= 0; PCin <= 0; MDRin <= 1; IRin <= 0; Yin <= 0;
+                MARin <= 0; Zin <= 0; PCin <= 0; MDRin <= 0; IRin <= 0; Yin <= 0;
                 IncPC <= 0; Read <= 0; operation <= 0; R6in <= 0; R7in <= 0;
                 Mdatain <= 32'h00000000;
             end
@@ -130,7 +130,7 @@ module and_tb;
                 #15 MDRout <= 0; IRin <= 0; 
             end
             T3: begin
-                R7out <= 1; operation <= 5b'01100; Zin <= 1;
+                R7out <= 1; operation <= 5'b01100; Zin <= 1;
                 #15 R7out <= 0; Zin <= 0;
             end
             T4: begin
