@@ -23,7 +23,7 @@ module Datapath (
              MDRout, MDRin, MARin,
              IncPC, inPortOut, Cout, IRin, Yin,
              Read,
-             input[31:0] BusMuxInInport,
+             input[31:0] Mdatain,
              input[4:0] opcode
 );
 
@@ -54,7 +54,8 @@ module Datapath (
               IRout,
               BusMuxInMAR,
               BusMuxOut,
-              MDRMuxOut;
+              MDRMuxOut,
+				  BusMuxInInport;
   wire [4:0] BusMuxSignal;
   wire [63:0] alu_out;
 
@@ -89,7 +90,7 @@ module Datapath (
   register_gen MAR (clear, clock, MARin, BusMuxOut, BusMuxInMAR);
 
   // MDR
-  mux_2_to_1 MDRMux (BusMuxOut, BusMuxInInport, Read, MDRMuxOut);
+  mux_2_to_1 MDRMux (BusMuxOut, Mdatain, Read, MDRMuxOut);
   register_gen MDR (clear, clock, MDRin, MDRMuxOut, BusMuxInMDR);
 
   // Bus

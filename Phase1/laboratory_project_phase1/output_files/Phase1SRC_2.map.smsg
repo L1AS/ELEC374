@@ -1,1 +1,1 @@
-Warning (10268): Verilog HDL information at div_op.v(14): always construct contains both blocking and non-blocking assignments File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/div_op.v Line: 14
+Warning (10268): Verilog HDL information at div_op.v(14): always construct contains both blocking and non-blocking assignments File: C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/ALU/div_op.v Line: 14

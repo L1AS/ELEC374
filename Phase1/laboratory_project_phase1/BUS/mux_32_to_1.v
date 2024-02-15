@@ -34,12 +34,12 @@ always@(*) begin
     5'b01111: BusMuxOut <= BusMuxInR15;
     5'b10000: BusMuxOut <= BusMuxInHI;
     5'b10001: BusMuxOut <= BusMuxInLO;
-    5'b10011: BusMuxOut <= BusMuxInZhigh;
-    5'b10100: BusMuxOut <= BusMuxInZlow;
-    5'b10101: BusMuxOut <= BusMuxInPC;
-    5'b10110: BusMuxOut <= BusMuxInMDR;
-    5'b10111: BusMuxOut <= BusMuxInInport;
-    5'b11000: BusMuxOut <= Csignextended;
+    5'b10010: BusMuxOut <= BusMuxInZhigh;
+    5'b10011: BusMuxOut <= BusMuxInZlow;
+    5'b10100: BusMuxOut <= BusMuxInPC;
+    5'b10101: BusMuxOut <= BusMuxInMDR;
+    5'b10110: BusMuxOut <= BusMuxInInport;
+    5'b10111: BusMuxOut <= Csignextended;
 	  default: BusMuxOut <= 32'd0;
   endcase
 end
