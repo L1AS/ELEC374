@@ -92,9 +92,9 @@ module and_tb;
     always @(Present_state) begin
         case (Present_state)
             Default: begin
-                PCout <= 0; Zlowout <= 0; MDRout <= 0; R2out <= 0; R3out <= 0;
+                PCout <= 0; Zlowout <= 0; MDRout <= 0; R6out <= 0; R7out <= 0;
                 MARin <= 0; Zin <= 0; PCin <= 0; MDRin <= 1; IRin <= 0; Yin <= 0;
-                IncPC <= 0; Read <= 0; AND <= 0; R1in <= 0; R2in <= 0; R3in <= 0;
+                IncPC <= 0; Read <= 0; operation <= 0; R6in <= 0; R7in <= 0;
                 Mdatain <= 32'h00000000;
             end
             Reg_load1a: begin   
@@ -131,7 +131,7 @@ module and_tb;
             end
             T3: begin
                 R7out <= 1; operation <= 5b'01100; Zin <= 1;
-                #15 R7out <= 0; Zin <= 0;  
+                #15 R7out <= 0; Zin <= 0;
             end
             T4: begin
                 Zlowout <= 1; R6in <= 1;

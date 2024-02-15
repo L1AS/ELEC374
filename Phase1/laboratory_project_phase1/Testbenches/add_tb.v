@@ -94,7 +94,7 @@ module add_tb;
             Default: begin
                 PCout <= 0; Zlowout <= 0; MDRout <= 0; R2out <= 0; R3out <= 0;
                 MARin <= 0; Zin <= 0; PCin <= 0; MDRin <= 1; IRin <= 0; Yin <= 0;
-                IncPC <= 0; Read <= 0; AND <= 0; R1in <= 0; R2in <= 0; R3in <= 0;
+                IncPC <= 0; Read <= 0; operation <= 0; R1in <= 0; R2in <= 0; R3in <= 0;
                 Mdatain <= 32'h00000000;
             end
             Reg_load1a: begin   

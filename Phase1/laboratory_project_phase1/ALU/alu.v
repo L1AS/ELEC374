@@ -40,6 +40,7 @@ module alu (
         out_result[63:32] <= 32'b0;
       end
       multiply: begin
+        // maybe split the result into HI and LO?
         out_result <= mul_out;
       end
       divide: begin
