@@ -1,5 +1,5 @@
 Analysis & Elaboration report for Phase1SRC_2
-Thu Feb 15 11:09:26 2024
+Thu Feb 15 11:42:45 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -103,7 +103,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                  ;
 +-------------------------------+-------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Thu Feb 15 11:09:26 2024           ;
+; Analysis & Elaboration Status ; Successful - Thu Feb 15 11:42:45 2024           ;
 ; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                 ; Phase1SRC_2                                     ;
 ; Top-level Entity Name         ; Datapath                                        ;
@@ -863,7 +863,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Thu Feb 15 11:09:15 2024
+    Info: Processing started: Thu Feb 15 11:42:33 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Phase1SRC_2 -c Phase1SRC_2 --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -962,8 +962,8 @@ Info (12128): Elaborating entity "not_op" for hierarchy "alu:ALU|not_op:not_" Fi
 Info (144001): Generated suppressed messages file C:/Users/19tja3/Documents/ELEC374/Phase1/laboratory_project_phase1/output_files/Phase1SRC_2.map.smsg
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 5 warnings
     Info: Peak virtual memory: 4793 megabytes
-    Info: Processing ended: Thu Feb 15 11:09:26 2024
-    Info: Elapsed time: 00:00:11
+    Info: Processing ended: Thu Feb 15 11:42:45 2024
+    Info: Elapsed time: 00:00:12
     Info: Total CPU time (on all processors): 00:00:10
 
 
