@@ -1,5 +1,5 @@
 Flow report for Phase1SRC_2
-Thu Feb 15 09:21:35 2024
+Thu Feb 15 11:09:26 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +-----------------------------+-------------------------------------------------+
-; Flow Status                 ; Successful - Thu Feb 15 09:21:35 2024           ;
+; Flow Status                 ; Successful - Thu Feb 15 11:09:26 2024           ;
 ; Quartus Prime Version       ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name               ; Phase1SRC_2                                     ;
 ; Top-level Entity Name       ; Datapath                                        ;
@@ -62,7 +62,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/15/2024 09:21:25 ;
+; Start date & time ; 02/15/2024 11:09:16 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Phase1SRC_2         ;
 +-------------------+---------------------+
@@ -73,16 +73,76 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 26830026794555.170800688414452         ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 26830026794555.170801335500068         ; --            ; --          ; --             ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; or_tb          ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; neg_tb         ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; add_tb         ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; ror_tb         ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; div_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; and_tb         ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; and_tb                                 ; --            ; --          ; eda_simulation ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; not_tb         ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; shr_tb         ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; rol_tb         ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; shl_tb         ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; mul_tb         ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; sub_tb         ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; shra_tb        ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; sub_tb                                 ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --             ;
 ; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_FILE                  ; Testbenches/or_tb.v                    ; --            ; --          ; or_tb          ;
+; EDA_TEST_BENCH_FILE                  ; Testbenches/neg_tb.v                   ; --            ; --          ; neg_tb         ;
+; EDA_TEST_BENCH_FILE                  ; Testbenches/add_tb.v                   ; --            ; --          ; add_tb         ;
+; EDA_TEST_BENCH_FILE                  ; Testbenches/ror_tb.v                   ; --            ; --          ; ror_tb         ;
+; EDA_TEST_BENCH_FILE                  ; Testbenches/div_tb.v                   ; --            ; --          ; div_tb         ;
 ; EDA_TEST_BENCH_FILE                  ; Testbenches/and_tb.v                   ; --            ; --          ; and_tb         ;
+; EDA_TEST_BENCH_FILE                  ; Testbenches/not_tb.v                   ; --            ; --          ; not_tb         ;
+; EDA_TEST_BENCH_FILE                  ; Testbenches/shr_tb.v                   ; --            ; --          ; shr_tb         ;
+; EDA_TEST_BENCH_FILE                  ; Testbenches/rol_tb.v                   ; --            ; --          ; rol_tb         ;
+; EDA_TEST_BENCH_FILE                  ; Testbenches/shl_tb.v                   ; --            ; --          ; shl_tb         ;
+; EDA_TEST_BENCH_FILE                  ; Testbenches/mul_tb.v                   ; --            ; --          ; mul_tb         ;
+; EDA_TEST_BENCH_FILE                  ; Testbenches/sub_tb.v                   ; --            ; --          ; sub_tb         ;
+; EDA_TEST_BENCH_FILE                  ; Testbenches/shra_tb.v                  ; --            ; --          ; shra_tb        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; or_tb                                  ; --            ; --          ; or_tb          ;
+; EDA_TEST_BENCH_MODULE_NAME           ; neg_tb                                 ; --            ; --          ; neg_tb         ;
+; EDA_TEST_BENCH_MODULE_NAME           ; add_tb                                 ; --            ; --          ; add_tb         ;
+; EDA_TEST_BENCH_MODULE_NAME           ; ror_tb                                 ; --            ; --          ; ror_tb         ;
+; EDA_TEST_BENCH_MODULE_NAME           ; div_tb                                 ; --            ; --          ; div_tb         ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; and_tb                                 ; --            ; --          ; and_tb         ;
+; EDA_TEST_BENCH_MODULE_NAME           ; not_tb                                 ; --            ; --          ; not_tb         ;
+; EDA_TEST_BENCH_MODULE_NAME           ; shr_tb                                 ; --            ; --          ; shr_tb         ;
+; EDA_TEST_BENCH_MODULE_NAME           ; rol_tb                                 ; --            ; --          ; rol_tb         ;
+; EDA_TEST_BENCH_MODULE_NAME           ; shl_tb                                 ; --            ; --          ; shl_tb         ;
+; EDA_TEST_BENCH_MODULE_NAME           ; mul_tb                                 ; --            ; --          ; mul_tb         ;
+; EDA_TEST_BENCH_MODULE_NAME           ; sub_tb                                 ; --            ; --          ; sub_tb         ;
+; EDA_TEST_BENCH_MODULE_NAME           ; shra_tb                                ; --            ; --          ; shra_tb        ;
 ; EDA_TEST_BENCH_NAME                  ; and_tb                                 ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                  ; add_tb                                 ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                  ; div_tb                                 ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                  ; mul_tb                                 ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                  ; neg_tb                                 ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                  ; not_tb                                 ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                  ; sub_tb                                 ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                  ; rol_tb                                 ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                  ; ror_tb                                 ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                  ; shl_tb                                 ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                  ; shr_tb                                 ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                  ; shra_tb                                ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                  ; or_tb                                  ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 250 ns                                 ; --            ; --          ; or_tb          ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 500 ns                                 ; --            ; --          ; neg_tb         ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 500 ns                                 ; --            ; --          ; add_tb         ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 500 ns                                 ; --            ; --          ; ror_tb         ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 500 ns                                 ; --            ; --          ; div_tb         ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 500 ns                                 ; --            ; --          ; and_tb         ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 500 ns                                 ; --            ; --          ; not_tb         ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 500 ns                                 ; --            ; --          ; shr_tb         ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 500 ns                                 ; --            ; --          ; rol_tb         ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 500 ns                                 ; --            ; --          ; shl_tb         ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 500 ns                                 ; --            ; --          ; mul_tb         ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 500 ns                                 ; --            ; --          ; sub_tb         ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 500 ns                                 ; --            ; --          ; shra_tb        ;
 ; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --             ;
@@ -101,8 +161,8 @@ refer to the applicable agreement for further details.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:11     ; 1.0                     ; 4790 MB             ; 00:00:09                           ;
-; Total                  ; 00:00:11     ; --                      ; --                  ; 00:00:09                           ;
+; Analysis & Elaboration ; 00:00:11     ; 1.0                     ; 4793 MB             ; 00:00:10                           ;
+; Total                  ; 00:00:11     ; --                      ; --                  ; 00:00:10                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -1,7 +1,7 @@
 `timescale 1ns / 10ps
 
 module mul_tb;
-    reg Clock, clear, // Clock and clear signal
+    reg clock, clear, // clock and clear signal
         PCout, Zlowout, Zhighout, MDRout,  // Control signals
         MARin, Zin, PCin, MDRin, IRin, Yin, // More control signals
         IncPC, Read, Cout, // Even more control signals
@@ -37,7 +37,7 @@ module mul_tb;
 
     // Instantiate the Device Under Test (DUT)
     Datapath DUT (
-            .clock(Clock), .clear(clear), 
+            .clock(clock), .clear(clear), 
             .R0out(R0out), .R0in(R0in),
             .R1out(R1out), .R1in(R1out),
             .R2out(R2out), .R2in(R2in),
@@ -63,14 +63,14 @@ module mul_tb;
             .Mdatain(Mdatain), .opcode(operation), .Cout(Cout)
     );
 
-    // Clock generation
+    // clock generation
     initial begin
-        Clock = 0;
-        forever #10 Clock = ~Clock;
+        clock = 0;
+        forever #10 clock = ~clock;
     end
 
     // State transitions
-    always @(posedge Clock) begin
+    always @(posedge clock) begin
         case (Present_state)
             Default: Present_state = Reg_load1a;
             Reg_load1a: Present_state = Reg_load1b;

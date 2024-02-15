@@ -5,10 +5,10 @@ module alu (
   output reg [63:0] out_result
 );
 
-  parameter anding = 5'b00000, oring = 5'b00001, addition = 5'b00010, subtraction = 5'b00011,
-            multiply= 5'b00100, divide = 5'b00101, shift_R = 5'b00110, shift_RA= 5'b00111,
-            shift_L = 5'b01000, rotate_R = 5'b01001, rotate_L = 5'b01010, negate = 5'b01011,
-            noting = 5'b01100, nop = 5'b01101;
+  parameter anding = 5'b01010, oring = 5'b01011, addition = 5'b00011, subtraction = 5'b00100,
+            multiply= 5'b01111, divide = 5'b10000, shift_R = 5'b00101, shift_RA= 5'b00110,
+            shift_L = 5'b00111, rotate_R = 5'b01000, rotate_L = 5'b01001, negate = 5'b10001,
+            noting = 5'b10010, nop = 5'b11010;
 
   wire [31:0] IncPC_out, and_out, or_out, add_out, sub_out, shr_out,
               shra_out, shl_out, ror_out, rol_out, neg_out, not_out,
