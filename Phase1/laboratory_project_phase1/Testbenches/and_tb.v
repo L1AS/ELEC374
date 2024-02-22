@@ -131,7 +131,7 @@ module and_tb;
                 MDRout <= 1; R2in <= 1; 
                 end
             Reg_load2a: begin //3
-					 MDRout <= 0; R2in <= 0; // initialize R2 with the value $12
+					 MDRout <= 0; R2in <= 0; // initialize R2 with the value $5
                 Mdatain <= 32'h00000001;   //prepare memory data for R3
                 Read <= 1; MDRin <= 1; 
             end
@@ -140,8 +140,8 @@ module and_tb;
                 MDRout <= 1; R3in <= 1; 
             end
             Reg_load3a: begin //5
-				    MDRout <= 0; R3in <= 0; // initialize R3 with the value $14 
-                Mdatain <= 32'h00000000;      ////prepare memory data for R1
+				    MDRout <= 0; R3in <= 0; // initialize R3 with the value $1
+                Mdatain <= 32'h00000000;      ////prepare memory data for R0
                 Read <= 1; MDRin <= 1; 
             end
             Reg_load3b: begin //6
@@ -149,7 +149,7 @@ module and_tb;
                 MDRout <= 1; R0in <= 1; 
             end
             T0: begin // 7
-				    MDRout <= 0; R0in <= 0; // initialize R1 with the value $18 
+				    MDRout <= 0; R0in <= 0; // initialize R0 with the value $0 
                 PCout <= 1; MARin <= 1; IncPC <= 1; Zin <= 1;    
             end
             T1: begin //8
