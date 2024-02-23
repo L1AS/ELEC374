@@ -38,7 +38,7 @@ module add_tb;
     Datapath DUT (
             .clock(clock), .clear(clear), 
             .R0out(R0out), .R0in(R0in),
-            .R1out(R1out), .R1in(R1out),
+            .R1out(R1out), .R1in(R1in),
             .R2out(R2out), .R2in(R2in),
             .R3out(R3out), .R3in(R3in),
             .R4out(R4out), .R4in(R4in),
@@ -175,6 +175,7 @@ module add_tb;
                 
             end
             T5: begin //12
+					 operation <= 5'b11010; //assert nop
 					 R3out <= 0; Zin <= 0; 
                 Zlowout <= 1; R1in <= 1; 
             end

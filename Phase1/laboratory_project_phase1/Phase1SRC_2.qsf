@@ -120,7 +120,6 @@ set_global_assignment -name VERILOG_FILE Testbenches/neg_tb.v
 set_global_assignment -name VERILOG_FILE Testbenches/mul_tb.v
 set_global_assignment -name VERILOG_FILE Testbenches/div_tb.v
 set_global_assignment -name VERILOG_FILE Testbenches/add_tb.v
-set_global_assignment -name VERILOG_FILE REG/IncPC.v
 set_global_assignment -name VERILOG_FILE Testbenches/and_tb.v
 set_global_assignment -name VERILOG_FILE ALU/b_cell.v
 set_global_assignment -name VERILOG_FILE REG/register_gen.v
@@ -142,6 +141,11 @@ set_global_assignment -name VERILOG_FILE ALU/div_op.v
 set_global_assignment -name VERILOG_FILE ALU/and_op.v
 set_global_assignment -name VERILOG_FILE ALU/alu.v
 set_global_assignment -name VERILOG_FILE ALU/add_op.v
+set_global_assignment -name VERILOG_FILE Testbenches/reg_tb.v
+set_global_assignment -name EDA_TEST_BENCH_NAME reg_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id reg_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME reg_tb -section_id reg_tb
+set_global_assignment -name VERILOG_FILE REG/IncPC.v
 set_global_assignment -name EDA_TEST_BENCH_FILE Testbenches/and_tb.v -section_id and_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE Testbenches/add_tb.v -section_id add_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE Testbenches/div_tb.v -section_id div_tb
@@ -155,4 +159,5 @@ set_global_assignment -name EDA_TEST_BENCH_FILE Testbenches/shl_tb.v -section_id
 set_global_assignment -name EDA_TEST_BENCH_FILE Testbenches/shr_tb.v -section_id shr_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE Testbenches/shra_tb.v -section_id shra_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE Testbenches/or_tb.v -section_id or_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE Testbenches/reg_tb.v -section_id reg_tb
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

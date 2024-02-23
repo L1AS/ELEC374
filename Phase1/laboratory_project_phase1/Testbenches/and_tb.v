@@ -30,7 +30,7 @@ module and_tb;
     parameter Default = 4'b0000, Reg_load1a = 4'b0001, Reg_load1b = 4'b0010, 
               Reg_load2a = 4'b0011, Reg_load2b = 4'b0100, Reg_load3a = 4'b0101, 
               Reg_load3b = 4'b0110, T0 = 4'b0111, T1 = 4'b1000, T2 = 4'b1001, 
-              T3 = 4'b1010, T4 = 4'b1011, T5 = 4'b1100;
+              T3 = 4'b1010, T4 = 4'b1011, T5 = 4'b1100, T6 = 4'b1101;
     
     reg [3:0] Present_state = Default;
 
@@ -38,7 +38,7 @@ module and_tb;
     Datapath DUT (
             .clock(clock), .clear(clear), 
             .R0out(R0out), .R0in(R0in),
-            .R1out(R1out), .R1in(R1out),
+            .R1out(R1out), .R1in(R1in),
             .R2out(R2out), .R2in(R2in),
             .R3out(R3out), .R3in(R3in),
             .R4out(R4out), .R4in(R4in),
@@ -84,8 +84,8 @@ module and_tb;
             T2: Present_state = T3;
             T3: Present_state = T4;
             T4: Present_state = T5;
-            T5: Present_state = Default;//Present_state = T6; // enable for division/multiplication
-            // T6: ; // No next state defined for T6, assuming end of test or loop back to another state
+            T5: Present_state = Default;// enable for division/multiplication
+            T6: ; // No next state defined for T6, assuming end of test or loop back to another state
         endcase
     end
 
@@ -141,15 +141,15 @@ module and_tb;
             end
             Reg_load3a: begin //5
 				    MDRout <= 0; R3in <= 0; // initialize R3 with the value $1
-                Mdatain <= 32'h00000000;      ////prepare memory data for R0
+                Mdatain <= 32'h00000002;      ////prepare memory data for R1
                 Read <= 1; MDRin <= 1; 
             end
             Reg_load3b: begin //6
 				    Read <= 0; MDRin <= 0;    
-                MDRout <= 1; R0in <= 1; 
+                MDRout <= 1; R1in <= 1; 
             end
             T0: begin // 7
-				    MDRout <= 0; R0in <= 0; // initialize R0 with the value $0 
+				    MDRout <= 0; R1in <= 0; // initialize R0 with the value $0 
                 PCout <= 1; MARin <= 1; IncPC <= 1; Zin <= 1;    
             end
             T1: begin //8
@@ -178,9 +178,9 @@ module and_tb;
 					 R3out <= 0; Zin <= 0; 
                 Zlowout <= 1; R1in <= 1; 
             end
-            // T6: begin   //only for division and multiplication
-            //     Zhighout <= 1;
-            // end
+//            T6: begin   //only for division and multiplication
+//					 
+//            end
             
             // Continue defining other states similarly...
         endcase

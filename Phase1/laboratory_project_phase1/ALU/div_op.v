@@ -38,7 +38,7 @@ module div_op(
     if (combined[63] == 1) remainder <= combined[63:32] + M; // Adjust the remainder
     else remainder <= combined[63:32]; 
 	  quotient <= negative ? -combined[31:0] : combined[31:0];
-	  if(divbyzero) quotient <= 32'h7FFFFFFF;
+	  if(divbyzero) quotient <= 32'hFFFFFFFF;
   end
   
 endmodule

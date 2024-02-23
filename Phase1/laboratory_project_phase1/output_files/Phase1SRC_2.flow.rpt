@@ -1,5 +1,5 @@
 Flow report for Phase1SRC_2
-Thu Feb 15 17:33:21 2024
+Fri Feb 23 11:44:21 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------+
 ; Flow Summary                                                              ;
 +-----------------------------+---------------------------------------------+
-; Flow Status                 ; Successful - Thu Feb 15 17:33:21 2024       ;
+; Flow Status                 ; Successful - Fri Feb 23 11:44:21 2024       ;
 ; Quartus Prime Version       ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name               ; Phase1SRC_2                                 ;
 ; Top-level Entity Name       ; Datapath                                    ;
@@ -62,7 +62,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/15/2024 17:33:10 ;
+; Start date & time ; 02/23/2024 11:44:06 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Phase1SRC_2         ;
 +-------------------+---------------------+
@@ -73,7 +73,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 229436443761793.170803638918300        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 24580031108013.170870664519056         ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; or_tb          ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; neg_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; add_tb         ;
@@ -83,6 +83,7 @@ refer to the applicable agreement for further details.
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; not_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; shr_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; rol_tb         ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; reg_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; shl_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; mul_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; sub_tb         ;
@@ -100,6 +101,7 @@ refer to the applicable agreement for further details.
 ; EDA_TEST_BENCH_FILE                  ; Testbenches/not_tb.v                   ; --            ; --          ; not_tb         ;
 ; EDA_TEST_BENCH_FILE                  ; Testbenches/shr_tb.v                   ; --            ; --          ; shr_tb         ;
 ; EDA_TEST_BENCH_FILE                  ; Testbenches/rol_tb.v                   ; --            ; --          ; rol_tb         ;
+; EDA_TEST_BENCH_FILE                  ; Testbenches/reg_tb.v                   ; --            ; --          ; reg_tb         ;
 ; EDA_TEST_BENCH_FILE                  ; Testbenches/shl_tb.v                   ; --            ; --          ; shl_tb         ;
 ; EDA_TEST_BENCH_FILE                  ; Testbenches/mul_tb.v                   ; --            ; --          ; mul_tb         ;
 ; EDA_TEST_BENCH_FILE                  ; Testbenches/sub_tb.v                   ; --            ; --          ; sub_tb         ;
@@ -113,6 +115,7 @@ refer to the applicable agreement for further details.
 ; EDA_TEST_BENCH_MODULE_NAME           ; not_tb                                 ; --            ; --          ; not_tb         ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; shr_tb                                 ; --            ; --          ; shr_tb         ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; rol_tb                                 ; --            ; --          ; rol_tb         ;
+; EDA_TEST_BENCH_MODULE_NAME           ; reg_tb                                 ; --            ; --          ; reg_tb         ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; shl_tb                                 ; --            ; --          ; shl_tb         ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; mul_tb                                 ; --            ; --          ; mul_tb         ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; sub_tb                                 ; --            ; --          ; sub_tb         ;
@@ -130,6 +133,7 @@ refer to the applicable agreement for further details.
 ; EDA_TEST_BENCH_NAME                  ; shr_tb                                 ; --            ; --          ; eda_simulation ;
 ; EDA_TEST_BENCH_NAME                  ; shra_tb                                ; --            ; --          ; eda_simulation ;
 ; EDA_TEST_BENCH_NAME                  ; or_tb                                  ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                  ; reg_tb                                 ; --            ; --          ; eda_simulation ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 250 ns                                 ; --            ; --          ; or_tb          ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 500 ns                                 ; --            ; --          ; neg_tb         ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 500 ns                                 ; --            ; --          ; add_tb         ;
@@ -161,8 +165,8 @@ refer to the applicable agreement for further details.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:12     ; 1.0                     ; 4781 MB             ; 00:00:29                           ;
-; Total                  ; 00:00:12     ; --                      ; --                  ; 00:00:29                           ;
+; Analysis & Elaboration ; 00:00:17     ; 1.0                     ; 4785 MB             ; 00:00:16                           ;
+; Total                  ; 00:00:17     ; --                      ; --                  ; 00:00:16                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -171,7 +175,7 @@ refer to the applicable agreement for further details.
 +------------------------+------------------+------------+------------+----------------+
 ; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +------------------------+------------------+------------+------------+----------------+
-; Analysis & Elaboration ; SHENGHAO-TP      ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Elaboration ; Tristan-PC       ; Windows 10 ; 10.0       ; x86_64         ;
 +------------------------+------------------+------------+------------+----------------+
 
 

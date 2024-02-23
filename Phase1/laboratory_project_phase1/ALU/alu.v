@@ -77,13 +77,13 @@ module alu (
       end
     endcase
 
-    // if(IncPC) begin
-		//   out_result[31:0] <= IncPC_out;
-		//   out_result[63:32] <= 32'b0;
-	  // end 
+    if(IncPC) begin
+		out_result[31:0] <= IncPC_out;
+	   out_result[63:32] <= 32'b0;
+	 end 
   end
-
-  //IncPC pc_inc(A_reg, IncPC, IncPC_out);
+  
+  IncPC pc_inc(A_reg, IncPC, IncPC_out);
   add_op add (A_reg, B_reg, 1'b0, add_out); // DONE
   sub_op sub (A_reg, B_reg, sub_out); // TODO
   mul_op dul (A_reg, B_reg, mul_out); // TODO

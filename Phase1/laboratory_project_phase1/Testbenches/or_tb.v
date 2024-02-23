@@ -38,7 +38,7 @@ module or_tb;
     Datapath DUT (
             .clock(clock), .clear(clear), 
             .R0out(R0out), .R0in(R0in),
-            .R1out(R1out), .R1in(R1out),
+            .R1out(R1out), .R1in(R1in),
             .R2out(R2out), .R2in(R2in),
             .R3out(R3out), .R3in(R3in),
             .R4out(R4out), .R4in(R4in),
