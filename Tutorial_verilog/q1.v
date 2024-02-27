@@ -8,5 +8,5 @@ module comb #(
     or(F, S2, S3);
     and(S2, WO, S1);
     and(S3, S, W1);
-    not(S1, S);
+    not(S1, S);d
 endmodule
