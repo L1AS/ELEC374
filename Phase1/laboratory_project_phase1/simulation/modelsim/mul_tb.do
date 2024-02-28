@@ -1,5 +1,8 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
+add wave -noupdate -radix hexadecimal /mul_tb/Mdatain
+add wave -noupdate /mul_tb/operation
+add wave -noupdate -radix unsigned /mul_tb/Present_state
 add wave -noupdate /mul_tb/clock
 add wave -noupdate -radix unsigned /mul_tb/Present_state
 add wave -noupdate /mul_tb/operation
@@ -20,8 +23,10 @@ add wave -noupdate -radix hexadecimal /mul_tb/DUT/Yout
 add wave -noupdate /mul_tb/Yin
 add wave -noupdate /mul_tb/R4out
 add wave -noupdate -radix hexadecimal /mul_tb/DUT/BusMuxInR4
+add wave -noupdate /mul_tb/R4in
 add wave -noupdate /mul_tb/R5out
 add wave -noupdate -radix hexadecimal /mul_tb/DUT/BusMuxInR5
+add wave -noupdate /mul_tb/R5in
 add wave -noupdate /mul_tb/Zlowout
 add wave -noupdate -radix hexadecimal /mul_tb/DUT/BusMuxInZlow
 add wave -noupdate /mul_tb/Zhighout
@@ -35,7 +40,7 @@ add wave -noupdate /mul_tb/LOout
 add wave -noupdate -radix hexadecimal /mul_tb/DUT/BusMuxInLO
 add wave -noupdate /mul_tb/LOin
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {301428 ps} 0}
+WaveRestoreCursors {{Cursor 1} {298531 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 180
 configure wave -valuecolwidth 40

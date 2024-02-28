@@ -22,8 +22,10 @@ add wave -noupdate -radix hexadecimal /and_tb/DUT/BusMuxInR1
 add wave -noupdate /and_tb/R1in
 add wave -noupdate /and_tb/R2out
 add wave -noupdate -radix hexadecimal /and_tb/DUT/BusMuxInR2
+add wave -noupdate /and_tb/R2in
 add wave -noupdate /and_tb/R3out
 add wave -noupdate -radix hexadecimal /and_tb/DUT/BusMuxInR3
+add wave -noupdate /and_tb/R3in
 add wave -noupdate /and_tb/Zlowout
 add wave -noupdate -radix hexadecimal /and_tb/DUT/BusMuxInZlow
 add wave -noupdate /and_tb/Zin
