@@ -1,7 +1,7 @@
 // 32-to-5 Encoder for the bus 
 module encoder_32_to_5 (
-  input wire [31:0] encoderInput,
-  output [4:0] encodedOutput
+  output [4:0] encodedOutput,
+  input wire [31:0] encoderInput
 );
     reg [4:0] encoded_value;
 

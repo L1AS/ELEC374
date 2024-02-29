@@ -1,6 +1,6 @@
 module div_op(
-  input [31:0] A_reg, B_reg,
-  output reg [31:0] remainder, quotient 
+  output reg [31:0] remainder, quotient,
+  input [31:0] A_reg, B_reg
 );
   reg [31:0] M;
   reg [63:0] combined;

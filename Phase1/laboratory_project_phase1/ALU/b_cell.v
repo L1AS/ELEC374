@@ -1,6 +1,6 @@
 module b_cell (
-    input in_A, in_B, Cin, 
-    output out_Sum, Cout
+    output out_Sum, Cout,
+    input in_A, in_B, Cin
 );
 
 wire w1, w2, w3;

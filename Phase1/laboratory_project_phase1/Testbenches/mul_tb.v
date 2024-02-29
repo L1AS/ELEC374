@@ -124,7 +124,7 @@ module mul_tb;
 					 inPortOut <= 0;
             end
             Reg_load1a: begin   // 1
-                Mdatain <= 32'h0x8895_8000;   //prepare memory data for R4
+                Mdatain <= 32'h0x000F_0005;   //prepare memory data for R4
                 Read <= 1; MDRin <= 1;
             end
             Reg_load1b: begin //2
@@ -133,7 +133,7 @@ module mul_tb;
                 end
             Reg_load2a: begin //3
 					 MDRout <= 0; R4in <= 0; // initialize R4 with the value $5
-                Mdatain <= 32'h0x8895_8000;   //prepare memory data for R5
+                Mdatain <= 32'h0x000F_0002;   //prepare memory data for R5
                 Read <= 1; MDRin <= 1; 
             end
             Reg_load2b: begin //4

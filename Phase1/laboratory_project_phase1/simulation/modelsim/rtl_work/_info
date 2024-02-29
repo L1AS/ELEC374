@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/simulation/modelsim
 vadd_op
-Z1 !s110 1709169595
+Z1 !s110 1709173738
 !i10b 1
-!s100 f;VMQ_?@1@UkzG?KLz<@M0
-I]^7g5lJe^NX^3>FOPM=a:0
+!s100 OnhkjX@k?YWI^=Poh_;G<0
+IzbbaY@7lDEJ_H=RkAiP]02
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1707936181
+w1709171625
 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/add_op.v
 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/add_op.v
 L0 1
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1709169595.000000
+Z4 !s108 1709173738.000000
 !s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/add_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/add_op.v|
 !i113 1
@@ -33,11 +33,11 @@ Z7 tCvgOpt 0
 valu
 R1
 !i10b 1
-!s100 gGeZeacE[C`GA3QEdW5z82
-IET[4amkaiJBVM3RIeNo330
+!s100 J?^b]kP@f_=I6a0EHN;>Z3
+I0gfU5k1a8_hAE8WX6GzbB3
 R2
 R0
-w1708704007
+w1709173522
 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v
 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v
 L0 1
@@ -55,11 +55,11 @@ R7
 vand_op
 R1
 !i10b 1
-!s100 9zMVolEVQ>=5_AD6SnG5_0
-If0M=25N3a7mR>_H_TEHVa0
+!s100 6`>]iL^HdICgnnXj^D2LA0
+IQ[=n<>2^H9PQBS8KSmhl00
 R2
 R0
-w1707872322
+w1709171670
 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/and_op.v
 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/and_op.v
 L0 1
@@ -75,13 +75,13 @@ R5
 R6
 R7
 vb_cell
-!s110 1709169593
+Z8 !s110 1709173737
 !i10b 1
-!s100 8[:kPof^j0ZV5AE=i7=Xl1
-I<_DK3OiEcX;0Z7>:65mF^1
+!s100 lc>Xm6OYng>Zn>NDOAlVF2
+If7Kd0=UM5P?Gb15d]m;:e1
 R2
 R0
-w1707936261
+w1709171664
 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/b_cell.v
 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/b_cell.v
 L0 1
@@ -89,7 +89,7 @@ R3
 r1
 !s85 0
 31
-Z8 !s108 1709169593.000000
+Z9 !s108 1709173737.000000
 !s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/b_cell.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/b_cell.v|
 !i113 1
@@ -97,13 +97,13 @@ R5
 R6
 R7
 vDatapath
-Z9 !s110 1709169594
+R8
 !i10b 1
-!s100 _@9Q8RGE_U^L8031BfQJ22
-IcCJU4j:R6]^j782AIJ^4A0
+!s100 ;G;GQohFMl_B`GCYHTaEZ0
+INTK4nFgVe7cYMzZSTE9ST2
 R2
 R0
-w1709165648
+w1709173498
 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v
 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v
 L0 1
@@ -111,22 +111,22 @@ R3
 r1
 !s85 0
 31
-Z10 !s108 1709169594.000000
+R9
 !s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v|
 !i113 1
 R5
-Z11 !s92 -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS
+Z10 !s92 -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS
 R7
 n@datapath
 vdiv_op
 R1
 !i10b 1
-!s100 Cc=2iN<^MCoGWL8SRDQUa0
-I@A^FzUAQ`;0V`@mY;Sg:l3
+!s100 T=NdHl<c=_?9f7YJfU3dK3
+IO4>`N4:Zozb4hcF58oE022
 R2
 R0
-w1709167991
+w1709171681
 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/div_op.v
 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/div_op.v
 L0 1
@@ -142,13 +142,13 @@ R5
 R6
 R7
 vencoder_32_to_5
-R9
+R8
 !i10b 1
-!s100 odVbBWL=DPb[]PL;HCReO1
-I:JVKJ1o3Ri3YY59P7HK;`2
+!s100 mC>jSB[S[WkS07J<;RGGg2
+IcBeIk@ZgkT=>FC5J5@9DT0
 R2
 R0
-w1707959341
+w1709172365
 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/encoder_32_to_5.v
 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/encoder_32_to_5.v
 L0 2
@@ -156,21 +156,21 @@ R3
 r1
 !s85 0
 31
-R10
+R9
 !s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/encoder_32_to_5.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/encoder_32_to_5.v|
 !i113 1
 R5
-R11
+R10
 R7
 vIncPC
 R1
 !i10b 1
-!s100 E^zXPMaZgaiiG4k_=iIie1
-IH>>mAd9k`Y3<8@<D@aPiQ2
+!s100 2GOz]M8l[N5b5USBm=e4d1
+IYZaY4CDVc1>g@ngoF0dU@3
 R2
 R0
-w1708703928
+w1709171554
 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/REG/IncPC.v
 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/REG/IncPC.v
 L0 1
@@ -183,17 +183,17 @@ R4
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/REG|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/REG/IncPC.v|
 !i113 1
 R5
-Z12 !s92 -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/REG
+Z11 !s92 -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/REG
 R7
 n@inc@p@c
 vmul_op
 R1
 !i10b 1
-!s100 bgHPz]_iO3D]jdX?2aEI92
-I6;DloS=8:gmYYXg7PWIQB3
+!s100 bDPQQnE>^=BU2K_[9EX]C3
+I_USI]51nA<9:]Zb:SgS6O1
 R2
 R0
-w1709169554
+w1709173050
 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v
 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v
 L0 1
@@ -211,11 +211,11 @@ R7
 vmul_tb
 R1
 !i10b 1
-!s100 dNYPT4>Y_0WHcD:PaWel^3
-IMRAR=XW`NJn>[3JDRP[n=1
+!s100 ho;ZLPCFR8`RV6cEJ>z4C0
+Icmi>F_0^Ka1=Wz_9F2]nD3
 R2
 R0
-w1708721361
+w1709173730
 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/Testbenches/mul_tb.v
 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/Testbenches/mul_tb.v
 L0 3
@@ -231,13 +231,13 @@ R5
 !s92 -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/Testbenches
 R7
 vmux_2_to_1
-R9
+R8
 !i10b 1
-!s100 3WgPM9n8BMm:ecU_7N5Vc3
-I5<Sn30b2MdQIYeR^8T`T;0
+!s100 cZkP=MBBACFD:b;I]6MS>0
+I5PiVUmJ4O>VIg44e?Yj0l0
 R2
 R0
-w1707879871
+w1709172244
 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_2_to_1.v
 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_2_to_1.v
 L0 3
@@ -245,21 +245,21 @@ R3
 r1
 !s85 0
 31
-R10
+R9
 !s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_2_to_1.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_2_to_1.v|
 !i113 1
 R5
-R11
+R10
 R7
 vmux_32_to_1
-R9
+R8
 !i10b 1
-!s100 N<Hdz;LejgJ7JnB<>80>b2
-In_VV1iSHOkUL96:dY0ai=1
+!s100 g45`o5S;Iaz=gHk71W_X41
+IhmKBGZa?G[A6c>306fAcf3
 R2
 R0
-Z13 w1708021091
+w1709172453
 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_32_to_1.v
 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_32_to_1.v
 L0 3
@@ -267,21 +267,21 @@ R3
 r1
 !s85 0
 31
-R10
+R9
 !s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_32_to_1.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_32_to_1.v|
 !i113 1
 R5
-R11
+R10
 R7
 vneg_op
 R1
 !i10b 1
-!s100 UnR5ZW68zobEU29_C8aze1
-I]?f;QZ5;o4k2Da<N8AhH40
+!s100 8Vj[?VokZiFPdAdaD7K^z3
+IRIClbY6Z?0AjRmKHh2WDS1
 R2
 R0
-Z14 w1707872342
+w1709171716
 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/neg_op.v
 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/neg_op.v
 L0 1
@@ -297,13 +297,13 @@ R5
 R6
 R7
 vnot_op
-R9
+R1
 !i10b 1
-!s100 iJO:>:eaU4Ga0g5kPY31<2
-IhlEDIh=@ZQZLzSY^YWI[k3
+!s100 Mo24053V[S5Q;16^Y9[?c0
+IjiXE01f1KlNA73n2T_i7E1
 R2
 R0
-R14
+w1709171726
 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/not_op.v
 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/not_op.v
 L0 1
@@ -311,7 +311,7 @@ R3
 r1
 !s85 0
 31
-R10
+R4
 !s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/not_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/not_op.v|
 !i113 1
@@ -319,13 +319,13 @@ R5
 R6
 R7
 vor_op
-R9
+R1
 !i10b 1
-!s100 ^hmEJ=WfWN3HI09>?`3YY3
-IeEZVR1oaKL?E:>Y2OkiE22
+!s100 WCiF4ofcLLgL];YRmQcfk1
+IdlVFi0_KTj^:8J`4@30a<3
 R2
 R0
-R14
+w1709171741
 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/or_op.v
 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/or_op.v
 L0 1
@@ -333,7 +333,7 @@ R3
 r1
 !s85 0
 31
-R10
+R4
 !s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/or_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/or_op.v|
 !i113 1
@@ -341,13 +341,13 @@ R5
 R6
 R7
 vregister_gen
-R9
+R8
 !i10b 1
-!s100 NVEHf0QkJ7bo`LLcJNLiF1
-Ij=kz5hc=VCN@TVXICicQR3
+!s100 KoJZmDD?CQ`c>[3_bJ9HV3
+IY<;d_>aJml_b4_i3U19U90
 R2
 R0
-R14
+w1709171240
 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/REG/register_gen.v
 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/REG/register_gen.v
 L0 1
@@ -355,21 +355,21 @@ R3
 r1
 !s85 0
 31
-R8
+R9
 !s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/REG/register_gen.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/REG|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/REG/register_gen.v|
 !i113 1
 R5
-R12
+R11
 R7
 vrol_op
-R9
+R1
 !i10b 1
-!s100 hGG0a4NY[24lc`d`cHmCz2
-IMKDlJiM?Le^6BL@JWITDB3
+!s100 S`AYnY;5zXmdWS]J;CBU@2
+IGM4Vi_Mol^EVRF<fSkkJ>1
 R2
 R0
-R14
+w1709171750
 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/rol_op.v
 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/rol_op.v
 L0 1
@@ -377,7 +377,7 @@ R3
 r1
 !s85 0
 31
-R10
+R4
 !s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/rol_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/rol_op.v|
 !i113 1
@@ -385,13 +385,13 @@ R5
 R6
 R7
 vror_op
-R9
+R1
 !i10b 1
-!s100 =jVL;U5V?=VE[Y?jKP_P30
-I[T`ohV@@8;5V_<VA9[Kn`0
+!s100 So57dZLZ1JR5gSDoFJEl30
+Ibd06JkYn^Rl0AcHoTV4Tf3
 R2
 R0
-R14
+w1709171758
 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/ror_op.v
 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/ror_op.v
 L0 1
@@ -399,7 +399,7 @@ R3
 r1
 !s85 0
 31
-R10
+R9
 !s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/ror_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/ror_op.v|
 !i113 1
@@ -407,13 +407,13 @@ R5
 R6
 R7
 vshl_op
-R9
+R8
 !i10b 1
-!s100 OjK;<z?T3FmnZMDQ=OQ?42
-IHgcgQMmU5]1VoNh>gl;iM0
+!s100 GB>SDVSLg7ikjCjnVOVfb1
+IN[N5g:^bb4kUM[anc3iUD1
 R2
 R0
-R13
+w1709171767
 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/shl_op.v
 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/shl_op.v
 L0 1
@@ -421,7 +421,7 @@ R3
 r1
 !s85 0
 31
-R10
+R9
 !s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/shl_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/shl_op.v|
 !i113 1
@@ -429,13 +429,13 @@ R5
 R6
 R7
 vshr_op
-R9
+R8
 !i10b 1
-!s100 d^3S:XB:_<@0YjQ6:9GAi2
-IU1gNkCM8TciBZK;NCDO2Q2
+!s100 =1>z<hQfgBXZV^DkRfZBj2
+IgZdL:=kXCEa[BO<o3?<;C3
 R2
 R0
-R13
+w1709171777
 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/shr_op.v
 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/shr_op.v
 L0 1
@@ -443,7 +443,7 @@ R3
 r1
 !s85 0
 31
-R10
+R9
 !s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/shr_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/shr_op.v|
 !i113 1
@@ -451,13 +451,13 @@ R5
 R6
 R7
 vshra_op
-R9
+R8
 !i10b 1
-!s100 g55icY<L>l;;_F0inf=b`2
-IaD7??hP?eIMEAhz<8MfBD3
+!s100 kASBK?^hG1flUHm2@=C][2
+Ig^1Dbeo6DfjaDl47Hl=TI0
 R2
 R0
-w1708021121
+w1709173078
 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/shra_op.v
 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/shra_op.v
 L0 1
@@ -465,7 +465,7 @@ R3
 r1
 !s85 0
 31
-R10
+R9
 !s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/shra_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/shra_op.v|
 !i113 1
@@ -473,13 +473,13 @@ R5
 R6
 R7
 vsub_op
-R9
+R8
 !i10b 1
-!s100 W47hZEkbfnf1iVaIaBXY_1
-IQAhHYkB4^]JQ1UcNbhIPU1
+!s100 RiGimI=d@7OfQZ<ni8KG<1
+IEPY<k3im70nZ]hlNAEcm>3
 R2
 R0
-w1707879907
+w1709171808
 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/sub_op.v
 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/sub_op.v
 L0 1
@@ -487,7 +487,7 @@ R3
 r1
 !s85 0
 31
-R10
+R9
 !s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/sub_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/sub_op.v|
 !i113 1

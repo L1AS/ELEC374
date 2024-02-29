@@ -1,6 +1,6 @@
 module mul_op(
-    input signed [31:0] A_reg, B_reg, 
-    output [63:0] mul_out       
+  output [63:0] mul_out,
+  input signed [31:0] A_reg, B_reg        
 );
 
 	

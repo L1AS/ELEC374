@@ -1,7 +1,7 @@
 module add_op#(parameter WIDTH = 32)(
+	output signed [WIDTH-1:0] add_out,
 	input signed [WIDTH-1:0] A_reg, B_reg,
-	input Cin,  // carry in
-	output signed [WIDTH-1:0] add_out
+	input Cin  // carry in
 	// output [WIDTH:0] Cout
 );
 
