@@ -1,8 +1,6 @@
 module and_op (
-  input wire[31:0] Areg, Breg,
-  output wire[31:0] Andout
+  input wire[31:0] A_reg, B_reg,
+  output wire[31:0] and_out
 );
-
-  assign Andout = Areg & Breg;
-  
+  assign and_out = A_reg & B_reg;
 endmodule

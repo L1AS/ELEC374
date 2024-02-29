@@ -1,7 +1,7 @@
 module add_op#(parameter WIDTH = 32)(
-	input signed [WIDTH-1:0] in_add1, in_add2,
+	input signed [WIDTH-1:0] A_reg, B_reg,
 	input Cin,  // carry in
-	output signed [WIDTH-1:0] out_Sum
+	output signed [WIDTH-1:0] add_out
 	// output [WIDTH:0] Cout
 );
 
@@ -14,8 +14,8 @@ module add_op#(parameter WIDTH = 32)(
 		for (i = 0; i < WIDTH; i = i + 1) 
 		begin: gen_sum
 			b_cell b_cell_i (
-				.in_A (in_add1[i]),
-				.in_B (in_add2[i]),
+				.in_A (A_reg[i]),
+				.in_B (B_reg[i]),
 				.Cin (wire_C[i]),
 				.out_Sum (wire_SUM[i]),
 				.Cout()
@@ -30,14 +30,14 @@ module add_op#(parameter WIDTH = 32)(
 	generate
 		for (j = 0; j < WIDTH; j = j + 1)
 		begin: gen_genrate_terms
-			assign wire_G[j] = in_add1[j] & in_add2[j];
-			assign wire_P[j] = in_add1[j] ^ in_add2[j];
+			assign wire_G[j] = A_reg[j] & B_reg[j];
+			assign wire_P[j] = A_reg[j] ^ B_reg[j];
 			assign wire_C[j+1] = wire_G[j] | (wire_P[j] & wire_C[j]);    
 		end
 	endgenerate
 
 	// Assign cla result and carry out
-	assign out_Sum = wire_SUM [WIDTH-1:0];
+	assign add_out = wire_SUM [WIDTH-1:0];
 	// assign Cout = wire_C [WIDTH:0];
 
 endmodule

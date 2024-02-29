@@ -55,7 +55,7 @@ module Datapath (
               BusMuxInMAR,
               BusMuxOut,
               MDRMuxOut,
-				  BusMuxInInport;
+				      BusMuxInInport;
   wire [4:0] BusMuxSignal;
   wire [63:0] alu_out;
 
@@ -87,9 +87,8 @@ module Datapath (
   register_gen PC (clear, clock, PCin, BusMuxOut, BusMuxInPC);
   register_gen IR (clear, clock, IRin, BusMuxOut, IRout);
 
+  // RAM interface
   register_gen MAR (clear, clock, MARin, BusMuxOut, BusMuxInMAR);
-
-  // MDR
   mux_2_to_1 MDRMux (BusMuxOut, Mdatain, Read, MDRMuxOut);
   register_gen MDR (clear, clock, MDRin, MDRMuxOut, BusMuxInMDR);
 

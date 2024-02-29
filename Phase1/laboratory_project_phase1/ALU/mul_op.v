@@ -10,7 +10,7 @@ module mul_op(
 	reg [63:0] prod;	// finall product
 
 	integer i, j; 
-	wire [32:0] inv_A = {~A_reg[31], ~A_reg} + 1; 
+	wire [32:0] inv_A = {~A_reg[31], -A_reg};
 	
 	always @(*) begin
 		contc[0] = {B_reg[1], B_reg[0], 1'b0}; // initialize control code for LSBs
@@ -32,9 +32,8 @@ module mul_op(
 				spartp[j] = {spartp[j], 2'b00}; // Align partial product
 		end
 	
-
-		prod = spartp[0];
-		for (j=1; j < 16; j = j+1)
+    prod = 32'b0;
+		for (j=0; j < 16; j = j+1)
 			prod = prod + spartp[j]; // Accumulate
 	end
 	
