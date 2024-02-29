@@ -1,6 +1,6 @@
 Analysis & Elaboration report for Phase1SRC_2
-Wed Feb 28 21:25:35 2024
-Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Thu Feb 29 09:11:59 2024
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
 ---------------------
@@ -100,22 +100,22 @@ refer to the applicable agreement for further details.
 
 
 
-+-----------------------------------------------------------------------------+
-; Analysis & Elaboration Summary                                              ;
-+-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Wed Feb 28 21:25:35 2024       ;
-; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
-; Revision Name                 ; Phase1SRC_2                                 ;
-; Top-level Entity Name         ; Datapath                                    ;
-; Family                        ; Cyclone V                                   ;
-; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
-; Total registers               ; N/A until Partition Merge                   ;
-; Total pins                    ; N/A until Partition Merge                   ;
-; Total virtual pins            ; N/A until Partition Merge                   ;
-; Total block memory bits       ; N/A until Partition Merge                   ;
-; Total PLLs                    ; N/A until Partition Merge                   ;
-; Total DLLs                    ; N/A until Partition Merge                   ;
-+-------------------------------+---------------------------------------------+
++---------------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                                  ;
++-------------------------------+-------------------------------------------------+
+; Analysis & Elaboration Status ; Successful - Thu Feb 29 09:11:59 2024           ;
+; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
+; Revision Name                 ; Phase1SRC_2                                     ;
+; Top-level Entity Name         ; Datapath                                        ;
+; Family                        ; Cyclone V                                       ;
+; Logic utilization (in ALMs)   ; N/A until Partition Merge                       ;
+; Total registers               ; N/A until Partition Merge                       ;
+; Total pins                    ; N/A until Partition Merge                       ;
+; Total virtual pins            ; N/A until Partition Merge                       ;
+; Total block memory bits       ; N/A until Partition Merge                       ;
+; Total PLLs                    ; N/A until Partition Merge                       ;
+; Total DLLs                    ; N/A until Partition Merge                       ;
++-------------------------------+-------------------------------------------------+
 
 
 +------------------------------------------+
@@ -123,8 +123,8 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 16          ;
-; Maximum allowed            ; 16          ;
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -533,292 +533,325 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+-------+----------+-----------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[31].b_cell_i" ;
-+------+--------+----------+-------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                         ;
-+------+--------+----------+-------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                          ;
-+------+--------+----------+-------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[31].b_cell_i"                                              ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; Cout          ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[30].b_cell_i" ;
-+------+--------+----------+-------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                         ;
-+------+--------+----------+-------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                          ;
-+------+--------+----------+-------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[30].b_cell_i"                                              ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[29].b_cell_i" ;
-+------+--------+----------+-------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                         ;
-+------+--------+----------+-------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                          ;
-+------+--------+----------+-------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[29].b_cell_i"                                              ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[28].b_cell_i" ;
-+------+--------+----------+-------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                         ;
-+------+--------+----------+-------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                          ;
-+------+--------+----------+-------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[28].b_cell_i"                                              ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[27].b_cell_i" ;
-+------+--------+----------+-------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                         ;
-+------+--------+----------+-------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                          ;
-+------+--------+----------+-------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[27].b_cell_i"                                              ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[26].b_cell_i" ;
-+------+--------+----------+-------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                         ;
-+------+--------+----------+-------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                          ;
-+------+--------+----------+-------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[26].b_cell_i"                                              ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[25].b_cell_i" ;
-+------+--------+----------+-------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                         ;
-+------+--------+----------+-------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                          ;
-+------+--------+----------+-------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[25].b_cell_i"                                              ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[24].b_cell_i" ;
-+------+--------+----------+-------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                         ;
-+------+--------+----------+-------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                          ;
-+------+--------+----------+-------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[24].b_cell_i"                                              ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[23].b_cell_i" ;
-+------+--------+----------+-------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                         ;
-+------+--------+----------+-------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                          ;
-+------+--------+----------+-------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[23].b_cell_i"                                              ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[22].b_cell_i" ;
-+------+--------+----------+-------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                         ;
-+------+--------+----------+-------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                          ;
-+------+--------+----------+-------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[22].b_cell_i"                                              ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[21].b_cell_i" ;
-+------+--------+----------+-------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                         ;
-+------+--------+----------+-------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                          ;
-+------+--------+----------+-------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[21].b_cell_i"                                              ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[20].b_cell_i" ;
-+------+--------+----------+-------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                         ;
-+------+--------+----------+-------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                          ;
-+------+--------+----------+-------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[20].b_cell_i"                                              ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[19].b_cell_i" ;
-+------+--------+----------+-------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                         ;
-+------+--------+----------+-------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                          ;
-+------+--------+----------+-------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[19].b_cell_i"                                              ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[18].b_cell_i" ;
-+------+--------+----------+-------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                         ;
-+------+--------+----------+-------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                          ;
-+------+--------+----------+-------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[18].b_cell_i"                                              ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[17].b_cell_i" ;
-+------+--------+----------+-------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                         ;
-+------+--------+----------+-------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                          ;
-+------+--------+----------+-------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[17].b_cell_i"                                              ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[16].b_cell_i" ;
-+------+--------+----------+-------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                         ;
-+------+--------+----------+-------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                          ;
-+------+--------+----------+-------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[16].b_cell_i"                                              ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[15].b_cell_i" ;
-+------+--------+----------+-------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                         ;
-+------+--------+----------+-------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                          ;
-+------+--------+----------+-------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[15].b_cell_i"                                              ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[14].b_cell_i" ;
-+------+--------+----------+-------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                         ;
-+------+--------+----------+-------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                          ;
-+------+--------+----------+-------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[14].b_cell_i"                                              ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[13].b_cell_i" ;
-+------+--------+----------+-------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                         ;
-+------+--------+----------+-------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                          ;
-+------+--------+----------+-------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[13].b_cell_i"                                              ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[12].b_cell_i" ;
-+------+--------+----------+-------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                         ;
-+------+--------+----------+-------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                          ;
-+------+--------+----------+-------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[12].b_cell_i"                                              ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[11].b_cell_i" ;
-+------+--------+----------+-------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                         ;
-+------+--------+----------+-------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                          ;
-+------+--------+----------+-------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[11].b_cell_i"                                              ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[10].b_cell_i" ;
-+------+--------+----------+-------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                         ;
-+------+--------+----------+-------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                          ;
-+------+--------+----------+-------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[10].b_cell_i"                                              ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[9].b_cell_i" ;
-+------+--------+----------+------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                        ;
-+------+--------+----------+------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                         ;
-+------+--------+----------+------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[9].b_cell_i"                                               ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[8].b_cell_i" ;
-+------+--------+----------+------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                        ;
-+------+--------+----------+------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                         ;
-+------+--------+----------+------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[8].b_cell_i"                                               ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[7].b_cell_i" ;
-+------+--------+----------+------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                        ;
-+------+--------+----------+------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                         ;
-+------+--------+----------+------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[7].b_cell_i"                                               ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[6].b_cell_i" ;
-+------+--------+----------+------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                        ;
-+------+--------+----------+------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                         ;
-+------+--------+----------+------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[6].b_cell_i"                                               ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[5].b_cell_i" ;
-+------+--------+----------+------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                        ;
-+------+--------+----------+------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                         ;
-+------+--------+----------+------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[5].b_cell_i"                                               ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[4].b_cell_i" ;
-+------+--------+----------+------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                        ;
-+------+--------+----------+------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                         ;
-+------+--------+----------+------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[4].b_cell_i"                                               ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[3].b_cell_i" ;
-+------+--------+----------+------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                        ;
-+------+--------+----------+------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                         ;
-+------+--------+----------+------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[3].b_cell_i"                                               ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[2].b_cell_i" ;
-+------+--------+----------+------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                        ;
-+------+--------+----------+------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                         ;
-+------+--------+----------+------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[2].b_cell_i"                                               ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[1].b_cell_i" ;
-+------+--------+----------+------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                        ;
-+------+--------+----------+------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                         ;
-+------+--------+----------+------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[1].b_cell_i"                                               ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[0].b_cell_i" ;
-+------+--------+----------+------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                        ;
-+------+--------+----------+------------------------------------------------+
-; Cout ; Output ; Info     ; Explicitly unconnected                         ;
-+------+--------+----------+------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:ALU|add_op:add|b_cell:gen_sum[0].b_cell_i"                                               ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------+
@@ -862,124 +895,125 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
-    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Wed Feb 28 21:25:24 2024
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+    Info: Processing started: Thu Feb 29 09:11:47 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Phase1SRC_2 -c Phase1SRC_2 --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/sub_tb.v
-    Info (12023): Found entity 1: sub_tb File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/Testbenches/sub_tb.v Line: 3
+    Info (12023): Found entity 1: sub_tb File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/Testbenches/sub_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/shra_tb.v
-    Info (12023): Found entity 1: shra_tb File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/Testbenches/shra_tb.v Line: 3
+    Info (12023): Found entity 1: shra_tb File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/Testbenches/shra_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/shr_tb.v
-    Info (12023): Found entity 1: shr_tb File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/Testbenches/shr_tb.v Line: 3
+    Info (12023): Found entity 1: shr_tb File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/Testbenches/shr_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/shl_tb.v
-    Info (12023): Found entity 1: shl_tb File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/Testbenches/shl_tb.v Line: 3
+    Info (12023): Found entity 1: shl_tb File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/Testbenches/shl_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/ror_tb.v
-    Info (12023): Found entity 1: ror_tb File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/Testbenches/ror_tb.v Line: 3
+    Info (12023): Found entity 1: ror_tb File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/Testbenches/ror_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/rol_tb.v
-    Info (12023): Found entity 1: rol_tb File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/Testbenches/rol_tb.v Line: 3
+    Info (12023): Found entity 1: rol_tb File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/Testbenches/rol_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/or_tb.v
-    Info (12023): Found entity 1: or_tb File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/Testbenches/or_tb.v Line: 3
+    Info (12023): Found entity 1: or_tb File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/Testbenches/or_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/not_tb.v
-    Info (12023): Found entity 1: not_tb File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/Testbenches/not_tb.v Line: 3
+    Info (12023): Found entity 1: not_tb File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/Testbenches/not_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/neg_tb.v
-    Info (12023): Found entity 1: neg_tb File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/Testbenches/neg_tb.v Line: 3
-Warning (10229): Verilog HDL Expression warning at mul_tb.v(127): truncated literal to match 32 bits File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/Testbenches/mul_tb.v Line: 127
-Warning (10229): Verilog HDL Expression warning at mul_tb.v(136): truncated literal to match 32 bits File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/Testbenches/mul_tb.v Line: 136
+    Info (12023): Found entity 1: neg_tb File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/Testbenches/neg_tb.v Line: 3
+Warning (10229): Verilog HDL Expression warning at mul_tb.v(127): truncated literal to match 32 bits File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/Testbenches/mul_tb.v Line: 127
+Warning (10229): Verilog HDL Expression warning at mul_tb.v(136): truncated literal to match 32 bits File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/Testbenches/mul_tb.v Line: 136
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/mul_tb.v
-    Info (12023): Found entity 1: mul_tb File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/Testbenches/mul_tb.v Line: 3
+    Info (12023): Found entity 1: mul_tb File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/Testbenches/mul_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/div_tb.v
-    Info (12023): Found entity 1: div_tb File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/Testbenches/div_tb.v Line: 3
+    Info (12023): Found entity 1: div_tb File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/Testbenches/div_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/add_tb.v
-    Info (12023): Found entity 1: add_tb File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/Testbenches/add_tb.v Line: 3
+    Info (12023): Found entity 1: add_tb File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/Testbenches/add_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/and_tb.v
-    Info (12023): Found entity 1: and_tb File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/Testbenches/and_tb.v Line: 3
+    Info (12023): Found entity 1: and_tb File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/Testbenches/and_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file alu/b_cell.v
-    Info (12023): Found entity 1: b_cell File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/b_cell.v Line: 1
+    Info (12023): Found entity 1: b_cell File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/b_cell.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file reg/register_gen.v
-    Info (12023): Found entity 1: register_gen File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/REG/register_gen.v Line: 1
+    Info (12023): Found entity 1: register_gen File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/REG/register_gen.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file bus/mux_32_to_1.v
-    Info (12023): Found entity 1: mux_32_to_1 File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_32_to_1.v Line: 3
+    Info (12023): Found entity 1: mux_32_to_1 File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/BUS/mux_32_to_1.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file bus/mux_2_to_1.v
-    Info (12023): Found entity 1: mux_2_to_1 File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/mux_2_to_1.v Line: 3
+    Info (12023): Found entity 1: mux_2_to_1 File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/BUS/mux_2_to_1.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file bus/encoder_32_to_5.v
-    Info (12023): Found entity 1: encoder_32_to_5 File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/encoder_32_to_5.v Line: 2
+    Info (12023): Found entity 1: encoder_32_to_5 File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/BUS/encoder_32_to_5.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file bus/datapath.v
-    Info (12023): Found entity 1: Datapath File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 1
+    Info (12023): Found entity 1: Datapath File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/sub_op.v
-    Info (12023): Found entity 1: sub_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/sub_op.v Line: 1
+    Info (12023): Found entity 1: sub_op File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/sub_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/shra_op.v
-    Info (12023): Found entity 1: shra_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/shra_op.v Line: 1
+    Info (12023): Found entity 1: shra_op File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/shra_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/shr_op.v
-    Info (12023): Found entity 1: shr_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/shr_op.v Line: 1
+    Info (12023): Found entity 1: shr_op File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/shr_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/shl_op.v
-    Info (12023): Found entity 1: shl_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/shl_op.v Line: 1
+    Info (12023): Found entity 1: shl_op File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/shl_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/ror_op.v
-    Info (12023): Found entity 1: ror_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/ror_op.v Line: 1
+    Info (12023): Found entity 1: ror_op File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/ror_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/rol_op.v
-    Info (12023): Found entity 1: rol_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/rol_op.v Line: 1
+    Info (12023): Found entity 1: rol_op File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/rol_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/or_op.v
-    Info (12023): Found entity 1: or_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/or_op.v Line: 1
+    Info (12023): Found entity 1: or_op File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/or_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/not_op.v
-    Info (12023): Found entity 1: not_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/not_op.v Line: 1
+    Info (12023): Found entity 1: not_op File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/not_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/neg_op.v
-    Info (12023): Found entity 1: neg_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/neg_op.v Line: 1
+    Info (12023): Found entity 1: neg_op File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/neg_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/mul_op.v
-    Info (12023): Found entity 1: mul_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v Line: 1
+    Info (12023): Found entity 1: mul_op File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/mul_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/div_op.v
-    Info (12023): Found entity 1: div_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/div_op.v Line: 1
+    Info (12023): Found entity 1: div_op File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/div_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/and_op.v
-    Info (12023): Found entity 1: and_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/and_op.v Line: 1
+    Info (12023): Found entity 1: and_op File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/and_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/alu.v
-    Info (12023): Found entity 1: alu File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 1
+    Info (12023): Found entity 1: alu File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/alu.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu/add_op.v
-    Info (12023): Found entity 1: add_op File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/add_op.v Line: 1
+    Info (12023): Found entity 1: add_op File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/add_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/reg_tb.v
-    Info (12023): Found entity 1: reg_tb File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/Testbenches/reg_tb.v Line: 3
+    Info (12023): Found entity 1: reg_tb File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/Testbenches/reg_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file reg/incpc.v
-    Info (12023): Found entity 1: IncPC File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/REG/IncPC.v Line: 1
+    Info (12023): Found entity 1: IncPC File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/REG/IncPC.v Line: 1
 Info (12127): Elaborating entity "Datapath" for the top level hierarchy
-Info (12128): Elaborating entity "register_gen" for hierarchy "register_gen:R0" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 63
-Info (12128): Elaborating entity "mux_2_to_1" for hierarchy "mux_2_to_1:MDRMux" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 92
-Info (12128): Elaborating entity "encoder_32_to_5" for hierarchy "encoder_32_to_5:BusEncoder" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 101
-Info (12128): Elaborating entity "mux_32_to_1" for hierarchy "mux_32_to_1:BusMux" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 110
-Info (12128): Elaborating entity "alu" for hierarchy "alu:ALU" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 113
-Info (12128): Elaborating entity "IncPC" for hierarchy "alu:ALU|IncPC:pc_inc" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 86
-Info (12128): Elaborating entity "add_op" for hierarchy "alu:ALU|add_op:add" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 87
-Info (12128): Elaborating entity "b_cell" for hierarchy "alu:ALU|add_op:add|b_cell:gen_sum[0].b_cell_i" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/add_op.v Line: 22
-Info (12128): Elaborating entity "sub_op" for hierarchy "alu:ALU|sub_op:sub" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 88
-Info (12128): Elaborating entity "mul_op" for hierarchy "alu:ALU|mul_op:dul" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 89
-Warning (10199): Verilog HDL Case Statement warning at mul_op.v(24): case item expression never matches the case expression File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v Line: 24
-Warning (10199): Verilog HDL Case Statement warning at mul_op.v(25): case item expression never matches the case expression File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v Line: 25
-Warning (10199): Verilog HDL Case Statement warning at mul_op.v(27): case item expression never matches the case expression File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v Line: 27
-Warning (10230): Verilog HDL assignment warning at mul_op.v(32): truncated value with size 66 to match size of target (64) File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/mul_op.v Line: 32
-Info (12128): Elaborating entity "div_op" for hierarchy "alu:ALU|div_op:div" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 90
-Warning (10240): Verilog HDL Always Construct warning at div_op.v(12): inferring latch(es) for variable "M", which holds its previous value in one or more paths through the always construct File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/div_op.v Line: 12
-Warning (10240): Verilog HDL Always Construct warning at div_op.v(12): inferring latch(es) for variable "combined", which holds its previous value in one or more paths through the always construct File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/div_op.v Line: 12
-Warning (10240): Verilog HDL Always Construct warning at div_op.v(12): inferring latch(es) for variable "negative", which holds its previous value in one or more paths through the always construct File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/div_op.v Line: 12
-Warning (10240): Verilog HDL Always Construct warning at div_op.v(12): inferring latch(es) for variable "subtract", which holds its previous value in one or more paths through the always construct File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/div_op.v Line: 12
-Warning (10240): Verilog HDL Always Construct warning at div_op.v(12): inferring latch(es) for variable "i", which holds its previous value in one or more paths through the always construct File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/div_op.v Line: 12
-Info (12128): Elaborating entity "shr_op" for hierarchy "alu:ALU|shr_op:shr" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 92
-Info (12128): Elaborating entity "shra_op" for hierarchy "alu:ALU|shra_op:shra" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 93
-Info (12128): Elaborating entity "shl_op" for hierarchy "alu:ALU|shl_op:shl" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 94
-Info (12128): Elaborating entity "ror_op" for hierarchy "alu:ALU|ror_op:ror" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 95
-Info (12128): Elaborating entity "rol_op" for hierarchy "alu:ALU|rol_op:aol" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 96
-Info (12128): Elaborating entity "and_op" for hierarchy "alu:ALU|and_op:and_" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 97
-Info (12128): Elaborating entity "or_op" for hierarchy "alu:ALU|or_op:or_" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 98
-Info (12128): Elaborating entity "neg_op" for hierarchy "alu:ALU|neg_op:neg" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 99
-Info (12128): Elaborating entity "not_op" for hierarchy "alu:ALU|not_op:not_" File: C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/ALU/alu.v Line: 100
-Info (144001): Generated suppressed messages file C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/output_files/Phase1SRC_2.map.smsg
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 12 warnings
-    Info: Peak virtual memory: 4786 megabytes
-    Info: Processing ended: Wed Feb 28 21:25:35 2024
-    Info: Elapsed time: 00:00:11
+Info (12128): Elaborating entity "register_gen" for hierarchy "register_gen:R0" File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 63
+Info (12128): Elaborating entity "mux_2_to_1" for hierarchy "mux_2_to_1:MDRMux" File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 92
+Info (12128): Elaborating entity "encoder_32_to_5" for hierarchy "encoder_32_to_5:BusEncoder" File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 101
+Info (12128): Elaborating entity "mux_32_to_1" for hierarchy "mux_32_to_1:BusMux" File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 110
+Info (12128): Elaborating entity "alu" for hierarchy "alu:ALU" File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/BUS/Datapath.v Line: 113
+Info (12128): Elaborating entity "IncPC" for hierarchy "alu:ALU|IncPC:pc_inc" File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/alu.v Line: 86
+Info (12128): Elaborating entity "add_op" for hierarchy "alu:ALU|add_op:add" File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/alu.v Line: 87
+Info (12128): Elaborating entity "b_cell" for hierarchy "alu:ALU|add_op:add|b_cell:gen_sum[0].b_cell_i" File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/add_op.v Line: 28
+Info (12128): Elaborating entity "sub_op" for hierarchy "alu:ALU|sub_op:sub" File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/alu.v Line: 88
+Info (12128): Elaborating entity "mul_op" for hierarchy "alu:ALU|mul_op:dul" File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/alu.v Line: 89
+Warning (10199): Verilog HDL Case Statement warning at mul_op.v(22): case item expression never matches the case expression File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/mul_op.v Line: 22
+Warning (10199): Verilog HDL Case Statement warning at mul_op.v(23): case item expression never matches the case expression File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/mul_op.v Line: 23
+Warning (10199): Verilog HDL Case Statement warning at mul_op.v(25): case item expression never matches the case expression File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/mul_op.v Line: 25
+Warning (10230): Verilog HDL assignment warning at mul_op.v(30): truncated value with size 66 to match size of target (64) File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/mul_op.v Line: 30
+Info (12128): Elaborating entity "div_op" for hierarchy "alu:ALU|div_op:div" File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/alu.v Line: 90
+Warning (10240): Verilog HDL Always Construct warning at div_op.v(12): inferring latch(es) for variable "M", which holds its previous value in one or more paths through the always construct File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/div_op.v Line: 12
+Warning (10240): Verilog HDL Always Construct warning at div_op.v(12): inferring latch(es) for variable "combined", which holds its previous value in one or more paths through the always construct File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/div_op.v Line: 12
+Warning (10240): Verilog HDL Always Construct warning at div_op.v(12): inferring latch(es) for variable "negative", which holds its previous value in one or more paths through the always construct File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/div_op.v Line: 12
+Warning (10240): Verilog HDL Always Construct warning at div_op.v(12): inferring latch(es) for variable "subtract", which holds its previous value in one or more paths through the always construct File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/div_op.v Line: 12
+Warning (10240): Verilog HDL Always Construct warning at div_op.v(12): inferring latch(es) for variable "i", which holds its previous value in one or more paths through the always construct File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/div_op.v Line: 12
+Info (12128): Elaborating entity "shr_op" for hierarchy "alu:ALU|shr_op:shr" File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/alu.v Line: 92
+Info (12128): Elaborating entity "shra_op" for hierarchy "alu:ALU|shra_op:shra" File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/alu.v Line: 93
+Warning (10764): Verilog HDL warning at shra_op.v(6): converting signed shift amount to unsigned File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/shra_op.v Line: 6
+Info (12128): Elaborating entity "shl_op" for hierarchy "alu:ALU|shl_op:shl" File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/alu.v Line: 94
+Info (12128): Elaborating entity "ror_op" for hierarchy "alu:ALU|ror_op:ror" File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/alu.v Line: 95
+Info (12128): Elaborating entity "rol_op" for hierarchy "alu:ALU|rol_op:aol" File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/alu.v Line: 96
+Info (12128): Elaborating entity "and_op" for hierarchy "alu:ALU|and_op:and_" File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/alu.v Line: 97
+Info (12128): Elaborating entity "or_op" for hierarchy "alu:ALU|or_op:or_" File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/alu.v Line: 98
+Info (12128): Elaborating entity "neg_op" for hierarchy "alu:ALU|neg_op:neg" File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/alu.v Line: 99
+Info (12128): Elaborating entity "not_op" for hierarchy "alu:ALU|not_op:not_" File: C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/ALU/alu.v Line: 100
+Info (144001): Generated suppressed messages file C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/output_files/Phase1SRC_2.map.smsg
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 13 warnings
+    Info: Peak virtual memory: 4792 megabytes
+    Info: Processing ended: Thu Feb 29 09:11:59 2024
+    Info: Elapsed time: 00:00:12
     Info: Total CPU time (on all processors): 00:00:11
 
 
 +--------------------------------------------+
 ; Analysis & Elaboration Suppressed Messages ;
 +--------------------------------------------+
-The suppressed messages can be found in C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase1/laboratory_project_phase1/output_files/Phase1SRC_2.map.smsg.
+The suppressed messages can be found in C:/Users/18kz2/Documents/elec/Phase1/laboratory_project_phase1/output_files/Phase1SRC_2.map.smsg.
 
 

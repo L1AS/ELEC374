@@ -5945,355 +5945,419 @@ Cin => wire_C[0].IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[0].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[1].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[2].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[3].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[4].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[5].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[6].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[7].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[8].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[9].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[10].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[11].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[12].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[13].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[14].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[15].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[16].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[17].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[18].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[19].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[20].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[21].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[22].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[23].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[24].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[25].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[26].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[27].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[28].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[29].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[30].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|add_op:add|b_cell:gen_sum[31].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub
@@ -6496,355 +6560,419 @@ Cin => wire_C[0].IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[0].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[1].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[2].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[3].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[4].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[5].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[6].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[7].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[8].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[9].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[10].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[11].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[12].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[13].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[14].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[15].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[16].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[17].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[18].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[19].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[20].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[21].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[22].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[23].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[24].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[25].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[26].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[27].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[28].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[29].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[30].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|sub_op:sub|add_op:substract_i|b_cell:gen_sum[31].b_cell_i
+out_Propagate <= out_Propagate.DB_MAX_OUTPUT_PORT_TYPE
+out_Generate <= out_Generate.DB_MAX_OUTPUT_PORT_TYPE
 out_Sum <= out_Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-in_A => w1.IN0
-in_A => w3.IN0
-in_B => w1.IN1
-in_B => w3.IN1
-Cin => w2.IN1
+in_A => out_Propagate.IN0
+in_A => out_Generate.IN0
+in_B => out_Propagate.IN1
+in_B => out_Generate.IN1
 Cin => out_Sum.IN1
+Cin => Cout.IN1
 
 
 |Datapath|alu:ALU|mul_op:dul
@@ -10453,6 +10581,7 @@ A_reg[27] => ShiftRight0.IN5
 A_reg[28] => ShiftRight0.IN4
 A_reg[29] => ShiftRight0.IN3
 A_reg[30] => ShiftRight0.IN2
+A_reg[31] => ShiftRight0.IN0
 A_reg[31] => ShiftRight0.IN1
 B_reg[0] => ShiftRight0.IN64
 B_reg[1] => ShiftRight0.IN63
