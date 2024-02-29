@@ -2,8 +2,6 @@ module mul_op(
   output [63:0] mul_out,
   input signed [31:0] A_reg, B_reg        
 );
-
-	
 	reg [32:0] partp[15:0]; // Partial products
 	reg [63:0] spartp[15:0]; // Sign-extended partial products
 	reg [2:0] contc[15:0]; // Control codes for partial product generation
@@ -36,6 +34,5 @@ module mul_op(
 		for (j=0; j < 16; j = j+1)
 			prod = prod + spartp[j]; // Accumulate
 	end
-	
 	assign mul_out = prod; 
 endmodule
