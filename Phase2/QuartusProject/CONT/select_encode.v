@@ -4,10 +4,11 @@ module select_encode (
     input [31:0] IR
 );
     reg [15:0] reg_select;
-    reg [3:0] w1, w2, w3, w4;
+    reg [3:0] w1, w2, w3;
+	 wire [3:0] w4;
     wire Rout_base_address_checked;
    
-    Rread <= BAout | Rout;
+    assign Rout_base_address_checked = BAout | Rout;
     always @ (*) begin
         w1 <= IR[26:23] & {4{Gra}};
         w2 <= IR[22:19] & {4{Grb}};
