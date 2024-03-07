@@ -1,8 +1,8 @@
-module cla_gen#(parameter WIDTH = 32)(
+module add_op#(parameter WIDTH = 32)(
 	input signed [WIDTH-1:0] in_add1, in_add2,
 	input Cin,  // carry in
-	output signed [WIDTH-1:0] out_Sum,
-	output [WIDTH:0] Cout
+	output signed [WIDTH-1:0] out_Sum
+	// output [WIDTH:0] Cout
 );
 
 	wire [WIDTH:0] wire_C; // carry intermediate
@@ -38,6 +38,6 @@ module cla_gen#(parameter WIDTH = 32)(
 
 	// Assign cla result and carry out
 	assign out_Sum = wire_SUM [WIDTH-1:0];
-	assign Cout = wire_C [WIDTH:0];
+	// assign Cout = wire_C [WIDTH:0];
 
 endmodule
