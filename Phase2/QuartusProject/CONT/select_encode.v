@@ -17,8 +17,7 @@ module select_encode (
     assign w4 = w1 | w2 | w3; // need better naming
 
     // use 4_to_16 decoder here
-    
-    assign reg_select; // 4_to_16_decoder_out
+    decoder_4_to_16 decoder_4_to_16_i(.decodedOutput(reg_select), .decoderInput(w4));
 
     assign reg_in = Rin & reg_select;
     assign reg_out = Rout_base_address_checked & reg_select;
