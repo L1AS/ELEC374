@@ -1,11 +1,11 @@
 module select_encode (
-    output reg_out, reg_in,
+    output[15:0] reg_in, reg_out
     input Gra, Grb, Grc, Rin, Rout, BAout,
     input [31:0] IR
 );
     reg [15:0] reg_select;
     reg [3:0] w1, w2, w3;
-	 wire [3:0] w4;
+	wire [3:0] w4;
     wire Rout_base_address_checked;
    
     assign Rout_base_address_checked = BAout | Rout;
