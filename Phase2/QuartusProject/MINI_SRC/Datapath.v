@@ -2,9 +2,9 @@ module Datapath (
   input wire clock, clear, 
   input wire Gra, Grb, Grc, Rin, Rout, BAout, Yin,
              Hiout, Hiin, LOout, LOin, 
-             PCout, PCin, IncPC, IRin
+             PCout, PCin, IncPC, IRin,
              Zhighout, Zlowout, Zin,
-             MDRout, MDRin, MARin, Read
+             MDRout, MDRin, MARin, Read,
              InPortOut, OutPortIn,
              input[15:0] Cout,   
              input[31:0] Mdatain,
@@ -54,7 +54,7 @@ module Datapath (
 
   // registers
   register_gen R0 (IntermediateR0, clear, clock, reg_in[0], BusMuxOut);
-  assign BusMuxInR0 = not(BAout) & IntermediateR0;
+  assign BusMuxInR0 = ~(BAout) & IntermediateR0;
 
   register_gen R1 (BusMuxInR1, clear, clock, reg_in[1], BusMuxOut);
   register_gen R2 (BusMuxInR2, clear, clock, reg_in[2], BusMuxOut);
