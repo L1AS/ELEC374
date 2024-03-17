@@ -6,8 +6,9 @@ module Datapath (
              Zhighout, Zlowout, Zin,
              MDRout, MDRin, MARin, Read,
              InPortOut, OutPortIn,
+             memRead, memWrite, // memory read enable and write enable signals
              input[15:0] Cout,   
-             input[31:0] Mdatain,
+             // input[31:0] Mdatain,
              input[4:0] opcode
 );
 
@@ -39,9 +40,10 @@ module Datapath (
               BusMuxInMAR,
               BusMuxOut,
               MDRMuxOut,
-				      BusMuxInInport,
+				  BusMuxInInport,
               reg_in,
-              reg_out;
+              reg_out,
+              Mdatain;
   wire [4:0] BusMuxSignal;
   wire [63:0] alu_out;
 
@@ -52,9 +54,18 @@ module Datapath (
   select_encode ir_encode_select(reg_in, reg_out, Gra, Grb, Grc, Rin,
                                  Rout, BAout, IRout);
 
+  // memory
+	memory RAM (.address(BusMuxInMAR[8:0]), 
+					.clock(clock), 
+					.data(BusMuxInMDR), 
+					.rden(memRead), 
+					.wren(memWrite), 
+					.q(Mdatain));
+				  
+	  
   // registers
   register_gen R0 (IntermediateR0, clear, clock, reg_in[0], BusMuxOut);
-  assign BusMuxInR0 = ~(BAout) & IntermediateR0;
+  assign BusMuxInR0 = ~(BAout) & IntermediateR0; // assert zero to R0
 
   register_gen R1 (BusMuxInR1, clear, clock, reg_in[1], BusMuxOut);
   register_gen R2 (BusMuxInR2, clear, clock, reg_in[2], BusMuxOut);
