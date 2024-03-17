@@ -42,7 +42,7 @@ module Datapath (
               BusMuxInMAR,
               BusMuxOut,
               MDRMuxOut,
-				  BusMuxInInport,
+              BusMuxInInport,
               reg_in,
               reg_out,
               Mdatain;
