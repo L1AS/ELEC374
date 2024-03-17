@@ -1,11 +1,13 @@
 module Datapath (
+  output [31:0] outport_out,
+  input [31:0] inport_in,
   input wire clock, clear, 
   input wire Gra, Grb, Grc, Rin, Rout, BAout, Yin,
              Hiout, Hiin, LOout, LOin, 
              PCout, PCin, IncPC, IRin,
              Zhighout, Zlowout, Zin,
              MDRout, MDRin, MARin, Read,
-             InPortOut, OutPortIn,
+             InportOut, OutportIn,
              memRead, memWrite, // memory read enable and write enable signals
              input[15:0] Cout,   
              // input[31:0] Mdatain,
@@ -93,6 +95,10 @@ module Datapath (
   register_gen PC (BusMuxInPC, clear, clock, PCin, BusMuxOut);
   register_gen IR (IRout, clear, clock, IRin, BusMuxOut);
 
+  // Input, Output Ports
+  register_gen In_Port (BusMuxInInport, clear, clock, OutportIn, inport_in);
+  register_gen Out_port (outport_out, clear, clock, InportOut, BusMuxOut);
+
   // RAM interface
   register_gen MAR (BusMuxInMAR, clear, clock, MARin, BusMuxOut);
   mux_2_to_1 MDRMux (MDRMuxOut, BusMuxOut, Mdatain, Read);
@@ -101,7 +107,7 @@ module Datapath (
   // Bus
   encoder_32_to_5 BusEncoder (
     BusMuxSignal, 
-    {8'b0, Cout, inPortOut, MDRout, PCout, Zlowout, Zhighout, LOout, HIout, 
+    {8'b0, Cout, InportOut, MDRout, PCout, Zlowout, Zhighout, LOout, HIout, 
      reg_out}
   );
 
