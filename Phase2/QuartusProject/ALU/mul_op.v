@@ -1,6 +1,6 @@
 module mul_op(
-  output [63:0] mul_out,
-  input signed [31:0] A_reg, B_reg        
+    output [63:0] mul_out,
+    input signed [31:0] A_reg, B_reg        
 );
 	reg [32:0] partp[15:0]; // Partial products
 	reg [63:0] spartp[15:0]; // Sign-extended partial products
