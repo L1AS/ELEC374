@@ -1,25 +1,38 @@
 `timescale 1ns / 10ps
 
-module add_tb;
-    reg clock, clear, // clock and clear signal
-        PCout, Zlowout, Zhighout, MDRout, inPortOut,   // Control signals
-        MARin, Zin, PCin, MDRin, IRin, Yin, // More control signals
-        IncPC, Read, // Even more control signals
-        HIout, HIin,
-        LOout, LOin;
-    reg [15:0] Cout;
-    reg [31:0] Mdatain; // Data to be written
-    reg [4:0] opcode;
+module general_tb;
+    reg[0:31] outPortData,               // output.
+    reg[0:31] inPortDataIn,               // input.
+    reg clock, clear,                     // control signals.
+          Gra, Grb, Grc, Rin, Rout, BAout,  // control signals for IR
+          PCout, IncPC, PCin, IRin,          // PC and IR signals.
+          Yin, Hiout, Hiin, LOout, LOin,    // datapath MUX signals.
+          Cout, Zhighout, Zlowout, Zin,     //
+          MDRout, MDRin, MARin,             // Mem Data Interface signals.
+          memRead, memWrite,                // memory read enable and write enable signals.
+          outPortEN, outPortEN,             // Input/Output signals.
+    reg[0:4] opcode
 
     // State definitions
-    parameter Default = 4'b0000, Reg_load1a = 4'b0001, Reg_load1b = 4'b0010, 
-              Reg_load2a = 4'b0011, Reg_load2b = 4'b0100, Reg_load3a = 4'b0101, 
-              Reg_load3b = 4'b0110, T0 = 4'b0111, T1 = 4'b1000, T2 = 4'b1001, 
-              T3 = 4'b1010, T4 = 4'b1011, T5 = 4'b1100;
+    parameter Default = 4'b0000, T0 = 4'b0001, T1 = 4'b0010, T2 = 4'b0011, 
+              T3 = 4'b0100, T4 = 4'b0101, T5 = 4'b0111;
     
     reg [3:0] Present_state = Default;
 
     // Instantiate the Device Under Test (DUT)
+    miniSRC CPU(
+        outPortData,                    // output.
+        inPortDataIn,                   // input.
+        clock, clear,                   // control signals.
+        Gra, Grb, Grc, Rin, Rout, BAout,// control signals for IR
+        PCout, IncPC, PCin, IRin,       // PC and IR signals.
+        Yin, Hiout, Hiin, LOout, LOin,  // datapath MUX signals.
+        Cout, Zhighout, Zlowout, Zin,   //
+        MDRout, MDRin, MARin,           // Mem Data Interface signals.
+        memRead, memWrite,              // memory read enable and write enable signals.
+        outPortEN, outPortEN,           // Input/Output signals.
+        opcode                          //ALU opcode
+    );
 
 
     // clock generation
