@@ -1,0 +1,270 @@
+Analysis & Elaboration report for Phase2_project
+Sat Mar 23 01:05:02 2024
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Analysis & Elaboration Settings
+  5. Analysis & Elaboration Messages
+  6. Analysis & Elaboration Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++---------------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                                  ;
++-------------------------------+-------------------------------------------------+
+; Analysis & Elaboration Status ; Failed - Sat Mar 23 01:05:02 2024               ;
+; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
+; Revision Name                 ; Phase2_project                                  ;
+; Top-level Entity Name         ; miniSRC                                         ;
+; Family                        ; Cyclone V                                       ;
+; Logic utilization (in ALMs)   ; N/A until Partition Merge                       ;
+; Total registers               ; N/A until Partition Merge                       ;
+; Total pins                    ; N/A until Partition Merge                       ;
+; Total virtual pins            ; N/A until Partition Merge                       ;
+; Total block memory bits       ; N/A until Partition Merge                       ;
+; Total PLLs                    ; N/A until Partition Merge                       ;
+; Total DLLs                    ; N/A until Partition Merge                       ;
++-------------------------------+-------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 32          ;
+; Maximum allowed            ; 16          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Elaboration Settings                                                                                           ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CEFA4F23C7        ;                    ;
+; Top-level entity name                                                           ; miniSRC            ; Phase2_project     ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Elaboration
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+    Info: Processing started: Sat Mar 23 01:04:57 2024
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Phase2_project -c Phase2_project --analysis_and_elaboration
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 16 of the 24 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file testbenches/general_tb.v
+    Info (12023): Found entity 1: general_tb File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/TESTBENCHES/general_tb.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file alu/incpc.v
+    Info (12023): Found entity 1: IncPC File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/IncPC.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file reg/register_gen.v
+    Info (12023): Found entity 1: register_gen File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/REG/register_gen.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file ram/memory_custom.v
+    Info (12023): Found entity 1: memory_custom File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mini_src/minisrc.v
+    Info (12023): Found entity 1: miniSRC File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mini_src/datapath.v
+    Info (12023): Found entity 1: Datapath File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/Datapath.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mdi/mux_2_to_1.v
+    Info (12023): Found entity 1: mux_2_to_1 File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MDI/mux_2_to_1.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file cont/select_encode.v
+    Info (12023): Found entity 1: select_encode File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/select_encode.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file cont/decoder_4_to_16.v
+    Info (12023): Found entity 1: decoder_4_to_16 File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file con_ff/flip_flop.v
+    Info (12023): Found entity 1: flip_flop File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CON_FF/flip_flop.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file con_ff/branch_conditioning.v
+    Info (12023): Found entity 1: con_ff File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CON_FF/branch_conditioning.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file bus/mux_32_to_1.v
+    Info (12023): Found entity 1: mux_32_to_1 File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/BUS/mux_32_to_1.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file bus/encoder_32_to_5.v
+    Info (12023): Found entity 1: encoder_32_to_5 File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/BUS/encoder_32_to_5.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file alu/sub_op.v
+    Info (12023): Found entity 1: sub_op File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/sub_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/shra_op.v
+    Info (12023): Found entity 1: shra_op File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/shra_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/shr_op.v
+    Info (12023): Found entity 1: shr_op File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/shr_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/shl_op.v
+    Info (12023): Found entity 1: shl_op File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/shl_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/ror_op.v
+    Info (12023): Found entity 1: ror_op File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/ror_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/rol_op.v
+    Info (12023): Found entity 1: rol_op File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/rol_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/or_op.v
+    Info (12023): Found entity 1: or_op File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/or_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/not_op.v
+    Info (12023): Found entity 1: not_op File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/not_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/neg_op.v
+    Info (12023): Found entity 1: neg_op File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/neg_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/mul_op.v
+    Info (12023): Found entity 1: mul_op File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/mul_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/div_op.v
+    Info (12023): Found entity 1: div_op File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/div_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/b_cell.v
+    Info (12023): Found entity 1: b_cell File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/b_cell.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/and_op.v
+    Info (12023): Found entity 1: and_op File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/and_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/alu.v
+    Info (12023): Found entity 1: alu File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/alu.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/add_op.v
+    Info (12023): Found entity 1: add_op File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/add_op.v Line: 1
+Warning (10236): Verilog HDL Implicit Net warning at miniSRC.v(49): created implicit net for "busMuxOut" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 49
+Warning (10236): Verilog HDL Implicit Net warning at miniSRC.v(54): created implicit net for "busMuxInPC" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 54
+Warning (10236): Verilog HDL Implicit Net warning at miniSRC.v(56): created implicit net for "inPortEN" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 56
+Warning (10236): Verilog HDL Implicit Net warning at miniSRC.v(56): created implicit net for "outPortEN" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 56
+Warning (10236): Verilog HDL Implicit Net warning at Datapath.v(44): created implicit net for "intermediateR0" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/Datapath.v Line: 44
+Warning (10236): Verilog HDL Implicit Net warning at Datapath.v(76): created implicit net for "inPortOut" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/Datapath.v Line: 76
+Warning (10236): Verilog HDL Implicit Net warning at Datapath.v(90): created implicit net for "incPC" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/Datapath.v Line: 90
+Info (12127): Elaborating entity "miniSRC" for the top level hierarchy
+Info (12128): Elaborating entity "register_gen" for hierarchy "register_gen:PC" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 20
+Info (12128): Elaborating entity "select_encode" for hierarchy "select_encode:ir_encode_select" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 27
+Info (12128): Elaborating entity "decoder_4_to_16" for hierarchy "select_encode:ir_encode_select|decoder_4_to_16:decoder_4_to_16_i" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/select_encode.v Line: 21
+Warning (10763): Verilog HDL warning at decoder_4_to_16.v(9): case statement has overlapping case item expressions with non-constant or don't care bits - unable to check case statement for completeness File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v Line: 9
+Warning (10270): Verilog HDL Case Statement warning at decoder_4_to_16.v(9): incomplete case statement has no default case item File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v Line: 9
+Warning (10240): Verilog HDL Always Construct warning at decoder_4_to_16.v(8): inferring latch(es) for variable "decoded_value", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v Line: 8
+Info (10041): Inferred latch for "decoded_value[0]" at decoder_4_to_16.v(8) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v Line: 8
+Info (10041): Inferred latch for "decoded_value[1]" at decoder_4_to_16.v(8) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v Line: 8
+Info (10041): Inferred latch for "decoded_value[2]" at decoder_4_to_16.v(8) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v Line: 8
+Info (10041): Inferred latch for "decoded_value[3]" at decoder_4_to_16.v(8) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v Line: 8
+Info (10041): Inferred latch for "decoded_value[4]" at decoder_4_to_16.v(8) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v Line: 8
+Info (10041): Inferred latch for "decoded_value[5]" at decoder_4_to_16.v(8) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v Line: 8
+Info (10041): Inferred latch for "decoded_value[6]" at decoder_4_to_16.v(8) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v Line: 8
+Info (10041): Inferred latch for "decoded_value[7]" at decoder_4_to_16.v(8) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v Line: 8
+Info (10041): Inferred latch for "decoded_value[8]" at decoder_4_to_16.v(8) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v Line: 8
+Info (10041): Inferred latch for "decoded_value[9]" at decoder_4_to_16.v(8) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v Line: 8
+Info (10041): Inferred latch for "decoded_value[10]" at decoder_4_to_16.v(8) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v Line: 8
+Info (10041): Inferred latch for "decoded_value[11]" at decoder_4_to_16.v(8) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v Line: 8
+Info (10041): Inferred latch for "decoded_value[12]" at decoder_4_to_16.v(8) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v Line: 8
+Info (10041): Inferred latch for "decoded_value[13]" at decoder_4_to_16.v(8) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v Line: 8
+Info (10041): Inferred latch for "decoded_value[14]" at decoder_4_to_16.v(8) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v Line: 8
+Info (10041): Inferred latch for "decoded_value[15]" at decoder_4_to_16.v(8) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v Line: 8
+Info (12128): Elaborating entity "memory_custom" for hierarchy "memory_custom:RAM" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 40
+Error (10170): Verilog HDL syntax error at initial_data.hex(1) near text: :. Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel FPGA Knowledge Database contains many articles with specific details on how to resolve this error. Visit the Knowledge Database at https://www.altera.com/support/support-resources/knowledge-base/search.html and search for this specific error message number. File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/initial_data.hex Line: 1
+Error (12152): Can't elaborate user hierarchy "memory_custom:RAM" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 40
+Info (144001): Generated suppressed messages file C:/Users/19tja3/Documents/374/Phase2/QuartusProject/output_files/Phase2_project.map.smsg
+Error: Quartus Prime Analysis & Elaboration was unsuccessful. 2 errors, 11 warnings
+    Error: Peak virtual memory: 4781 megabytes
+    Error: Processing ended: Sat Mar 23 01:05:02 2024
+    Error: Elapsed time: 00:00:05
+    Error: Total CPU time (on all processors): 00:00:03
+
+
++--------------------------------------------+
+; Analysis & Elaboration Suppressed Messages ;
++--------------------------------------------+
+The suppressed messages can be found in C:/Users/19tja3/Documents/374/Phase2/QuartusProject/output_files/Phase2_project.map.smsg.
+
+
