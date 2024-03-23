@@ -31,7 +31,7 @@ module encoder_32_to_5 (
         encoderInput[21]: encoded_value = 5'b10101; // MDR
         encoderInput[22]: encoded_value = 5'b10110; // inPortOut
         encoderInput[23]: encoded_value = 5'b10111; // Cout
-        encoderInput[24]: encoded_value = 5'b1      //undefined
+        encoderInput[24]: encoded_value = 5'b1;     //undefined
         encoderInput[25]: encoded_value = 5'b1;     //undefined
         encoderInput[26]: encoded_value = 5'b1;     //undefined
         encoderInput[26]: encoded_value = 5'b1;     //undefined

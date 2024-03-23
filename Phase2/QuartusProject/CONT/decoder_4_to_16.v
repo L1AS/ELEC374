@@ -5,7 +5,7 @@ module decoder_4_to_16 (
 
     reg [15:0] decoded_value;
 
-    always @ (*) begin
+    always @ (decoderInput) begin
         case(1'b1)
             decoderInput[0]: decoded_value = 16'h0001; // R0
             decoderInput[1]: decoded_value = 16'h0002; // R1

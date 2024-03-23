@@ -1,8 +1,8 @@
 `timescale 1ns / 10ps
 
 module general_tb;
-    reg[31:0] outPortData,               // output.
-    reg[31:0] inPortDataIn,               // input.
+    reg[31:0] outPortData;               // output.
+    reg[31:0] inPortDataIn;               // input.
     reg clock, clear,                     // control signals.
           Gra, Grb, Grc, Rin, Rout, BAout,  // control signals for IR
           PCout, IncPC, PCin, IRin,          // PC and IR signals.
@@ -10,12 +10,12 @@ module general_tb;
           Cout, Zhighout, Zlowout, Zin,     //
           MDRout, MDRin, MARin,             // Mem Data Interface signals.
           memRead, memWrite,                // memory read enable and write enable signals.
-          outPortEN, outPortEN,             // Input/Output signals.
-    reg[4:0] opcode
+          inPortEN, outPortEN;             // Input/Output signals.
+    reg[4:0] opcode;
 
     // State definitions
     parameter Default = 4'b0000, T0 = 4'b0001, T1 = 4'b0010, T2 = 4'b0011, 
-              T3 = 4'b0100, T4 = 4'b0101, T5 = 4'b0111;
+              T3 = 4'b0100, T4 = 4'b0101, T5 = 4'b0111, T6 = 4'b1000, T7 = 4'b1001;
     
     reg [3:0] Present_state = Default;
 
