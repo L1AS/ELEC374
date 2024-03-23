@@ -52,7 +52,7 @@ module general_tb;
             T4: Present_state = T5;
             T5: Present_state = T6;
             T6: Present_state = T7; //load and branch
-            T7: ; //load 
+            T7: Present_state = Default; //load 
         endcase
     end
 
@@ -73,39 +73,38 @@ module general_tb;
                     outPortEN <= 0; outPortEN <= 0;                         // Input/Output signals.
                     opcode <= 5'b11010;                                     // assert nop
             end
-            T0: begin // 7
-				MDRout <= 0; R0in <= 0; // initialize R1 with the value $18 
-                PCout <= 1; MARin <= 1; IncPC <= 1; Zin <= 1;    
+            T0: begin // 1
+				PCout <= 1; MARin <= 1; IncPC <= 1; Zin <= 1;    // prepare for increment PC via ALU
             end
-            T1: begin //8
+            T1: begin //2
 				PCout <= 0; MARin <= 0; IncPC <= 0; Zin <= 0;
-                Zlowout <= 1; PCin <= 1; Read <= 1; 
-				MDRin <= 1;					
+                Zlowout <= 1; PCin <= 1; memRead <= 1; MDRin <= 1;	// PC incremented (taking value calculated in Z), read IR content from memory?			
             end
-            T2: begin //9
-				Zlowout <= 0; PCin <= 0; Read <= 0; MDRin <= 0;
-                MDRout <= 1; IRin <= 1; 
+            T2: begin //3
+				Zlowout <= 0; PCin <= 0; memRead <= 0; MDRin <= 0;
+                MDRout <= 1; IRin <= 1; // assert content from memory to IR
             end
-            T3: begin //10
+            T3: begin //4
 				MDRout <= 0; IRin <= 0;
-                Grb <= 1; BAout <= 1; Yin <= 1; 
+                Grb <= 1; BAout <= 1; Yin <= 1; // select register Rb by assert Grb and BAout signals, put the content of Rb in Y register
             end
-            T4: begin //11
+            T4: begin //5
 			    Grb <= 0; BAout <= 0; Yin <= 0;
-                Cout <= 16'h0095; opcode <= 5'b00011; Zin <= 1; 
+                Cout <= 1; opcode <= 5'b00011; Zin <= 1; // assert Cout to high -> get Csignextended (immediate), opcode for ADD, assert output of addtion to Z register
             end
-            T5: begin //12
+            T5: begin //6
+                Cout <= 0;
 				opcode <= 5'b11010; //assert nop
 				Zin <= 0; 
-                Zlowout <= 1; MARin <= 1; 
+                Zlowout <= 1; MARin <= 1;  // get the result (new address by adding content in Rb and the immediate) in Z register, assert MARin to move the address to the MAR
             end
-            T6: begin //13   
+            T6: begin //7   
                 Zlowout <= 0; MARin <= 0; 
-                Read <= 1; Mdatain <= ; MDRin <= 1;
+                memRead <= 1; MDRin <= 1; // read the content in the new address, put the content to MDR
             end
-            T7: begin
-                Read <= 0; MDRin <= 0;
-                MDRout <= 1; Gra <= 1; Rin <= 1;
+            T7: begin //8
+                memRead <= 0; MDRin <= 0;
+                MDRout <= 1; Gra <= 1; Rin <= 1; // put the content of MDR to Ra
             end
             
             // Continue defining other states similarly...
