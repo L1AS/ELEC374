@@ -11,7 +11,7 @@ module miniSRC{
           outPortEN, outPortEN,             // Input/Output signals.
     input[4:0] opcode
 }
-    
+    reg done;
     // csigned extended
     // consult Figure 4 in the phase 2 instruction
     wire[31:0] cSignExtended;
@@ -25,13 +25,16 @@ module miniSRC{
     
 
     // memory
-    memory RAM (.address(MARdata[8:0]), 
-				.clock(clock), 
-				.data(busMuxInMDR), 
-				.rden(memRead), 
-				.wren(memWrite), 
-				.q(Mdatain)
-               );
+    memory_custom #(.FILE_NAME("load.hex")) RAM (
+                    .data_out(Mdatain),
+                    .done(done),
+                    .clk(clock), 
+                    .addr(MARdata[8:0]), 
+                    .data_in(busMuxInMDR), 
+                    .read_enable(memRead), 
+                    .write_enable(memWrite), 
+                    .hexFile(hex)
+                    );
 
 
     // RAM interface

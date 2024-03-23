@@ -1,24 +1,22 @@
 module memory_custom #(
     parameter DATA_WIDTH = 32,
     parameter ADDR_WIDTH = 9,
-    parameter MEM_DEPT = 512
+    parameter MEM_DEPT = 512,
+    string parameter FILE_NAME = "initial_data.hex"
 )(
+    output reg [DATA_WIDTH-1:0] data_out,
+    output reg done                            // Signal to indicate operation completion
     input wire clk,                             // Still need a clock for the 'done' signaling
     input wire [ADDR_WIDTH-1:0] addr,
     input wire [DATA_WIDTH-1:0] data_in,
     input wire write_enable,
     input wire read_enable,
-    output reg [DATA_WIDTH-1:0] data_out,
-    output reg done                            // Signal to indicate operation completion
 );
 
     reg [DATA_WIDTH-1:0] memory [0:MEM_DEPTH-1];
 
     initial begin
-        for(integer  i = 0; i < 512; i++) begin
-            memory[i] = 32'b0;
-        end
-        $readmemh("initial_data.hex", memory)
+        $readmemh(FILE_NAME, memory)
     end
     // Asynchronous Write Operation
     always @(write_enable, addr, data_in) begin
