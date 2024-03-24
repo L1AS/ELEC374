@@ -5,7 +5,7 @@ module select_encode (
 );
     wire [15:0] reg_select;
     reg [3:0] w1, w2, w3;
-	 wire [3:0] w4;
+	wire [3:0] w4;
     wire Rout_base_address_checked;
    
     assign Rout_base_address_checked = BAout | Rout;

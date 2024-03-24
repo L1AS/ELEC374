@@ -1,16 +1,16 @@
 module Datapath (
     output [31:0] outPortData, busMuxOut,    // outputs 
-    input [31:0] inPortDataIn,                     // inputs
-          clock, clear,                     // control signals  
-          Yin, HIout, HIin, LOout, LOin,    // Data Path Signals
-          Zhighout, Zlowout, Zin,           //
-          PCout, IncPC, busMuxInPC,         // PC signals
-          MDRout, 
-	 input[31:0] busMuxInMDR,  // Memory data interface signal
-    input inPortEN, outPortEN,              // input/output
-    input Cout, 
-	 input[31:0] cSignExtended,   // imediate value signals   
-    input[5:0] opcode,                       // ALU opcode
+    input [31:0] inPortDataIn,               // inputs
+    input clock, clear,                     	// control signals  
+          Yin, HIout, HIin, LOout, LOin,    	// Data Path Signals
+          Zhighout, Zlowout, Zin,           	//
+          PCout, IncPC, busMuxInPC,         	// PC signals
+          MDRout, inPortOut,
+	 input[31:0] busMuxInMDR,  					// Memory data interface signal
+    input inPort_en, outPort_en,              	// input/output
+    input Cout, 										// imediate value signals
+	 input[31:0] cSignExtended,      			//
+    input[4:0] opcode,                       // ALU opcode
     input[15:0] reg_in, reg_out, BAout       // register control signals
 );
 
@@ -35,7 +35,8 @@ module Datapath (
               busMuxInZhigh, 
               busMuxInZlow, 
               Yout,
-              busMuxInInport;
+              busMuxInInport,
+              intermediateR0;
   wire [4:0] busMuxSignal;
   wire [63:0] alu_out;
 
@@ -67,8 +68,8 @@ module Datapath (
   register_gen Zhigh (busMuxInZhigh, clear, clock, Zin, alu_out[63:32]);
   register_gen Zlow (busMuxInZlow, clear, clock, Zin, alu_out[31:0]);
   // Input, Output Ports
-  register_gen In_Port (busMuxInInport, clear, clock, inPortEN, inPortDataIn);
-  register_gen Out_port (outPortData, clear, clock, outPortEN, busMuxOut);
+  register_gen In_Port (busMuxInInport, clear, clock, inPort_en, inPortDataIn);
+  register_gen Out_port (outPortData, clear, clock, outPort_en, busMuxOut);
 
   // Bus
   encoder_32_to_5 BusEncoder (
@@ -87,6 +88,6 @@ module Datapath (
   );
 
   // ALU
-  alu ALU (alu_out, incPC, Yout, busMuxOut, opcode);
+  alu ALU (alu_out, IncPC, Yout, busMuxOut, opcode);
 
 endmodule

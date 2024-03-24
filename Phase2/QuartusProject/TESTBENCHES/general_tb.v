@@ -1,16 +1,18 @@
 `timescale 1ns / 10ps
 
 module general_tb;
-    reg[31:0] outPortData;               // output.
+    reg[31:0] outPortData;                  // output.
+    reg CONFF_out, CONin;                   // branch logic signals
     reg[31:0] inPortDataIn;               // input.
     reg clock, clear,                     // control signals.
           Gra, Grb, Grc, Rin, Rout, BAout,  // control signals for IR
           PCout, IncPC, PCin, IRin,          // PC and IR signals.
-          Yin, Hiout, HIin, LOout, LOin,    // datapath MUX signals.
+          Yin, HIout, HIin, LOout, LOin,    // datapath MUX signals.
           Cout, Zhighout, Zlowout, Zin,     //
           MDRout, MDRin, MARin,             // Mem Data Interface signals.
           memRead, memWrite,                // memory read enable and write enable signals.
-          inPortEN, outPortEN;             // Input/Output signals.
+          inPort_en, outPort_en,             // Input/Output signals.
+          inPortOut;
     reg[4:0] opcode;
 
     // State definitions
@@ -21,17 +23,19 @@ module general_tb;
 
     // Instantiate the Device Under Test (DUT)
     miniSRC CPU(
-        outPortData,                    // output.
-        inPortDataIn,                   // input.
-        clock, clear,                   // control signals.
-        Gra, Grb, Grc, Rin, Rout, BAout,// control signals for IR
-        PCout, IncPC, PCin, IRin,       // PC and IR signals.
-        Yin, Hiout, HIin, LOout, LOin,  // datapath MUX signals.
-        Cout, Zhighout, Zlowout, Zin,   //
-        MDRout, MDRin, MARin,           // Mem Data Interface signals.
-        memRead, memWrite,              // memory read enable and write enable signals.
-        outPortEN, outPortEN,           // Input/Output signals.
-        opcode                          //ALU opcode
+        .outPortData(outPortData),                                              // output.
+        .CONFF_out(CONFF_out), .CONin(CONin),                                   // branch logic signals
+        .inPortDataIn(inPortDataIn),                                            // input.                                
+        .clock(clock), .clear(clear),                                           // control signals.
+        .Gra(Gra), .Grb(Grb), .Grc(Grc), .Rin(Rin), .Rout(Rout), .BAout(BAout), // control signals for IR
+        .PCout(PCout), .IncPC(IncPC), .PCin(PCin), .IRin(IRin),                 // PC and IR signals.
+        .Yin(Yin), .HIout(HIout), .HIin(HIin), .LOout(LOout), .LOin(LOin),      // datapath MUX signals.
+        .Cout(Cout), .Zhighout(Zhighout), .Zlowout(Zlowout), .Zin(Zin),         //
+        .MDRout(MDRout), .MDRin(MDRin), .MARin(MARin),                          // Mem Data Interface signals.
+        .memRead(memRead), .memWrite(memWrite),                                 // memory read enable and write enable signals.
+        .inPort_en(inPort_en), .outPort_en(outPort_en),                          // Input/Output signals.
+        .inPortOut(inPortOut),
+        .opcode(opcode)                                                         //ALU opcode 
     );
 
 
@@ -66,11 +70,11 @@ module general_tb;
                     Gra <= 0; Grb <= 0; Grc <= 0;                           // control signals for IR
                     Rin <= 0; Rout <= 0; BAout <= 0;                        //
                     PCout <= 0; IncPC <= 0; PCin <= 0; IRin <= 0;           // PC and IR signals.
-                    Yin <= 0; Hiout <= 0; HIin <= 0; LOout <= 0; LOin <= 0; // datapath MUX signals.
+                    Yin <= 0; HIout <= 0; HIin <= 0; LOout <= 0; LOin <= 0; // datapath MUX signals.
                     Cout <= 0; Zhighout <= 0; Zlowout <= 0; Zin <= 0;       //
                     MDRout <= 0; MDRin <= 0; MARin <= 0;                    // Mem Data Interface signals.
                     memRead <= 0; memWrite <= 0;                            // memory read enable and write enable signals.
-                    outPortEN <= 0; outPortEN <= 0;                         // Input/Output signals.
+                    inPort_en <= 0; outPort_en <= 0;                         // Input/Output signals.
                     opcode <= 5'b11010;                                     // assert nop
             end
             T0: begin // 1

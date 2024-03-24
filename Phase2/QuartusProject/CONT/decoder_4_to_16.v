@@ -23,6 +23,7 @@ module decoder_4_to_16 (
             decoderInput[13]: decoded_value = 16'h2000; // R13
             decoderInput[14]: decoded_value = 16'h4000; // R14
             decoderInput[15]: decoded_value = 16'h8000; // R15
+				default: decoded_value = 16'h0;
         endcase
     end
     

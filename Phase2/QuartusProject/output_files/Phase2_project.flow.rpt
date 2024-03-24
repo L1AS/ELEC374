@@ -1,5 +1,5 @@
 Flow report for Phase2_project
-Sat Mar 23 01:05:02 2024
+Sun Mar 24 18:28:42 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +-----------------------------+-------------------------------------------------+
-; Flow Status                 ; Flow Failed - Sat Mar 23 01:05:02 2024          ;
+; Flow Status                 ; Successful - Sun Mar 24 18:28:42 2024           ;
 ; Quartus Prime Version       ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name               ; Phase2_project                                  ;
 ; Top-level Entity Name       ; miniSRC                                         ;
@@ -62,7 +62,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/23/2024 01:04:57 ;
+; Start date & time ; 03/24/2024 18:28:37 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Phase2_project      ;
 +-------------------+---------------------+
@@ -73,7 +73,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+----------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value  ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+----------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 215893810745053.171117029735072        ; --             ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 215893810745053.171131931704704        ; --             ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --             ; --          ; general_tb     ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; general_tb                             ; --             ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --             ; --          ; eda_simulation ;
@@ -86,6 +86,7 @@ refer to the applicable agreement for further details.
 ; EDA_TIME_SCALE                       ; 1 ps                                   ; --             ; --          ; eda_simulation ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --             ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --             ; --          ; --             ;
+; MISC_FILE                            ; RAM/memory_bb.v                        ; --             ; --          ; --             ;
 ; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --             ; miniSRC     ; Top            ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --             ; miniSRC     ; Top            ;
 ; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --             ; miniSRC     ; Top            ;
@@ -101,7 +102,7 @@ refer to the applicable agreement for further details.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:05     ; 1.0                     ; 4781 MB             ; 00:00:03                           ;
+; Analysis & Elaboration ; 00:00:05     ; 1.0                     ; 4809 MB             ; 00:00:03                           ;
 ; Total                  ; 00:00:05     ; --                      ; --                  ; 00:00:03                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 

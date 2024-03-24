@@ -8,7 +8,7 @@ module flip_flop(
 		Q <= 0;
 		Q_not <= 1;
 	end
-	always@(clk) 
+	always@(clk, D) 
 	begin
 		Q <= D;
 		Q_not <= !D;
