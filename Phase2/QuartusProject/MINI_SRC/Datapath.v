@@ -13,7 +13,7 @@ module Datapath (
 	  input[31:0] cSignExtended,      			//
     input[4:0] opcode,                       // ALU opcode
     input[15:0] reg_in, reg_out,       // register control signals
-    input BAout
+    input BAout, jal_R15
 );
 
   wire [31:0] busMuxInR0, 
@@ -40,6 +40,8 @@ module Datapath (
               busMuxInInport,
               intermediateR0;
   wire [4:0] busMuxSignal;
+  wire r15_en;
+  assign r15_en <= reg_in[15] | jal_R15;
   wire [63:0] alu_out;
 
 	  
@@ -61,7 +63,10 @@ module Datapath (
   register_gen R12 (busMuxInR12, clear, clock, reg_in[12], busMuxOut);
   register_gen R13 (busMuxInR13, clear, clock, reg_in[13], busMuxOut);
   register_gen R14 (busMuxInR14, clear, clock, reg_in[14], busMuxOut);
-  register_gen R15 (busMuxInR15, clear, clock, reg_in[15], busMuxOut);
+
+  wire r15_en;
+  assign r15_en <= reg_in[15] | jal_R15;
+  register_gen R15 (busMuxInR15, clear, clock, r15_en, busMuxOut);    // 
 
   register_gen HI (busMuxInHI, clear, clock, HIin, busMuxOut);
   register_gen LO (busMuxInLO, clear, clock, LOin, busMuxOut);

@@ -13,7 +13,7 @@ module general_tb;
           MDRout, MDRin, MARin,             // Mem Data Interface signals.
           memRead, memWrite,                // memory read enable and write enable signals.
           inPort_en, outPort_en,             // Input/Output signals.
-          inPortOut;
+          inPortOut, jal_R15;
     reg[4:0] opcode;
 
     // State definitions
@@ -37,7 +37,7 @@ module general_tb;
         .MDRout(MDRout), .MDRin(MDRin), .MARin(MARin),                          // Mem Data Interface signals.
         .memRead(memRead), .memWrite(memWrite),                                 // memory read enable and write enable signals.
         .inPort_en(inPort_en), .outPort_en(outPort_en),                          // Input/Output signals.
-        .inPortOut(inPortOut),
+        .inPortOut(inPortOut), .jal_R15(jal_R15),
         .opcode(opcode)                                                         //ALU opcode 
     );
 
@@ -73,7 +73,7 @@ module general_tb;
         case (Present_state)
             Default: begin
                 inPortDataIn <= 0;                                      // input.
-                clear <= 0;                                 // control signals.
+                clear <= 0; jal_R15 <= 0;                               // control signals.
                 Gra <= 0; Grb <= 0; Grc <= 0;                           // control signals for IR
                 Rin <= 0; Rout <= 0; BAout <= 0;                        //
                 PCout_en <= 0; IncPC <= 0; PC_en <= 0; IRin <= 0;           // PC and IR signals.

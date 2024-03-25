@@ -11,7 +11,7 @@ module miniSRC(
           MDRout, MDRin, MARin,             // Mem Data Interface signals.
           memRead, memWrite,                // memory read enable and write enable signals.
           inPort_en, outPort_en,            // Input/Output signals.
-          inPortOut,
+          inPortOut, jal_R15,
     input[4:0] opcode
 );
 
@@ -72,7 +72,8 @@ module miniSRC(
             .inPort_en(inPort_en), .outPort_en(outPort_en),            // input/output
             .Cout(Cout), .cSignExtended(cSignExtended),             // imediate value signals   
             .opcode(opcode),                                                         //ALU opcode 
-            .reg_in(reg_in), .reg_out(reg_out), .BAout(BAout)          // register control signals
+            .reg_in(reg_in), .reg_out(reg_out), .BAout(BAout),          // register control signals
+            .jal_R15(jal_R15)
     );
 
 endmodule
