@@ -1,6 +1,6 @@
 `timescale 1ns / 10ps
 
-module general_tb;
+module load_imm_tb;
     wire[31:0] outPortData;                  // output.
     wire CONFF_out;
     reg CONin;                   // branch logic signals
@@ -19,7 +19,7 @@ module general_tb;
     // State definitions
     parameter Default = 4'b0000, T0 = 4'b0001, T1 = 4'b0010, T2 = 4'b0011, 
               T3 = 4'b0100, T4 = 4'b0101, T5 = 4'b0111, T6 = 4'b1000, T7 = 4'b1001,
-              memWait = 4'b1111;
+              memWait1 = 4'b1111, memWait2 = 4'b1111;;
               
     
     reg [3:0] Present_state = Default;
@@ -54,7 +54,8 @@ module general_tb;
             Default: Present_state = T0;
             T0: Present_state = T1;
             T1: Present_state = T2;
-            T2: Present_state = memWait;
+            T2: Present_state = memWait1;
+            memWait1: Present_state = memWait2;
             memWait: Present_state = T3;
             T3: Present_state = T4;
             T4: Present_state = T5;
@@ -107,16 +108,12 @@ module general_tb;
                 Cout <= 0;
 				opcode <= 5'b11010; //assert nop
 				Zin <= 0; 
-                Zlowout <= 1; MARin <= 1;  // get the result (new address by adding content in Rb and the immediate) in Z register, assert MARin to move the address to the MAR
+                Zlowout <= 1; Gra <= 1; Rin <= 1;  // put conntent of 
             end
             T6: begin //7   
-                Zlowout <= 0; MARin <= 0; 
-                memRead <= 1; MDRin <= 1; // read the content in the new address, put the content to MDR
+                Zlowout <= 0; Gra <= 0; Rin <= 0; 
             end
-            T7: begin //8
-                memRead <= 0; MDRin <= 0;
-                MDRout <= 1; Gra <= 1; Rin <= 1; // put the content of MDR to Ra
-            end
+
             
             // Continue defining other states similarly...
         endcase

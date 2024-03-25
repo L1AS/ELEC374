@@ -27,7 +27,7 @@ module miniSRC(
     // csigned extended
     // consult Figure 4 in the phase 2 instruction
 	register_gen PC (busMuxInPC, clear, clock, PC_en, busMuxOut);
-    register_gen IR (IRout, clear, clock, IR_en, busMuxInMDR);
+    register_gen IR (IRout, clear, clock, IR_en, busMuxOut);
     
     wire[31:0] cSignExtended;
     assign cSignExtended = {{14{IRout[18]}}, IRout[17:0]};

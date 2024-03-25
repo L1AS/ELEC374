@@ -1,6 +1,6 @@
 `timescale 1ns / 10ps
 
-module general_tb;
+module jump_tb;
     wire[31:0] outPortData;                  // output.
     wire CONFF_out;
     reg CONin;                   // branch logic signals
@@ -67,18 +67,18 @@ module general_tb;
     // State actions
     always @(Present_state) begin
         case (Present_state)
-            Default: begin
-                inPortDataIn <= 0;                                      // input.
-                clock <= 0; clear <= 1;                                 // control signals.
-                Gra <= 0; Grb <= 0; Grc <= 0;                           // control signals for IR
-                Rin <= 0; Rout <= 0; BAout <= 0;                        //
-                PCout_en <= 0; IncPC <= 0; PC_en <= 0; IRin <= 0;           // PC and IR signals.
-                Yin <= 0; HIout <= 0; HIin <= 0; LOout <= 0; LOin <= 0; // datapath MUX signals.
-                Cout <= 0; Zhighout <= 0; Zlowout <= 0; Zin <= 0;       //
-                MDRout <= 0; MDRin <= 0; MARin <= 0;                    // Mem Data Interface signals.
-                memRead <= 0; memWrite <= 0;                            // memory read enable and write enable signals.
-                inPort_en <= 0; outPort_en <= 0;                         // Input/Output signals.
-                opcode <= 5'b11010;                                     // assert nop
+                Default: begin
+                    inPortDataIn <= 0;                                      // input.
+                    clock <= 0; clear <= 1;                                 // control signals.
+                    Gra <= 0; Grb <= 0; Grc <= 0;                           // control signals for IR
+                    Rin <= 0; Rout <= 0; BAout <= 0;                        //
+                    PCout_en <= 0; IncPC <= 0; PC_en <= 0; IRin <= 0;           // PC and IR signals.
+                    Yin <= 0; HIout <= 0; HIin <= 0; LOout <= 0; LOin <= 0; // datapath MUX signals.
+                    Cout <= 0; Zhighout <= 0; Zlowout <= 0; Zin <= 0;       //
+                    MDRout <= 0; MDRin <= 0; MARin <= 0;                    // Mem Data Interface signals.
+                    memRead <= 0; memWrite <= 0;                            // memory read enable and write enable signals.
+                    inPort_en <= 0; outPort_en <= 0;                         // Input/Output signals.
+                    opcode <= 5'b11010;                                     // assert nop
             end
             T0: begin // 1
                 clear <= 0;
@@ -88,34 +88,19 @@ module general_tb;
 				PCout_en <= 0; MARin <= 0; IncPC <= 0; Zin <= 0;
                 Zlowout <= 1; PC_en <= 1; memRead <= 1; MDRin <= 1;	// PC incremented (taking value calculated in Z), read IR content from memory?			
             end
-            memWait1: begin
-                Zlowout <= 0; PC_en <= 0;
+            memWait: begin
+                
             end
             T2: begin //3
-                memRead <= 0; MDRin <= 0;
+				Zlowout <= 0; PC_en <= 0; memRead <= 0; MDRin <= 0;
                 MDRout <= 1; IRin <= 1; // assert content from memory to IR
             end
             T3: begin //4
-                MDRout <= 0; IRin <= 0;
-                Grb <= 1; BAout <= 1; Yin <= 1; // select register Rb by assert Grb and BAout signals, put the content of Rb in Y register
+				MDRout <= 0; IRin <= 0;
+                Gra <= 1; Rout <= 1; Yin <= 1; // select register Rb by assert Grb and BAout signals, put the content of Rb in Y register
             end
             T4: begin //5
-			    Grb <= 0; BAout <= 0; Yin <= 0;
-                Cout <= 1; opcode <= 5'b00011; Zin <= 1; // assert Cout to high -> get Csignextended (immediate), opcode for ADD, assert output of addtion to Z register
-            end
-            T5: begin //6
-                Cout <= 0;
-				opcode <= 5'b11010; //assert nop
-				Zin <= 0; 
-                Zlowout <= 1; MARin <= 1;  // get the result (new address by adding content in Rb and the immediate) in Z register, assert MARin to move the address to the MAR
-            end
-            T6: begin //7   
-                Zlowout <= 0; MARin <= 0; 
-                memRead <= 1; MDRin <= 1; // read the content in the new address, put the content to MDR
-            end
-            T7: begin //8
-                memRead <= 0; MDRin <= 0;
-                MDRout <= 1; Gra <= 1; Rin <= 1; // put the content of MDR to Ra
+			    Gra <= 0; Rout <= 0; Yin <= 0;
             end
             
             // Continue defining other states similarly...
