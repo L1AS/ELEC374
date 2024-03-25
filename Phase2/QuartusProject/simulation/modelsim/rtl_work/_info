@@ -7,47 +7,47 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/19tja3/Documents/374/Phase2/QuartusProject/simulation/modelsim
+Z0 dC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/simulation/modelsim
 vadd_op
-Z1 !s110 1711319379
+Z1 !s110 1711319710
 !i10b 1
 !s100 8PVcYBaSd;mQm<hiY4@>R1
-Iz81d_@ed[VE3UW^QMod?i3
+Ic8:^Za<ohB080XIX^9MRP3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1711313798
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/add_op.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/add_op.v
+Z3 w1711171148
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v
 L0 1
 Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1711319379.000000
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/add_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/add_op.v|
+Z5 !s108 1711319710.000000
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v|
 !i113 1
 Z6 o-vlog01compat -work work
-Z7 !s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU
 Z8 tCvgOpt 0
 valu
 R1
 !i10b 1
 !s100 J?^b]kP@f_=I6a0EHN;>Z3
-If@oAkBOmK5EBRIG?Xma^S2
+I[^G9=EoTSYCoDI4GK=G:G1
 R2
 R0
 R3
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/alu.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/alu.v
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v
 L0 1
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/alu.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/alu.v|
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v|
 !i113 1
 R6
 R7
@@ -56,20 +56,20 @@ vand_op
 R1
 !i10b 1
 !s100 6`>]iL^HdICgnnXj^D2LA0
-IG_HIHNo8dT@XkKY`A5hln3
+IT5ZN<8`:aV9S<k2SZT8]03
 R2
 R0
 R3
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/and_op.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/and_op.v
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/and_op.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/and_op.v
 L0 1
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/and_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/and_op.v|
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/and_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/and_op.v|
 !i113 1
 R6
 R7
@@ -78,20 +78,20 @@ vb_cell
 R1
 !i10b 1
 !s100 1=@[[E6FXnR>PUX`U2U4z3
-I;FUd>k2e>`o:eH:J;9Knh0
+Ij>Y6O8iGiElJLY4n7nM`Q2
 R2
 R0
 R3
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/b_cell.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/b_cell.v
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/b_cell.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/b_cell.v
 L0 1
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/b_cell.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/b_cell.v|
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/b_cell.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/b_cell.v|
 !i113 1
 R6
 R7
@@ -100,175 +100,175 @@ vcon_ff
 R1
 !i10b 1
 !s100 k4Y4X<5[O_=5NLDFAQC881
-IVBQWHSU8SW;4>[9kU]MhY2
+IHTk9J`RW3RC>2:B1V:R733
 R2
 R0
-w1711317018
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CON_FF/con_ff.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/CON_FF/con_ff.v
+Z9 w1711319616
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v
 L0 1
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CON_FF/con_ff.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CON_FF|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CON_FF/con_ff.v|
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v|
 !i113 1
 R6
-Z9 !s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CON_FF
+Z10 !s92 -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF
 R8
 vDatapath
-Z10 !s110 1711319378
+Z11 !s110 1711319709
 !i10b 1
 !s100 iG`mHEadQ>BYboV_fUbn@3
-I_kb_aV9n7h@nO=QP?k?zR0
+IOmh?0_C><S;EUENZ]e9z?0
 R2
 R0
-w1711316526
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/Datapath.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/Datapath.v
+R9
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/Datapath.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/Datapath.v
 L0 1
 R4
 r1
 !s85 0
 31
-Z11 !s108 1711319378.000000
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/Datapath.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/Datapath.v|
+Z12 !s108 1711319708.000000
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/Datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/Datapath.v|
 !i113 1
 R6
-Z12 !s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC
+Z13 !s92 -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC
 R8
 n@datapath
 vdecoder_4_to_16
-R10
+R11
 !i10b 1
 !s100 H9Um;n_4dROCAB19R4[Jf0
-IKhFI9ISCCRAl3C;DH3bW31
+I1>3D[b[ni<1M?3Oi4`if90
 R2
 R0
-w1711316753
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v
+R9
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/decoder_4_to_16.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/decoder_4_to_16.v
 L0 1
 R4
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/decoder_4_to_16.v|
+Z14 !s108 1711319709.000000
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/decoder_4_to_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/decoder_4_to_16.v|
 !i113 1
 R6
-Z13 !s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT
+Z15 !s92 -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT
 R8
 vdiv_op
 R1
 !i10b 1
 !s100 T=NdHl<c=_?9f7YJfU3dK3
-IDkmA>Ud;8VE>[678l9F1z3
+ITO@2GPEg0<g0cHFl>[DdG3
 R2
 R0
 R3
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/div_op.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/div_op.v
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v
 L0 1
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/div_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/div_op.v|
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v|
 !i113 1
 R6
 R7
 R8
 vencoder_32_to_5
-R1
+R11
 !i10b 1
 !s100 mC>jSB[S[WkS07J<;RGGg2
-IcfQXZDmk?2edkIeIk8F4=0
+IQC6M>b2AHmQmAl?ImoCP<3
 R2
 R0
-R3
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/BUS/encoder_32_to_5.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/BUS/encoder_32_to_5.v
+R9
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/encoder_32_to_5.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/encoder_32_to_5.v
 L0 2
 R4
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/BUS/encoder_32_to_5.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/BUS|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/BUS/encoder_32_to_5.v|
+R14
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/encoder_32_to_5.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/encoder_32_to_5.v|
 !i113 1
 R6
-Z14 !s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/BUS
+Z16 !s92 -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS
 R8
 vflip_flop
-R10
+R11
 !i10b 1
 !s100 DTWb4bThlfLH@Kl>ifJ=22
-I;FiXSh2JJIfe[AMKTHR2n3
+I5_1T<ITmV3R]h;4d8AXFP2
 R2
 R0
-w1711316788
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CON_FF/flip_flop.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/CON_FF/flip_flop.v
+R9
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v
 L0 1
 R4
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CON_FF/flip_flop.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CON_FF|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CON_FF/flip_flop.v|
+R14
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v|
 !i113 1
 R6
-R9
+R10
 R8
 vgeneral_tb
 R1
 !i10b 1
 !s100 eGF45O>XEmJ7Q8nz==`S:2
-ID`d8e=DJT2Uhz3i=E01C:3
+Ib4<NbJ=QLS8F7R;BNLTYT2
 R2
 R0
-w1711319303
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/TESTBENCHES/general_tb.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/TESTBENCHES/general_tb.v
+R9
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/general_tb.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/general_tb.v
 L0 3
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/TESTBENCHES/general_tb.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/TESTBENCHES|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/TESTBENCHES/general_tb.v|
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/general_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/general_tb.v|
 !i113 1
 R6
-!s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/TESTBENCHES
+!s92 -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES
 R8
 vIncPC
-R10
+Z17 !s110 1711319708
 !i10b 1
 !s100 2GOz]M8l[N5b5USBm=e4d1
-IhGVO<FgEj_6cBd<I[XgX>0
+IbNNn5oFnMzKFU5FnUF[G;1
 R2
 R0
-Z15 w1711313945
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/IncPC.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/IncPC.v
+R9
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/IncPC.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/IncPC.v
 L0 1
 R4
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/IncPC.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/IncPC.v|
+R12
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/IncPC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/IncPC.v|
 !i113 1
 R6
 R7
@@ -278,131 +278,131 @@ vmemory
 R1
 !i10b 1
 !s100 YgAUaL><jhn2i2SOaFNSL2
-I07afGa__0iaR7iF3YB3K10
+I]0c[nMO52ek3a>Y@]ChZI1
 R2
 R0
-w1711318211
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory.v
+R9
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v
 L0 39
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory.v|
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v|
 !i113 1
 R6
-!s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM
+!s92 -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM
 R8
 vminiSRC
-R10
+R17
 !i10b 1
 !s100 ^@eWE>XBG2S6Jfa<<lEf^0
-IL9f?PWT11@9GG?9@dz39g0
+IRPO>Wbkz]g_SFze0<9JHb0
 R2
 R0
-w1711318767
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/miniSRC.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/miniSRC.v
+R9
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v
 L0 1
 R4
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/miniSRC.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/miniSRC.v|
+R12
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v|
 !i113 1
 R6
-R12
+R13
 R8
 nmini@s@r@c
 vmul_op
 R1
 !i10b 1
 !s100 [^kScIUnT^4>4b8D20ne42
-ITzlQ_gaiLz?2IjSUm:Uil3
+IE=gP:L8`OChSNPe:J7dKZ3
 R2
 R0
-R15
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/mul_op.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/mul_op.v
+R3
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v
 L0 1
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/mul_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/mul_op.v|
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v|
 !i113 1
 R6
 R7
 R8
 vmux_2_to_1
-R10
+R11
 !i10b 1
 !s100 cZkP=MBBACFD:b;I]6MS>0
-I8^=26?P>3mLH8XmPP>:Q?1
+IDY<5CTOozdMEL=W9lZGMV3
 R2
 R0
 R3
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MDI/mux_2_to_1.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/MDI/mux_2_to_1.v
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI/mux_2_to_1.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI/mux_2_to_1.v
 L0 3
 R4
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MDI/mux_2_to_1.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MDI|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MDI/mux_2_to_1.v|
+R14
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI/mux_2_to_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI/mux_2_to_1.v|
 !i113 1
 R6
-!s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MDI
+!s92 -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI
 R8
 vmux_32_to_1
-R10
+R11
 !i10b 1
 !s100 B:aAE@?TOnggg_@lFI3WG2
-IOhz`XbRcW9aEdK@dbQJeg3
+I^a6Ye:9A0a=7>Z]g^>lQT1
 R2
 R0
-R15
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/BUS/mux_32_to_1.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/BUS/mux_32_to_1.v
+R3
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/mux_32_to_1.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/mux_32_to_1.v
 L0 3
 R4
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/BUS/mux_32_to_1.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/BUS|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/BUS/mux_32_to_1.v|
+R14
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/mux_32_to_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/mux_32_to_1.v|
 !i113 1
 R6
-R14
+R16
 R8
 vneg_op
 R1
 !i10b 1
 !s100 8Vj[?VokZiFPdAdaD7K^z3
-I?cz^RK4<Y@AN_?;YfQ;Cd3
+I4aUUz]zz@B_^NLSb2i<1]2
 R2
 R0
 R3
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/neg_op.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/neg_op.v
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/neg_op.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/neg_op.v
 L0 1
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/neg_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/neg_op.v|
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/neg_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/neg_op.v|
 !i113 1
 R6
 R7
@@ -411,20 +411,20 @@ vnot_op
 R1
 !i10b 1
 !s100 Mo24053V[S5Q;16^Y9[?c0
-IhRV;BPjBkWZAd`HAhoV0z1
+IoQnG_?S`:7J]A5cL<lzMI1
 R2
 R0
 R3
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/not_op.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/not_op.v
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/not_op.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/not_op.v
 L0 1
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/not_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/not_op.v|
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/not_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/not_op.v|
 !i113 1
 R6
 R7
@@ -433,196 +433,196 @@ vor_op
 R1
 !i10b 1
 !s100 WCiF4ofcLLgL];YRmQcfk1
-I;cC[1Ong?N9UA_S[RjV4?0
+Im^z5DQ2h@1C5_Oz[Sel071
 R2
 R0
 R3
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/or_op.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/or_op.v
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/or_op.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/or_op.v
 L0 1
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/or_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/or_op.v|
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/or_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/or_op.v|
 !i113 1
 R6
 R7
 R8
 vregister_gen
-R10
+R17
 !i10b 1
 !s100 KoJZmDD?CQ`c>[3_bJ9HV3
-I5d8d3BKJQJJ4<9KVZ`9J01
+IbkI^h;4hb7^LYf9PdGFEA1
 R2
 R0
 R3
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/REG/register_gen.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/REG/register_gen.v
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG/register_gen.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG/register_gen.v
 L0 1
 R4
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/REG/register_gen.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/REG|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/REG/register_gen.v|
+R12
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG/register_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG/register_gen.v|
 !i113 1
 R6
-!s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/REG
+!s92 -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG
 R8
 vrol_op
-R1
+R11
 !i10b 1
 !s100 S`AYnY;5zXmdWS]J;CBU@2
-I8OO[Yl6_[eUZaPI>1]2e42
+I9l^dg0W72kC_iadeKVIPK2
 R2
 R0
 R3
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/rol_op.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/rol_op.v
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/rol_op.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/rol_op.v
 L0 1
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/rol_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/rol_op.v|
+R14
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/rol_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/rol_op.v|
 !i113 1
 R6
 R7
 R8
 vror_op
-R1
+R11
 !i10b 1
 !s100 So57dZLZ1JR5gSDoFJEl30
-I:`L@gizc83?<QejMPd=QU3
+I@LKjW?T@ZHHMSclh^UOJ11
 R2
 R0
 R3
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/ror_op.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/ror_op.v
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/ror_op.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/ror_op.v
 L0 1
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/ror_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/ror_op.v|
+R14
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/ror_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/ror_op.v|
 !i113 1
 R6
 R7
 R8
 vselect_encode
-R10
+R11
 !i10b 1
 !s100 `EJ]<7gB;jgnlc0]PLzh=1
-I12J=JeCL`]lNmag2AK:^C1
+I@M9ga:0?X5[=`XKFAJZld3
 R2
 R0
-w1711316914
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/select_encode.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/select_encode.v
+R9
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/select_encode.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/select_encode.v
 L0 1
 R4
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/select_encode.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/select_encode.v|
+R14
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/select_encode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/select_encode.v|
 !i113 1
 R6
-R13
+R15
 R8
 vshl_op
-R1
+R11
 !i10b 1
 !s100 GB>SDVSLg7ikjCjnVOVfb1
-I7]Ke42zWU;7N;b75JBMHn3
+Ii8jl?_7UJW^EblEMff4FA2
 R2
 R0
 R3
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/shl_op.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/shl_op.v
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shl_op.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shl_op.v
 L0 1
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/shl_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/shl_op.v|
+R14
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shl_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shl_op.v|
 !i113 1
 R6
 R7
 R8
 vshr_op
-R1
+R11
 !i10b 1
 !s100 =1>z<hQfgBXZV^DkRfZBj2
-IQlVGlfzoU_X2LbdJK=Ei^3
+I@E_E>AIihUbQH=I@BB>eE3
 R2
 R0
 R3
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/shr_op.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/shr_op.v
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shr_op.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shr_op.v
 L0 1
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/shr_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/shr_op.v|
+R14
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shr_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shr_op.v|
 !i113 1
 R6
 R7
 R8
 vshra_op
-R1
+R11
 !i10b 1
 !s100 0jAzb2o`PFYL[L@0>Vaij3
-Ia3bj?Zz0CG]9I=U1D2[bH2
+ICcR`ME@7b9]Njf395]KcB1
 R2
 R0
-R15
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/shra_op.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/shra_op.v
+R3
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shra_op.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shra_op.v
 L0 1
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/shra_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/shra_op.v|
+R14
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shra_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shra_op.v|
 !i113 1
 R6
 R7
 R8
 vsub_op
-R1
+R11
 !i10b 1
 !s100 RiGimI=d@7OfQZ<ni8KG<1
-IHn^3M07]kGMJC<NfbLL590
+IWDchZKKhX^2MX3G@[I2;o2
 R2
 R0
 R3
-8C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/sub_op.v
-FC:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/sub_op.v
+8C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/sub_op.v
+FC:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/sub_op.v
 L0 1
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/sub_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU|C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/sub_op.v|
+R14
+!s107 C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/sub_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU|C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/sub_op.v|
 !i113 1
 R6
 R7
