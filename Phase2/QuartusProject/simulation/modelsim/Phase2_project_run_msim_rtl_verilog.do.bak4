@@ -31,7 +31,7 @@ vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/374/Phase2/Quart
 vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU {C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/alu.v}
 vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU {C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/add_op.v}
 vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CON_FF {C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CON_FF/con_ff.v}
-vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM {C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v}
+vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM {C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory.v}
 
 vlog -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/374/Phase2/QuartusProject/TESTBENCHES {C:/Users/19tja3/Documents/374/Phase2/QuartusProject/TESTBENCHES/general_tb.v}
 
