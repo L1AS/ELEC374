@@ -63,36 +63,37 @@ module jump_tb;
             T7: Present_state = Default; //load 
         endcase
     end
-
     // State actions
     always @(Present_state) begin
         case (Present_state)
-                Default: begin
-                    inPortDataIn <= 0;                                      // input.
-                    clock <= 0; clear <= 1;                                 // control signals.
-                    Gra <= 0; Grb <= 0; Grc <= 0;                           // control signals for IR
-                    Rin <= 0; Rout <= 0; BAout <= 0;                        //
-                    PCout_en <= 0; IncPC <= 0; PC_en <= 0; IRin <= 0;           // PC and IR signals.
-                    Yin <= 0; HIout <= 0; HIin <= 0; LOout <= 0; LOin <= 0; // datapath MUX signals.
-                    Cout <= 0; Zhighout <= 0; Zlowout <= 0; Zin <= 0;       //
-                    MDRout <= 0; MDRin <= 0; MARin <= 0;                    // Mem Data Interface signals.
-                    memRead <= 0; memWrite <= 0;                            // memory read enable and write enable signals.
-                    inPort_en <= 0; outPort_en <= 0;                         // Input/Output signals.
-                    opcode <= 5'b11010;                                     // assert nop
+            Default: begin
+                inPortDataIn <= 0;                                      // input.
+                clock <= 0; clear <= 0;                                 // control signals.
+                Gra <= 0; Grb <= 0; Grc <= 0;                           // control signals for IR
+                Rin <= 0; Rout <= 0; BAout <= 0;                        //
+                PCout_en <= 0; IncPC <= 0; PC_en <= 0; IRin <= 0;           // PC and IR signals.
+                Yin <= 0; HIout <= 0; HIin <= 0; LOout <= 0; LOin <= 0; // datapath MUX signals.
+                Cout <= 0; Zhighout <= 0; Zlowout <= 0; Zin <= 0;       //
+                MDRout <= 0; MDRin <= 0; MARin <= 0;                    // Mem Data Interface signals.
+                memRead <= 0; memWrite <= 0;                            // memory read enable and write enable signals.
+                inPort_en <= 0; outPort_en <= 0;                         // Input/Output signals.
+                opcode <= 5'b11010;                                     // assert nop
             end
             T0: begin // 1
-                clear <= 0;
 				PCout_en <= 1; MARin <= 1; IncPC <= 1; Zin <= 1;    // prepare for increment PC via ALU
             end
             T1: begin //2
 				PCout_en <= 0; MARin <= 0; IncPC <= 0; Zin <= 0;
                 Zlowout <= 1; PC_en <= 1; memRead <= 1; MDRin <= 1;	// PC incremented (taking value calculated in Z), read IR content from memory?			
             end
-            memWait: begin
+            memWait1: begin
+                Zlowout <= 0; PC_en <= 0;
+            end
+            memWait2: begin
                 
             end
             T2: begin //3
-				Zlowout <= 0; PC_en <= 0; memRead <= 0; MDRin <= 0;
+                memRead <= 0; MDRin <= 0;
                 MDRout <= 1; IRin <= 1; // assert content from memory to IR
             end
             T3: begin //4

@@ -1,5 +1,5 @@
 Analysis & Elaboration report for Phase2_project
-Sun Mar 24 21:55:18 2024
+Mon Mar 25 01:03:40 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -9,78 +9,81 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
   1. Legal Notice
   2. Analysis & Elaboration Summary
   3. Parallel Compilation
-  4. Parameter Settings for User Entity Instance: register_gen:PC
-  5. Parameter Settings for User Entity Instance: register_gen:IR
-  6. Parameter Settings for User Entity Instance: memory_custom:RAM
-  7. Parameter Settings for User Entity Instance: register_gen:MAR
-  8. Parameter Settings for User Entity Instance: register_gen:MDR
-  9. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R0
- 10. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R1
- 11. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R2
- 12. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R3
- 13. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R4
- 14. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R5
- 15. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R6
- 16. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R7
- 17. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R8
- 18. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R9
- 19. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R10
- 20. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R11
- 21. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R12
- 22. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R13
- 23. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R14
- 24. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R15
- 25. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:HI
- 26. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:LO
- 27. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:RY
- 28. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:Zhigh
- 29. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:Zlow
- 30. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:In_Port
- 31. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:Out_port
- 32. Parameter Settings for User Entity Instance: Datapath:DUT|alu:ALU
- 33. Parameter Settings for User Entity Instance: Datapath:DUT|alu:ALU|add_op:add
- 34. Parameter Settings for User Entity Instance: Datapath:DUT|alu:ALU|sub_op:sub
- 35. Parameter Settings for User Entity Instance: Datapath:DUT|alu:ALU|sub_op:sub|add_op:substract_i
- 36. Analysis & Elaboration Settings
- 37. Port Connectivity Checks: "Datapath:DUT|alu:ALU|sub_op:sub|add_op:substract_i"
- 38. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[31].b_cell_i"
- 39. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[30].b_cell_i"
- 40. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[29].b_cell_i"
- 41. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[28].b_cell_i"
- 42. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[27].b_cell_i"
- 43. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[26].b_cell_i"
- 44. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[25].b_cell_i"
- 45. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[24].b_cell_i"
- 46. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[23].b_cell_i"
- 47. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[22].b_cell_i"
- 48. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[21].b_cell_i"
- 49. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[20].b_cell_i"
- 50. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[19].b_cell_i"
- 51. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[18].b_cell_i"
- 52. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[17].b_cell_i"
- 53. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[16].b_cell_i"
- 54. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[15].b_cell_i"
- 55. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[14].b_cell_i"
- 56. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[13].b_cell_i"
- 57. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[12].b_cell_i"
- 58. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[11].b_cell_i"
- 59. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[10].b_cell_i"
- 60. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[9].b_cell_i"
- 61. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[8].b_cell_i"
- 62. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[7].b_cell_i"
- 63. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[6].b_cell_i"
- 64. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[5].b_cell_i"
- 65. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[4].b_cell_i"
- 66. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[3].b_cell_i"
- 67. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[2].b_cell_i"
- 68. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[1].b_cell_i"
- 69. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[0].b_cell_i"
- 70. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add"
- 71. Port Connectivity Checks: "Datapath:DUT|encoder_32_to_5:BusEncoder"
- 72. Port Connectivity Checks: "register_gen:MAR"
- 73. Port Connectivity Checks: "select_encode:ir_encode_select|decoder_4_to_16:decoder_4_to_16_i"
- 74. Analysis & Elaboration Messages
- 75. Analysis & Elaboration Suppressed Messages
+  4. Analysis & Elaboration IP Cores Summary
+  5. Source assignments for memory:RAM|altsyncram:altsyncram_component|altsyncram_igt1:auto_generated
+  6. Parameter Settings for User Entity Instance: register_gen:PC
+  7. Parameter Settings for User Entity Instance: register_gen:IR
+  8. Parameter Settings for User Entity Instance: memory:RAM|altsyncram:altsyncram_component
+  9. Parameter Settings for User Entity Instance: register_gen:MAR
+ 10. Parameter Settings for User Entity Instance: register_gen:MDR
+ 11. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R0
+ 12. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R1
+ 13. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R2
+ 14. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R3
+ 15. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R4
+ 16. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R5
+ 17. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R6
+ 18. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R7
+ 19. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R8
+ 20. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R9
+ 21. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R10
+ 22. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R11
+ 23. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R12
+ 24. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R13
+ 25. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R14
+ 26. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R15
+ 27. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:HI
+ 28. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:LO
+ 29. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:RY
+ 30. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:Zhigh
+ 31. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:Zlow
+ 32. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:In_Port
+ 33. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:Out_port
+ 34. Parameter Settings for User Entity Instance: Datapath:DUT|alu:ALU
+ 35. Parameter Settings for User Entity Instance: Datapath:DUT|alu:ALU|add_op:add
+ 36. Parameter Settings for User Entity Instance: Datapath:DUT|alu:ALU|sub_op:sub
+ 37. Parameter Settings for User Entity Instance: Datapath:DUT|alu:ALU|sub_op:sub|add_op:substract_i
+ 38. altsyncram Parameter Settings by Entity Instance
+ 39. Analysis & Elaboration Settings
+ 40. Port Connectivity Checks: "Datapath:DUT|alu:ALU|sub_op:sub|add_op:substract_i"
+ 41. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[31].b_cell_i"
+ 42. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[30].b_cell_i"
+ 43. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[29].b_cell_i"
+ 44. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[28].b_cell_i"
+ 45. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[27].b_cell_i"
+ 46. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[26].b_cell_i"
+ 47. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[25].b_cell_i"
+ 48. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[24].b_cell_i"
+ 49. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[23].b_cell_i"
+ 50. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[22].b_cell_i"
+ 51. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[21].b_cell_i"
+ 52. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[20].b_cell_i"
+ 53. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[19].b_cell_i"
+ 54. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[18].b_cell_i"
+ 55. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[17].b_cell_i"
+ 56. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[16].b_cell_i"
+ 57. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[15].b_cell_i"
+ 58. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[14].b_cell_i"
+ 59. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[13].b_cell_i"
+ 60. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[12].b_cell_i"
+ 61. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[11].b_cell_i"
+ 62. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[10].b_cell_i"
+ 63. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[9].b_cell_i"
+ 64. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[8].b_cell_i"
+ 65. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[7].b_cell_i"
+ 66. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[6].b_cell_i"
+ 67. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[5].b_cell_i"
+ 68. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[4].b_cell_i"
+ 69. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[3].b_cell_i"
+ 70. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[2].b_cell_i"
+ 71. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[1].b_cell_i"
+ 72. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[0].b_cell_i"
+ 73. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add"
+ 74. Port Connectivity Checks: "Datapath:DUT|encoder_32_to_5:BusEncoder"
+ 75. Port Connectivity Checks: "register_gen:MAR"
+ 76. Port Connectivity Checks: "select_encode:ir_encode_select|decoder_4_to_16:decoder_4_to_16_i"
+ 77. Analysis & Elaboration Messages
+ 78. Analysis & Elaboration Suppressed Messages
 
 
 
@@ -106,7 +109,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                  ;
 +-------------------------------+-------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Sun Mar 24 21:55:18 2024           ;
+; Analysis & Elaboration Status ; Successful - Mon Mar 25 01:03:40 2024           ;
 ; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                 ; Phase2_project                                  ;
 ; Top-level Entity Name         ; miniSRC                                         ;
@@ -137,6 +140,24 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
++-------------------------------------------------------------------------------------------------------+
+; Analysis & Elaboration IP Cores Summary                                                               ;
++--------+--------------+---------+--------------+--------------+---------------------+-----------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance     ; IP Include File ;
++--------+--------------+---------+--------------+--------------+---------------------+-----------------+
+; Altera ; RAM: 1-PORT  ; 18.1    ; N/A          ; N/A          ; |miniSRC|memory:RAM ; RAM/memory.v    ;
++--------+--------------+---------+--------------+--------------+---------------------+-----------------+
+
+
++--------------------------------------------------------------------------------------------------+
+; Source assignments for memory:RAM|altsyncram:altsyncram_component|altsyncram_igt1:auto_generated ;
++---------------------------------+--------------------+------+------------------------------------+
+; Assignment                      ; Value              ; From ; To                                 ;
++---------------------------------+--------------------+------+------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                  ;
++---------------------------------+--------------------+------+------------------------------------+
+
+
 +--------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: register_gen:PC ;
 +----------------+-------+-------------------------------------+
@@ -157,15 +178,64 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+----------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: memory_custom:RAM ;
-+----------------+-------+---------------------------------------+
-; Parameter Name ; Value ; Type                                  ;
-+----------------+-------+---------------------------------------+
-; DATA_WIDTH     ; 32    ; Signed Integer                        ;
-; ADDR_WIDTH     ; 9     ; Signed Integer                        ;
-; MEM_DEPTH      ; 512   ; Signed Integer                        ;
-+----------------+-------+---------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: memory:RAM|altsyncram:altsyncram_component                                   ;
++------------------------------------+---------------------------------------------------------------------+----------------+
+; Parameter Name                     ; Value                                                               ; Type           ;
++------------------------------------+---------------------------------------------------------------------+----------------+
+; BYTE_SIZE_BLOCK                    ; 8                                                                   ; Untyped        ;
+; AUTO_CARRY_CHAINS                  ; ON                                                                  ; AUTO_CARRY     ;
+; IGNORE_CARRY_BUFFERS               ; OFF                                                                 ; IGNORE_CARRY   ;
+; AUTO_CASCADE_CHAINS                ; ON                                                                  ; AUTO_CASCADE   ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                                                                 ; IGNORE_CASCADE ;
+; WIDTH_BYTEENA                      ; 1                                                                   ; Untyped        ;
+; OPERATION_MODE                     ; SINGLE_PORT                                                         ; Untyped        ;
+; WIDTH_A                            ; 32                                                                  ; Signed Integer ;
+; WIDTHAD_A                          ; 9                                                                   ; Signed Integer ;
+; NUMWORDS_A                         ; 512                                                                 ; Signed Integer ;
+; OUTDATA_REG_A                      ; CLOCK0                                                              ; Untyped        ;
+; ADDRESS_ACLR_A                     ; NONE                                                                ; Untyped        ;
+; OUTDATA_ACLR_A                     ; NONE                                                                ; Untyped        ;
+; WRCONTROL_ACLR_A                   ; NONE                                                                ; Untyped        ;
+; INDATA_ACLR_A                      ; NONE                                                                ; Untyped        ;
+; BYTEENA_ACLR_A                     ; NONE                                                                ; Untyped        ;
+; WIDTH_B                            ; 1                                                                   ; Untyped        ;
+; WIDTHAD_B                          ; 1                                                                   ; Untyped        ;
+; NUMWORDS_B                         ; 1                                                                   ; Untyped        ;
+; INDATA_REG_B                       ; CLOCK1                                                              ; Untyped        ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1                                                              ; Untyped        ;
+; RDCONTROL_REG_B                    ; CLOCK1                                                              ; Untyped        ;
+; ADDRESS_REG_B                      ; CLOCK1                                                              ; Untyped        ;
+; OUTDATA_REG_B                      ; UNREGISTERED                                                        ; Untyped        ;
+; BYTEENA_REG_B                      ; CLOCK1                                                              ; Untyped        ;
+; INDATA_ACLR_B                      ; NONE                                                                ; Untyped        ;
+; WRCONTROL_ACLR_B                   ; NONE                                                                ; Untyped        ;
+; ADDRESS_ACLR_B                     ; NONE                                                                ; Untyped        ;
+; OUTDATA_ACLR_B                     ; NONE                                                                ; Untyped        ;
+; RDCONTROL_ACLR_B                   ; NONE                                                                ; Untyped        ;
+; BYTEENA_ACLR_B                     ; NONE                                                                ; Untyped        ;
+; WIDTH_BYTEENA_A                    ; 1                                                                   ; Signed Integer ;
+; WIDTH_BYTEENA_B                    ; 1                                                                   ; Untyped        ;
+; RAM_BLOCK_TYPE                     ; AUTO                                                                ; Untyped        ;
+; BYTE_SIZE                          ; 8                                                                   ; Untyped        ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                           ; Untyped        ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ                                                ; Untyped        ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ                                                ; Untyped        ;
+; INIT_FILE                          ; C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex ; Untyped        ;
+; INIT_FILE_LAYOUT                   ; PORT_A                                                              ; Untyped        ;
+; MAXIMUM_DEPTH                      ; 0                                                                   ; Untyped        ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS                                                              ; Untyped        ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL                                                              ; Untyped        ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS                                                              ; Untyped        ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL                                                              ; Untyped        ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN                                                     ; Untyped        ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN                                                     ; Untyped        ;
+; ENABLE_ECC                         ; FALSE                                                               ; Untyped        ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                                                               ; Untyped        ;
+; WIDTH_ECCSTATUS                    ; 3                                                                   ; Untyped        ;
+; DEVICE_FAMILY                      ; Cyclone V                                                           ; Untyped        ;
+; CBXI_PARAMETER                     ; altsyncram_igt1                                                     ; Untyped        ;
++------------------------------------+---------------------------------------------------------------------+----------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -470,6 +540,26 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; WIDTH          ; 32    ; Signed Integer                                                         ;
 +----------------+-------+------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------+
+; altsyncram Parameter Settings by Entity Instance                                       ;
++-------------------------------------------+--------------------------------------------+
+; Name                                      ; Value                                      ;
++-------------------------------------------+--------------------------------------------+
+; Number of entity instances                ; 1                                          ;
+; Entity Instance                           ; memory:RAM|altsyncram:altsyncram_component ;
+;     -- OPERATION_MODE                     ; SINGLE_PORT                                ;
+;     -- WIDTH_A                            ; 32                                         ;
+;     -- NUMWORDS_A                         ; 512                                        ;
+;     -- OUTDATA_REG_A                      ; CLOCK0                                     ;
+;     -- WIDTH_B                            ; 1                                          ;
+;     -- NUMWORDS_B                         ; 1                                          ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                     ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                               ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                       ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                  ;
++-------------------------------------------+--------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
@@ -931,7 +1021,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Sun Mar 24 21:55:13 2024
+    Info: Processing started: Mon Mar 25 01:03:34 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Phase2_project -c Phase2_project --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 24 processors detected
@@ -995,562 +1085,32 @@ Info (12021): Found 1 design units, including 1 entities, in source file ram/mem
     Info (12023): Found entity 1: memory_custom File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 1
 Info (12127): Elaborating entity "miniSRC" for the top level hierarchy
 Info (12128): Elaborating entity "con_ff" for hierarchy "con_ff:branch_condition" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 25
-Warning (10240): Verilog HDL Always Construct warning at con_ff.v(13): inferring latch(es) for variable "branch_condition", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CON_FF/con_ff.v Line: 13
-Info (10041): Inferred latch for "branch_condition[0]" at con_ff.v(13) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CON_FF/con_ff.v Line: 13
-Info (10041): Inferred latch for "branch_condition[1]" at con_ff.v(13) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CON_FF/con_ff.v Line: 13
-Info (10041): Inferred latch for "branch_condition[2]" at con_ff.v(13) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CON_FF/con_ff.v Line: 13
-Info (10041): Inferred latch for "branch_condition[3]" at con_ff.v(13) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CON_FF/con_ff.v Line: 13
 Info (12128): Elaborating entity "flip_flop" for hierarchy "con_ff:branch_condition|flip_flop:CON" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CON_FF/con_ff.v Line: 29
 Info (12128): Elaborating entity "register_gen" for hierarchy "register_gen:PC" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 29
 Info (12128): Elaborating entity "select_encode" for hierarchy "select_encode:ir_encode_select" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 36
 Info (12128): Elaborating entity "decoder_4_to_16" for hierarchy "select_encode:ir_encode_select|decoder_4_to_16:decoder_4_to_16_i" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/CONT/select_encode.v Line: 21
-Info (12128): Elaborating entity "memory_custom" for hierarchy "memory_custom:RAM" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 47
-Warning (10850): Verilog HDL warning at memory_custom.v(18): number of words (513) in memory file does not match the number of elements in the address range [0:511] File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 18
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(1): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 1
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(2): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 2
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(3): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 3
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(4): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 4
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(5): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 5
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(6): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 6
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(7): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 7
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(8): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 8
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(9): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 9
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(10): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 10
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(11): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 11
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(12): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 12
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(13): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 13
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(14): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 14
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(15): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 15
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(16): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 16
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(17): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 17
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(18): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 18
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(19): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 19
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(20): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 20
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(21): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 21
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(22): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 22
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(23): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 23
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(24): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 24
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(25): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 25
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(26): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 26
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(27): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 27
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(28): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 28
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(29): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 29
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(30): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 30
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(31): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 31
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(32): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 32
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(33): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 33
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(34): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 34
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(35): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 35
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(36): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 36
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(37): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 37
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(38): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 38
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(39): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 39
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(40): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 40
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(41): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 41
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(42): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 42
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(43): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 43
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(44): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 44
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(45): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 45
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(46): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 46
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(47): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 47
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(48): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 48
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(49): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 49
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(50): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 50
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(51): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 51
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(52): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 52
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(53): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 53
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(54): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 54
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(55): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 55
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(56): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 56
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(57): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 57
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(58): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 58
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(59): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 59
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(60): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 60
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(61): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 61
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(62): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 62
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(63): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 63
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(64): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 64
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(65): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 65
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(66): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 66
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(67): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 67
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(68): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 68
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(69): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 69
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(70): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 70
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(71): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 71
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(72): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 72
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(73): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 73
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(74): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 74
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(75): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 75
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(76): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 76
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(77): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 77
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(78): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 78
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(79): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 79
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(80): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 80
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(81): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 81
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(82): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 82
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(83): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 83
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(84): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 84
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(85): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 85
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(86): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 86
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(87): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 87
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(88): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 88
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(89): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 89
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(90): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 90
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(91): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 91
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(92): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 92
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(93): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 93
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(94): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 94
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(95): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 95
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(96): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 96
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(97): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 97
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(98): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 98
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(99): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 99
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(100): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 100
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(101): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 101
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(102): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 102
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(103): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 103
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(104): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 104
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(105): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 105
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(106): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 106
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(107): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 107
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(108): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 108
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(109): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 109
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(110): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 110
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(111): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 111
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(112): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 112
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(113): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 113
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(114): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 114
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(115): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 115
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(116): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 116
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(117): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 117
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(118): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 118
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(119): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 119
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(120): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 120
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(121): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 121
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(122): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 122
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(123): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 123
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(124): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 124
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(125): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 125
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(126): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 126
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(127): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 127
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(128): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 128
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(129): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 129
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(130): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 130
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(131): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 131
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(132): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 132
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(133): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 133
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(134): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 134
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(135): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 135
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(136): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 136
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(137): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 137
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(138): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 138
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(139): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 139
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(140): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 140
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(141): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 141
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(142): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 142
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(143): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 143
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(144): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 144
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(145): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 145
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(146): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 146
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(147): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 147
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(148): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 148
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(149): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 149
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(150): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 150
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(151): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 151
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(152): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 152
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(153): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 153
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(154): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 154
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(155): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 155
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(156): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 156
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(157): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 157
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(158): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 158
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(159): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 159
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(160): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 160
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(161): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 161
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(162): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 162
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(163): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 163
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(164): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 164
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(165): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 165
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(166): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 166
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(167): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 167
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(168): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 168
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(169): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 169
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(170): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 170
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(171): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 171
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(172): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 172
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(173): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 173
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(174): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 174
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(175): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 175
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(176): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 176
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(177): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 177
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(178): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 178
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(179): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 179
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(180): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 180
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(181): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 181
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(182): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 182
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(183): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 183
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(184): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 184
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(185): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 185
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(186): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 186
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(187): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 187
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(188): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 188
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(189): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 189
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(190): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 190
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(191): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 191
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(192): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 192
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(193): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 193
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(194): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 194
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(195): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 195
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(196): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 196
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(197): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 197
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(198): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 198
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(199): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 199
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(200): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 200
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(201): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 201
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(202): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 202
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(203): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 203
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(204): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 204
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(205): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 205
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(206): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 206
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(207): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 207
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(208): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 208
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(209): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 209
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(210): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 210
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(211): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 211
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(212): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 212
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(213): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 213
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(214): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 214
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(215): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 215
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(216): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 216
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(217): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 217
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(218): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 218
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(219): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 219
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(220): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 220
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(221): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 221
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(222): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 222
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(223): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 223
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(224): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 224
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(225): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 225
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(226): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 226
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(227): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 227
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(228): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 228
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(229): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 229
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(230): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 230
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(231): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 231
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(232): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 232
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(233): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 233
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(234): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 234
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(235): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 235
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(236): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 236
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(237): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 237
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(238): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 238
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(239): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 239
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(240): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 240
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(241): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 241
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(242): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 242
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(243): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 243
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(244): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 244
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(245): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 245
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(246): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 246
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(247): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 247
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(248): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 248
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(249): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 249
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(250): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 250
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(251): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 251
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(252): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 252
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(253): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 253
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(254): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 254
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(255): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 255
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(256): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 256
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(257): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 257
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(258): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 258
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(259): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 259
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(260): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 260
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(261): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 261
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(262): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 262
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(263): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 263
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(264): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 264
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(265): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 265
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(266): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 266
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(267): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 267
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(268): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 268
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(269): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 269
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(270): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 270
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(271): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 271
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(272): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 272
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(273): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 273
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(274): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 274
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(275): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 275
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(276): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 276
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(277): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 277
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(278): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 278
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(279): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 279
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(280): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 280
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(281): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 281
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(282): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 282
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(283): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 283
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(284): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 284
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(285): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 285
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(286): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 286
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(287): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 287
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(288): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 288
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(289): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 289
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(290): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 290
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(291): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 291
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(292): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 292
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(293): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 293
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(294): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 294
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(295): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 295
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(296): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 296
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(297): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 297
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(298): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 298
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(299): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 299
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(300): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 300
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(301): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 301
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(302): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 302
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(303): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 303
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(304): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 304
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(305): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 305
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(306): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 306
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(307): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 307
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(308): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 308
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(309): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 309
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(310): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 310
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(311): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 311
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(312): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 312
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(313): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 313
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(314): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 314
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(315): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 315
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(316): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 316
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(317): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 317
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(318): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 318
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(319): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 319
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(320): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 320
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(321): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 321
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(322): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 322
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(323): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 323
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(324): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 324
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(325): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 325
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(326): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 326
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(327): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 327
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(328): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 328
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(329): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 329
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(330): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 330
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(331): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 331
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(332): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 332
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(333): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 333
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(334): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 334
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(335): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 335
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(336): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 336
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(337): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 337
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(338): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 338
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(339): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 339
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(340): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 340
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(341): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 341
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(342): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 342
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(343): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 343
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(344): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 344
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(345): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 345
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(346): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 346
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(347): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 347
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(348): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 348
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(349): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 349
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(350): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 350
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(351): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 351
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(352): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 352
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(353): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 353
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(354): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 354
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(355): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 355
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(356): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 356
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(357): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 357
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(358): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 358
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(359): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 359
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(360): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 360
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(361): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 361
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(362): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 362
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(363): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 363
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(364): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 364
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(365): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 365
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(366): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 366
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(367): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 367
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(368): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 368
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(369): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 369
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(370): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 370
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(371): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 371
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(372): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 372
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(373): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 373
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(374): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 374
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(375): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 375
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(376): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 376
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(377): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 377
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(378): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 378
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(379): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 379
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(380): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 380
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(381): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 381
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(382): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 382
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(383): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 383
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(384): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 384
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(385): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 385
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(386): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 386
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(387): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 387
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(388): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 388
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(389): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 389
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(390): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 390
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(391): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 391
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(392): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 392
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(393): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 393
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(394): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 394
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(395): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 395
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(396): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 396
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(397): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 397
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(398): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 398
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(399): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 399
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(400): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 400
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(401): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 401
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(402): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 402
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(403): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 403
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(404): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 404
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(405): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 405
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(406): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 406
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(407): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 407
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(408): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 408
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(409): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 409
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(410): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 410
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(411): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 411
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(412): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 412
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(413): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 413
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(414): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 414
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(415): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 415
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(416): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 416
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(417): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 417
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(418): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 418
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(419): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 419
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(420): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 420
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(421): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 421
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(422): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 422
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(423): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 423
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(424): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 424
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(425): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 425
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(426): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 426
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(427): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 427
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(428): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 428
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(429): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 429
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(430): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 430
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(431): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 431
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(432): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 432
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(433): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 433
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(434): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 434
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(435): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 435
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(436): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 436
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(437): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 437
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(438): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 438
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(439): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 439
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(440): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 440
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(441): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 441
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(442): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 442
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(443): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 443
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(444): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 444
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(445): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 445
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(446): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 446
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(447): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 447
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(448): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 448
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(449): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 449
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(450): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 450
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(451): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 451
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(452): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 452
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(453): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 453
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(454): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 454
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(455): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 455
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(456): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 456
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(457): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 457
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(458): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 458
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(459): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 459
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(460): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 460
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(461): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 461
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(462): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 462
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(463): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 463
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(464): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 464
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(465): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 465
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(466): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 466
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(467): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 467
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(468): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 468
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(469): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 469
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(470): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 470
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(471): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 471
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(472): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 472
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(473): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 473
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(474): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 474
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(475): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 475
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(476): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 476
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(477): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 477
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(478): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 478
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(479): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 479
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(480): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 480
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(481): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 481
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(482): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 482
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(483): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 483
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(484): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 484
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(485): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 485
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(486): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 486
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(487): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 487
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(488): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 488
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(489): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 489
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(490): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 490
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(491): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 491
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(492): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 492
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(493): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 493
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(494): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 494
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(495): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 495
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(496): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 496
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(497): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 497
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(498): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 498
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(499): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 499
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(500): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 500
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(501): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 501
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(502): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 502
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(503): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 503
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(504): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 504
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(505): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 505
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(506): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 506
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(507): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 507
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(508): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 508
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(509): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 509
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(510): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 510
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(511): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 511
-Warning (10230): Verilog HDL assignment warning at load_tb.hex(512): truncated value with size 72 to match size of target (32) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex Line: 512
-Warning (10240): Verilog HDL Always Construct warning at memory_custom.v(33): inferring latch(es) for variable "data_out", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[0]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[1]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[2]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[3]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[4]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[5]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[6]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[7]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[8]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[9]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[10]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[11]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[12]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[13]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[14]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[15]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[16]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[17]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[18]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[19]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[20]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[21]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[22]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[23]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[24]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[25]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[26]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[27]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[28]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[29]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[30]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
-Info (10041): Inferred latch for "data_out[31]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory_custom.v Line: 33
+Info (12128): Elaborating entity "memory" for hierarchy "memory:RAM" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 55
+Info (12128): Elaborating entity "altsyncram" for hierarchy "memory:RAM|altsyncram:altsyncram_component" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory.v Line: 88
+Info (12130): Elaborated megafunction instantiation "memory:RAM|altsyncram:altsyncram_component" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory.v Line: 88
+Info (12133): Instantiated megafunction "memory:RAM|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/memory.v Line: 88
+    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
+    Info (12134): Parameter "init_file" = "C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex"
+    Info (12134): Parameter "intended_device_family" = "Cyclone V"
+    Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+    Info (12134): Parameter "numwords_a" = "512"
+    Info (12134): Parameter "operation_mode" = "SINGLE_PORT"
+    Info (12134): Parameter "outdata_aclr_a" = "NONE"
+    Info (12134): Parameter "outdata_reg_a" = "CLOCK0"
+    Info (12134): Parameter "power_up_uninitialized" = "FALSE"
+    Info (12134): Parameter "read_during_write_mode_port_a" = "NEW_DATA_NO_NBE_READ"
+    Info (12134): Parameter "widthad_a" = "9"
+    Info (12134): Parameter "width_a" = "32"
+    Info (12134): Parameter "width_byteena_a" = "1"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_igt1.tdf
+    Info (12023): Found entity 1: altsyncram_igt1 File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/db/altsyncram_igt1.tdf Line: 27
+Info (12128): Elaborating entity "altsyncram_igt1" for hierarchy "memory:RAM|altsyncram:altsyncram_component|altsyncram_igt1:auto_generated" File: c:/intelfpga/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12128): Elaborating entity "mux_2_to_1" for hierarchy "mux_2_to_1:MDRMux" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 61
 Info (12128): Elaborating entity "Datapath" for hierarchy "Datapath:DUT" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 76
 Info (12128): Elaborating entity "encoder_32_to_5" for hierarchy "Datapath:DUT|encoder_32_to_5:BusEncoder" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/MINI_SRC/Datapath.v Line: 81
@@ -1581,10 +1141,10 @@ Info (12128): Elaborating entity "or_op" for hierarchy "Datapath:DUT|alu:ALU|or_
 Info (12128): Elaborating entity "neg_op" for hierarchy "Datapath:DUT|alu:ALU|neg_op:neg" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/alu.v Line: 99
 Info (12128): Elaborating entity "not_op" for hierarchy "Datapath:DUT|alu:ALU|not_op:not_" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/alu.v Line: 100
 Info (144001): Generated suppressed messages file C:/Users/19tja3/Documents/374/Phase2/QuartusProject/output_files/Phase2_project.map.smsg
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 525 warnings
-    Info: Peak virtual memory: 4794 megabytes
-    Info: Processing ended: Sun Mar 24 21:55:18 2024
-    Info: Elapsed time: 00:00:05
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 10 warnings
+    Info: Peak virtual memory: 4811 megabytes
+    Info: Processing ended: Mon Mar 25 01:03:40 2024
+    Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:03
 
 

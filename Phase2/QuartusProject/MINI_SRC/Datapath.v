@@ -7,10 +7,10 @@ module Datapath (
           PCout_en, IncPC,                      	// PC signals
     input [31:0] busMuxInPC,                  // PC data
     input MDRout, inPortOut,
-	 input[31:0] busMuxInMDR,  					// Memory data interface signal
+	  input[31:0] busMuxInMDR,  					// Memory data interface signal
     input inPort_en, outPort_en,              	// input/output
     input Cout, 										// imediate value signals
-	 input[31:0] cSignExtended,      			//
+	  input[31:0] cSignExtended,      			//
     input[4:0] opcode,                       // ALU opcode
     input[15:0] reg_in, reg_out,       // register control signals
     input BAout
@@ -86,7 +86,7 @@ module Datapath (
     busMuxInR6, busMuxInR7, busMuxInR8, busMuxInR9, busMuxInR10, busMuxInR11, 
     busMuxInR12, busMuxInR13, busMuxInR14, busMuxInR15, busMuxInHI, busMuxInLO, 
     busMuxInZhigh, busMuxInZlow, busMuxInPC, busMuxInMDR, 
-    cSignExtended, busMuxInInport, busMuxSignal
+    busMuxInInport, cSignExtended, busMuxSignal
   );
 
   // ALU

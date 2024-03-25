@@ -2,7 +2,7 @@ module flip_flop(
     output reg Q, 
     // output reg Q_not,
     input wire D, 
-    input wire clk
+    input wire clk 
 );	
 	initial begin
 		Q <= 0;

@@ -99,20 +99,22 @@ module store_tb;
                 initializeReg5: begin
                     Gra <= 1; Rin <= 1; inPortOut <= 1;
                 end
+    
                 T0: begin // 1
-                    Gra <= 0; Rin <= 0; inPortOut <= 0;
-                    clear <= 0;
                     PCout_en <= 1; MARin <= 1; IncPC <= 1; Zin <= 1;    // prepare for increment PC via ALU
                 end
                 T1: begin //2
                     PCout_en <= 0; MARin <= 0; IncPC <= 0; Zin <= 0;
                     Zlowout <= 1; PC_en <= 1; memRead <= 1; MDRin <= 1;	// PC incremented (taking value calculated in Z), read IR content from memory?			
                 end
-                memWait: begin
+                memWait1: begin
+                    Zlowout <= 0; PC_en <= 0;
+                end
+                memWait2: begin
                     
                 end
                 T2: begin //3
-                    Zlowout <= 0; PC_en <= 0; memRead <= 0; MDRin <= 0;
+                    memRead <= 0; MDRin <= 0;
                     MDRout <= 1; IRin <= 1; // assert content from memory to IR
                 end
                 T3: begin //4

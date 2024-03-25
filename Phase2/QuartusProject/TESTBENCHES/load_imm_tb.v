@@ -70,7 +70,7 @@ module load_imm_tb;
         case (Present_state)
             Default: begin
                 inPortDataIn <= 0;                                      // input.
-                clock <= 0; clear <= 1;                                 // control signals.
+                clock <= 0; clear <= 0;                                 // control signals.
                 Gra <= 0; Grb <= 0; Grc <= 0;                           // control signals for IR
                 Rin <= 0; Rout <= 0; BAout <= 0;                        //
                 PCout_en <= 0; IncPC <= 0; PC_en <= 0; IRin <= 0;           // PC and IR signals.
@@ -82,7 +82,6 @@ module load_imm_tb;
                 opcode <= 5'b11010;                                     // assert nop
             end
             T0: begin // 1
-                clear <= 0;
 				PCout_en <= 1; MARin <= 1; IncPC <= 1; Zin <= 1;    // prepare for increment PC via ALU
             end
             T1: begin //2
@@ -91,6 +90,9 @@ module load_imm_tb;
             end
             memWait1: begin
                 Zlowout <= 0; PC_en <= 0;
+            end
+            memWait2: begin
+                
             end
             T2: begin //3
                 memRead <= 0; MDRin <= 0;

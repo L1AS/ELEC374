@@ -79,36 +79,33 @@ module move_tb;
                     memRead <= 0; memWrite <= 0;                            // memory read enable and write enable signals.
                     outPort_en <= 0;                                        // Input/Output signals.
                     opcode <= 5'b11010;                                     // assert nop
-            end
-            initializeReg: begin
-                inPort_en <= 0;
-                HIin <= 1; inPortOut <= 1;
-            end
-            T0: begin // 1
-                HIin <= 0; inPortOut <= 0;
-                clear <= 0;
-                PCout_en <= 1; MARin <= 1; IncPC <= 1; Zin <= 1;    // prepare for increment PC via ALU
-            end
-            T1: begin //2
-				PCout_en <= 0; MARin <= 0; IncPC <= 0; Zin <= 0;
-                Zlowout <= 1; PC_en <= 1; memRead <= 1; MDRin <= 1;	// PC incremented (taking value calculated in Z), read IR content from memory?			
-            end
-            memWait: begin
-                
-            end
-            T2: begin //3
-				Zlowout <= 0; PC_en <= 0; memRead <= 0; MDRin <= 0;
-                MDRout <= 1; IRin <= 1; // assert content from memory to IR
-            end
-            T3: begin //4
-				MDRout <= 0; IRin <= 0;
-                Gra <= 1; Rin <= 1; HIout <= 1;  // move the value in HI/LOW register into RA 
-                //LOout <= 1;
-            end
-            T4: begin //5
-			    Gra <= 0; Rin <= 0; HIout <= 0; 
-                //LOout <= 0;
-            end
+                end
+                T0: begin // 1
+                    PCout_en <= 1; MARin <= 1; IncPC <= 1; Zin <= 1;    // prepare for increment PC via ALU
+                end
+                T1: begin //2
+                    PCout_en <= 0; MARin <= 0; IncPC <= 0; Zin <= 0;
+                    Zlowout <= 1; PC_en <= 1; memRead <= 1; MDRin <= 1;	// PC incremented (taking value calculated in Z), read IR content from memory?			
+                end
+                memWait1: begin
+                    Zlowout <= 0; PC_en <= 0;
+                end
+                memWait2: begin
+                    
+                end
+                T2: begin //3
+                    memRead <= 0; MDRin <= 0;
+                    MDRout <= 1; IRin <= 1; // assert content from memory to IR
+                end
+                T3: begin //4
+                    MDRout <= 0; IRin <= 0;
+                    Gra <= 1; Rin <= 1; HIout <= 1;  // move the value in HI/LOW register into RA 
+                    //LOout <= 1;
+                end
+                T4: begin //5
+                    Gra <= 0; Rin <= 0; HIout <= 0; 
+                    //LOout <= 0;
+                end
             
             // Continue defining other states similarly...
         endcase
