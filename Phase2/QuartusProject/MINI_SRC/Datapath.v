@@ -4,14 +4,16 @@ module Datapath (
     input clock, clear,                     	// control signals  
           Yin, HIout, HIin, LOout, LOin,    	// Data Path Signals
           Zhighout, Zlowout, Zin,           	//
-          PCout, IncPC, busMuxInPC,         	// PC signals
-          MDRout, inPortOut,
+          PCout_en, IncPC,                      	// PC signals
+    input [31:0] busMuxInPC,                  // PC data
+    input MDRout, inPortOut,
 	 input[31:0] busMuxInMDR,  					// Memory data interface signal
     input inPort_en, outPort_en,              	// input/output
     input Cout, 										// imediate value signals
 	 input[31:0] cSignExtended,      			//
     input[4:0] opcode,                       // ALU opcode
-    input[15:0] reg_in, reg_out, BAout       // register control signals
+    input[15:0] reg_in, reg_out,       // register control signals
+    input BAout
 );
 
   wire [31:0] busMuxInR0, 
@@ -74,7 +76,7 @@ module Datapath (
   // Bus
   encoder_32_to_5 BusEncoder (
     busMuxSignal, 
-    {8'b0, Cout, inPortOut, MDRout, PCout, Zlowout, Zhighout, LOout, HIout, 
+    {8'b0, Cout, inPortOut, MDRout, PCout_en, Zlowout, Zhighout, LOout, HIout, 
      reg_out}
   );
 

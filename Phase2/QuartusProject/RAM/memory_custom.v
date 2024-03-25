@@ -4,8 +4,8 @@ module memory_custom #(
     parameter MEM_DEPTH = 512
 )(
     output reg [DATA_WIDTH-1:0] data_out,
-    output reg done,                            // Signal to indicate operation completion
-    input wire clk,                             // Still need a clock for the 'done' signaling
+//    output reg done,                            // Signal to indicate operation completion
+//    input wire clk,                             // Still need a clock for the 'done' signaling
     input wire [ADDR_WIDTH-1:0] addr,
     input wire [DATA_WIDTH-1:0] data_in,
     input wire write_enable,
@@ -15,7 +15,7 @@ module memory_custom #(
     reg [DATA_WIDTH-1:0] memory [0:MEM_DEPTH-1];
 
     initial begin
-        $readmemh("initial_data.hex", memory);
+        $readmemh("load_tb.hex", memory);
     end
     // Asynchronous Write Operation
     always @(write_enable, addr, data_in) begin
@@ -23,9 +23,9 @@ module memory_custom #(
             memory[addr] <= data_in;
             // Indicate that write operation is done in the next clock cycle
             // This is a compromise for synthesisable code
-            done <= 1'b0; // Ensure done is initially low
-            #1; // Small delay to simulate asynchrony - not synthesizable, used for illustration
-            done <= 1'b1; // Set done high briefly
+//            done <= 1'b0; // Ensure done is initially low
+//            #1; // Small delay to simulate asynchrony - not synthesizable, used for illustration
+//            done <= 1'b1; // Set done high briefly
         end
     end
 
@@ -35,15 +35,15 @@ module memory_custom #(
             data_out <= memory[addr];
             // Indicate that read operation is done in the next clock cycle
             // This is a compromise for synthesisable code
-            done <= 1'b0; // Ensure done is initially low
-            #1; // Small delay to simulate asynchrony - not synthesizable, used for illustration
-            done <= 1'b1; // Set done high briefly
+//            done <= 1'b0; // Ensure done is initially low
+//            #1; // Small delay to simulate asynchrony - not synthesizable, used for illustration
+//            done <= 1'b1; // Set done high briefly
         end
     end
 
-    // Reset 'done' signal on clock edge
-    always @(posedge clk) begin
-        done <= 1'b0;
-    end
+//    // Reset 'done' signal on clock edge
+//    always @(posedge clk) begin
+//        done <= 1'b0;
+//    end
 
 endmodule

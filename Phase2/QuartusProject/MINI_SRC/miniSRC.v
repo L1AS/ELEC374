@@ -16,7 +16,7 @@ module miniSRC(
 );
 
     wire done;
-	wire[31:0] IRout, MARdata, MDRMuxOut, busOut, busMuxInMDR, 
+	wire[31:0] IRout, MARdata, MDRMuxOut, busMuxInMDR, 
                 PCdata, Mdatain, busMuxOut, busMuxInPC;
     wire[15:0] reg_in, reg_out; 
 
@@ -35,16 +35,16 @@ module miniSRC(
     select_encode ir_encode_select(reg_in, reg_out, Gra, Grb, Grc, 
                                     Rin, Rout, BAout, IRout);
 
-    // memory
-    // memory_custom RAM (
-    //                 .data_out(Mdatain),
-    //                 .done(done),
-    //                 .clk(clock), 
-    //                 .addr(MARdata[8:0]), 
-    //                 .data_in(busMuxInMDR), 
-    //                 .read_enable(memRead), 
-    //                 .write_enable(memWrite) 
-    //                 );
+//     // memory
+//     memory_custom RAM (
+//                     .data_out(Mdatain),
+// //                    .done(done),
+// //                    .clk(clock), 
+//                     .addr(MARdata[8:0]), 
+//                     .data_in(busMuxInMDR), 
+//                     .read_enable(memRead), 
+//                     .write_enable(memWrite) 
+//                     );
 
     memory RAM (.address(MARdata[8:0]),
                      .clock(clock),
@@ -62,17 +62,17 @@ module miniSRC(
     register_gen MDR (busMuxInMDR, clear, clock, MDRin, MDRMuxOut);
 
     Datapath DUT (
-            outPortData, busMuxOut,          // outputs
-            inPortDataIn,                   // inputs
-            clock, clear,                   // control signals  
-            Yin, HIout, HIin, LOout, LOin,  // Data Path Signals
-            Zhighout, Zlowout, Zin,         //
-            PCout_en, IncPC, busMuxInPC,       // PC signals
-            MDRout, inPortOut, busMuxInMDR,            // Memory data interface signal
-            inPort_en, outPort_en,            // input/output
-            Cout, cSignExtended,             // imediate value signals   
-            opcode,                         // ALU opcode
-            reg_in, reg_out, BAout          // register control signals
+            .outPortData(outPortData), .busMuxOut(busMuxOut),          // outputs
+            .inPortDataIn(inPortDataIn),                   // inputs
+            .clock(clock), .clear(clear),                    // control signals  
+            .Yin(Yin), .HIout(HIout), .HIin(HIin), .LOout(LOout), .LOin(LOin),      // datapath MUX signals.
+            .Zhighout(Zhighout), .Zlowout(Zlowout), .Zin(Zin),         //
+            .PCout_en(PCout_en), .IncPC(IncPC), .busMuxInPC(busMuxInPC),       // PC signals
+            .MDRout(MDRout), .inPortOut(inPortOut), .busMuxInMDR(busMuxInMDR),            // Memory data interface signal
+            .inPort_en(inPort_en), .outPort_en(outPort_en),            // input/output
+            .Cout(Cout), .cSignExtended(cSignExtended),             // imediate value signals   
+            .opcode(opcode),                                                         //ALU opcode 
+            .reg_in(reg_in), .reg_out(reg_out), .BAout(BAout)          // register control signals
     );
 
 endmodule
