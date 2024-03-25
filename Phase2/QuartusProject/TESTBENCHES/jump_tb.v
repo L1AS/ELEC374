@@ -98,10 +98,10 @@ module jump_tb;
             end
             T3: begin //4
 				MDRout <= 0; IRin <= 0;
-                Gra <= 1; Rout <= 1; Yin <= 1; // select register Rb by assert Grb and BAout signals, put the content of Rb in Y register
+                Gra <= 1; Rout <= 1; PC_en <= 1; // select register Rb by assert Grb and BAout signals, put the content of Rb in Y register
             end
             T4: begin //5
-			    Gra <= 0; Rout <= 0; Yin <= 0;
+			    Gra <= 0; Rout <= 0; PC_en <= 0;
             end
             
             // Continue defining other states similarly...

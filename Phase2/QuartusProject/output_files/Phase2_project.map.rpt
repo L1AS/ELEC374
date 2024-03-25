@@ -1,5 +1,5 @@
 Analysis & Elaboration report for Phase2_project
-Mon Mar 25 01:03:40 2024
+Mon Mar 25 13:41:51 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -109,7 +109,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                  ;
 +-------------------------------+-------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Mon Mar 25 01:03:40 2024           ;
+; Analysis & Elaboration Status ; Successful - Mon Mar 25 13:41:51 2024           ;
 ; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                 ; Phase2_project                                  ;
 ; Top-level Entity Name         ; miniSRC                                         ;
@@ -129,8 +129,8 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 32          ;
-; Maximum allowed            ; 16          ;
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -1021,10 +1021,10 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Mon Mar 25 01:03:34 2024
+    Info: Processing started: Mon Mar 25 13:41:31 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Phase2_project -c Phase2_project --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 16 of the 24 processors detected
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file testbenches/general_tb.v
     Info (12023): Found entity 1: general_tb File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/TESTBENCHES/general_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file alu/incpc.v
@@ -1142,10 +1142,10 @@ Info (12128): Elaborating entity "neg_op" for hierarchy "Datapath:DUT|alu:ALU|ne
 Info (12128): Elaborating entity "not_op" for hierarchy "Datapath:DUT|alu:ALU|not_op:not_" File: C:/Users/19tja3/Documents/374/Phase2/QuartusProject/ALU/alu.v Line: 100
 Info (144001): Generated suppressed messages file C:/Users/19tja3/Documents/374/Phase2/QuartusProject/output_files/Phase2_project.map.smsg
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 10 warnings
-    Info: Peak virtual memory: 4811 megabytes
-    Info: Processing ended: Mon Mar 25 01:03:40 2024
-    Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Peak virtual memory: 4810 megabytes
+    Info: Processing ended: Mon Mar 25 13:41:51 2024
+    Info: Elapsed time: 00:00:20
+    Info: Total CPU time (on all processors): 00:00:15
 
 
 +--------------------------------------------+
