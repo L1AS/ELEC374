@@ -40,8 +40,6 @@ module Datapath (
               busMuxInInport,
               intermediateR0;
   wire [4:0] busMuxSignal;
-  wire r15_en;
-  assign r15_en <= reg_in[15] | jal_R15;
   wire [63:0] alu_out;
 
 	  
@@ -65,7 +63,7 @@ module Datapath (
   register_gen R14 (busMuxInR14, clear, clock, reg_in[14], busMuxOut);
 
   wire r15_en;
-  assign r15_en <= reg_in[15] | jal_R15;
+  assign r15_en = reg_in[15] | jal_R15;
   register_gen R15 (busMuxInR15, clear, clock, r15_en, busMuxOut);    // 
 
   register_gen HI (busMuxInHI, clear, clock, HIin, busMuxOut);

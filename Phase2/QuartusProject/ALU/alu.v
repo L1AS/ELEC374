@@ -83,7 +83,7 @@ module alu (
 	  end 
   end
   
-  IncPC pc_inc(IncPC_out, A_reg, IncPC);
+  IncPC pc_inc(IncPC_out, B_reg, IncPC);
   add_op add (add_out, A_reg, B_reg, 1'b0); // DONE
   sub_op sub (sub_out, A_reg, B_reg); // TODO
   mul_op dul (mul_out, A_reg, B_reg); // TODO

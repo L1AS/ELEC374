@@ -13,15 +13,17 @@ module store_tb;
           MDRout, MDRin, MARin,             // Mem Data Interface signals.
           memRead, memWrite,                // memory read enable and write enable signals.
           inPort_en, outPort_en,             // Input/Output signals.
-          inPortOut;
+          inPortOut, jal_R15;
     reg[4:0] opcode;
 
     // State definitions
-    parameter Default = 4'b0000, T0 = 4'b0001, T1 = 4'b0010, T2 = 4'b0011, 
-              T3 = 4'b0100, T4 = 4'b0101, T5 = 4'b0111, T6 = 4'b1000, T7 = 4'b1001,
-              memWait = 4'b1111, initializeReg = 4'b1110;
+    parameter Default = 5'b00000, T0 = 5'b00001, T1 = 5'b00010, T2 = 5'b00011, 
+              T3 = 5'b00100, T4 = 5'b00101, T5 = 5'b00110, T6 = 5'b00111, T7 = 5'b01000, T8 = 5'b01001,
+              memWait1 = 5'b01100, memWait2 = 5'b01101, memWait3 = 5'b01110, memWait4 = 5'b01111, 
+              initializeReg1 = 5'b10000, initializeReg2 = 5'b10001, initializeReg3 = 5'b10010,
+              initializeReg4 = 5'b10011, initializeReg5 = 5'b10100, initializeReg6 = 5'b10101,
+              readBack1 = 5'b11101, readBack2 = 5'b11110, readBack3 = 5'b11111;
               
-    
     reg [3:0] Present_state = Default;
 
     // Instantiate the Device Under Test (DUT)
@@ -37,10 +39,9 @@ module store_tb;
         .MDRout(MDRout), .MDRin(MDRin), .MARin(MARin),                          // Mem Data Interface signals.
         .memRead(memRead), .memWrite(memWrite),                                 // memory read enable and write enable signals.
         .inPort_en(inPort_en), .outPort_en(outPort_en),                          // Input/Output signals.
-        .inPortOut(inPortOut),
+        .inPortOut(inPortOut), .jal_R15(jal_R15),
         .opcode(opcode)                                                         //ALU opcode 
     );
-
 
     // clock generation
     initial begin
@@ -51,26 +52,36 @@ module store_tb;
     // State transitions
     always @(posedge clock) begin
         case (Present_state)
-            Default: Present_state = initializeReg;
-            initialReg: = Present_state = T0;
+            Default: Present_state = initializeReg1;
+            initializeReg1: Present_state = initializeReg2;
+            initializeReg2: Present_state = initializeReg3;
+            initializeReg3: Present_state = initializeReg4;
+            initializeReg4: Present_state = initializeReg5;
+            initializeReg5: Present_state = initializeReg6;
+            initializeReg6: Present_state = T0;
             T0: Present_state = T1;
-            T1: Present_state = T2;
-            T2: Present_state = memWait;
-            memWait: Present_state = T3;
+            T1: Present_state = memWait1;
+            memWait1: Present_state = memWait2;
+            memWait2: Present_state = T2;
+            T2: Present_state = T3;
             T3: Present_state = T4;
             T4: Present_state = T5;
             T5: Present_state = T6;
-            T6: Present_state = T7; //load and branch
-            T7: Present_state = Default; //load 
+            T6: Present_state = memWait3; //load and branch
+            memWait3: Present_state = memWait4;
+            memWait4: Present_state = T7;
+            T7: Present_state = readBack1; //load 
+            readBack1: Present_state = readBack2;
+            readBack2: Present_state = readBack3;
+            readBack3: ;
         endcase
     end
-
     // State actions
     always @(Present_state) begin
         case (Present_state)
                 Default: begin
-                    inPortDataIn <= 32'h0000043; inPort_en <= 1;                           // input.
-                    clock <= 0; clear <= 1;                                 // control signals.
+                    inPortDataIn <= 32'h0000043; inPort_en <= 1;            // input.
+                    clear <= 0; jal_R15 <= 0; CONin <= 0;                   // control signals.
                     Gra <= 0; Grb <= 0; Grc <= 0;                           // control signals for IR
                     Rin <= 0; Rout <= 0; BAout <= 0;                        //
                     PCout_en <= 0; IncPC <= 0; PC_en <= 0; IRin <= 0;       // PC and IR signals.
@@ -78,7 +89,7 @@ module store_tb;
                     Cout <= 0; Zhighout <= 0; Zlowout <= 0; Zin <= 0;       //
                     MDRout <= 0; MDRin <= 0; MARin <= 0;                    // Mem Data Interface signals.
                     memRead <= 0; memWrite <= 0;                            // memory read enable and write enable signals.
-                    outPort_en <= 0;                                        // Input/Output signals.
+                    outPort_en <= 0; inPortOut <= 0;                        // Input/Output signals.
                     opcode <= 5'b11010;                                     // assert nop
                 end
                 initializeReg1: begin
@@ -90,16 +101,18 @@ module store_tb;
                     Zlowout <= 1; PC_en <= 1; memRead <= 1; MDRin <= 1;	// PC incremented (taking value calculated in Z), read IR content from memory?	
                 end
                 initializeReg3: begin
-                    
+                    Zlowout <= 0; PC_en <= 0;
                 end
                 initializeReg4: begin
-                    Zlowout <= 0; PC_en <= 0; memRead <= 0; MDRin <= 0;
-                    MDRout <= 1; IRin <= 1; // assert content from memory to IR
+
                 end
                 initializeReg5: begin
+                    memRead <= 0; MDRin <= 0;
+                    MDRout <= 1; IRin <= 1; // assert content from memory to IR
+                end
+                initializeReg6: begin
                     Gra <= 1; Rin <= 1; inPortOut <= 1;
                 end
-    
                 T0: begin // 1
                     PCout_en <= 1; MARin <= 1; IncPC <= 1; Zin <= 1;    // prepare for increment PC via ALU
                 end
@@ -137,6 +150,17 @@ module store_tb;
                 end
                 T7: begin //8
                     memWrite <= 0; Gra <= 0; Rout <= 0;
+                    inPortDataIn <= 32'h0000087; inPort_en <= 1;
+                end
+                readBack1: begin
+                    inPort_en <= 0;
+                    inPortOut <= 1; MARin <= 1;
+                end
+                readBack2: begin
+                    inPortOut <= 0; MARin <= 0;
+                end
+                readBack3: begin
+                    
                 end
             
             // Continue defining other states similarly...

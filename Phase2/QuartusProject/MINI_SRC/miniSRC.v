@@ -15,9 +15,7 @@ module miniSRC(
     input[4:0] opcode
 );
 
-    wire done;
-	wire[31:0] IRout, MARdata, MDRMuxOut, busMuxInMDR, 
-                PCdata, Mdatain, busMuxOut, busMuxInPC;
+	wire[31:0] IRout, MARdata, MDRMuxOut, busMuxInMDR, Mdatain, busMuxOut, busMuxInPC;
     wire[15:0] reg_in, reg_out; 
 
     con_ff branch_condition(

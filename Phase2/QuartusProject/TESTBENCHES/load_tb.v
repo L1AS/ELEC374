@@ -1,6 +1,6 @@
 `timescale 1ns / 10ps
 
-module general_tb;
+module load_tb;
     wire[31:0] outPortData;                  // output.
     wire CONFF_out;
     reg CONin;                   // branch logic signals
@@ -72,8 +72,8 @@ module general_tb;
     always @(Present_state) begin
         case (Present_state)
             Default: begin
-                inPortDataIn <= 0;                                      // input.
-                clear <= 0; jal_R15 <= 0;                               // control signals.
+                inPortDataIn <= 0; inPortOut <= 0;                      // input.
+                clear <= 0; jal_R15 <= 0; CONin <= 0;                   // control signals.
                 Gra <= 0; Grb <= 0; Grc <= 0;                           // control signals for IR
                 Rin <= 0; Rout <= 0; BAout <= 0;                        //
                 PCout_en <= 0; IncPC <= 0; PC_en <= 0; IRin <= 0;           // PC and IR signals.

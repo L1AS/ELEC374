@@ -90,9 +90,9 @@ module memory (
 		altsyncram_component.clock_enable_input_a = "BYPASS",
 		altsyncram_component.clock_enable_output_a = "BYPASS",
 `ifdef NO_PLI
-		altsyncram_component.init_file = "./RAM/load_tb.rif"
+		altsyncram_component.init_file = ""
 `else
-		altsyncram_component.init_file = "C:/Users/19tja3/Documents/374/Phase2/QuartusProject/RAM/load_tb.hex"
+		altsyncram_component.init_file = "jump_tb.hex"
 `endif
 ,
 		altsyncram_component.intended_device_family = "Cyclone V",

@@ -13,13 +13,13 @@ module load_imm_tb;
           MDRout, MDRin, MARin,             // Mem Data Interface signals.
           memRead, memWrite,                // memory read enable and write enable signals.
           inPort_en, outPort_en,             // Input/Output signals.
-          inPortOut;
+          inPortOut, jal_R15;
     reg[4:0] opcode;
 
     // State definitions
     parameter Default = 4'b0000, T0 = 4'b0001, T1 = 4'b0010, T2 = 4'b0011, 
-              T3 = 4'b0100, T4 = 4'b0101, T5 = 4'b0111, T6 = 4'b1000, T7 = 4'b1001,
-              memWait1 = 4'b1111, memWait2 = 4'b1111;;
+              T3 = 4'b0100, T4 = 4'b0101, T5 = 4'b0110, T6 = 4'b0111, T7 = 4'b1000, T8 = 4'b1001,
+              memWait1 = 4'b1100, memWait2 = 4'b1101, memWait3 = 4'b1110, memWait4 = 4'b1111;
               
     
     reg [3:0] Present_state = Default;
@@ -37,7 +37,7 @@ module load_imm_tb;
         .MDRout(MDRout), .MDRin(MDRin), .MARin(MARin),                          // Mem Data Interface signals.
         .memRead(memRead), .memWrite(memWrite),                                 // memory read enable and write enable signals.
         .inPort_en(inPort_en), .outPort_en(outPort_en),                          // Input/Output signals.
-        .inPortOut(inPortOut),
+        .inPortOut(inPortOut), .jal_R15(jal_R15),
         .opcode(opcode)                                                         //ALU opcode 
     );
 
@@ -53,15 +53,18 @@ module load_imm_tb;
         case (Present_state)
             Default: Present_state = T0;
             T0: Present_state = T1;
-            T1: Present_state = T2;
-            T2: Present_state = memWait1;
+            T1: Present_state = memWait1;
             memWait1: Present_state = memWait2;
-            memWait: Present_state = T3;
+            memWait2: Present_state = T2;
+            T2: Present_state = T3;
             T3: Present_state = T4;
             T4: Present_state = T5;
             T5: Present_state = T6;
-            T6: Present_state = T7; //load and branch
-            T7: Present_state = Default; //load 
+            T6: Present_state = Default;//Present_state = memWait3; //load and branch
+            //memWait3: Present_state = memWait4;
+            //memWait4: Present_state = T7;
+            //T7: Present_state = T8; //load 
+            //T8: Present_state = Default;
         endcase
     end
 
@@ -69,8 +72,8 @@ module load_imm_tb;
     always @(Present_state) begin
         case (Present_state)
             Default: begin
-                inPortDataIn <= 0;                                      // input.
-                clock <= 0; clear <= 0;                                 // control signals.
+                inPortDataIn <= 0; inPortOut <= 0;                      // input.
+                clear <= 0; jal_R15 <= 0; CONin <= 0;                   // control signals.
                 Gra <= 0; Grb <= 0; Grc <= 0;                           // control signals for IR
                 Rin <= 0; Rout <= 0; BAout <= 0;                        //
                 PCout_en <= 0; IncPC <= 0; PC_en <= 0; IRin <= 0;           // PC and IR signals.
@@ -116,7 +119,6 @@ module load_imm_tb;
                 Zlowout <= 0; Gra <= 0; Rin <= 0; 
             end
 
-            
             // Continue defining other states similarly...
         endcase
     end
