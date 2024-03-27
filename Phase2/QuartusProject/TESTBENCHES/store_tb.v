@@ -20,11 +20,11 @@ module store_tb;
     parameter Default = 5'b00000, T0 = 5'b00001, T1 = 5'b00010, T2 = 5'b00011, 
               T3 = 5'b00100, T4 = 5'b00101, T5 = 5'b00110, T6 = 5'b00111, T7 = 5'b01000, T8 = 5'b01001,
               memWait1 = 5'b01100, memWait2 = 5'b01101, memWait3 = 5'b01110, memWait4 = 5'b01111, 
-              initializeReg1 = 5'b10000, initializeReg2 = 5'b10001, initializeReg3 = 5'b10010,
-              initializeReg4 = 5'b10011, initializeReg5 = 5'b10100, initializeReg6 = 5'b10101,
-              readBack1 = 5'b11101, readBack2 = 5'b11110, readBack3 = 5'b11111;
+              preload_reg = 5'b10000, readBack1 = 5'b11010, readBack2 = 5'b11011, readBack3 = 5'b11100, 
+              readBack4 = 5'b11101, readBack5 = 5'b11110, readBack6 = 5'b11111;
+
               
-    reg [3:0] Present_state = Default;
+    reg [4:0] Present_state = Default;
 
     // Instantiate the Device Under Test (DUT)
     miniSRC CPU(
@@ -57,17 +57,20 @@ module store_tb;
             T1: Present_state = memWait1;
             memWait1: Present_state = memWait2;
             memWait2: Present_state = T2;
-            T2: Present_state = T3;
+            T2: Present_state = preload_reg;
+            preload_reg: Present_state = T3;
             T3: Present_state = T4;
             T4: Present_state = T5;
             T5: Present_state = T6;
             T6: Present_state = memWait3; //load and branch
-            memWait3: Present_state = memWait4;
-            memWait4: Present_state = T7;
+            memWait3: Present_state = T7;
             T7: Present_state = readBack1; //load 
             readBack1: Present_state = readBack2;
             readBack2: Present_state = readBack3;
-            readBack3: ;
+            readBack3: Present_state = readBack4;
+            readBack4: Present_state = readBack5;
+            readBack5: Present_state = readBack6;
+            readBack6: Present_state = Default;
         endcase
     end
     // State actions
@@ -87,6 +90,7 @@ module store_tb;
                     opcode <= 5'b11010;                                     // assert nop
                 end
                 T0: begin // 1
+                    inPort_en <= 0;
                     PCout_en <= 1; MARin <= 1; IncPC <= 1; Zin <= 1;    // prepare for increment PC via ALU
                 end
                 T1: begin //2
@@ -103,7 +107,7 @@ module store_tb;
                     memRead <= 0; MDRin <= 0;
                     MDRout <= 1; IRin <= 1; // assert content from memory to IR
                 end
-                initializeReg: begin
+                preload_reg: begin
                     MDRout <= 0; IRin <= 0;
                     Gra <= 1; Rin <= 1; inPortOut <= 1; //pre-load Ra
                 end
@@ -123,7 +127,10 @@ module store_tb;
                 end
                 T6: begin //7   
                     Zlowout <= 0; MARin <= 0; 
-                    memWrite <= 1; Gra <= 1; Rout <= 1;// write the contents in Ra, to the address in MAR
+                    Gra <= 1; Rout <= 1; MDRin <= 1; memWrite <= 1;// write the contents in Ra, to the address in MDR
+                end
+                memWait3: begin
+                    Gra <= 0; Rout <= 0; MDRin <= 0;
                 end
                 T7: begin //8
                     memWrite <= 0; Gra <= 0; Rout <= 0;
@@ -132,12 +139,25 @@ module store_tb;
                 readBack1: begin
                     inPort_en <= 0;
                     inPortOut <= 1; MARin <= 1;
+                    memRead <= 1;
                 end
                 readBack2: begin
                     inPortOut <= 0; MARin <= 0;
                 end
                 readBack3: begin
-                    
+                    memRead <= 0;
+                    inPortDataIn <= 32'h00000CA; inPort_en <= 1;
+                end
+                readBack4: begin
+                    inPort_en <= 0;
+                    inPortOut <= 1; MARin <= 1;
+                    memRead <= 1;
+                end
+                readBack5: begin
+                    inPortOut <= 0; MARin <= 0;
+                end
+                readBack6: begin
+                    memRead <= 0;
                 end
             
             // Continue defining other states similarly...
