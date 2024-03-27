@@ -1,6 +1,6 @@
 `timescale 1ns / 10ps
 
-module jump_tb;
+module jal_tb;
     wire[31:0] outPortData;                  // output.
     wire CONFF_out;
     reg CONin;                   // branch logic signals

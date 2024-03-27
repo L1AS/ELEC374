@@ -52,7 +52,13 @@ module store_tb;
     // State transitions
     always @(posedge clock) begin
         case (Present_state)
-            Default: Present_state = T0;
+            Default: Present_state = initializeReg1;
+            initializeReg1: Present_state = initializeReg2;
+            initializeReg2: Present_state = initializeReg3;
+            initializeReg3: Present_state = initializeReg4;
+            initializeReg4: Present_state = initializeReg5;
+            initializeReg5: Present_state = initializeReg6;
+            initializeReg6: Present_state = T0;
             T0: Present_state = T1;
             T1: Present_state = memWait1;
             memWait1: Present_state = memWait2;
@@ -86,6 +92,27 @@ module store_tb;
                     outPort_en <= 0; inPortOut <= 0;                        // Input/Output signals.
                     opcode <= 5'b11010;                                     // assert nop
                 end
+                initializeReg1: begin
+                    inPort_en <= 0; clear <= 0;
+                    PCout_en <= 1; MARin <= 1; IncPC <= 1; Zin <= 1;    // prepare for increment PC via ALU
+                end
+                initializeReg2: begin
+                    PCout_en <= 0; MARin <= 0; IncPC <= 0; Zin <= 0;
+                    Zlowout <= 1; PC_en <= 1; memRead <= 1; MDRin <= 1;	// PC incremented (taking value calculated in Z), read IR content from memory?	
+                end
+                initializeReg3: begin
+                    Zlowout <= 0; PC_en <= 0;
+                end
+                initializeReg4: begin
+
+                end
+                initializeReg5: begin
+                    memRead <= 0; MDRin <= 0;
+                    MDRout <= 1; IRin <= 1; // assert content from memory to IR
+                end
+                initializeReg6: begin
+                    Gra <= 1; Rin <= 1; inPortOut <= 1;
+                end
                 T0: begin // 1
                     PCout_en <= 1; MARin <= 1; IncPC <= 1; Zin <= 1;    // prepare for increment PC via ALU
                 end
@@ -103,12 +130,8 @@ module store_tb;
                     memRead <= 0; MDRin <= 0;
                     MDRout <= 1; IRin <= 1; // assert content from memory to IR
                 end
-                initializeReg: begin
-                    MDRout <= 0; IRin <= 0;
-                    Gra <= 1; Rin <= 1; inPortOut <= 1; //pre-load Ra
-                end
                 T3: begin //4
-                    Gra <= 0; Rin <= 0; inPortOut <= 0;
+                    MDRout <= 0; IRin <= 0;
                     Grb <= 1; BAout <= 1; Yin <= 1; // select register Rb by assert Grb and BAout signals, put the content of Rb in Y register
                 end
                 T4: begin //5
