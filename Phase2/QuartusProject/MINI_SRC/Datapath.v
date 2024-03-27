@@ -7,13 +7,13 @@ module Datapath (
           PCout_en, IncPC,                      	// PC signals
     input [31:0] busMuxInPC,                  // PC data
     input MDRout, inPortOut,
-	 input[31:0] busMuxInMDR,  					// Memory data interface signal
+	  input[31:0] busMuxInMDR,  					// Memory data interface signal
     input inPort_en, outPort_en,              	// input/output
     input Cout, 										// imediate value signals
-	 input[31:0] cSignExtended,      			//
+	  input[31:0] cSignExtended,      			//
     input[4:0] opcode,                       // ALU opcode
     input[15:0] reg_in, reg_out,       // register control signals
-    input BAout
+    input BAout, jal_R15
 );
 
   wire [31:0] busMuxInR0, 
@@ -61,7 +61,10 @@ module Datapath (
   register_gen R12 (busMuxInR12, clear, clock, reg_in[12], busMuxOut);
   register_gen R13 (busMuxInR13, clear, clock, reg_in[13], busMuxOut);
   register_gen R14 (busMuxInR14, clear, clock, reg_in[14], busMuxOut);
-  register_gen R15 (busMuxInR15, clear, clock, reg_in[15], busMuxOut);
+
+  wire r15_en;
+  assign r15_en = reg_in[15] | jal_R15;
+  register_gen R15 (busMuxInR15, clear, clock, r15_en, busMuxOut);    // 
 
   register_gen HI (busMuxInHI, clear, clock, HIin, busMuxOut);
   register_gen LO (busMuxInLO, clear, clock, LOin, busMuxOut);
@@ -86,7 +89,7 @@ module Datapath (
     busMuxInR6, busMuxInR7, busMuxInR8, busMuxInR9, busMuxInR10, busMuxInR11, 
     busMuxInR12, busMuxInR13, busMuxInR14, busMuxInR15, busMuxInHI, busMuxInLO, 
     busMuxInZhigh, busMuxInZlow, busMuxInPC, busMuxInMDR, 
-    cSignExtended, busMuxInInport, busMuxSignal
+    busMuxInInport, cSignExtended, busMuxSignal
   );
 
   // ALU

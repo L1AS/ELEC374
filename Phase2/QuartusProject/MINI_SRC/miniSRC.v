@@ -11,13 +11,11 @@ module miniSRC(
           MDRout, MDRin, MARin,             // Mem Data Interface signals.
           memRead, memWrite,                // memory read enable and write enable signals.
           inPort_en, outPort_en,            // Input/Output signals.
-          inPortOut,
+          inPortOut, jal_R15,
     input[4:0] opcode
 );
 
-    wire done;
-	wire[31:0] IRout, MARdata, MDRMuxOut, busMuxInMDR, 
-                PCdata, Mdatain, busMuxOut, busMuxInPC;
+	wire[31:0] IRout, MARdata, MDRMuxOut, busMuxInMDR, Mdatain, busMuxOut, busMuxInPC;
     wire[15:0] reg_in, reg_out; 
 
     con_ff branch_condition(
@@ -27,7 +25,7 @@ module miniSRC(
     // csigned extended
     // consult Figure 4 in the phase 2 instruction
 	register_gen PC (busMuxInPC, clear, clock, PC_en, busMuxOut);
-    register_gen IR (IRout, clear, clock, IR_en, busMuxInMDR);
+    register_gen IR (IRout, clear, clock, IR_en, busMuxOut);
     
     wire[31:0] cSignExtended;
     assign cSignExtended = {{14{IRout[18]}}, IRout[17:0]};
@@ -72,7 +70,8 @@ module miniSRC(
             .inPort_en(inPort_en), .outPort_en(outPort_en),            // input/output
             .Cout(Cout), .cSignExtended(cSignExtended),             // imediate value signals   
             .opcode(opcode),                                                         //ALU opcode 
-            .reg_in(reg_in), .reg_out(reg_out), .BAout(BAout)          // register control signals
+            .reg_in(reg_in), .reg_out(reg_out), .BAout(BAout),          // register control signals
+            .jal_R15(jal_R15)
     );
 
 endmodule

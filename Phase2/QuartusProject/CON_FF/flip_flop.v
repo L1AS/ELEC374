@@ -1,16 +1,14 @@
 module flip_flop(
-    output reg Q, 
-    // output reg Q_not,
-    input wire D, 
-    input wire clk
+    output wire Q, Q_not,
+    input D, clk 
 );	
-	initial begin
-		Q <= 0;
-		// Q_not <= 1;
-	end
-	always@(clk, D) 
-	begin
-		Q <= D;
-		// Q_not <= !D;
-	end
+    reg q_internal;
+    initial q_internal = 1'b0;
+
+    always@(posedge clk) 
+    begin
+        q_internal <= D;
+    end
+    assign Q = q_internal;
+    assign Q_not = !q_internal;
 endmodule
