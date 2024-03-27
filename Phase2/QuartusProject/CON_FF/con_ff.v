@@ -1,6 +1,6 @@
 module con_ff (
     output conff_out,
-    input CONin,
+    input wire CONin,
     input [31:0] IRout, busMuxOut
 );
 
@@ -8,8 +8,9 @@ module con_ff (
 
     wire con_data;
 
-    reg [3:0] branch_condition = 4'b0000;
-    always @ (*) begin
+    reg [3:0] branch_condition;
+
+    always @ (IRout) begin
         case (IRout[22:19])
             4'b0000: branch_condition <= 4'b0001; // branch if zero
             4'b0001: branch_condition <= 4'b0010; // branch if nonzero
