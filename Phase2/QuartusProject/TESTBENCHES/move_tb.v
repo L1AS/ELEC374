@@ -110,11 +110,11 @@ module move_tb;
             end
             T3: begin //4
                 MDRout <= 0; IRin <= 0;
-                Gra <= 1; Rin <= 1; //HIout <= 1;  // move the value in HI/LOW register into RA 
+                Gra <= 1; Rin <= 1; HIout <= 1;  // move the value in HI/LOW register into RA 
                 //LOout <= 1;
             end
             T4: begin //5
-                Gra <= 0; Rin <= 0; //HIout <= 0; 
+                Gra <= 0; Rin <= 0; HIout <= 0; 
                 //LOout <= 0;
             end
         

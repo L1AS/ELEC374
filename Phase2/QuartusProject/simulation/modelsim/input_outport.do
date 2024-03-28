@@ -2,7 +2,7 @@ onerror {resume}
 quietly WaveActivateNextPane {} 0
 add wave -noupdate /input_output_tb/clock
 add wave -noupdate -radix hexadecimal /input_output_tb/Present_state
-add wave -noupdate -radix hexadecimal /input_output_tb/CPU/IR/q
+add wave -noupdate -radix binary /input_output_tb/CPU/IR/q
 add wave -noupdate /input_output_tb/IRin
 add wave -noupdate -radix hexadecimal /input_output_tb/CPU/PC/q
 add wave -noupdate /input_output_tb/PCout_en
@@ -31,7 +31,7 @@ add wave -noupdate /input_output_tb/Rin
 add wave -noupdate /input_output_tb/Rout
 add wave -noupdate -radix hexadecimal /input_output_tb/CPU/busMuxOut
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {269044 ps} 0}
+WaveRestoreCursors {{Cursor 1} {502000 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 219
 configure wave -valuecolwidth 100
@@ -47,4 +47,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {150 ns} {525 ns}
+WaveRestoreZoom {150 ns} {310 ns}

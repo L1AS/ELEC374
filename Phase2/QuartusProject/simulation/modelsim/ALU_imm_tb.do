@@ -3,7 +3,7 @@ quietly WaveActivateNextPane {} 0
 add wave -noupdate /ALU_imm_tb/clock
 add wave -noupdate -radix unsigned /ALU_imm_tb/Present_state
 add wave -noupdate /ALU_imm_tb/opcode
-add wave -noupdate -radix hexadecimal /ALU_imm_tb/CPU/IR/q
+add wave -noupdate -radix binary /ALU_imm_tb/CPU/IR/q
 add wave -noupdate /ALU_imm_tb/IRin
 add wave -noupdate -radix hexadecimal /ALU_imm_tb/CPU/PC/q
 add wave -noupdate /ALU_imm_tb/PC_en
@@ -39,7 +39,7 @@ add wave -noupdate -radix hexadecimal /ALU_imm_tb/CPU/DUT/R4/q
 add wave -noupdate /ALU_imm_tb/CPU/DUT/R4/enable
 add wave -noupdate -radix hexadecimal /ALU_imm_tb/CPU/DUT/ALU/alu_out
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {165445 ps} 0}
+WaveRestoreCursors {{Cursor 1} {332922 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 274
 configure wave -valuecolwidth 100
@@ -55,4 +55,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ns
 update
-WaveRestoreZoom {0 ps} {210 ns}
+WaveRestoreZoom {390435 ps} {600435 ps}
