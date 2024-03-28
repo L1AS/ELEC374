@@ -1,5 +1,5 @@
 Flow report for Phase2_project
-Tue Mar 26 01:46:50 2024
+Wed Mar 27 20:45:54 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------+
 ; Flow Summary                                                              ;
 +-----------------------------+---------------------------------------------+
-; Flow Status                 ; Successful - Tue Mar 26 01:46:50 2024       ;
+; Flow Status                 ; Successful - Wed Mar 27 20:45:54 2024       ;
 ; Quartus Prime Version       ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name               ; Phase2_project                              ;
 ; Top-level Entity Name       ; miniSRC                                     ;
@@ -62,7 +62,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/26/2024 01:46:39 ;
+; Start date & time ; 03/27/2024 20:45:32 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Phase2_project      ;
 +-------------------+---------------------+
@@ -73,7 +73,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+----------------+-------------+-----------------+
 ; Assignment Name                      ; Value                                  ; Default Value  ; Entity Name ; Section Id      ;
 +--------------------------------------+----------------------------------------+----------------+-------------+-----------------+
-; COMPILER_SIGNATURE_ID                ; 24580031108013.171143199803012         ; --             ; --          ; --              ;
+; COMPILER_SIGNATURE_ID                ; 229436443761793.171158673204928        ; --             ; --          ; --              ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --             ; --          ; input_output_tb ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --             ; --          ; branch_tb       ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --             ; --          ; store_tb        ;
@@ -84,7 +84,7 @@ refer to the applicable agreement for further details.
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --             ; --          ; load_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --             ; --          ; jal_tb          ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --             ; --          ; general_tb      ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; jump_tb                                ; --             ; --          ; eda_simulation  ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; ALU_imm_tb                             ; --             ; --          ; eda_simulation  ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --             ; --          ; eda_simulation  ;
 ; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)              ; <None>         ; --          ; --              ;
 ; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --             ; --          ; eda_simulation  ;
@@ -147,8 +147,8 @@ refer to the applicable agreement for further details.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:12     ; 1.0                     ; 4809 MB             ; 00:00:10                           ;
-; Total                  ; 00:00:12     ; --                      ; --                  ; 00:00:10                           ;
+; Analysis & Elaboration ; 00:00:24     ; 1.0                     ; 4801 MB             ; 00:00:29                           ;
+; Total                  ; 00:00:24     ; --                      ; --                  ; 00:00:29                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -157,7 +157,7 @@ refer to the applicable agreement for further details.
 +------------------------+------------------+------------+------------+----------------+
 ; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +------------------------+------------------+------------+------------+----------------+
-; Analysis & Elaboration ; Tristan-PC       ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Elaboration ; SHENGHAO-TP      ; Windows 10 ; 10.0       ; x86_64         ;
 +------------------------+------------------+------------+------------+----------------+
 
 
