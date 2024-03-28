@@ -26,16 +26,15 @@ vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/Qu
 vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/neg_op.v}
 vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v}
 vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v}
-vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/b_cell.v}
 vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/and_op.v}
 vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v}
 vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v}
 vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v}
 vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v}
 
-vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/store_tb.v}
+vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/ALU_imm_tb.v}
 
-vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  store_tb
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  ALU_imm_tb
 
 add wave *
 view structure

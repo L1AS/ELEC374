@@ -26,7 +26,6 @@ vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/Qu
 vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/neg_op.v}
 vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v}
 vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v}
-vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/b_cell.v}
 vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/and_op.v}
 vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v}
 vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v}

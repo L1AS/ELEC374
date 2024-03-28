@@ -12,358 +12,247 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/IncPC.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:21:59 on Mar 27,2024
+# Start time: 01:02:26 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/IncPC.v 
 # -- Compiling module IncPC
 # 
 # Top level modules:
 # 	IncPC
-# End time: 18:21:59 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:26 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG/register_gen.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:21:59 on Mar 27,2024
+# Start time: 01:02:26 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG/register_gen.v 
 # -- Compiling module register_gen
 # 
 # Top level modules:
 # 	register_gen
-# End time: 18:21:59 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:26 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:21:59 on Mar 27,2024
+# Start time: 01:02:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v 
 # -- Compiling module miniSRC
 # 
 # Top level modules:
 # 	miniSRC
-# End time: 18:21:59 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:27 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/Datapath.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:21:59 on Mar 27,2024
+# Start time: 01:02:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/Datapath.v 
 # -- Compiling module Datapath
 # 
 # Top level modules:
 # 	Datapath
-# End time: 18:21:59 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:27 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI/mux_2_to_1.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:00 on Mar 27,2024
+# Start time: 01:02:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI/mux_2_to_1.v 
 # -- Compiling module mux_2_to_1
 # 
 # Top level modules:
 # 	mux_2_to_1
-# End time: 18:22:00 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:27 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/select_encode.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:00 on Mar 27,2024
+# Start time: 01:02:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/select_encode.v 
 # -- Compiling module select_encode
 # 
 # Top level modules:
 # 	select_encode
-# End time: 18:22:00 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:27 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/decoder_4_to_16.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:00 on Mar 27,2024
+# Start time: 01:02:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/decoder_4_to_16.v 
 # -- Compiling module decoder_4_to_16
 # 
 # Top level modules:
 # 	decoder_4_to_16
-# End time: 18:22:00 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:27 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:00 on Mar 27,2024
+# Start time: 01:02:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v 
 # -- Compiling module flip_flop
 # 
 # Top level modules:
 # 	flip_flop
-# End time: 18:22:00 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:27 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/mux_32_to_1.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:00 on Mar 27,2024
+# Start time: 01:02:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/mux_32_to_1.v 
 # -- Compiling module mux_32_to_1
 # 
 # Top level modules:
 # 	mux_32_to_1
-# End time: 18:22:00 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:27 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/encoder_32_to_5.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:00 on Mar 27,2024
+# Start time: 01:02:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/encoder_32_to_5.v 
 # -- Compiling module encoder_32_to_5
 # 
 # Top level modules:
 # 	encoder_32_to_5
-# End time: 18:22:00 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:27 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/sub_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:00 on Mar 27,2024
+# Start time: 01:02:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/sub_op.v 
 # -- Compiling module sub_op
 # 
 # Top level modules:
 # 	sub_op
-# End time: 18:22:00 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:27 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shra_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:00 on Mar 27,2024
+# Start time: 01:02:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shra_op.v 
 # -- Compiling module shra_op
 # 
 # Top level modules:
 # 	shra_op
-# End time: 18:22:00 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:27 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shr_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:00 on Mar 27,2024
+# Start time: 01:02:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shr_op.v 
 # -- Compiling module shr_op
 # 
 # Top level modules:
 # 	shr_op
-# End time: 18:22:00 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:27 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shl_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:00 on Mar 27,2024
+# Start time: 01:02:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shl_op.v 
 # -- Compiling module shl_op
 # 
 # Top level modules:
 # 	shl_op
-# End time: 18:22:00 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:27 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/ror_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:00 on Mar 27,2024
+# Start time: 01:02:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/ror_op.v 
 # -- Compiling module ror_op
 # 
 # Top level modules:
 # 	ror_op
-# End time: 18:22:00 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:28 on Mar 28,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/rol_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:00 on Mar 27,2024
+# Start time: 01:02:28 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/rol_op.v 
 # -- Compiling module rol_op
 # 
 # Top level modules:
 # 	rol_op
-# End time: 18:22:00 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:28 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/or_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:00 on Mar 27,2024
+# Start time: 01:02:28 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/or_op.v 
 # -- Compiling module or_op
 # 
 # Top level modules:
 # 	or_op
-# End time: 18:22:00 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:28 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/not_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:00 on Mar 27,2024
+# Start time: 01:02:28 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/not_op.v 
 # -- Compiling module not_op
 # 
 # Top level modules:
 # 	not_op
-# End time: 18:22:00 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:28 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/neg_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:01 on Mar 27,2024
+# Start time: 01:02:28 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/neg_op.v 
 # -- Compiling module neg_op
 # 
 # Top level modules:
 # 	neg_op
-# End time: 18:22:01 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:28 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:01 on Mar 27,2024
+# Start time: 01:02:28 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v 
 # -- Compiling module mul_op
 # 
 # Top level modules:
 # 	mul_op
-# End time: 18:22:01 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:28 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:01 on Mar 27,2024
+# Start time: 01:02:28 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v 
 # -- Compiling module div_op
 # 
 # Top level modules:
 # 	div_op
-# End time: 18:22:01 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/b_cell.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:01 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/b_cell.v 
-# -- Compiling module b_cell
-# 
-# Top level modules:
-# 	b_cell
-# End time: 18:22:01 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:28 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/and_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:01 on Mar 27,2024
+# Start time: 01:02:28 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/and_op.v 
 # -- Compiling module and_op
 # 
 # Top level modules:
 # 	and_op
-# End time: 18:22:01 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:28 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:01 on Mar 27,2024
+# Start time: 01:02:28 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 18:22:01 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:02:28 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:01 on Mar 27,2024
+# Start time: 01:02:28 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v 
 # -- Compiling module add_op
-# 
-# Top level modules:
-# 	add_op
-# End time: 18:22:01 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:01 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v 
-# -- Compiling module con_ff
-# 
-# Top level modules:
-# 	con_ff
-# End time: 18:22:01 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:01 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v 
-# -- Compiling module memory
-# 
-# Top level modules:
-# 	memory
-# End time: 18:22:01 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/ALU_imm_tb.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:22:01 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/ALU_imm_tb.v 
-# -- Compiling module ALU_imm_tb
-# 
-# Top level modules:
-# 	ALU_imm_tb
-# End time: 18:22:01 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  ALU_imm_tb
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" ALU_imm_tb 
-# Start time: 18:22:01 on Mar 27,2024
-# Loading work.ALU_imm_tb
-# Loading work.miniSRC
-# Loading work.con_ff
-# Loading work.flip_flop
-# Loading work.register_gen
-# Loading work.select_encode
-# Loading work.decoder_4_to_16
-# Loading work.memory
-# Loading altera_mf_ver.altsyncram
-# Loading work.mux_2_to_1
-# Loading work.Datapath
-# Loading work.encoder_32_to_5
-# Loading work.mux_32_to_1
-# Loading work.alu
-# Loading work.IncPC
-# Loading work.add_op
-# Loading work.sub_op
-# Loading work.mul_op
-# Loading work.div_op
-# Loading work.shr_op
-# Loading work.shra_op
-# Loading work.shl_op
-# Loading work.ror_op
-# Loading work.rol_op
-# Loading work.and_op
-# Loading work.or_op
-# Loading work.neg_op
-# Loading work.not_op
-# Loading altera_mf_ver.altsyncram_body
-# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
-# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
-# Loading work.b_cell
-# ** Warning: (vsim-3017) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /ALU_imm_tb/CPU/branch_condition/CON File: C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v
-# ** Warning: (vsim-3722) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Missing connection for port 'Q_not'.
-# 
-# add wave *
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 500 ns
-add wave -position 3  sim:/ALU_imm_tb/CPU/IR/q
-add wave -position 5  sim:/ALU_imm_tb/CPU/PC/q
-add wave -position 9  sim:/ALU_imm_tb/CPU/MDR/q
-add wave -position 12  sim:/ALU_imm_tb/CPU/MAR/q
-add wave -position 15  sim:/ALU_imm_tb/CPU/DUT/Zlow/q
-add wave -position 18  sim:/ALU_imm_tb/CPU/MDRMux/busMuxOut
-add wave -position 19  sim:/ALU_imm_tb/CPU/DUT/busMux/busMuxSignal
-add wave -position 20  sim:/ALU_imm_tb/CPU/MDRMux/busMuxOut
-add wave -position 20  sim:/ALU_imm_tb/CPU/MDRMux/Mdatain
-add wave -position 26  sim:/ALU_imm_tb/CPU/DUT/RY/q
-add wave -position 28  sim:/ALU_imm_tb/CPU/DUT/busMux/cSignExtended
-add wave -position 30  sim:/ALU_imm_tb/CPU/DUT/R3/q
-add wave -position 31  sim:/ALU_imm_tb/CPU/DUT/R3/enable
-add wave -position 32  sim:/ALU_imm_tb/CPU/DUT/R4/q
-add wave -position 33  sim:/ALU_imm_tb/CPU/DUT/R4/enable
-add wave -position 34  sim:/ALU_imm_tb/CPU/DUT/ALU/alu_out
-restart
-# ** Warning: (vsim-3017) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /ALU_imm_tb/CPU/branch_condition/CON File: C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v
-# ** Warning: (vsim-3722) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Missing connection for port 'Q_not'.
-run 200ns
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/simulation/modelsim/ALU_imm_tb.do
-restart
-# ** Warning: (vsim-3017) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /ALU_imm_tb/CPU/branch_condition/CON File: C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v
-# ** Warning: (vsim-3722) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Missing connection for port 'Q_not'.
-run 250ns
+# ** Error: C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v(26): Invalid context for genvar i. A genvar can be used only inside of the generate loop that it indexes.
+# End time: 01:02:28 on Mar 28,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./Phase2_project_run_msim_rtl_verilog.do line 31
+# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProje..."
 do Phase2_project_run_msim_rtl_verilog.do
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
@@ -376,339 +265,247 @@ do Phase2_project_run_msim_rtl_verilog.do
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/IncPC.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:47 on Mar 27,2024
+# Start time: 01:08:20 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/IncPC.v 
 # -- Compiling module IncPC
 # 
 # Top level modules:
 # 	IncPC
-# End time: 18:53:47 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:08:20 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG/register_gen.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:47 on Mar 27,2024
+# Start time: 01:08:20 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG/register_gen.v 
 # -- Compiling module register_gen
 # 
 # Top level modules:
 # 	register_gen
-# End time: 18:53:47 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:08:20 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:47 on Mar 27,2024
+# Start time: 01:08:20 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v 
 # -- Compiling module miniSRC
 # 
 # Top level modules:
 # 	miniSRC
-# End time: 18:53:47 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:08:20 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/Datapath.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:47 on Mar 27,2024
+# Start time: 01:08:20 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/Datapath.v 
 # -- Compiling module Datapath
 # 
 # Top level modules:
 # 	Datapath
-# End time: 18:53:47 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:08:20 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI/mux_2_to_1.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:47 on Mar 27,2024
+# Start time: 01:08:20 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI/mux_2_to_1.v 
 # -- Compiling module mux_2_to_1
 # 
 # Top level modules:
 # 	mux_2_to_1
-# End time: 18:53:47 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:08:20 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/select_encode.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:48 on Mar 27,2024
+# Start time: 01:08:20 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/select_encode.v 
 # -- Compiling module select_encode
 # 
 # Top level modules:
 # 	select_encode
-# End time: 18:53:48 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:08:21 on Mar 28,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/decoder_4_to_16.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:48 on Mar 27,2024
+# Start time: 01:08:21 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/decoder_4_to_16.v 
 # -- Compiling module decoder_4_to_16
 # 
 # Top level modules:
 # 	decoder_4_to_16
-# End time: 18:53:48 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:08:21 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:48 on Mar 27,2024
+# Start time: 01:08:21 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v 
 # -- Compiling module flip_flop
 # 
 # Top level modules:
 # 	flip_flop
-# End time: 18:53:48 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:08:21 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/mux_32_to_1.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:48 on Mar 27,2024
+# Start time: 01:08:21 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/mux_32_to_1.v 
 # -- Compiling module mux_32_to_1
 # 
 # Top level modules:
 # 	mux_32_to_1
-# End time: 18:53:48 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:08:21 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/encoder_32_to_5.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:48 on Mar 27,2024
+# Start time: 01:08:21 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/encoder_32_to_5.v 
 # -- Compiling module encoder_32_to_5
 # 
 # Top level modules:
 # 	encoder_32_to_5
-# End time: 18:53:48 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:08:21 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/sub_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:48 on Mar 27,2024
+# Start time: 01:08:21 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/sub_op.v 
 # -- Compiling module sub_op
 # 
 # Top level modules:
 # 	sub_op
-# End time: 18:53:48 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:08:21 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shra_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:48 on Mar 27,2024
+# Start time: 01:08:21 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shra_op.v 
 # -- Compiling module shra_op
 # 
 # Top level modules:
 # 	shra_op
-# End time: 18:53:48 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:08:21 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shr_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:48 on Mar 27,2024
+# Start time: 01:08:21 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shr_op.v 
 # -- Compiling module shr_op
 # 
 # Top level modules:
 # 	shr_op
-# End time: 18:53:48 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:08:21 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shl_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:48 on Mar 27,2024
+# Start time: 01:08:21 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shl_op.v 
 # -- Compiling module shl_op
 # 
 # Top level modules:
 # 	shl_op
-# End time: 18:53:48 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:08:21 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/ror_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:48 on Mar 27,2024
+# Start time: 01:08:21 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/ror_op.v 
 # -- Compiling module ror_op
 # 
 # Top level modules:
 # 	ror_op
-# End time: 18:53:48 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:08:21 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/rol_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:48 on Mar 27,2024
+# Start time: 01:08:21 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/rol_op.v 
 # -- Compiling module rol_op
 # 
 # Top level modules:
 # 	rol_op
-# End time: 18:53:48 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:08:21 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/or_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:48 on Mar 27,2024
+# Start time: 01:08:22 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/or_op.v 
 # -- Compiling module or_op
 # 
 # Top level modules:
 # 	or_op
-# End time: 18:53:49 on Mar 27,2024, Elapsed time: 0:00:01
+# End time: 01:08:22 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/not_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:49 on Mar 27,2024
+# Start time: 01:08:22 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/not_op.v 
 # -- Compiling module not_op
 # 
 # Top level modules:
 # 	not_op
-# End time: 18:53:49 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:08:22 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/neg_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:49 on Mar 27,2024
+# Start time: 01:08:22 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/neg_op.v 
 # -- Compiling module neg_op
 # 
 # Top level modules:
 # 	neg_op
-# End time: 18:53:49 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:08:22 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:49 on Mar 27,2024
+# Start time: 01:08:22 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v 
 # -- Compiling module mul_op
 # 
 # Top level modules:
 # 	mul_op
-# End time: 18:53:49 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:08:22 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:49 on Mar 27,2024
+# Start time: 01:08:22 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v 
 # -- Compiling module div_op
 # 
 # Top level modules:
 # 	div_op
-# End time: 18:53:49 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/b_cell.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:49 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/b_cell.v 
-# -- Compiling module b_cell
-# 
-# Top level modules:
-# 	b_cell
-# End time: 18:53:49 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:08:22 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/and_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:49 on Mar 27,2024
+# Start time: 01:08:22 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/and_op.v 
 # -- Compiling module and_op
 # 
 # Top level modules:
 # 	and_op
-# End time: 18:53:49 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:08:22 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:49 on Mar 27,2024
+# Start time: 01:08:22 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 18:53:49 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:08:22 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:49 on Mar 27,2024
+# Start time: 01:08:22 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v 
 # -- Compiling module add_op
-# 
-# Top level modules:
-# 	add_op
-# End time: 18:53:49 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:49 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v 
-# -- Compiling module con_ff
-# 
-# Top level modules:
-# 	con_ff
-# End time: 18:53:49 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:49 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v 
-# -- Compiling module memory
-# 
-# Top level modules:
-# 	memory
-# End time: 18:53:49 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/ALU_imm_tb.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:49 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/ALU_imm_tb.v 
-# -- Compiling module ALU_imm_tb
-# 
-# Top level modules:
-# 	ALU_imm_tb
-# End time: 18:53:49 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  ALU_imm_tb
-# End time: 18:53:51 on Mar 27,2024, Elapsed time: 0:31:50
-# Errors: 0, Warnings: 6
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" ALU_imm_tb 
-# Start time: 18:53:51 on Mar 27,2024
-# Loading work.ALU_imm_tb
-# Loading work.miniSRC
-# Loading work.con_ff
-# Loading work.flip_flop
-# Loading work.register_gen
-# Loading work.select_encode
-# Loading work.decoder_4_to_16
-# Loading work.memory
-# Loading altera_mf_ver.altsyncram
-# Loading work.mux_2_to_1
-# Loading work.Datapath
-# Loading work.encoder_32_to_5
-# Loading work.mux_32_to_1
-# Loading work.alu
-# Loading work.IncPC
-# Loading work.add_op
-# Loading work.sub_op
-# Loading work.mul_op
-# Loading work.div_op
-# Loading work.shr_op
-# Loading work.shra_op
-# Loading work.shl_op
-# Loading work.ror_op
-# Loading work.rol_op
-# Loading work.and_op
-# Loading work.or_op
-# Loading work.neg_op
-# Loading work.not_op
-# Loading altera_mf_ver.altsyncram_body
-# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
-# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
-# Loading work.b_cell
-# ** Warning: (vsim-3017) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /ALU_imm_tb/CPU/branch_condition/CON File: C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v
-# ** Warning: (vsim-3722) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Missing connection for port 'Q_not'.
-# 
-# add wave *
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 500 ns
-do ALU_imm_tb.do
-restart
-# ** Warning: (vsim-3017) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /ALU_imm_tb/CPU/branch_condition/CON File: C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v
-# ** Warning: (vsim-3722) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Missing connection for port 'Q_not'.
-run 250ns
+# ** Error: C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v(29): Invalid context for genvar i. A genvar can be used only inside of the generate loop that it indexes.
+# End time: 01:08:22 on Mar 28,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./Phase2_project_run_msim_rtl_verilog.do line 31
+# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProje..."
 do Phase2_project_run_msim_rtl_verilog.do
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
@@ -721,1742 +518,244 @@ do Phase2_project_run_msim_rtl_verilog.do
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/IncPC.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:15 on Mar 27,2024
+# Start time: 01:12:26 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/IncPC.v 
 # -- Compiling module IncPC
 # 
 # Top level modules:
 # 	IncPC
-# End time: 18:59:16 on Mar 27,2024, Elapsed time: 0:00:01
+# End time: 01:12:26 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG/register_gen.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:16 on Mar 27,2024
+# Start time: 01:12:26 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG/register_gen.v 
 # -- Compiling module register_gen
 # 
 # Top level modules:
 # 	register_gen
-# End time: 18:59:16 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:12:26 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:16 on Mar 27,2024
+# Start time: 01:12:26 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v 
 # -- Compiling module miniSRC
 # 
 # Top level modules:
 # 	miniSRC
-# End time: 18:59:16 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:12:26 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/Datapath.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:16 on Mar 27,2024
+# Start time: 01:12:26 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/Datapath.v 
 # -- Compiling module Datapath
 # 
 # Top level modules:
 # 	Datapath
-# End time: 18:59:16 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:12:26 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI/mux_2_to_1.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:16 on Mar 27,2024
+# Start time: 01:12:26 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI/mux_2_to_1.v 
 # -- Compiling module mux_2_to_1
 # 
 # Top level modules:
 # 	mux_2_to_1
-# End time: 18:59:16 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:12:26 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/select_encode.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:16 on Mar 27,2024
+# Start time: 01:12:26 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/select_encode.v 
 # -- Compiling module select_encode
 # 
 # Top level modules:
 # 	select_encode
-# End time: 18:59:16 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:12:26 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/decoder_4_to_16.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:16 on Mar 27,2024
+# Start time: 01:12:26 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/decoder_4_to_16.v 
 # -- Compiling module decoder_4_to_16
 # 
 # Top level modules:
 # 	decoder_4_to_16
-# End time: 18:59:16 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:12:26 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:16 on Mar 27,2024
+# Start time: 01:12:26 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v 
 # -- Compiling module flip_flop
 # 
 # Top level modules:
 # 	flip_flop
-# End time: 18:59:16 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:12:26 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/mux_32_to_1.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:16 on Mar 27,2024
+# Start time: 01:12:26 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/mux_32_to_1.v 
 # -- Compiling module mux_32_to_1
 # 
 # Top level modules:
 # 	mux_32_to_1
-# End time: 18:59:16 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:12:26 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/encoder_32_to_5.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:16 on Mar 27,2024
+# Start time: 01:12:26 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/encoder_32_to_5.v 
 # -- Compiling module encoder_32_to_5
 # 
 # Top level modules:
 # 	encoder_32_to_5
-# End time: 18:59:16 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:12:27 on Mar 28,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/sub_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:16 on Mar 27,2024
+# Start time: 01:12:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/sub_op.v 
 # -- Compiling module sub_op
 # 
 # Top level modules:
 # 	sub_op
-# End time: 18:59:16 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:12:27 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shra_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:16 on Mar 27,2024
+# Start time: 01:12:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shra_op.v 
 # -- Compiling module shra_op
 # 
 # Top level modules:
 # 	shra_op
-# End time: 18:59:17 on Mar 27,2024, Elapsed time: 0:00:01
+# End time: 01:12:27 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shr_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:17 on Mar 27,2024
+# Start time: 01:12:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shr_op.v 
 # -- Compiling module shr_op
 # 
 # Top level modules:
 # 	shr_op
-# End time: 18:59:17 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:12:27 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shl_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:17 on Mar 27,2024
+# Start time: 01:12:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shl_op.v 
 # -- Compiling module shl_op
 # 
 # Top level modules:
 # 	shl_op
-# End time: 18:59:17 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:12:27 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/ror_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:17 on Mar 27,2024
+# Start time: 01:12:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/ror_op.v 
 # -- Compiling module ror_op
 # 
 # Top level modules:
 # 	ror_op
-# End time: 18:59:17 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:12:27 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/rol_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:17 on Mar 27,2024
+# Start time: 01:12:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/rol_op.v 
 # -- Compiling module rol_op
 # 
 # Top level modules:
 # 	rol_op
-# End time: 18:59:17 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:12:27 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/or_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:17 on Mar 27,2024
+# Start time: 01:12:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/or_op.v 
 # -- Compiling module or_op
 # 
 # Top level modules:
 # 	or_op
-# End time: 18:59:17 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:12:27 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/not_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:17 on Mar 27,2024
+# Start time: 01:12:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/not_op.v 
 # -- Compiling module not_op
 # 
 # Top level modules:
 # 	not_op
-# End time: 18:59:17 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:12:27 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/neg_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:17 on Mar 27,2024
+# Start time: 01:12:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/neg_op.v 
 # -- Compiling module neg_op
 # 
 # Top level modules:
 # 	neg_op
-# End time: 18:59:17 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:12:27 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:17 on Mar 27,2024
+# Start time: 01:12:27 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v 
 # -- Compiling module mul_op
 # 
 # Top level modules:
 # 	mul_op
-# End time: 18:59:17 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:12:28 on Mar 28,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:17 on Mar 27,2024
+# Start time: 01:12:28 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v 
 # -- Compiling module div_op
 # 
 # Top level modules:
 # 	div_op
-# End time: 18:59:17 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/b_cell.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:17 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/b_cell.v 
-# -- Compiling module b_cell
-# 
-# Top level modules:
-# 	b_cell
-# End time: 18:59:17 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:12:28 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/and_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:17 on Mar 27,2024
+# Start time: 01:12:28 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/and_op.v 
 # -- Compiling module and_op
 # 
 # Top level modules:
 # 	and_op
-# End time: 18:59:17 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:12:28 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:17 on Mar 27,2024
+# Start time: 01:12:28 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 18:59:17 on Mar 27,2024, Elapsed time: 0:00:00
+# End time: 01:12:28 on Mar 28,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:18 on Mar 27,2024
+# Start time: 01:12:28 on Mar 28,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v 
 # -- Compiling module add_op
-# 
-# Top level modules:
-# 	add_op
-# End time: 18:59:18 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:18 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v 
-# -- Compiling module con_ff
-# 
-# Top level modules:
-# 	con_ff
-# End time: 18:59:18 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:18 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v 
-# -- Compiling module memory
-# 
-# Top level modules:
-# 	memory
-# End time: 18:59:18 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/ALU_imm_tb.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:18 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/ALU_imm_tb.v 
-# -- Compiling module ALU_imm_tb
-# 
-# Top level modules:
-# 	ALU_imm_tb
-# End time: 18:59:18 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  ALU_imm_tb
-# End time: 18:59:19 on Mar 27,2024, Elapsed time: 0:05:28
-# Errors: 0, Warnings: 4
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" ALU_imm_tb 
-# Start time: 18:59:19 on Mar 27,2024
-# Loading work.ALU_imm_tb
-# Loading work.miniSRC
-# Loading work.con_ff
-# Loading work.flip_flop
-# Loading work.register_gen
-# Loading work.select_encode
-# Loading work.decoder_4_to_16
-# Loading work.memory
-# Loading altera_mf_ver.altsyncram
-# Loading work.mux_2_to_1
-# Loading work.Datapath
-# Loading work.encoder_32_to_5
-# Loading work.mux_32_to_1
-# Loading work.alu
-# Loading work.IncPC
-# Loading work.add_op
-# Loading work.sub_op
-# Loading work.mul_op
-# Loading work.div_op
-# Loading work.shr_op
-# Loading work.shra_op
-# Loading work.shl_op
-# Loading work.ror_op
-# Loading work.rol_op
-# Loading work.and_op
-# Loading work.or_op
-# Loading work.neg_op
-# Loading work.not_op
-# Loading altera_mf_ver.altsyncram_body
-# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
-# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
-# Loading work.b_cell
-# ** Warning: (vsim-3017) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /ALU_imm_tb/CPU/branch_condition/CON File: C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v
-# ** Warning: (vsim-3722) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Missing connection for port 'Q_not'.
-# 
-# add wave *
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 500 ns
-do ALU_imm_tb.do
-run 200ns
-run 200ns
-restart
-# ** Warning: (vsim-3017) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /ALU_imm_tb/CPU/branch_condition/CON File: C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v
-# ** Warning: (vsim-3722) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Missing connection for port 'Q_not'.
-run 200ns
-do Phase2_project_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
-# vmap work rtl_work 
-# Modifying modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/IncPC.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:37 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/IncPC.v 
-# -- Compiling module IncPC
-# 
-# Top level modules:
-# 	IncPC
-# End time: 19:22:37 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG/register_gen.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:38 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG/register_gen.v 
-# -- Compiling module register_gen
-# 
-# Top level modules:
-# 	register_gen
-# End time: 19:22:38 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:38 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v 
-# -- Compiling module miniSRC
-# 
-# Top level modules:
-# 	miniSRC
-# End time: 19:22:38 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/Datapath.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:38 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/Datapath.v 
-# -- Compiling module Datapath
-# 
-# Top level modules:
-# 	Datapath
-# End time: 19:22:38 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI/mux_2_to_1.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:38 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI/mux_2_to_1.v 
-# -- Compiling module mux_2_to_1
-# 
-# Top level modules:
-# 	mux_2_to_1
-# End time: 19:22:38 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/select_encode.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:38 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/select_encode.v 
-# -- Compiling module select_encode
-# 
-# Top level modules:
-# 	select_encode
-# End time: 19:22:38 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/decoder_4_to_16.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:38 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/decoder_4_to_16.v 
-# -- Compiling module decoder_4_to_16
-# 
-# Top level modules:
-# 	decoder_4_to_16
-# End time: 19:22:38 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:38 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v 
-# -- Compiling module flip_flop
-# 
-# Top level modules:
-# 	flip_flop
-# End time: 19:22:38 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/mux_32_to_1.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:38 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/mux_32_to_1.v 
-# -- Compiling module mux_32_to_1
-# 
-# Top level modules:
-# 	mux_32_to_1
-# End time: 19:22:38 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/encoder_32_to_5.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:38 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/encoder_32_to_5.v 
-# -- Compiling module encoder_32_to_5
-# 
-# Top level modules:
-# 	encoder_32_to_5
-# End time: 19:22:38 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/sub_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:38 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/sub_op.v 
-# -- Compiling module sub_op
-# 
-# Top level modules:
-# 	sub_op
-# End time: 19:22:38 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shra_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:38 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shra_op.v 
-# -- Compiling module shra_op
-# 
-# Top level modules:
-# 	shra_op
-# End time: 19:22:38 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shr_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:38 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shr_op.v 
-# -- Compiling module shr_op
-# 
-# Top level modules:
-# 	shr_op
-# End time: 19:22:38 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shl_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:38 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shl_op.v 
-# -- Compiling module shl_op
-# 
-# Top level modules:
-# 	shl_op
-# End time: 19:22:39 on Mar 27,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/ror_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:39 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/ror_op.v 
-# -- Compiling module ror_op
-# 
-# Top level modules:
-# 	ror_op
-# End time: 19:22:39 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/rol_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:39 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/rol_op.v 
-# -- Compiling module rol_op
-# 
-# Top level modules:
-# 	rol_op
-# End time: 19:22:39 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/or_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:39 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/or_op.v 
-# -- Compiling module or_op
-# 
-# Top level modules:
-# 	or_op
-# End time: 19:22:39 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/not_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:39 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/not_op.v 
-# -- Compiling module not_op
-# 
-# Top level modules:
-# 	not_op
-# End time: 19:22:39 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/neg_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:39 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/neg_op.v 
-# -- Compiling module neg_op
-# 
-# Top level modules:
-# 	neg_op
-# End time: 19:22:39 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:39 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v 
-# -- Compiling module mul_op
-# 
-# Top level modules:
-# 	mul_op
-# End time: 19:22:39 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:39 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v 
-# -- Compiling module div_op
-# 
-# Top level modules:
-# 	div_op
-# End time: 19:22:39 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/b_cell.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:39 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/b_cell.v 
-# -- Compiling module b_cell
-# 
-# Top level modules:
-# 	b_cell
-# End time: 19:22:39 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/and_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:39 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/and_op.v 
-# -- Compiling module and_op
-# 
-# Top level modules:
-# 	and_op
-# End time: 19:22:39 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:39 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v 
-# -- Compiling module alu
-# 
-# Top level modules:
-# 	alu
-# End time: 19:22:39 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:39 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v 
-# -- Compiling module add_op
-# 
-# Top level modules:
-# 	add_op
-# End time: 19:22:39 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:40 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v 
-# -- Compiling module con_ff
-# 
-# Top level modules:
-# 	con_ff
-# End time: 19:22:40 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:40 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v 
-# -- Compiling module memory
-# 
-# Top level modules:
-# 	memory
-# End time: 19:22:40 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/ALU_imm_tb.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:40 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/ALU_imm_tb.v 
-# -- Compiling module ALU_imm_tb
-# 
-# Top level modules:
-# 	ALU_imm_tb
-# End time: 19:22:40 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  ALU_imm_tb
-# End time: 19:22:41 on Mar 27,2024, Elapsed time: 0:23:22
-# Errors: 0, Warnings: 4
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" ALU_imm_tb 
-# Start time: 19:22:41 on Mar 27,2024
-# Loading work.ALU_imm_tb
-# Loading work.miniSRC
-# Loading work.con_ff
-# Loading work.flip_flop
-# Loading work.register_gen
-# Loading work.select_encode
-# Loading work.decoder_4_to_16
-# Loading work.memory
-# Loading altera_mf_ver.altsyncram
-# Loading work.mux_2_to_1
-# Loading work.Datapath
-# Loading work.encoder_32_to_5
-# Loading work.mux_32_to_1
-# Loading work.alu
-# Loading work.IncPC
-# Loading work.add_op
-# Loading work.sub_op
-# Loading work.mul_op
-# Loading work.div_op
-# Loading work.shr_op
-# Loading work.shra_op
-# Loading work.shl_op
-# Loading work.ror_op
-# Loading work.rol_op
-# Loading work.and_op
-# Loading work.or_op
-# Loading work.neg_op
-# Loading work.not_op
-# Loading altera_mf_ver.altsyncram_body
-# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
-# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
-# Loading work.b_cell
-# ** Warning: (vsim-3017) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /ALU_imm_tb/CPU/branch_condition/CON File: C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v
-# ** Warning: (vsim-3722) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Missing connection for port 'Q_not'.
-# 
-# add wave *
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 500 ns
-do ALU_imm_tb.do
-restart
-# ** Warning: (vsim-3017) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /ALU_imm_tb/CPU/branch_condition/CON File: C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v
-# ** Warning: (vsim-3722) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Missing connection for port 'Q_not'.
-run 200ns
-do Phase2_project_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
-# vmap work rtl_work 
-# Modifying modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/IncPC.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:06 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/IncPC.v 
-# -- Compiling module IncPC
-# 
-# Top level modules:
-# 	IncPC
-# End time: 19:27:06 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG/register_gen.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:06 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG/register_gen.v 
-# -- Compiling module register_gen
-# 
-# Top level modules:
-# 	register_gen
-# End time: 19:27:06 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:06 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v 
-# -- Compiling module miniSRC
-# 
-# Top level modules:
-# 	miniSRC
-# End time: 19:27:06 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/Datapath.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:06 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/Datapath.v 
-# -- Compiling module Datapath
-# 
-# Top level modules:
-# 	Datapath
-# End time: 19:27:06 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI/mux_2_to_1.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:06 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI/mux_2_to_1.v 
-# -- Compiling module mux_2_to_1
-# 
-# Top level modules:
-# 	mux_2_to_1
-# End time: 19:27:06 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/select_encode.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:06 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/select_encode.v 
-# -- Compiling module select_encode
-# 
-# Top level modules:
-# 	select_encode
-# End time: 19:27:06 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/decoder_4_to_16.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:06 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/decoder_4_to_16.v 
-# -- Compiling module decoder_4_to_16
-# 
-# Top level modules:
-# 	decoder_4_to_16
-# End time: 19:27:07 on Mar 27,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:07 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v 
-# -- Compiling module flip_flop
-# 
-# Top level modules:
-# 	flip_flop
-# End time: 19:27:07 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/mux_32_to_1.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:07 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/mux_32_to_1.v 
-# -- Compiling module mux_32_to_1
-# 
-# Top level modules:
-# 	mux_32_to_1
-# End time: 19:27:07 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/encoder_32_to_5.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:07 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/encoder_32_to_5.v 
-# -- Compiling module encoder_32_to_5
-# 
-# Top level modules:
-# 	encoder_32_to_5
-# End time: 19:27:07 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/sub_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:07 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/sub_op.v 
-# -- Compiling module sub_op
-# 
-# Top level modules:
-# 	sub_op
-# End time: 19:27:07 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shra_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:07 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shra_op.v 
-# -- Compiling module shra_op
-# 
-# Top level modules:
-# 	shra_op
-# End time: 19:27:07 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shr_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:07 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shr_op.v 
-# -- Compiling module shr_op
-# 
-# Top level modules:
-# 	shr_op
-# End time: 19:27:07 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shl_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:07 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shl_op.v 
-# -- Compiling module shl_op
-# 
-# Top level modules:
-# 	shl_op
-# End time: 19:27:07 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/ror_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:07 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/ror_op.v 
-# -- Compiling module ror_op
-# 
-# Top level modules:
-# 	ror_op
-# End time: 19:27:07 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/rol_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:07 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/rol_op.v 
-# -- Compiling module rol_op
-# 
-# Top level modules:
-# 	rol_op
-# End time: 19:27:07 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/or_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:07 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/or_op.v 
-# -- Compiling module or_op
-# 
-# Top level modules:
-# 	or_op
-# End time: 19:27:07 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/not_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:07 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/not_op.v 
-# -- Compiling module not_op
-# 
-# Top level modules:
-# 	not_op
-# End time: 19:27:07 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/neg_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:07 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/neg_op.v 
-# -- Compiling module neg_op
-# 
-# Top level modules:
-# 	neg_op
-# End time: 19:27:08 on Mar 27,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:08 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v 
-# -- Compiling module mul_op
-# 
-# Top level modules:
-# 	mul_op
-# End time: 19:27:08 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:08 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v 
-# -- Compiling module div_op
-# 
-# Top level modules:
-# 	div_op
-# End time: 19:27:08 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/b_cell.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:08 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/b_cell.v 
-# -- Compiling module b_cell
-# 
-# Top level modules:
-# 	b_cell
-# End time: 19:27:08 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/and_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:08 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/and_op.v 
-# -- Compiling module and_op
-# 
-# Top level modules:
-# 	and_op
-# End time: 19:27:08 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:08 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v 
-# -- Compiling module alu
-# 
-# Top level modules:
-# 	alu
-# End time: 19:27:08 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:08 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v 
-# -- Compiling module add_op
-# 
-# Top level modules:
-# 	add_op
-# End time: 19:27:08 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:08 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v 
-# -- Compiling module con_ff
-# 
-# Top level modules:
-# 	con_ff
-# End time: 19:27:08 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:08 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v 
-# -- Compiling module memory
-# 
-# Top level modules:
-# 	memory
-# End time: 19:27:08 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/ALU_imm_tb.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:08 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/ALU_imm_tb.v 
-# -- Compiling module ALU_imm_tb
-# 
-# Top level modules:
-# 	ALU_imm_tb
-# End time: 19:27:08 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  ALU_imm_tb
-# End time: 19:27:10 on Mar 27,2024, Elapsed time: 0:04:29
-# Errors: 0, Warnings: 4
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" ALU_imm_tb 
-# Start time: 19:27:10 on Mar 27,2024
-# Loading work.ALU_imm_tb
-# Loading work.miniSRC
-# Loading work.con_ff
-# Loading work.flip_flop
-# Loading work.register_gen
-# Loading work.select_encode
-# Loading work.decoder_4_to_16
-# Loading work.memory
-# Loading altera_mf_ver.altsyncram
-# Loading work.mux_2_to_1
-# Loading work.Datapath
-# Loading work.encoder_32_to_5
-# Loading work.mux_32_to_1
-# Loading work.alu
-# Loading work.IncPC
-# Loading work.add_op
-# Loading work.sub_op
-# Loading work.mul_op
-# Loading work.div_op
-# Loading work.shr_op
-# Loading work.shra_op
-# Loading work.shl_op
-# Loading work.ror_op
-# Loading work.rol_op
-# Loading work.and_op
-# Loading work.or_op
-# Loading work.neg_op
-# Loading work.not_op
-# Loading altera_mf_ver.altsyncram_body
-# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
-# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
-# Loading work.b_cell
-# ** Warning: (vsim-3017) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /ALU_imm_tb/CPU/branch_condition/CON File: C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v
-# ** Warning: (vsim-3722) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Missing connection for port 'Q_not'.
-# 
-# add wave *
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 500 ns
-
-do ALU_imm_tb.do
-restart
-# ** Warning: (vsim-3017) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /ALU_imm_tb/CPU/branch_condition/CON File: C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v
-# ** Warning: (vsim-3722) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Missing connection for port 'Q_not'.
-run 200ns
-restart
-# ** Warning: (vsim-3017) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /ALU_imm_tb/CPU/branch_condition/CON File: C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v
-# ** Warning: (vsim-3722) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Missing connection for port 'Q_not'.
-run 400ns
-add wave -position end  sim:/ALU_imm_tb/CPU/DUT/ALU/or_out
-add wave -position end  sim:/ALU_imm_tb/CPU/DUT/ALU/A_reg
-add wave -position end  sim:/ALU_imm_tb/CPU/DUT/ALU/B_reg
-add wave -position end  sim:/ALU_imm_tb/CPU/DUT/ALU/opcode
-restart
-# ** Warning: (vsim-3017) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /ALU_imm_tb/CPU/branch_condition/CON File: C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v
-# ** Warning: (vsim-3722) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Missing connection for port 'Q_not'.
-run 400ns
-add wave -position 38  sim:/ALU_imm_tb/CPU/DUT/ALU/and_/and_out
-add wave -position 38 sim:/ALU_imm_tb/CPU/DUT/ALU/and_/*
-restart
-# ** Warning: (vsim-3017) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /ALU_imm_tb/CPU/branch_condition/CON File: C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v
-# ** Warning: (vsim-3722) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Missing connection for port 'Q_not'.
-run 400ns
-do Phase2_project_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
-# vmap work rtl_work 
-# Modifying modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/IncPC.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:17 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/IncPC.v 
-# -- Compiling module IncPC
-# 
-# Top level modules:
-# 	IncPC
-# End time: 20:02:17 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG/register_gen.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:17 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG/register_gen.v 
-# -- Compiling module register_gen
-# 
-# Top level modules:
-# 	register_gen
-# End time: 20:02:17 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:17 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v 
-# -- Compiling module miniSRC
-# 
-# Top level modules:
-# 	miniSRC
-# End time: 20:02:17 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/Datapath.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:17 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/Datapath.v 
-# -- Compiling module Datapath
-# 
-# Top level modules:
-# 	Datapath
-# End time: 20:02:18 on Mar 27,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI/mux_2_to_1.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:18 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI/mux_2_to_1.v 
-# -- Compiling module mux_2_to_1
-# 
-# Top level modules:
-# 	mux_2_to_1
-# End time: 20:02:18 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/select_encode.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:18 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/select_encode.v 
-# -- Compiling module select_encode
-# 
-# Top level modules:
-# 	select_encode
-# End time: 20:02:18 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/decoder_4_to_16.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:18 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/decoder_4_to_16.v 
-# -- Compiling module decoder_4_to_16
-# 
-# Top level modules:
-# 	decoder_4_to_16
-# End time: 20:02:18 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:18 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v 
-# -- Compiling module flip_flop
-# 
-# Top level modules:
-# 	flip_flop
-# End time: 20:02:18 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/mux_32_to_1.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:18 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/mux_32_to_1.v 
-# -- Compiling module mux_32_to_1
-# 
-# Top level modules:
-# 	mux_32_to_1
-# End time: 20:02:18 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/encoder_32_to_5.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:18 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/encoder_32_to_5.v 
-# -- Compiling module encoder_32_to_5
-# 
-# Top level modules:
-# 	encoder_32_to_5
-# End time: 20:02:18 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/sub_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:18 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/sub_op.v 
-# -- Compiling module sub_op
-# 
-# Top level modules:
-# 	sub_op
-# End time: 20:02:18 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shra_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:18 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shra_op.v 
-# -- Compiling module shra_op
-# 
-# Top level modules:
-# 	shra_op
-# End time: 20:02:18 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shr_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:18 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shr_op.v 
-# -- Compiling module shr_op
-# 
-# Top level modules:
-# 	shr_op
-# End time: 20:02:18 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shl_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:18 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shl_op.v 
-# -- Compiling module shl_op
-# 
-# Top level modules:
-# 	shl_op
-# End time: 20:02:19 on Mar 27,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/ror_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:19 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/ror_op.v 
-# -- Compiling module ror_op
-# 
-# Top level modules:
-# 	ror_op
-# End time: 20:02:19 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/rol_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:19 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/rol_op.v 
-# -- Compiling module rol_op
-# 
-# Top level modules:
-# 	rol_op
-# End time: 20:02:19 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/or_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:19 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/or_op.v 
-# -- Compiling module or_op
-# 
-# Top level modules:
-# 	or_op
-# End time: 20:02:19 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/not_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:19 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/not_op.v 
-# -- Compiling module not_op
-# 
-# Top level modules:
-# 	not_op
-# End time: 20:02:19 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/neg_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:19 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/neg_op.v 
-# -- Compiling module neg_op
-# 
-# Top level modules:
-# 	neg_op
-# End time: 20:02:19 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:19 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v 
-# -- Compiling module mul_op
-# 
-# Top level modules:
-# 	mul_op
-# End time: 20:02:19 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:19 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v 
-# -- Compiling module div_op
-# 
-# Top level modules:
-# 	div_op
-# End time: 20:02:19 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/b_cell.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:19 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/b_cell.v 
-# -- Compiling module b_cell
-# 
-# Top level modules:
-# 	b_cell
-# End time: 20:02:19 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/and_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:19 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/and_op.v 
-# -- Compiling module and_op
-# 
-# Top level modules:
-# 	and_op
-# End time: 20:02:19 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:19 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v 
-# -- Compiling module alu
-# 
-# Top level modules:
-# 	alu
-# End time: 20:02:19 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:19 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v 
-# -- Compiling module add_op
-# 
-# Top level modules:
-# 	add_op
-# End time: 20:02:20 on Mar 27,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:20 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v 
-# -- Compiling module con_ff
-# 
-# Top level modules:
-# 	con_ff
-# End time: 20:02:20 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:20 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v 
-# -- Compiling module memory
-# 
-# Top level modules:
-# 	memory
-# End time: 20:02:20 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/ALU_imm_tb.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:02:20 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/ALU_imm_tb.v 
-# -- Compiling module ALU_imm_tb
-# 
-# Top level modules:
-# 	ALU_imm_tb
-# End time: 20:02:20 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  ALU_imm_tb
-# End time: 20:02:21 on Mar 27,2024, Elapsed time: 0:35:11
-# Errors: 0, Warnings: 10
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" ALU_imm_tb 
-# Start time: 20:02:21 on Mar 27,2024
-# Loading work.ALU_imm_tb
-# Loading work.miniSRC
-# Loading work.con_ff
-# Loading work.flip_flop
-# Loading work.register_gen
-# Loading work.select_encode
-# Loading work.decoder_4_to_16
-# Loading work.memory
-# Loading altera_mf_ver.altsyncram
-# Loading work.mux_2_to_1
-# Loading work.Datapath
-# Loading work.encoder_32_to_5
-# Loading work.mux_32_to_1
-# Loading work.alu
-# Loading work.IncPC
-# Loading work.add_op
-# Loading work.sub_op
-# Loading work.mul_op
-# Loading work.div_op
-# Loading work.shr_op
-# Loading work.shra_op
-# Loading work.shl_op
-# Loading work.ror_op
-# Loading work.rol_op
-# Loading work.and_op
-# Loading work.or_op
-# Loading work.neg_op
-# Loading work.not_op
-# Loading altera_mf_ver.altsyncram_body
-# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
-# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
-# Loading work.b_cell
-# ** Warning: (vsim-3017) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /ALU_imm_tb/CPU/branch_condition/CON File: C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v
-# ** Warning: (vsim-3722) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Missing connection for port 'Q_not'.
-# 
-# add wave *
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 500 ns
-do ALU_imm_tb.do
-restart
-# ** Warning: (vsim-3017) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /ALU_imm_tb/CPU/branch_condition/CON File: C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v
-# ** Warning: (vsim-3722) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Missing connection for port 'Q_not'.
-run 400ns
-do Phase2_project_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
-# vmap work rtl_work 
-# Modifying modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/IncPC.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:38 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/IncPC.v 
-# -- Compiling module IncPC
-# 
-# Top level modules:
-# 	IncPC
-# End time: 20:49:38 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG/register_gen.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:38 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/REG/register_gen.v 
-# -- Compiling module register_gen
-# 
-# Top level modules:
-# 	register_gen
-# End time: 20:49:38 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:38 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v 
-# -- Compiling module miniSRC
-# 
-# Top level modules:
-# 	miniSRC
-# End time: 20:49:38 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/Datapath.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:39 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/Datapath.v 
-# -- Compiling module Datapath
-# 
-# Top level modules:
-# 	Datapath
-# End time: 20:49:39 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI/mux_2_to_1.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:39 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/MDI/mux_2_to_1.v 
-# -- Compiling module mux_2_to_1
-# 
-# Top level modules:
-# 	mux_2_to_1
-# End time: 20:49:39 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/select_encode.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:39 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/select_encode.v 
-# -- Compiling module select_encode
-# 
-# Top level modules:
-# 	select_encode
-# End time: 20:49:39 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/decoder_4_to_16.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:39 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CONT/decoder_4_to_16.v 
-# -- Compiling module decoder_4_to_16
-# 
-# Top level modules:
-# 	decoder_4_to_16
-# End time: 20:49:39 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:39 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v 
-# -- Compiling module flip_flop
-# 
-# Top level modules:
-# 	flip_flop
-# End time: 20:49:39 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/mux_32_to_1.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:39 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/mux_32_to_1.v 
-# -- Compiling module mux_32_to_1
-# 
-# Top level modules:
-# 	mux_32_to_1
-# End time: 20:49:39 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/encoder_32_to_5.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:39 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/BUS/encoder_32_to_5.v 
-# -- Compiling module encoder_32_to_5
-# 
-# Top level modules:
-# 	encoder_32_to_5
-# End time: 20:49:39 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/sub_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:39 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/sub_op.v 
-# -- Compiling module sub_op
-# 
-# Top level modules:
-# 	sub_op
-# End time: 20:49:39 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shra_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:39 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shra_op.v 
-# -- Compiling module shra_op
-# 
-# Top level modules:
-# 	shra_op
-# End time: 20:49:39 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shr_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:39 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shr_op.v 
-# -- Compiling module shr_op
-# 
-# Top level modules:
-# 	shr_op
-# End time: 20:49:40 on Mar 27,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shl_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:40 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/shl_op.v 
-# -- Compiling module shl_op
-# 
-# Top level modules:
-# 	shl_op
-# End time: 20:49:40 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/ror_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:40 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/ror_op.v 
-# -- Compiling module ror_op
-# 
-# Top level modules:
-# 	ror_op
-# End time: 20:49:40 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/rol_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:40 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/rol_op.v 
-# -- Compiling module rol_op
-# 
-# Top level modules:
-# 	rol_op
-# End time: 20:49:40 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/or_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:40 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/or_op.v 
-# -- Compiling module or_op
-# 
-# Top level modules:
-# 	or_op
-# End time: 20:49:40 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/not_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:40 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/not_op.v 
-# -- Compiling module not_op
-# 
-# Top level modules:
-# 	not_op
-# End time: 20:49:40 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/neg_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:40 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/neg_op.v 
-# -- Compiling module neg_op
-# 
-# Top level modules:
-# 	neg_op
-# End time: 20:49:40 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:40 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v 
-# -- Compiling module mul_op
-# 
-# Top level modules:
-# 	mul_op
-# End time: 20:49:40 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:40 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v 
-# -- Compiling module div_op
-# 
-# Top level modules:
-# 	div_op
-# End time: 20:49:40 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/b_cell.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:40 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/b_cell.v 
-# -- Compiling module b_cell
-# 
-# Top level modules:
-# 	b_cell
-# End time: 20:49:40 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/and_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:40 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/and_op.v 
-# -- Compiling module and_op
-# 
-# Top level modules:
-# 	and_op
-# End time: 20:49:40 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:40 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v 
-# -- Compiling module alu
-# 
-# Top level modules:
-# 	alu
-# End time: 20:49:40 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:41 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v 
-# -- Compiling module add_op
-# 
-# Top level modules:
-# 	add_op
-# End time: 20:49:41 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:41 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v 
-# -- Compiling module con_ff
-# 
-# Top level modules:
-# 	con_ff
-# End time: 20:49:41 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:41 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v 
-# -- Compiling module memory
-# 
-# Top level modules:
-# 	memory
-# End time: 20:49:41 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/ALU_imm_tb.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:49:41 on Mar 27,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES" C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/ALU_imm_tb.v 
-# -- Compiling module ALU_imm_tb
-# 
-# Top level modules:
-# 	ALU_imm_tb
-# End time: 20:49:41 on Mar 27,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  ALU_imm_tb
-# End time: 20:49:44 on Mar 27,2024, Elapsed time: 0:47:23
-# Errors: 0, Warnings: 4
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" ALU_imm_tb 
-# Start time: 20:49:44 on Mar 27,2024
-# Loading work.ALU_imm_tb
-# Loading work.miniSRC
-# Loading work.con_ff
-# Loading work.flip_flop
-# Loading work.register_gen
-# Loading work.select_encode
-# Loading work.decoder_4_to_16
-# Loading work.memory
-# Loading altera_mf_ver.altsyncram
-# Loading work.mux_2_to_1
-# Loading work.Datapath
-# Loading work.encoder_32_to_5
-# Loading work.mux_32_to_1
-# Loading work.alu
-# Loading work.IncPC
-# Loading work.add_op
-# Loading work.sub_op
-# Loading work.mul_op
-# Loading work.div_op
-# Loading work.shr_op
-# Loading work.shra_op
-# Loading work.shl_op
-# Loading work.ror_op
-# Loading work.rol_op
-# Loading work.and_op
-# Loading work.or_op
-# Loading work.neg_op
-# Loading work.not_op
-# Loading altera_mf_ver.altsyncram_body
-# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
-# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
-# Loading work.b_cell
-# ** Warning: (vsim-3017) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /ALU_imm_tb/CPU/branch_condition/CON File: C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v
-# ** Warning: (vsim-3722) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Missing connection for port 'Q_not'.
-# 
-# add wave *
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 500 ns
-do ALU_imm_tb.do
-restart
-# ** Warning: (vsim-3017) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /ALU_imm_tb/CPU/branch_condition/CON File: C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v
-# ** Warning: (vsim-3722) C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v(30): [TFMPC] - Missing connection for port 'Q_not'.
-run 600ns
-# End time: 20:54:08 on Mar 27,2024, Elapsed time: 0:04:24
-# Errors: 0, Warnings: 4
+# ** Error: C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v(30): Invalid context for genvar i. A genvar can be used only inside of the generate loop that it indexes.
+# End time: 01:12:28 on Mar 28,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./Phase2_project_run_msim_rtl_verilog.do line 31
+# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProject/ALU {C:/Users/sheng/Documents/ELEC374/Phase2/QuartusProje..."
