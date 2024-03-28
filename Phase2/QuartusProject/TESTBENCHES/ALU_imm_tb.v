@@ -109,7 +109,7 @@ module ALU_imm_tb;
             end
             T4: begin //5
 				Grb <= 0; Rout <= 0; Yin <= 0;
-                Cout <= 1; opcode <= 5'b01011; Zin <= 1; 				// assert Cout to high -> get Csignextended (immediate), opcode for ADDi(00011), ANDi(01010), and ORi(01011), assert output of arithmetic operation to Z register
+                Cout <= 1; opcode <= 5'b00011; Zin <= 1; 				// assert Cout to high -> get Csignextended (immediate), opcode for ADDi(00011), ANDi(01010), and ORi(01011), assert output of arithmetic operation to Z register
             end
             T5: begin //6
                 Cout <= 0; Zin <= 0; 
