@@ -92,7 +92,7 @@ module memory (
 `ifdef NO_PLI
 		altsyncram_component.init_file = ""
 `else
-		altsyncram_component.init_file = "ALU_imm_tb.hex"
+		altsyncram_component.init_file = "load_tb.hex"
 `endif
 ,
 		altsyncram_component.intended_device_family = "Cyclone V",

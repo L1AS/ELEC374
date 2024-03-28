@@ -3,7 +3,7 @@ quietly WaveActivateNextPane {} 0
 add wave -noupdate /load_tb/CPU/clock
 add wave -noupdate -radix hexadecimal /load_tb/Present_state
 add wave -noupdate /load_tb/opcode
-add wave -noupdate -radix hexadecimal /load_tb/CPU/IR/q
+add wave -noupdate -radix binary /load_tb/CPU/IR/q
 add wave -noupdate /load_tb/IRin
 add wave -noupdate -radix hexadecimal /load_tb/CPU/PC/q
 add wave -noupdate /load_tb/PC_en
@@ -36,11 +36,12 @@ add wave -noupdate /load_tb/CPU/DUT/R0/enable
 add wave -noupdate -radix hexadecimal /load_tb/CPU/DUT/R2/q
 add wave -noupdate /load_tb/CPU/DUT/R2/enable
 add wave -noupdate -radix hexadecimal /load_tb/CPU/DUT/ALU/alu_out
+add wave -noupdate -radix hexadecimal {/load_tb/CPU/RAM/altsyncram_component/m_default/altsyncram_inst/mem_data[149]}
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {19839 ps} 0}
+WaveRestoreCursors {{Cursor 1} {41403 ps} 0}
 quietly wave cursor active 1
-configure wave -namecolwidth 206
-configure wave -valuecolwidth 100
+configure wave -namecolwidth 472
+configure wave -valuecolwidth 40
 configure wave -justifyvalue left
 configure wave -signalnamewidth 0
 configure wave -snapdistance 10
@@ -53,4 +54,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {0 ps} {155848 ps}
+WaveRestoreZoom {0 ps} {206666 ps}
