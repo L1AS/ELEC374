@@ -1,13 +1,11 @@
 module add_op#(parameter WIDTH = 32)(
 	output signed [WIDTH-1:0] add_out,
-	// output Cout, // carry out
+	// output [WIDTH:0] Cout
 	input signed [WIDTH-1:0] A_reg, B_reg,
 	input Cin  // carry in
 );
 
 	wire [WIDTH:0] wire_C; // carry intermediate
-	// Generate Terms G = A * B (a.k.a A AND B)
-	// Propogate Terms P = A XOR B or A OR B 
 	wire [WIDTH-1:0] wire_G, wire_P; // carry generate, carry propagate
 	wire signed [WIDTH-1:0] wire_SUM; // sum
 
@@ -17,24 +15,22 @@ module add_op#(parameter WIDTH = 32)(
 	// generate term, and propagate term repsectively
 	genvar i;
 	generate
-		for (i = 0; i < WIDTH; i = i + 1) begin
-			assign wire_G[i] = A_reg[i] & B_reg[i];
-			assign wire_P[i] = A_reg[i] ^ B_reg[i];
+		for (i = 0; i < WIDTH; i = i + 1) 
+		begin: gen_sum
+			b_cell b_cell_i (
+				.in_A (A_reg[i]),
+				.in_B (B_reg[i]),
+				.Cin (wire_C[i]),
+				.out_Propagate(wire_P[i]),
+				.out_Generate(wire_G[i]),
+				.out_Sum (wire_SUM[i]),
+				.Cout(wire_C[i+1])
+			);
 		end
 	endgenerate
 
-	generate
-		for (i = 0; i < WIDTH; i = i + 1) begin
-			assign wire_C[i+1] = wire_G[i] | (wire_P[i] & wire_C[i]); // Ci+1 = Gi OR PiCi
-		end
-	endgenerate
-
-	generate
-		for (i = 0; i < WIDTH; i+1) begin
-			assign add_out[i] = wire_P[i] ^ wire_C[i]; // equivalent to in_A XOR in_B XOR Cin
-		end
-	endgenerate
 	// Assign adder result and carry out
-	// assign Cout = wire_C [WIDTH];
+	assign add_out = wire_SUM [WIDTH-1:0];
+	// assign Cout = wire_C [WIDTH:0];
 
 endmodule
