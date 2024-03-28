@@ -1,6 +1,6 @@
 module cla_4#(parameter WIDTH = 4)(
 	output signed [WIDTH-1:0] add_out,
-	// output [WIDTH:0] Cout
+	output Cout,
 	input signed [WIDTH-1:0] A_reg, B_reg,
 	input Cin  // carry in
 );
@@ -31,6 +31,6 @@ module cla_4#(parameter WIDTH = 4)(
 
 	// Assign adder result and carry out
 	assign add_out = wire_SUM [WIDTH-1:0];
-	// assign Cout = wire_C [WIDTH:0];
+	assign Cout = wire_C [WIDTH];
 
 endmodule
