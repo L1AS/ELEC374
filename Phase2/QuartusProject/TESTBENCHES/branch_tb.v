@@ -105,7 +105,7 @@ module branch_tb;
             end
             T3: begin //4
 				Rin <= 0; inPortOut <= 0;
-                Gra <= 1; Rout <= 1; CONin <= 1; // select register Rb by assert Grb and BAout signals, put the content of Rb in Y register
+                Gra <= 1; Rout <= 1; CONin <= 1; // select register Ra by assert Gra and BAout signals, put the content of Rb in Y register
             end
             T4: begin //5
 			    Gra <= 0; Rout <= 0; CONin <= 0; 

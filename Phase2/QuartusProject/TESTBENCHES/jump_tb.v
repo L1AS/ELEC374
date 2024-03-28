@@ -31,7 +31,7 @@ module jump_tb;
         .inPortDataIn(inPortDataIn),                                            // input.                                
         .clock(clock), .clear(clear),                                           // control signals.
         .Gra(Gra), .Grb(Grb), .Grc(Grc), .Rin(Rin), .Rout(Rout), .BAout(BAout), // control signals for IR
-        .PCout_en(PCout_en), .IncPC(IncPC), .PC_en(PC_en), .IR_en(IRin),                 // PC and IR signals.
+        .PCout_en(PCout_en), .IncPC(IncPC), .PC_en(PC_en), .IR_en(IRin),       	// PC and IR signals.
         .Yin(Yin), .HIout(HIout), .HIin(HIin), .LOout(LOout), .LOin(LOin),      // datapath MUX signals.
         .Cout(Cout), .Zhighout(Zhighout), .Zlowout(Zlowout), .Zin(Zin),         //
         .MDRout(MDRout), .MDRin(MDRin), .MARin(MARin),                          // Mem Data Interface signals.
@@ -77,7 +77,7 @@ module jump_tb;
                 clear <= 0; jal_R15 <= 0; CONin <= 0;                   // control signals.
                 Gra <= 0; Grb <= 0; Grc <= 0;                           // control signals for IR
                 Rin <= 0; Rout <= 0; BAout <= 0;                        //
-                PCout_en <= 0; IncPC <= 0; PC_en <= 0; IRin <= 0;           // PC and IR signals.
+                PCout_en <= 0; IncPC <= 0; PC_en <= 0; IRin <= 0;      	// PC and IR signals.
                 Yin <= 0; HIout <= 0; HIin <= 0; LOout <= 0; LOin <= 0; // datapath MUX signals.
                 Cout <= 0; Zhighout <= 0; Zlowout <= 0; Zin <= 0;       //
                 MDRout <= 0; MDRin <= 0; MARin <= 0;                    // Mem Data Interface signals.
