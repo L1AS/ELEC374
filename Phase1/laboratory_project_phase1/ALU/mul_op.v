@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-module mul_op (
-	input signed [31:0] a, b, //multiplicand and multiplier
-	output signed [63:0] z 
-);
-	reg [63:0] partprod[31:0];
-	reg [63:0] spartprod [15:0];	// signed partial product
-	reg [2:0] carry_control [15:0];
-	reg [63:0] product;
-	
-	assign z = 32'b0;
-
-
-
-
-endmodule
-=======
 module mul_op(
   output [63:0] mul_out,
   input signed [31:0] A_reg, B_reg        
@@ -53,4 +36,3 @@ module mul_op(
 	end
 	assign mul_out = prod; 
 endmodule
->>>>>>> main
