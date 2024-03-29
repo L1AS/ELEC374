@@ -122,7 +122,7 @@ module load_tb;
             end
             memWait3: begin
                 
-            end // Progress until Mar 25, 2:36AM
+            end
             memWait4: begin
 
             end

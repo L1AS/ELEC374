@@ -31,6 +31,6 @@ module add_op#(parameter WIDTH = 32)(
 
 	// Assign adder result and carry out
 	assign add_out = wire_SUM [WIDTH-1:0];
-	// assign Cout = wire_C [WIDTH:0];
+	// assign Cout = wire_C [WIDTH];
 
 endmodule

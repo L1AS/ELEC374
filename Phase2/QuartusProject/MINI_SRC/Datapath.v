@@ -45,7 +45,9 @@ module Datapath (
 	  
   // registers
   register_gen R0 (intermediateR0, clear, clock, reg_in[0], busMuxOut);
-  assign busMuxInR0 = ~(BAout) & intermediateR0; // assert zero to R0
+//  assign busMuxInR0 = {32{~BAout}} & intermediateR0; // assert zero to R0
+  assign busMuxInR0 = BAout ? 32'b0 : intermediateR0;
+
 
   register_gen R1 (busMuxInR1, clear, clock, reg_in[1], busMuxOut);
   register_gen R2 (busMuxInR2, clear, clock, reg_in[2], busMuxOut);
