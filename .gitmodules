@@ -1,0 +1,3 @@
+[submodule "minisrc-assembler"]
+	path = minisrc-assembler
+	url = https://github.com/c-ola/minisrc-assembler.git
