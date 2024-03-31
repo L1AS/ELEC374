@@ -1,7 +1,13 @@
 module register_gen #(parameter WIDTH = 32)(
+<<<<<<< HEAD
+    input clear, clock, enable, 
+    input [WIDTH-1:0]BusMuxOut, 
+    output wire [WIDTH-1:0]BusMuxIn
+=======
     output wire [WIDTH-1:0]BusMuxIn,
     input clear, clock, enable, 
     input [WIDTH-1:0]BusMuxOut
+>>>>>>> main
 ); 
 reg [WIDTH-1:0]q; 
 initial q = {WIDTH{1'b0}};

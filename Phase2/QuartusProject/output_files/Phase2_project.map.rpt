@@ -1,0 +1,1185 @@
+Analysis & Elaboration report for Phase2_project
+Thu Mar 28 11:39:12 2024
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Analysis & Elaboration IP Cores Summary
+  5. Source assignments for memory:RAM|altsyncram:altsyncram_component|altsyncram_gfo1:auto_generated
+  6. Parameter Settings for User Entity Instance: register_gen:PC
+  7. Parameter Settings for User Entity Instance: register_gen:IR
+  8. Parameter Settings for User Entity Instance: memory:RAM|altsyncram:altsyncram_component
+  9. Parameter Settings for User Entity Instance: register_gen:MAR
+ 10. Parameter Settings for User Entity Instance: register_gen:MDR
+ 11. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R0
+ 12. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R1
+ 13. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R2
+ 14. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R3
+ 15. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R4
+ 16. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R5
+ 17. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R6
+ 18. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R7
+ 19. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R8
+ 20. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R9
+ 21. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R10
+ 22. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R11
+ 23. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R12
+ 24. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R13
+ 25. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R14
+ 26. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R15
+ 27. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:HI
+ 28. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:LO
+ 29. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:RY
+ 30. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:Zhigh
+ 31. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:Zlow
+ 32. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:In_Port
+ 33. Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:Out_port
+ 34. Parameter Settings for User Entity Instance: Datapath:DUT|alu:ALU
+ 35. Parameter Settings for User Entity Instance: Datapath:DUT|alu:ALU|add_op:add
+ 36. Parameter Settings for User Entity Instance: Datapath:DUT|alu:ALU|sub_op:sub
+ 37. Parameter Settings for User Entity Instance: Datapath:DUT|alu:ALU|sub_op:sub|add_op:substract_i
+ 38. altsyncram Parameter Settings by Entity Instance
+ 39. Analysis & Elaboration Settings
+ 40. Port Connectivity Checks: "Datapath:DUT|alu:ALU|sub_op:sub|add_op:substract_i"
+ 41. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[31].b_cell_i"
+ 42. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[30].b_cell_i"
+ 43. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[29].b_cell_i"
+ 44. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[28].b_cell_i"
+ 45. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[27].b_cell_i"
+ 46. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[26].b_cell_i"
+ 47. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[25].b_cell_i"
+ 48. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[24].b_cell_i"
+ 49. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[23].b_cell_i"
+ 50. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[22].b_cell_i"
+ 51. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[21].b_cell_i"
+ 52. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[20].b_cell_i"
+ 53. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[19].b_cell_i"
+ 54. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[18].b_cell_i"
+ 55. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[17].b_cell_i"
+ 56. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[16].b_cell_i"
+ 57. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[15].b_cell_i"
+ 58. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[14].b_cell_i"
+ 59. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[13].b_cell_i"
+ 60. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[12].b_cell_i"
+ 61. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[11].b_cell_i"
+ 62. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[10].b_cell_i"
+ 63. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[9].b_cell_i"
+ 64. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[8].b_cell_i"
+ 65. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[7].b_cell_i"
+ 66. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[6].b_cell_i"
+ 67. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[5].b_cell_i"
+ 68. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[4].b_cell_i"
+ 69. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[3].b_cell_i"
+ 70. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[2].b_cell_i"
+ 71. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[1].b_cell_i"
+ 72. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[0].b_cell_i"
+ 73. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add"
+ 74. Port Connectivity Checks: "Datapath:DUT|encoder_32_to_5:BusEncoder"
+ 75. Port Connectivity Checks: "register_gen:MAR"
+ 76. Port Connectivity Checks: "select_encode:ir_encode_select|decoder_4_to_16:decoder_4_to_16_i"
+ 77. Port Connectivity Checks: "con_ff:branch_condition|flip_flop:CON"
+ 78. Analysis & Elaboration Messages
+ 79. Analysis & Elaboration Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++---------------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                                  ;
++-------------------------------+-------------------------------------------------+
+; Analysis & Elaboration Status ; Successful - Thu Mar 28 11:39:12 2024           ;
+; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
+; Revision Name                 ; Phase2_project                                  ;
+; Top-level Entity Name         ; miniSRC                                         ;
+; Family                        ; Cyclone V                                       ;
+; Logic utilization (in ALMs)   ; N/A until Partition Merge                       ;
+; Total registers               ; N/A until Partition Merge                       ;
+; Total pins                    ; N/A until Partition Merge                       ;
+; Total virtual pins            ; N/A until Partition Merge                       ;
+; Total block memory bits       ; N/A until Partition Merge                       ;
+; Total PLLs                    ; N/A until Partition Merge                       ;
+; Total DLLs                    ; N/A until Partition Merge                       ;
++-------------------------------+-------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------------------------------------------------------------------------------+
+; Analysis & Elaboration IP Cores Summary                                                               ;
++--------+--------------+---------+--------------+--------------+---------------------+-----------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance     ; IP Include File ;
++--------+--------------+---------+--------------+--------------+---------------------+-----------------+
+; Altera ; RAM: 1-PORT  ; 18.1    ; N/A          ; N/A          ; |miniSRC|memory:RAM ; RAM/memory.v    ;
++--------+--------------+---------+--------------+--------------+---------------------+-----------------+
+
+
++--------------------------------------------------------------------------------------------------+
+; Source assignments for memory:RAM|altsyncram:altsyncram_component|altsyncram_gfo1:auto_generated ;
++---------------------------------+--------------------+------+------------------------------------+
+; Assignment                      ; Value              ; From ; To                                 ;
++---------------------------------+--------------------+------+------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                  ;
++---------------------------------+--------------------+------+------------------------------------+
+
+
++--------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register_gen:PC ;
++----------------+-------+-------------------------------------+
+; Parameter Name ; Value ; Type                                ;
++----------------+-------+-------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                      ;
++----------------+-------+-------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register_gen:IR ;
++----------------+-------+-------------------------------------+
+; Parameter Name ; Value ; Type                                ;
++----------------+-------+-------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                      ;
++----------------+-------+-------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: memory:RAM|altsyncram:altsyncram_component ;
++------------------------------------+----------------------+-----------------------------+
+; Parameter Name                     ; Value                ; Type                        ;
++------------------------------------+----------------------+-----------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                     ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                  ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE              ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                     ;
+; OPERATION_MODE                     ; SINGLE_PORT          ; Untyped                     ;
+; WIDTH_A                            ; 32                   ; Signed Integer              ;
+; WIDTHAD_A                          ; 9                    ; Signed Integer              ;
+; NUMWORDS_A                         ; 512                  ; Signed Integer              ;
+; OUTDATA_REG_A                      ; CLOCK0               ; Untyped                     ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                     ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                     ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                     ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                     ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                     ;
+; WIDTH_B                            ; 1                    ; Untyped                     ;
+; WIDTHAD_B                          ; 1                    ; Untyped                     ;
+; NUMWORDS_B                         ; 1                    ; Untyped                     ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                     ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                     ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                     ;
+; ADDRESS_REG_B                      ; CLOCK1               ; Untyped                     ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                     ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                     ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                     ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                     ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                     ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                     ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                     ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                     ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer              ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                     ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                     ;
+; BYTE_SIZE                          ; 8                    ; Untyped                     ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                     ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                     ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                     ;
+; INIT_FILE                          ; load_tb.hex          ; Untyped                     ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                     ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped                     ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                     ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                     ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped                     ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                     ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                     ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                     ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                     ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                     ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                     ;
+; DEVICE_FAMILY                      ; Cyclone V            ; Untyped                     ;
+; CBXI_PARAMETER                     ; altsyncram_gfo1      ; Untyped                     ;
++------------------------------------+----------------------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register_gen:MAR ;
++----------------+-------+--------------------------------------+
+; Parameter Name ; Value ; Type                                 ;
++----------------+-------+--------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                       ;
++----------------+-------+--------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register_gen:MDR ;
++----------------+-------+--------------------------------------+
+; Parameter Name ; Value ; Type                                 ;
++----------------+-------+--------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                       ;
++----------------+-------+--------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R0 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R1 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R2 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R3 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R4 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R5 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R6 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R7 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R8 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R9 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R10 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R11 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R12 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R13 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R14 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:R15 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:HI ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:LO ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:RY ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:Zhigh ;
++----------------+-------+-----------------------------------------------------+
+; Parameter Name ; Value ; Type                                                ;
++----------------+-------+-----------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                      ;
++----------------+-------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:Zlow ;
++----------------+-------+----------------------------------------------------+
+; Parameter Name ; Value ; Type                                               ;
++----------------+-------+----------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                     ;
++----------------+-------+----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:In_Port ;
++----------------+-------+-------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                  ;
++----------------+-------+-------------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                        ;
++----------------+-------+-------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|register_gen:Out_port ;
++----------------+-------+--------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                   ;
++----------------+-------+--------------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                         ;
++----------------+-------+--------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|alu:ALU ;
++----------------+-------+------------------------------------------+
+; Parameter Name ; Value ; Type                                     ;
++----------------+-------+------------------------------------------+
+; anding         ; 01010 ; Unsigned Binary                          ;
+; oring          ; 01011 ; Unsigned Binary                          ;
+; addition       ; 00011 ; Unsigned Binary                          ;
+; subtraction    ; 00100 ; Unsigned Binary                          ;
+; multiply       ; 01111 ; Unsigned Binary                          ;
+; divide         ; 10000 ; Unsigned Binary                          ;
+; shift_R        ; 00101 ; Unsigned Binary                          ;
+; shift_RA       ; 00110 ; Unsigned Binary                          ;
+; shift_L        ; 00111 ; Unsigned Binary                          ;
+; rotate_R       ; 01000 ; Unsigned Binary                          ;
+; rotate_L       ; 01001 ; Unsigned Binary                          ;
+; negate         ; 10001 ; Unsigned Binary                          ;
+; noting         ; 10010 ; Unsigned Binary                          ;
+; nop            ; 11010 ; Unsigned Binary                          ;
++----------------+-------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|alu:ALU|add_op:add ;
++----------------+-------+-----------------------------------------------------+
+; Parameter Name ; Value ; Type                                                ;
++----------------+-------+-----------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                      ;
++----------------+-------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|alu:ALU|sub_op:sub ;
++----------------+-------+-----------------------------------------------------+
+; Parameter Name ; Value ; Type                                                ;
++----------------+-------+-----------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                      ;
++----------------+-------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:DUT|alu:ALU|sub_op:sub|add_op:substract_i ;
++----------------+-------+------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                   ;
++----------------+-------+------------------------------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                                         ;
++----------------+-------+------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------+
+; altsyncram Parameter Settings by Entity Instance                                       ;
++-------------------------------------------+--------------------------------------------+
+; Name                                      ; Value                                      ;
++-------------------------------------------+--------------------------------------------+
+; Number of entity instances                ; 1                                          ;
+; Entity Instance                           ; memory:RAM|altsyncram:altsyncram_component ;
+;     -- OPERATION_MODE                     ; SINGLE_PORT                                ;
+;     -- WIDTH_A                            ; 32                                         ;
+;     -- NUMWORDS_A                         ; 512                                        ;
+;     -- OUTDATA_REG_A                      ; CLOCK0                                     ;
+;     -- WIDTH_B                            ; 1                                          ;
+;     -- NUMWORDS_B                         ; 1                                          ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                     ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                               ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                       ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                  ;
++-------------------------------------------+--------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Elaboration Settings                                                                                           ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CEFA4F23C7        ;                    ;
+; Top-level entity name                                                           ; miniSRC            ; Phase2_project     ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++--------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|sub_op:sub|add_op:substract_i" ;
++------+-------+----------+------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                              ;
++------+-------+----------+------------------------------------------------------+
+; Cin  ; Input ; Info     ; Stuck at GND                                         ;
++------+-------+----------+------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[31].b_cell_i"                                 ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; Cout          ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[30].b_cell_i"                                 ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[29].b_cell_i"                                 ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[28].b_cell_i"                                 ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[27].b_cell_i"                                 ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[26].b_cell_i"                                 ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[25].b_cell_i"                                 ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[24].b_cell_i"                                 ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[23].b_cell_i"                                 ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[22].b_cell_i"                                 ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[21].b_cell_i"                                 ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[20].b_cell_i"                                 ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[19].b_cell_i"                                 ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[18].b_cell_i"                                 ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[17].b_cell_i"                                 ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[16].b_cell_i"                                 ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[15].b_cell_i"                                 ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[14].b_cell_i"                                 ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[13].b_cell_i"                                 ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[12].b_cell_i"                                 ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[11].b_cell_i"                                 ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[10].b_cell_i"                                 ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[9].b_cell_i"                                  ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[8].b_cell_i"                                  ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[7].b_cell_i"                                  ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[6].b_cell_i"                                  ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[5].b_cell_i"                                  ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[4].b_cell_i"                                  ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[3].b_cell_i"                                  ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[2].b_cell_i"                                  ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[1].b_cell_i"                                  ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[0].b_cell_i"                                  ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; out_Propagate ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; out_Generate  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add" ;
++------+-------+----------+-----------------------------------+
+; Port ; Type  ; Severity ; Details                           ;
++------+-------+----------+-----------------------------------+
+; Cin  ; Input ; Info     ; Stuck at GND                      ;
++------+-------+----------+-----------------------------------+
+
+
++---------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|encoder_32_to_5:BusEncoder" ;
++----------------------+-------+----------+---------------------------+
+; Port                 ; Type  ; Severity ; Details                   ;
++----------------------+-------+----------+---------------------------+
+; encoderInput[31..24] ; Input ; Info     ; Stuck at GND              ;
++----------------------+-------+----------+---------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register_gen:MAR"                                                                              ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port            ; Type   ; Severity ; Details                                                                             ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------+
+; BusMuxIn[31..9] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "select_encode:ir_encode_select|decoder_4_to_16:decoder_4_to_16_i"                                ;
++-------------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port              ; Type   ; Severity ; Details                                                                             ;
++-------------------+--------+----------+-------------------------------------------------------------------------------------+
+; decodedOutput[15] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-------------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "con_ff:branch_condition|flip_flop:CON"                                                                    ;
++-------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port  ; Type   ; Severity ; Details                                                                                                  ;
++-------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Q_not ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++-------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Elaboration
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+    Info: Processing started: Thu Mar 28 11:38:58 2024
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Phase2_project -c Phase2_project --analysis_and_elaboration
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file testbenches/load_tb.v
+    Info (12023): Found entity 1: load_tb File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/load_tb.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file testbenches/general_tb.v
+    Info (12023): Found entity 1: general_tb File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/general_tb.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file alu/incpc.v
+    Info (12023): Found entity 1: IncPC File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/IncPC.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file reg/register_gen.v
+    Info (12023): Found entity 1: register_gen File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/REG/register_gen.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mini_src/minisrc.v
+    Info (12023): Found entity 1: miniSRC File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mini_src/datapath.v
+    Info (12023): Found entity 1: Datapath File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/Datapath.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mdi/mux_2_to_1.v
+    Info (12023): Found entity 1: mux_2_to_1 File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/MDI/mux_2_to_1.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file cont/select_encode.v
+    Info (12023): Found entity 1: select_encode File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/CONT/select_encode.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file cont/decoder_4_to_16.v
+    Info (12023): Found entity 1: decoder_4_to_16 File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/CONT/decoder_4_to_16.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file con_ff/flip_flop.v
+    Info (12023): Found entity 1: flip_flop File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/CON_FF/flip_flop.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file bus/mux_32_to_1.v
+    Info (12023): Found entity 1: mux_32_to_1 File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/BUS/mux_32_to_1.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file bus/encoder_32_to_5.v
+    Info (12023): Found entity 1: encoder_32_to_5 File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/BUS/encoder_32_to_5.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file alu/sub_op.v
+    Info (12023): Found entity 1: sub_op File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/sub_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/shra_op.v
+    Info (12023): Found entity 1: shra_op File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/shra_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/shr_op.v
+    Info (12023): Found entity 1: shr_op File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/shr_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/shl_op.v
+    Info (12023): Found entity 1: shl_op File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/shl_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/ror_op.v
+    Info (12023): Found entity 1: ror_op File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/ror_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/rol_op.v
+    Info (12023): Found entity 1: rol_op File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/rol_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/or_op.v
+    Info (12023): Found entity 1: or_op File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/or_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/not_op.v
+    Info (12023): Found entity 1: not_op File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/not_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/neg_op.v
+    Info (12023): Found entity 1: neg_op File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/neg_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/mul_op.v
+    Info (12023): Found entity 1: mul_op File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/div_op.v
+    Info (12023): Found entity 1: div_op File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/b_cell.v
+    Info (12023): Found entity 1: b_cell File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/b_cell.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/and_op.v
+    Info (12023): Found entity 1: and_op File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/and_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/alu.v
+    Info (12023): Found entity 1: alu File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu/add_op.v
+    Info (12023): Found entity 1: add_op File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file con_ff/con_ff.v
+    Info (12023): Found entity 1: con_ff File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file ram/memory.v
+    Info (12023): Found entity 1: memory File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v Line: 39
+Info (12021): Found 1 design units, including 1 entities, in source file ram/memory_custom.v
+    Info (12023): Found entity 1: memory_custom File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/RAM/memory_custom.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file testbenches/alu_imm_tb.v
+    Info (12023): Found entity 1: ALU_imm_tb File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/ALU_imm_tb.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file testbenches/branch_tb.v
+    Info (12023): Found entity 1: branch_tb File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/branch_tb.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file testbenches/input_output_tb.v
+    Info (12023): Found entity 1: input_output_tb File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/input_output_tb.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file testbenches/jal_tb.v
+    Info (12023): Found entity 1: jal_tb File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/jal_tb.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file testbenches/jump_tb.v
+    Info (12023): Found entity 1: jump_tb File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/jump_tb.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file testbenches/load_imm_tb.v
+    Info (12023): Found entity 1: load_imm_tb File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/load_imm_tb.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file testbenches/move_tb.v
+    Info (12023): Found entity 1: move_tb File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/move_tb.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file testbenches/store_tb.v
+    Info (12023): Found entity 1: store_tb File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/TESTBENCHES/store_tb.v Line: 3
+Info (12127): Elaborating entity "miniSRC" for the top level hierarchy
+Info (12128): Elaborating entity "con_ff" for hierarchy "con_ff:branch_condition" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 23
+Info (12128): Elaborating entity "flip_flop" for hierarchy "con_ff:branch_condition|flip_flop:CON" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/CON_FF/con_ff.v Line: 30
+Info (12128): Elaborating entity "register_gen" for hierarchy "register_gen:PC" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 27
+Info (12128): Elaborating entity "select_encode" for hierarchy "select_encode:ir_encode_select" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 34
+Info (12128): Elaborating entity "decoder_4_to_16" for hierarchy "select_encode:ir_encode_select|decoder_4_to_16:decoder_4_to_16_i" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/CONT/select_encode.v Line: 21
+Info (12128): Elaborating entity "memory" for hierarchy "memory:RAM" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 53
+Info (12128): Elaborating entity "altsyncram" for hierarchy "memory:RAM|altsyncram:altsyncram_component" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v Line: 88
+Info (12130): Elaborated megafunction instantiation "memory:RAM|altsyncram:altsyncram_component" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v Line: 88
+Info (12133): Instantiated megafunction "memory:RAM|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/RAM/memory.v Line: 88
+    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
+    Info (12134): Parameter "init_file" = "load_tb.hex"
+    Info (12134): Parameter "intended_device_family" = "Cyclone V"
+    Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+    Info (12134): Parameter "numwords_a" = "512"
+    Info (12134): Parameter "operation_mode" = "SINGLE_PORT"
+    Info (12134): Parameter "outdata_aclr_a" = "NONE"
+    Info (12134): Parameter "outdata_reg_a" = "CLOCK0"
+    Info (12134): Parameter "power_up_uninitialized" = "FALSE"
+    Info (12134): Parameter "read_during_write_mode_port_a" = "NEW_DATA_NO_NBE_READ"
+    Info (12134): Parameter "widthad_a" = "9"
+    Info (12134): Parameter "width_a" = "32"
+    Info (12134): Parameter "width_byteena_a" = "1"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_gfo1.tdf
+    Info (12023): Found entity 1: altsyncram_gfo1 File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/db/altsyncram_gfo1.tdf Line: 27
+Info (12128): Elaborating entity "altsyncram_gfo1" for hierarchy "memory:RAM|altsyncram:altsyncram_component|altsyncram_gfo1:auto_generated" File: c:/intelfpga/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Info (12128): Elaborating entity "mux_2_to_1" for hierarchy "mux_2_to_1:MDRMux" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 59
+Info (12128): Elaborating entity "Datapath" for hierarchy "Datapath:DUT" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/miniSRC.v Line: 75
+Info (12128): Elaborating entity "encoder_32_to_5" for hierarchy "Datapath:DUT|encoder_32_to_5:BusEncoder" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/Datapath.v Line: 84
+Info (12128): Elaborating entity "mux_32_to_1" for hierarchy "Datapath:DUT|mux_32_to_1:busMux" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/Datapath.v Line: 93
+Info (12128): Elaborating entity "alu" for hierarchy "Datapath:DUT|alu:ALU" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/MINI_SRC/Datapath.v Line: 96
+Info (12128): Elaborating entity "IncPC" for hierarchy "Datapath:DUT|alu:ALU|IncPC:pc_inc" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v Line: 86
+Info (12128): Elaborating entity "add_op" for hierarchy "Datapath:DUT|alu:ALU|add_op:add" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v Line: 87
+Info (12128): Elaborating entity "b_cell" for hierarchy "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[0].b_cell_i" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/add_op.v Line: 28
+Info (12128): Elaborating entity "sub_op" for hierarchy "Datapath:DUT|alu:ALU|sub_op:sub" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v Line: 88
+Info (12128): Elaborating entity "mul_op" for hierarchy "Datapath:DUT|alu:ALU|mul_op:dul" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v Line: 89
+Warning (10199): Verilog HDL Case Statement warning at mul_op.v(22): case item expression never matches the case expression File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v Line: 22
+Warning (10199): Verilog HDL Case Statement warning at mul_op.v(23): case item expression never matches the case expression File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v Line: 23
+Warning (10199): Verilog HDL Case Statement warning at mul_op.v(25): case item expression never matches the case expression File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v Line: 25
+Warning (10230): Verilog HDL assignment warning at mul_op.v(30): truncated value with size 66 to match size of target (64) File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/mul_op.v Line: 30
+Info (12128): Elaborating entity "div_op" for hierarchy "Datapath:DUT|alu:ALU|div_op:div" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v Line: 90
+Warning (10240): Verilog HDL Always Construct warning at div_op.v(12): inferring latch(es) for variable "M", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v Line: 12
+Warning (10240): Verilog HDL Always Construct warning at div_op.v(12): inferring latch(es) for variable "combined", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v Line: 12
+Warning (10240): Verilog HDL Always Construct warning at div_op.v(12): inferring latch(es) for variable "negative", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v Line: 12
+Warning (10240): Verilog HDL Always Construct warning at div_op.v(12): inferring latch(es) for variable "subtract", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v Line: 12
+Warning (10240): Verilog HDL Always Construct warning at div_op.v(12): inferring latch(es) for variable "i", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/div_op.v Line: 12
+Info (12128): Elaborating entity "shr_op" for hierarchy "Datapath:DUT|alu:ALU|shr_op:shr" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v Line: 92
+Info (12128): Elaborating entity "shra_op" for hierarchy "Datapath:DUT|alu:ALU|shra_op:shra" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v Line: 93
+Info (12128): Elaborating entity "shl_op" for hierarchy "Datapath:DUT|alu:ALU|shl_op:shl" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v Line: 94
+Info (12128): Elaborating entity "ror_op" for hierarchy "Datapath:DUT|alu:ALU|ror_op:ror" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v Line: 95
+Info (12128): Elaborating entity "rol_op" for hierarchy "Datapath:DUT|alu:ALU|rol_op:aol" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v Line: 96
+Info (12128): Elaborating entity "and_op" for hierarchy "Datapath:DUT|alu:ALU|and_op:and_" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v Line: 97
+Info (12128): Elaborating entity "or_op" for hierarchy "Datapath:DUT|alu:ALU|or_op:or_" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v Line: 98
+Info (12128): Elaborating entity "neg_op" for hierarchy "Datapath:DUT|alu:ALU|neg_op:neg" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v Line: 99
+Info (12128): Elaborating entity "not_op" for hierarchy "Datapath:DUT|alu:ALU|not_op:not_" File: C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/ALU/alu.v Line: 100
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (144001): Generated suppressed messages file C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/output_files/Phase2_project.map.smsg
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 11 warnings
+    Info: Peak virtual memory: 4810 megabytes
+    Info: Processing ended: Thu Mar 28 11:39:12 2024
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:13
+
+
++--------------------------------------------+
+; Analysis & Elaboration Suppressed Messages ;
++--------------------------------------------+
+The suppressed messages can be found in C:/Users/19tja3/Documents/ELEC374/Phase2/QuartusProject/output_files/Phase2_project.map.smsg.
+
+

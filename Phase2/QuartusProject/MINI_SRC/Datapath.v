@@ -1,115 +1,100 @@
 module Datapath (
-  input wire clock, clear,
-  input wire R0out, R0in,
-             R1out, R1in,
-             R2out, R2in,
-             R3out, R3in,
-             R4out, R4in,
-             R5out, R5in,
-             R6out, R6in,
-             R7out, R7in,
-             R8out, R8in,
-             R9out, R9in,
-             R10out, R10in,
-             R11out, R11in,
-             R12out, R12in,
-             R13out, R13in,
-             R14out, R14in,
-             R15out, R15in, 
-             HIout, HIin,
-             LOout, LOin,
-             PCout, PCin, 
-             Zhighout, Zlowout, Zin,
-             MDRout, MDRin, MARin,
-             IncPC, inPortOut, Cout, IRin, Yin,
-             Read,
-             input[31:0] Mdatain,
-             input[4:0] opcode
+    output [31:0] outPortData, busMuxOut,    	// outputs 
+    input [31:0] inPortDataIn,               	// inputs
+    input clock, clear,                     	// control signals  
+          Yin, HIout, HIin, LOout, LOin,    	// Data Path Signals
+          Zhighout, Zlowout, Zin,           	//
+          PCout_en, IncPC,                     	// PC signals
+    input [31:0] busMuxInPC,                  	// PC data
+    input MDRout, inPortOut,
+	input[31:0] busMuxInMDR,  					// Memory data interface signal
+    input inPort_en, outPort_en,              	// input/output
+    input Cout, 								// immediate value signals
+	input[31:0] cSignExtended,      			//
+    input[4:0] opcode,                       	// ALU opcode
+    input[15:0] reg_in, reg_out,       			// register control signals
+    input BAout, jal_R15
 );
 
-  wire [31:0] BusMuxInR0, 
-              BusMuxInR1, 
-              BusMuxInR2, 
-              BusMuxInR3, 
-              BusMuxInR4, 
-              BusMuxInR5, 
-              BusMuxInR6, 
-              BusMuxInR7, 
-              BusMuxInR8, 
-              BusMuxInR9, 
-              BusMuxInR10, 
-              BusMuxInR11, 
-              BusMuxInR12, 
-              BusMuxInR13, 
-              BusMuxInR14, 
-              BusMuxInR15, 
-              BusMuxInHI, 
-              BusMuxInLO, 
-              BusMuxInZhigh, 
-              BusMuxInZlow, 
-              BusMuxInPC, 
-              BusMuxInMDR,
-              Csignextended,
+  wire [31:0] busMuxInR0, 
+              busMuxInR1, 
+              busMuxInR2, 
+              busMuxInR3, 
+              busMuxInR4, 
+              busMuxInR5, 
+              busMuxInR6, 
+              busMuxInR7, 
+              busMuxInR8, 
+              busMuxInR9, 
+              busMuxInR10, 
+              busMuxInR11, 
+              busMuxInR12, 
+              busMuxInR13, 
+              busMuxInR14, 
+              busMuxInR15, 
+              busMuxInHI, 
+              busMuxInLO, 
+              busMuxInZhigh, 
+              busMuxInZlow, 
               Yout,
-              IRout,
-              BusMuxInMAR,
-              BusMuxOut,
-              MDRMuxOut,
-				      BusMuxInInport;
-  wire [4:0] BusMuxSignal;
+              busMuxInInport,
+              intermediateR0;
+  wire [4:0] busMuxSignal;
   wire [63:0] alu_out;
 
+	  
   // registers
-  register_gen R0 (BusMuxInR0, clear, clock, R0in, BusMuxOut);
-  register_gen R1 (BusMuxInR1, clear, clock, R1in, BusMuxOut);
-  register_gen R2 (BusMuxInR2, clear, clock, R2in, BusMuxOut);
-  register_gen R3 (BusMuxInR3, clear, clock, R3in, BusMuxOut);
-  register_gen R4 (BusMuxInR4, clear, clock, R4in, BusMuxOut);
-  register_gen R5 (BusMuxInR5, clear, clock, R5in, BusMuxOut);
-  register_gen R6 (BusMuxInR6, clear, clock, R6in, BusMuxOut);
-  register_gen R7 (BusMuxInR7, clear, clock, R7in, BusMuxOut);
-  register_gen R8 (BusMuxInR8, clear, clock, R8in, BusMuxOut);
-  register_gen R9 (BusMuxInR9, clear, clock, R9in, BusMuxOut);
-  register_gen R10 (BusMuxInR10, clear, clock, R10in, BusMuxOut);
-  register_gen R11 (BusMuxInR11, clear, clock, R11in, BusMuxOut);
-  register_gen R12 (BusMuxInR12, clear, clock, R12in, BusMuxOut);
-  register_gen R13 (BusMuxInR13, clear, clock, R13in, BusMuxOut);
-  register_gen R14 (BusMuxInR14, clear, clock, R14in, BusMuxOut);
-  register_gen R15 (BusMuxInR15, clear, clock, R15in, BusMuxOut);
+  register_gen R0 (intermediateR0, clear, clock, reg_in[0], busMuxOut);
+//  assign busMuxInR0 = {32{~BAout}} & intermediateR0; // assert zero to R0
+  assign busMuxInR0 = BAout ? 32'b0 : intermediateR0;
 
-  register_gen HI (BusMuxInHI, clear, clock, HIin, BusMuxOut);
-  register_gen LO (BusMuxInLO, clear, clock, LOin, BusMuxOut);
 
-  register_gen RY (Yout, clear, clock, Yin, BusMuxOut);
-  register_gen Zhigh (BusMuxInZhigh, clear, clock, Zin, alu_out[63:32]);
-  register_gen Zlow (BusMuxInZlow, clear, clock, Zin, alu_out[31:0]);
+  register_gen R1 (busMuxInR1, clear, clock, reg_in[1], busMuxOut);
+  register_gen R2 (busMuxInR2, clear, clock, reg_in[2], busMuxOut);
+  register_gen R3 (busMuxInR3, clear, clock, reg_in[3], busMuxOut);
+  register_gen R4 (busMuxInR4, clear, clock, reg_in[4], busMuxOut);
+  register_gen R5 (busMuxInR5, clear, clock, reg_in[5], busMuxOut);
+  register_gen R6 (busMuxInR6, clear, clock, reg_in[6], busMuxOut);
+  register_gen R7 (busMuxInR7, clear, clock, reg_in[7], busMuxOut);
+  register_gen R8 (busMuxInR8, clear, clock, reg_in[8], busMuxOut);
+  register_gen R9 (busMuxInR9, clear, clock, reg_in[9], busMuxOut);
+  register_gen R10 (busMuxInR10, clear, clock, reg_in[10], busMuxOut);
+  register_gen R11 (busMuxInR11, clear, clock, reg_in[11], busMuxOut);
+  register_gen R12 (busMuxInR12, clear, clock, reg_in[12], busMuxOut);
+  register_gen R13 (busMuxInR13, clear, clock, reg_in[13], busMuxOut);
+  register_gen R14 (busMuxInR14, clear, clock, reg_in[14], busMuxOut);
 
-  register_gen PC (BusMuxInPC, clear, clock, PCin, BusMuxOut);
-  register_gen IR (IRout, clear, clock, IRin, BusMuxOut);
+  wire r15_en;
+  assign r15_en = reg_in[15] | jal_R15;
+  register_gen R15 (busMuxInR15, clear, clock, r15_en, busMuxOut);    // 
 
-  // RAM interface
-  register_gen MAR (BusMuxInMAR, clear, clock, MARin, BusMuxOut);
-  mux_2_to_1 MDRMux (MDRMuxOut, BusMuxOut, Mdatain, Read);
-  register_gen MDR (BusMuxInMDR, clear, clock, MDRin, MDRMuxOut);
+  register_gen HI (busMuxInHI, clear, clock, HIin, busMuxOut);
+  register_gen LO (busMuxInLO, clear, clock, LOin, busMuxOut);
+
+  register_gen RY (Yout, clear, clock, Yin, busMuxOut);
+  register_gen Zhigh (busMuxInZhigh, clear, clock, Zin, alu_out[63:32]);
+  register_gen Zlow (busMuxInZlow, clear, clock, Zin, alu_out[31:0]);
+  // Input, Output Ports
+  register_gen In_Port (busMuxInInport, clear, clock, inPort_en, inPortDataIn);
+  register_gen Out_port (outPortData, clear, clock, outPort_en, busMuxOut);
 
   // Bus
   encoder_32_to_5 BusEncoder (
-    BusMuxSignal, 
-    {8'b0, Cout, inPortOut, MDRout, PCout, Zlowout, Zhighout, LOout, HIout, 
-     R15out, R14out, R13out, R12out, R11out, R10out, R9out, R8out, R7out, R6out, 
-     R5out, R4out, R3out, R2out, R1out, R0out}
+    busMuxSignal, 
+    {8'b0, Cout, inPortOut, MDRout, PCout_en, Zlowout, Zhighout, LOout, HIout, 
+     reg_out}
   );
 
-  mux_32_to_1 BusMux (
-    BusMuxOut,
-    BusMuxInR0, BusMuxInR1, BusMuxInR2, BusMuxInR3, BusMuxInR4, BusMuxInR5, 
-    BusMuxInR6, BusMuxInR7, BusMuxInR8, BusMuxInR9, BusMuxInR10, BusMuxInR11, 
-    BusMuxInR12, BusMuxInR13, BusMuxInR14, BusMuxInR15, BusMuxInHI, BusMuxInLO, 
-    BusMuxInZhigh, BusMuxInZlow, BusMuxInPC, BusMuxInMDR, 
-    Csignextended, BusMuxInInport, BusMuxSignal
+  mux_32_to_1 busMux (
+    busMuxOut,
+    busMuxInR0, busMuxInR1, busMuxInR2, busMuxInR3, busMuxInR4, busMuxInR5, 
+    busMuxInR6, busMuxInR7, busMuxInR8, busMuxInR9, busMuxInR10, busMuxInR11, 
+    busMuxInR12, busMuxInR13, busMuxInR14, busMuxInR15, busMuxInHI, busMuxInLO, 
+    busMuxInZhigh, busMuxInZlow, busMuxInPC, busMuxInMDR, 
+    busMuxInInport, cSignExtended, busMuxSignal
   );
 
   // ALU
-  alu ALU (alu_out, IncPC, Yout, BusMuxOut, opcode);
+  alu ALU (alu_out, IncPC, Yout, busMuxOut, opcode);
 
 endmodule

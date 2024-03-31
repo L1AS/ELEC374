@@ -127,20 +127,20 @@ module add_tb;
                 Read <= 1; MDRin <= 1;
             end
             Reg_load1b: begin //2
-					 Read <= 0; MDRin <= 0;
+				Read <= 0; MDRin <= 0;
                 MDRout <= 1; R2in <= 1; 
                 end
             Reg_load2a: begin //3
-					 MDRout <= 0; R2in <= 0; // initialize R2 with the value $12
+				MDRout <= 0; R2in <= 0; // initialize R2 with the value $12
                 Mdatain <= 32'h00000001;   //prepare memory data for R3
                 Read <= 1; MDRin <= 1; 
             end
             Reg_load2b: begin //4
-					 Read <= 0; MDRin <= 0;
+				Read <= 0; MDRin <= 0;
                 MDRout <= 1; R3in <= 1; 
             end
             Reg_load3a: begin //5
-				    MDRout <= 0; R3in <= 0; // initialize R3 with the value $14 
+			    MDRout <= 0; R3in <= 0; // initialize R3 with the value $14 
                 Mdatain <= 32'h00000000;      ////prepare memory data for R1
                 Read <= 1; MDRin <= 1; 
             end
@@ -149,34 +149,34 @@ module add_tb;
                 MDRout <= 1; R0in <= 1; 
             end
             T0: begin // 7
-				    MDRout <= 0; R0in <= 0; // initialize R1 with the value $18 
+				MDRout <= 0; R0in <= 0; // initialize R1 with the value $18 
                 PCout <= 1; MARin <= 1; IncPC <= 1; Zin <= 1;    
             end
             T1: begin //8
-				    PCout <= 0; MARin <= 0; IncPC <= 0; Zin <= 0;
+				PCout <= 0; MARin <= 0; IncPC <= 0; Zin <= 0;
                 Zlowout <= 1; PCin <= 1; Read <= 1; MDRin <= 1;
                 Mdatain <= 32'b00011_0010_0011_0001_000000000000000; // opcode for “and R1, R2, R3”
 									//opcode//Ra //Rb  //Rc
             end
             T2: begin //9
-				    Zlowout <= 0; PCin <= 0; Read <= 0; MDRin <= 0;
+				Zlowout <= 0; PCin <= 0; Read <= 0; MDRin <= 0;
                 MDRout <= 1; IRin <= 1; 
                 
             end
             T3: begin //10
 				      
-					 MDRout <= 0; IRin <= 0;
+				MDRout <= 0; IRin <= 0;
                 R2out <= 1; Yin <= 1; 
                 
             end
             T4: begin //11
-				    R2out <= 0; Yin <= 0;
+			    R2out <= 0; Yin <= 0;
                 R3out <= 1; operation <= 5'b00011; Zin <= 1; 
                 
             end
             T5: begin //12
-					 operation <= 5'b11010; //assert nop
-					 R3out <= 0; Zin <= 0; 
+				operation <= 5'b11010; //assert nop
+				R3out <= 0; Zin <= 0; 
                 Zlowout <= 1; R1in <= 1; 
             end
             // T6: begin   //only for division and multiplication
