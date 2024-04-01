@@ -1,19 +1,18 @@
 module miniSRC(
-    output[31:0] outPortData,               // output.
-    output CONFF_out,                       //conff logic signals for branch
-    input CONin,                            //
-    input[31:0] inPortDataIn,               // input.
-    input clock, clear,                     // control signals.
-          Gra, Grb, Grc, Rin, Rout, BAout,  // control signals for IR
-          PCout_en, IncPC, PC_en, IR_en,          // PC and IR signals.
-          Yin, HIout, HIin, LOout, LOin,    // datapath MUX signals.
-          Cout, Zhighout, Zlowout, Zin,     //
-          MDRout, MDRin, MARin,             // Mem Data Interface signals.
-          memRead, memWrite,                // memory read enable and write enable signals.
-          inPort_en, outPort_en,            // Input/Output signals.
-          inPortOut, jal_R15,
-    input[4:0] opcode
+    // output[31:0] outPortData,               // output.
+    // input[31:0] inPortDataIn,               // input.
+    input clock, reset, clear, stop
 );
+
+    wire Gra, Grb, Grc, Rin, Rout, BAout,     // control signals for IR
+        PCout_en, IncPC, PC_en, IR_en,    // PC and IR signals.
+        Yin, HIout, HIin, LOout, LOin,    // datapath MUX signals.
+        Cout, Zhighout, Zlowout, Zin,     //
+        MDRout, MDRin, MARin,             // Mem Data Interface signals.
+        memRead, memWrite,                // memory read enable and write enable signals.
+        inPort_en, outPort_en,            // Input/Output signals.
+        inPortOut, jal_R15, 
+        CONFF_out, CONin,                    //conff logic signals for branch
 
 	wire[31:0] IRout, MARdata, MDRMuxOut, busMuxInMDR, Mdatain, busMuxOut, busMuxInPC;
     wire[15:0] reg_in, reg_out; 
@@ -58,6 +57,11 @@ module miniSRC(
     register_gen MAR (MARdata, clear, clock, MARin, busMuxOut);
     mux_2_to_1 MDRMux (MDRMuxOut, busMuxOut, Mdatain, memRead);
     register_gen MDR (busMuxInMDR, clear, clock, MDRin, MDRMuxOut);
+
+    control_unit(
+        .Gra(Gra), .Grb(Grb), .Grc(Grc), .Rin(Rin), .BAout(BAout),
+        .PCout(PCout_en), .IncPC(IncPC), 
+    );
 
     Datapath DUT (
             .outPortData(outPortData), .busMuxOut(busMuxOut),          // outputs
