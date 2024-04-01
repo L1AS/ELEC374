@@ -57,7 +57,7 @@ module input_output_tb;
             T1: Present_state = memWait1;
             memWait1: Present_state = memWait2;
             memWait2: Present_state = T2;
-            T2: Present_state = T3;
+            T2: Present_state = preload_reg;
             preload_reg: Present_state = T3;
             T3: Present_state = T4;
             T4: Present_state = Default;//Present_state = T5;
@@ -74,7 +74,7 @@ module input_output_tb;
     always @(Present_state) begin
         case (Present_state)
             Default: begin
-                inPortDataIn <= 32'h0000020; inPort_en <= 1;            // input.
+                inPortDataIn <= 32'h0000040; inPort_en <= 1;            // input.
                 clear <= 0; jal_R15 <= 0;                               // control signals.
                 Gra <= 0; Grb <= 0; Grc <= 0;                           // control signals for IR
                 Rin <= 0; Rout <= 0; BAout <= 0;                        //
@@ -104,13 +104,13 @@ module input_output_tb;
                 memRead <= 0; MDRin <= 0;
                 MDRout <= 1; IRin <= 1; // assert content from memory to IR
             end
-            // preload_reg: begin
-            //     MDRout <= 0; IRin <= 0;
-            //     Gra <= 1; Rin <= 1; inPortOut <= 1;
-            // end
+            preload_reg: begin
+                MDRout <= 0; IRin <= 0;
+                Gra <= 1; Rin <= 1; inPortOut <= 1;
+            end
             T3: begin //4
-                //Gra <= 1; Rout <= 1; outPort_en <= 1; // select register Ra put the content of Ra in outport
-                Gra <= 1; Rin <= 1; inPortOut <= 1; IRin <= 0; MDRout <= 0; // select register Ra put the content of inport in Ra 
+                Gra <= 1; Rout <= 1; outPort_en <= 1; // select register Ra put the content of Ra in outport
+                // Gra <= 1; Rin <= 1; inPortOut <= 1; IRin <= 0; MDRout <= 0; // select register Ra put the content of inport in Ra 
             end
             T4: begin //5
 			    Gra <= 0; BAout <= 0; // outPort_en <= 0;

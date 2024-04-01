@@ -3,7 +3,7 @@ quietly WaveActivateNextPane {} 0
 add wave -noupdate -radix hexadecimal /jump_tb/Present_state
 add wave -noupdate /jump_tb/clock
 add wave -noupdate /jump_tb/opcode
-add wave -noupdate -radix hexadecimal /jump_tb/CPU/IRout
+add wave -noupdate -radix binary /jump_tb/CPU/IRout
 add wave -noupdate /jump_tb/IRin
 add wave -noupdate -radix hexadecimal /jump_tb/CPU/PC/q
 add wave -noupdate /jump_tb/PC_en
@@ -34,10 +34,10 @@ add wave -noupdate -radix hexadecimal /jump_tb/CPU/DUT/R6/q
 add wave -noupdate -radix hexadecimal /jump_tb/CPU/DUT/R15/enable
 add wave -noupdate -radix hexadecimal /jump_tb/CPU/DUT/R15/q
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {145513 ps} 0}
+WaveRestoreCursors {{Cursor 1} {255000 ps} 0}
 quietly wave cursor active 1
-configure wave -namecolwidth 190
-configure wave -valuecolwidth 100
+configure wave -namecolwidth 252
+configure wave -valuecolwidth 38
 configure wave -justifyvalue left
 configure wave -signalnamewidth 0
 configure wave -snapdistance 10
@@ -50,4 +50,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {0 ps} {220500 ps}
+WaveRestoreZoom {0 ps} {170 ns}

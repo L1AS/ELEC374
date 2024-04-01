@@ -36,7 +36,7 @@ module jump_tb;
         .Cout(Cout), .Zhighout(Zhighout), .Zlowout(Zlowout), .Zin(Zin),         //
         .MDRout(MDRout), .MDRin(MDRin), .MARin(MARin),                          // Mem Data Interface signals.
         .memRead(memRead), .memWrite(memWrite),                                 // memory read enable and write enable signals.
-        .inPort_en(inPort_en), .outPort_en(outPort_en),                          // Input/Output signals.
+        .inPort_en(inPort_en), .outPort_en(outPort_en),                         // Input/Output signals.
         .inPortOut(inPortOut), .jal_R15(jal_R15),
         .opcode(opcode)                                                         //ALU opcode 
     );
@@ -59,7 +59,7 @@ module jump_tb;
             T2: Present_state = preload_reg;
             preload_reg: Present_state = T3;
             T3: Present_state = T4;
-            T4: Present_state = T5;
+            T4: Present_state = Default;
             //T5: Present_state = T6;
             //T6: Present_state = memWait3; //load and branch
             //memWait3: Present_state = memWait4;

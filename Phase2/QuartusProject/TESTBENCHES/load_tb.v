@@ -19,7 +19,7 @@ module load_tb;
     // State definitions
     parameter Default = 4'b0000, T0 = 4'b0001, T1 = 4'b0010, T2 = 4'b0011, 
               T3 = 4'b0100, T4 = 4'b0101, T5 = 4'b0110, T6 = 4'b0111, T7 = 4'b1000, T8 = 4'b1001,
-              memWait1 = 4'b1100, memWait2 = 4'b1101, memWait3 = 4'b1110, memWait4 = 4'b1111;
+              T9 = 4'b1010, memWait1 = 4'b1100, memWait2 = 4'b1101, memWait3 = 4'b1110, memWait4 = 4'b1111;
               
     
     reg [3:0] Present_state = Default;
@@ -64,7 +64,8 @@ module load_tb;
             memWait3: Present_state = memWait4;
             memWait4: Present_state = T7;
             T7: Present_state = T8; //load 
-            T8: Present_state = Default;
+            T8: Present_state = T9;
+            T9: Present_state = Default;
         endcase
     end
 
@@ -121,15 +122,18 @@ module load_tb;
             end
             memWait3: begin
                 
-            end // Progress until Mar 25, 2:36AM
+            end
             memWait4: begin
 
             end
             T7: begin //8
                 memRead <= 0; MDRin <= 0;
-                MDRout <= 1; Gra <= 1; Rin <= 1; // put the content of MDR to Ra
+                MDRout <= 1; Gra <= 1;
             end
             T8: begin //9
+                Rin <= 1; // put the content of MDR to Ra
+            end
+            T9: begin //10
                 MDRout <= 0; Gra <= 0; Rin <= 0;
             end
             

@@ -113,7 +113,7 @@ module load_imm_tb;
                 Cout <= 0;
 				opcode <= 5'b11010; //assert nop
 				Zin <= 0; 
-                Zlowout <= 1; Gra <= 1; Rin <= 1;  // put conntent of 
+                Zlowout <= 1; Gra <= 1; Rin <= 1;  // put content of Z register to Ra
             end
             T6: begin //7   
                 Zlowout <= 0; Gra <= 0; Rin <= 0; 

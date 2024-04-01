@@ -127,10 +127,10 @@ module store_tb;
                 end
                 T6: begin //7   
                     Zlowout <= 0; MARin <= 0; 
-                    Gra <= 1; Rout <= 1; MDRin <= 1; memWrite <= 1;// write the contents in Ra, to the address in MDR
+                    Gra <= 1; Rout <= 1; MDRin <= 1; // write the contents in Ra, to the address in MDR
                 end
                 memWait3: begin
-                    Gra <= 0; Rout <= 0; MDRin <= 0;
+                    Gra <= 0; Rout <= 0; MDRin <= 0; memWrite <= 1;
                 end
                 T7: begin //8
                     memWrite <= 0; Gra <= 0; Rout <= 0;
