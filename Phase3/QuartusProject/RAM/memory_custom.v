@@ -15,7 +15,7 @@ module memory_custom #(
     reg [DATA_WIDTH-1:0] memory [0:MEM_DEPTH-1];
 
     initial begin
-        $readmemh("load_tb.hex", memory);
+        $readmemh("C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/asm_program.txt", memory);
     end
     // Asynchronous Write Operation
     always @(write_enable, addr, data_in) begin
@@ -47,3 +47,20 @@ module memory_custom #(
 //    end
 
 endmodule
+
+
+`timescale 1ns/100ps
+module memory_test;
+    wire [31:0]data_out;
+    reg [8:0] addr;
+    reg [511:0] data_in;
+    reg write_enable, read_enable;
+    memory_custom mem(
+        data_out, addr, data_in, 
+        write_enable, read_enable
+     );
+	initial begin
+		
+	end
+endmodule
+

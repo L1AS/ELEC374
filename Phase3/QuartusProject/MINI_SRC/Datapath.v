@@ -1,18 +1,18 @@
 module Datapath (
-    output [31:0] outPortData, busMuxOut,    	// outputs 
-    input [31:0] inPortDataIn,               	// inputs
-    input clock, clear,                     	// control signals  
-          Yin, HIout, HIin, LOout, LOin,    	// Data Path Signals
-          Zhighout, Zlowout, Zin,           	//
-          PCout_en, IncPC,                     	// PC signals
-    input [31:0] busMuxInPC,                  	// PC data
+    output [31:0] outPortData, busMuxOut,    	  // outputs 
+    input [31:0] inPortDataIn,               	  // inputs
+    input clock, clear,                     	  // control signals  
+          Yin, HIout, HIin, LOout, LOin,    	  // Data Path Signals
+          Zhighout, Zlowout, Zin,           	  //
+          PCout_en, IncPC,                      // PC signals
+    input [31:0] busMuxInPC,                    // PC data
     input MDRout, inPortOut,
-	input[31:0] busMuxInMDR,  					// Memory data interface signal
-    input inPort_en, outPort_en,              	// input/output
-    input Cout, 								// immediate value signals
-	input[31:0] cSignExtended,      			//
-    input[4:0] opcode,                       	// ALU opcode
-    input[15:0] reg_in, reg_out,       			// register control signals
+	input[31:0] busMuxInMDR,  					          // Memory data interface signal
+    input inPort_en, outPort_en,                // input/output
+    input Cout, 								                // immediate value signals
+	input[31:0] cSignExtended,      			       //
+    input[4:0] alu_opcode,                    // ALU opcode
+    input[15:0] reg_in, reg_out,       			 // register control signals
     input BAout, jal_R15
 );
 
@@ -95,6 +95,6 @@ module Datapath (
   );
 
   // ALU
-  alu ALU (alu_out, IncPC, Yout, busMuxOut, opcode);
+  alu ALU (alu_out, IncPC, Yout, busMuxOut, alu_opcode);
 
 endmodule

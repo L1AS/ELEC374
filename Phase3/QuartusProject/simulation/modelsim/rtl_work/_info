@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/simulation/modelsim
+vmemory_custom
+Z1 !s110 1712124106
+!i10b 1
+!s100 ba7]8lk<PgmVK82?7R``[1
+IUlW54iGo9QYkX=HPb16Pz2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1712124102
+Z4 8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v
+Z5 FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v
+L0 1
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1712124106.000000
+Z8 !s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM
+Z12 tCvgOpt 0
+vmemory_test
+R1
+!i10b 1
+!s100 586OFC[HD=6]?D9GafOI10
+I0ck@mGk7zPi;i^[9];<ZK3
+R2
+R0
+R3
+R4
+R5
+L0 53
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12

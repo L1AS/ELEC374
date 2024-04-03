@@ -1,5 +1,5 @@
 module flip_flop(
-    output wire Q, Q_not,
+    output wire Q,
     input D, clk 
 );	
     reg q_internal;
@@ -10,5 +10,4 @@ module flip_flop(
         q_internal <= D;
     end
     assign Q = q_internal;
-    assign Q_not = !q_internal;
 endmodule

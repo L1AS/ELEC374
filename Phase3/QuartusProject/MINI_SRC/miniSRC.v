@@ -1,9 +1,8 @@
 module miniSRC(
-    // output[31:0] outPortData,               // output.
-    // input[31:0] inPortDataIn,               // input.
-    input clock, reset, clear, stop
+    output[31:0] outPortData,               // output.
+    input[31:0] inPortDataIn,               // input.
+    input clock, reset, stop
 );
-
     wire Gra, Grb, Grc, Rin, Rout, BAout,     // control signals for IR
         PCout_en, IncPC, PC_en, IR_en,    // PC and IR signals.
         Yin, HIout, HIin, LOout, LOin,    // datapath MUX signals.
@@ -12,7 +11,9 @@ module miniSRC(
         memRead, memWrite,                // memory read enable and write enable signals.
         inPort_en, outPort_en,            // Input/Output signals.
         inPortOut, jal_R15, 
-        CONFF_out, CONin,                    //conff logic signals for branch
+        CONFF_out, clear, CONin;
+	
+	wire [4:0] opcode;		//conff logic signals for branch
 
 	wire[31:0] IRout, MARdata, MDRMuxOut, busMuxInMDR, Mdatain, busMuxOut, busMuxInPC;
     wire[15:0] reg_in, reg_out; 
@@ -32,24 +33,23 @@ module miniSRC(
     select_encode ir_encode_select(reg_in, reg_out, Gra, Grb, Grc, 
                                     Rin, Rout, BAout, IRout);
 
-//     // memory
-//     memory_custom RAM (
-//                     .data_out(Mdatain),
-// //                    .done(done),
-// //                    .clk(clock), 
-//                     .addr(MARdata[8:0]), 
-//                     .data_in(busMuxInMDR), 
-//                     .read_enable(memRead), 
-//                     .write_enable(memWrite) 
-//                     );
-
-    memory RAM (.address(MARdata[8:0]),
-                     .clock(clock),
-                     .data(busMuxInMDR),
-                     .rden(memRead),
-                     .wren(memWrite),
-                     .q(Mdatain)
-					);
+     // memory
+     memory_custom RAM (
+                     .data_out(Mdatain),
+                     .clk(clock), 
+                     .addr(MARdata[8:0]), 
+                     .data_in(busMuxInMDR), 
+                     .read_enable(memRead), 
+                     .write_enable(memWrite) 
+                     );
+//
+//    memory RAM (.address(MARdata[8:0]),
+//                     .clock(clock),
+//                     .data(busMuxInMDR),
+//                     .rden(memRead),
+//                     .wren(memWrite),
+//                     .q(Mdatain)
+//					);
     
 
 
@@ -58,9 +58,9 @@ module miniSRC(
     mux_2_to_1 MDRMux (MDRMuxOut, busMuxOut, Mdatain, memRead);
     register_gen MDR (busMuxInMDR, clear, clock, MDRin, MDRMuxOut);
 
-    control_unit(
+    control_unit cont(
         .Gra(Gra), .Grb(Grb), .Grc(Grc), .Rin(Rin), .BAout(BAout),
-        .PCout(PCout_en), .IncPC(IncPC), 
+        .PCout(PCout_en), .IncPC(IncPC), .clear(clear)
     );
 
     Datapath DUT (
