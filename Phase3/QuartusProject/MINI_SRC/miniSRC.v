@@ -13,7 +13,7 @@ module miniSRC(
         inPortOut, jal_R15, 
         CONFF_out, clear, CONin;
 	
-	wire [4:0] opcode;		//conff logic signals for branch
+	wire [4:0] alu_opcode;		//conff logic signals for branch
 
 	wire[31:0] IRout, MARdata, MDRMuxOut, busMuxInMDR, Mdatain, busMuxOut, busMuxInPC;
     wire[15:0] reg_in, reg_out; 
@@ -60,7 +60,7 @@ module miniSRC(
 
     control_unit cont(
         .Gra(Gra), .Grb(Grb), .Grc(Grc), .Rin(Rin), .BAout(BAout),
-        .PCout(PCout_en), .IncPC(IncPC), .clear(clear)
+        .PCout(PCout_en), .IncPC(IncPC), .clear(clear)  //unfinished
     );
 
     Datapath DUT (
@@ -73,7 +73,7 @@ module miniSRC(
             .MDRout(MDRout), .inPortOut(inPortOut), .busMuxInMDR(busMuxInMDR),            // Memory data interface signal
             .inPort_en(inPort_en), .outPort_en(outPort_en),            // input/output
             .Cout(Cout), .cSignExtended(cSignExtended),             // imediate value signals   
-            .opcode(opcode),                                                         //ALU opcode 
+            .alu_opcode(alu_opcode),                                                         //ALU opcode 
             .reg_in(reg_in), .reg_out(reg_out), .BAout(BAout),          // register control signals
             .jal_R15(jal_R15)
     );
