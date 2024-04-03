@@ -2,10 +2,10 @@
 
 module control_unit (
     // Define the inputs and outputs to your Control Unit here
-    output reg Gra, Grb, Grc, Rin, Rout, BAout,         // control signals for IR
+    output reg Gra, Grb, Grc, Rin, Rout, BAout,         // control signals for IR select/encode
     PCout_en, IncPC, PC_en, IR_en,                      // PC and IR signals
     Yin, HIout, HIin, LOout, LOin,                      // datapath MUX signals
-    Cout, Zhighout, Zlowout, Zin,                       //
+    Cout, Zhighout, Zlowout, Zin,                       // datapath MUX signals
     MDRout, MDRin, MARin,                               // Mem Data Interface signals
     memRead, memWrite,                                  // memory read enable and write enable signals
     inPort_en, outPort_en,                              // Input/Output signals
@@ -13,6 +13,7 @@ module control_unit (
     CONin, 
     clear, run,
     
+    output [31:0] inPortDataIn,               	  // inputs??? NOT SURE IF NEED HERE
     output reg [4:0] alu_opcode,                          // ALU opcode
 
     input [31:0] IR,
