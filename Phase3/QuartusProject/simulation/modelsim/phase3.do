@@ -3,6 +3,7 @@ quietly WaveActivateNextPane {} 0
 add wave -noupdate /phase3_tb/clock
 add wave -noupdate /phase3_tb/reset
 add wave -noupdate /phase3_tb/stop
+add wave -noupdate /phase3_tb/run
 add wave -noupdate -radix hexadecimal /phase3_tb/DUT/control/present_state
 add wave -noupdate /phase3_tb/DUT/DUT/alu_opcode
 add wave -noupdate -radix hexadecimal /phase3_tb/DUT/PC/q
@@ -26,9 +27,7 @@ add wave -noupdate -radix hexadecimal /phase3_tb/DUT/DUT/R7/q
 add wave -noupdate -radix hexadecimal /phase3_tb/DUT/DUT/R8/q
 add wave -noupdate -radix hexadecimal /phase3_tb/DUT/DUT/R9/q
 add wave -noupdate -radix hexadecimal /phase3_tb/DUT/DUT/R10/q
-add wave -noupdate /phase3_tb/DUT/DUT/R10/enable
 add wave -noupdate -radix hexadecimal /phase3_tb/DUT/DUT/R11/q
-add wave -noupdate /phase3_tb/DUT/DUT/R11/enable
 add wave -noupdate -radix hexadecimal /phase3_tb/DUT/DUT/R12/q
 add wave -noupdate -radix hexadecimal /phase3_tb/DUT/DUT/R13/q
 add wave -noupdate -radix hexadecimal /phase3_tb/DUT/DUT/R15/q
@@ -41,9 +40,9 @@ add wave -noupdate /phase3_tb/DUT/DUT/busMux/busMuxSignal
 add wave -noupdate -radix hexadecimal {/phase3_tb/DUT/RAM/memory[142]}
 add wave -noupdate -radix hexadecimal {/phase3_tb/DUT/RAM/memory[71]}
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {6917737 ps} 0}
+WaveRestoreCursors {{Cursor 1} {7070209 ps} 0}
 quietly wave cursor active 1
-configure wave -namecolwidth 312
+configure wave -namecolwidth 432
 configure wave -valuecolwidth 100
 configure wave -justifyvalue left
 configure wave -signalnamewidth 0
@@ -57,4 +56,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ns
 update
-WaveRestoreZoom {6730014 ps} {7010440 ps}
+WaveRestoreZoom {0 ps} {565350 ps}

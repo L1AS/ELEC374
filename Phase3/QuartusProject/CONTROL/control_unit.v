@@ -32,8 +32,9 @@ module control_unit (
         inPort_en <= 0; outPort_en <= 0;                              // Input/Output signals
         inPortOut <= 0; jal_R15 <= 0;
         CONin <= 0; 
-        clear <= 1; run <= 0;
+        clear <= 1; run <= 1;
         fetch_buffer = 0;
+        alu_opcode <= 5'b0;
     end
 
     // State declaration
@@ -229,8 +230,8 @@ module control_unit (
                 memRead <= 0; memWrite <= 0;                                  // memory read enable and write enable signals
                 inPort_en <= 0; outPort_en <= 0;                              // Input/Output signals
                 inPortOut <= 0; jal_R15 <= 0;
-                CONin <= 0; 
-                clear <= 0; run <= 0;
+                CONin <= 0; run <= 1;
+                clear <= 0;
             end
              //=========================================================================================
             fetch0: begin 

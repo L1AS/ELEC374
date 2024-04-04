@@ -1,5 +1,5 @@
 Flow report for Phase3
-Thu Apr 04 01:32:06 2024
+Thu Apr 04 02:17:47 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +-----------------------------+-------------------------------------------------+
-; Flow Status                 ; Successful - Thu Apr 04 01:32:06 2024           ;
+; Flow Status                 ; Successful - Thu Apr 04 02:17:47 2024           ;
 ; Quartus Prime Version       ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name               ; Phase3                                          ;
 ; Top-level Entity Name       ; miniSRC                                         ;
@@ -62,7 +62,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/04/2024 01:32:01 ;
+; Start date & time ; 04/04/2024 02:17:42 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Phase3              ;
 +-------------------+---------------------+
@@ -73,7 +73,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 215893810745053.171220872112928        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 215893810745053.171221146214412        ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; memory_custom  ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; phase3_tb      ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; phase3_tb                              ; --            ; --          ; eda_simulation ;
@@ -106,8 +106,8 @@ refer to the applicable agreement for further details.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:06     ; 1.0                     ; 4796 MB             ; 00:00:03                           ;
-; Total                  ; 00:00:06     ; --                      ; --                  ; 00:00:03                           ;
+; Analysis & Elaboration ; 00:00:05     ; 1.0                     ; 4795 MB             ; 00:00:03                           ;
+; Total                  ; 00:00:05     ; --                      ; --                  ; 00:00:03                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

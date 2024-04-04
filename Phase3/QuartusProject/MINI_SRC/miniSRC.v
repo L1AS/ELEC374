@@ -1,5 +1,6 @@
 module miniSRC(
     output[31:0] outPortData,               // output.
+    output run,
     input[31:0] inPortDataIn,               // input.
     input clock, reset, stop
 );
@@ -12,7 +13,7 @@ module miniSRC(
         inPort_en, outPort_en,                              // Input/Output signals
         inPortOut, jal_R15,
         CONin, CONFF_out, 
-        clear, run;
+        clear;
 	
 	wire [4:0] alu_opcode;		//conff logic signals for branch
 

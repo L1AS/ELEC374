@@ -20,6 +20,6 @@ module select_encode (
     // use 4_to_16 decoder here
     decoder_4_to_16 decoder_4_to_16_i(.decodedOutput(reg_select), .decoderInput(w4));
 
-    assign reg_in = {15{Rin}} & reg_select;
-    assign reg_out = {15{Rout_base_address_checked}} & reg_select;
+    assign reg_in = {16{Rin}} & reg_select;
+    assign reg_out = {16{Rout_base_address_checked}} & reg_select;
 endmodule
