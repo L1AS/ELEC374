@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/simulation/modelsim
 vadd_op
-Z1 !s110 1712211825
+Z1 !s110 1712243056
 !i10b 1
 !s100 8PVcYBaSd;mQm<hiY4@>R1
 Iaz:of^KEZKGk5deRiKJAm2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1712175332
+Z3 w1712235700
 8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/add_op.v
 FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/add_op.v
 L0 1
@@ -23,7 +23,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1712211825.000000
+Z5 !s108 1712243056.000000
 !s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/add_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/add_op.v|
 !i113 1
@@ -97,13 +97,13 @@ R6
 R7
 R8
 vcon_ff
-Z9 !s110 1712211824
+Z9 !s110 1712243054
 !i10b 1
-!s100 ;h<j@e:bzbPeTkzNd]`L63
-IeA7>Mo2]X[d`XIg9]BSJ51
+!s100 WTO@3IXJlkeJVdWj9OiLU3
+I>[<=FekjJVT3?nA<5NlbS0
 R2
 R0
-w1712194959
+w1712242910
 8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CON_FF/con_ff.v
 FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CON_FF/con_ff.v
 L0 1
@@ -111,7 +111,7 @@ R4
 r1
 !s85 0
 31
-Z10 !s108 1712211824.000000
+Z10 !s108 1712243054.000000
 !s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CON_FF/con_ff.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CON_FF|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CON_FF/con_ff.v|
 !i113 1
@@ -121,11 +121,11 @@ R8
 vcontrol_unit
 R1
 !i10b 1
-!s100 WgQ[E2<;;W79?24:G9zLL2
-I>E2KFOhgO^8^Z5ThKA:IK3
+!s100 KFJYheMH1K]GlUWR9S6d]1
+I]@ZmSH1E@h=JDCT_O0o0M1
 R2
 R0
-w1712211802
+w1712240343
 8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v
 FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v
 L0 3
@@ -143,11 +143,11 @@ R8
 vDatapath
 R9
 !i10b 1
-!s100 L[0z<8<PP66d<W6MkBHnO0
-IA4n1kMB91az9S;_iNh4<;0
+!s100 m3zVmAfN==Lkoo2dRoKeo1
+I;fG]`4LiT4UNTSIjNnDNR2
 R2
 R0
-Z13 w1712175644
+w1712240164
 8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/Datapath.v
 FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/Datapath.v
 L0 1
@@ -160,7 +160,7 @@ R10
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/Datapath.v|
 !i113 1
 R6
-Z14 !s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC
+Z13 !s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC
 R8
 n@datapath
 vdecoder_4_to_16
@@ -170,7 +170,7 @@ R9
 Im7[KMVVJKKe<XIIMLY9LQ1
 R2
 R0
-w1712208420
+Z14 w1712235719
 8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/decoder_4_to_16.v
 FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/decoder_4_to_16.v
 L0 1
@@ -236,7 +236,7 @@ R9
 I;:1bGCg4zReYoPb?Mi<5Y3
 R2
 R0
-w1712196185
+w1712242845
 8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CON_FF/flip_flop.v
 FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CON_FF/flip_flop.v
 L0 1
@@ -275,57 +275,57 @@ R7
 R8
 n@inc@p@c
 vmemory_custom
-R1
+Z16 !s110 1712243057
 !i10b 1
 !s100 ba7]8lk<PgmVK82?7R``[1
 IUlW54iGo9QYkX=HPb16Pz2
 R2
 R0
-R13
-Z16 8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v
-Z17 FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v
+Z17 w1712241683
+Z18 8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v
+Z19 FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v
 L0 1
 R4
 r1
 !s85 0
 31
 R5
-Z18 !s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v|
-Z19 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v|
+Z20 !s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v|
+Z21 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v|
 !i113 1
 R6
-Z20 !s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM
+Z22 !s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM
 R8
 vmemory_test
-R1
+R16
 !i10b 1
 !s100 586OFC[HD=6]?D9GafOI10
 I0ck@mGk7zPi;i^[9];<ZK3
 R2
 R0
-R13
-R16
 R17
+R18
+R19
 L0 53
 R4
 r1
 !s85 0
 31
 R5
-R18
-R19
+R20
+R21
 !i113 1
 R6
-R20
+R22
 R8
 vminiSRC
 R9
 !i10b 1
-!s100 n:T^=cdWS`8lIh[eIND1_1
-IGPK7l[KjnVUA0fWFA<P?n2
+!s100 kDF1::z_0PH@koLUA3V]C1
+I_aIK=G@`5<k`izil;fh5H2
 R2
 R0
-w1712211459
+w1712240690
 8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v
 FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v
 L0 1
@@ -333,12 +333,12 @@ R4
 r1
 !s85 0
 31
-R10
+Z23 !s108 1712243053.000000
 !s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v|
 !i113 1
 R6
-R14
+R13
 R8
 nmini@s@r@c
 vmul_op
@@ -408,7 +408,7 @@ R6
 R15
 R8
 vneg_op
-R1
+Z24 !s110 1712243055
 !i10b 1
 !s100 8Vj[?VokZiFPdAdaD7K^z3
 I[eBo^XmN2[C9;WWIMiI5[0
@@ -422,7 +422,7 @@ R4
 r1
 !s85 0
 31
-R5
+Z25 !s108 1712243055.000000
 !s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/neg_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/neg_op.v|
 !i113 1
@@ -430,7 +430,7 @@ R6
 R7
 R8
 vnot_op
-R1
+R24
 !i10b 1
 !s100 Mo24053V[S5Q;16^Y9[?c0
 INLaBS;_ei?K7HeiA_3UFn3
@@ -444,7 +444,7 @@ R4
 r1
 !s85 0
 31
-R5
+R25
 !s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/not_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/not_op.v|
 !i113 1
@@ -452,7 +452,7 @@ R6
 R7
 R8
 vor_op
-R1
+R24
 !i10b 1
 !s100 WCiF4ofcLLgL];YRmQcfk1
 I?Ug5Elk^1Gb6YYaETE`<C0
@@ -466,7 +466,7 @@ R4
 r1
 !s85 0
 31
-R5
+R25
 !s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/or_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/or_op.v|
 !i113 1
@@ -474,13 +474,13 @@ R6
 R7
 R8
 vphase3_tb
-R1
+R16
 !i10b 1
-!s100 hOXg5^hLnVbD`AlRXP;zg1
-IS_FS[eLH7JazzG1Sm7Od92
+!s100 OXNbnEQ]DfWA25ib85I@K1
+IHcik^agBXT[K6P_;DCMg42
 R2
 R0
-w1712211574
+w1712240416
 8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/TESTBENCH/phase3_tb.v
 FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/TESTBENCH/phase3_tb.v
 L0 3
@@ -488,7 +488,7 @@ R4
 r1
 !s85 0
 31
-R5
+!s108 1712243057.000000
 !s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/TESTBENCH/phase3_tb.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/TESTBENCH|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/TESTBENCH/phase3_tb.v|
 !i113 1
@@ -496,7 +496,7 @@ R6
 !s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/TESTBENCH
 R8
 vregister_gen
-R9
+!s110 1712243053
 !i10b 1
 !s100 KoJZmDD?CQ`c>[3_bJ9HV3
 Iho1VQS=eU9gA=oQMkO^HJ3
@@ -510,7 +510,7 @@ R4
 r1
 !s85 0
 31
-R10
+R23
 !s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/REG/register_gen.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/REG|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/REG/register_gen.v|
 !i113 1
@@ -518,7 +518,7 @@ R6
 !s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/REG
 R8
 vrol_op
-R1
+R24
 !i10b 1
 !s100 S`AYnY;5zXmdWS]J;CBU@2
 I7;XinGQREeHjXf:a=fbiK0
@@ -532,7 +532,7 @@ R4
 r1
 !s85 0
 31
-R5
+R25
 !s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/rol_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/rol_op.v|
 !i113 1
@@ -540,7 +540,7 @@ R6
 R7
 R8
 vror_op
-R1
+R24
 !i10b 1
 !s100 So57dZLZ1JR5gSDoFJEl30
 IcfA;4aCik6zAHKM8Vl_Ga0
@@ -554,7 +554,7 @@ R4
 r1
 !s85 0
 31
-R5
+R25
 !s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/ror_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/ror_op.v|
 !i113 1
@@ -568,7 +568,7 @@ R9
 I5<aiC5e9K7O;Rf`^VYUgm3
 R2
 R0
-w1712210500
+R14
 8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/select_encode.v
 FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/select_encode.v
 L0 1
@@ -583,8 +583,30 @@ R10
 R6
 R12
 R8
-vshl_op
+vseven_segment_display
 R1
+!i10b 1
+!s100 CD3MeWz4B?@`Qc:]G9CK73
+IZ[6C@3cg0Y2I[LJ0_`J`L2
+R2
+R0
+w1712240650
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/IO/seven_segment_display.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/IO/seven_segment_display.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/IO/seven_segment_display.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/IO|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/IO/seven_segment_display.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/IO
+R8
+vshl_op
+R24
 !i10b 1
 !s100 GB>SDVSLg7ikjCjnVOVfb1
 I?9cBT0Pn:gaj;L>a2V^R@0
@@ -598,7 +620,7 @@ R4
 r1
 !s85 0
 31
-R5
+R25
 !s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/shl_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/shl_op.v|
 !i113 1
@@ -606,7 +628,7 @@ R6
 R7
 R8
 vshr_op
-R1
+R24
 !i10b 1
 !s100 =1>z<hQfgBXZV^DkRfZBj2
 IP<7ZeozG603YcGZPOD;142
@@ -620,7 +642,7 @@ R4
 r1
 !s85 0
 31
-R5
+R25
 !s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/shr_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/shr_op.v|
 !i113 1
@@ -628,7 +650,7 @@ R6
 R7
 R8
 vshra_op
-R1
+R24
 !i10b 1
 !s100 0jAzb2o`PFYL[L@0>Vaij3
 I]Tn7WlM`E^@6ZUdP>8zk63
@@ -642,7 +664,7 @@ R4
 r1
 !s85 0
 31
-R10
+R25
 !s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/shra_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/shra_op.v|
 !i113 1

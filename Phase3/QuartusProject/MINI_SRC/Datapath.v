@@ -16,6 +16,7 @@ module Datapath (
     input BAout, jal_R15
 );
 
+
   wire [31:0] busMuxInR0, 
               busMuxInR1, 
               busMuxInR2, 
@@ -75,7 +76,7 @@ module Datapath (
   register_gen Zhigh (busMuxInZhigh, clear, clock, Zin, alu_out[63:32]);
   register_gen Zlow (busMuxInZlow, clear, clock, Zin, alu_out[31:0]);
   // Input, Output Ports
-  register_gen In_Port (busMuxInInport, clear, clock, inPort_en, inPortDataIn);
+  register_gen In_Port (busMuxInInport, 1'b0, clock, inPort_en, inPortDataIn);
   register_gen Out_port (outPortData, clear, clock, outPort_en, busMuxOut);
 
   // Bus

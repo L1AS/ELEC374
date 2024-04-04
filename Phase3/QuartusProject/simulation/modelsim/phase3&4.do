@@ -30,6 +30,7 @@ add wave -noupdate -radix hexadecimal /phase3_tb/DUT/DUT/R10/q
 add wave -noupdate -radix hexadecimal /phase3_tb/DUT/DUT/R11/q
 add wave -noupdate -radix hexadecimal /phase3_tb/DUT/DUT/R12/q
 add wave -noupdate -radix hexadecimal /phase3_tb/DUT/DUT/R13/q
+add wave -noupdate /phase3_tb/DUT/DUT/R14/q
 add wave -noupdate -radix hexadecimal /phase3_tb/DUT/DUT/R15/q
 add wave -noupdate -radix hexadecimal /phase3_tb/DUT/DUT/Zhigh/q
 add wave -noupdate -radix hexadecimal /phase3_tb/DUT/DUT/Zlow/q
@@ -39,15 +40,12 @@ add wave -noupdate -radix hexadecimal /phase3_tb/DUT/branch_condition/busMuxOut
 add wave -noupdate /phase3_tb/DUT/DUT/busMux/busMuxSignal
 add wave -noupdate -radix hexadecimal /phase3_tb/DUT/DUT/In_Port/q
 add wave -noupdate -radix hexadecimal /phase3_tb/DUT/DUT/Out_port/q
-add wave -noupdate {/phase3_tb/DUT/RAM/memory[240]}
 add wave -noupdate -radix hexadecimal {/phase3_tb/DUT/RAM/memory[71]}
 add wave -noupdate -radix hexadecimal {/phase3_tb/DUT/RAM/memory[142]}
-add wave -noupdate /phase3_tb/DUT/display_upper/outputt
-add wave -noupdate /phase3_tb/DUT/display_upper/data
-add wave -noupdate /phase3_tb/DUT/display_lower/outputt
-add wave -noupdate /phase3_tb/DUT/display_lower/data
+add wave -noupdate -radix hexadecimal {/phase3_tb/DUT/RAM/memory[170]}
+add wave -noupdate {/phase3_tb/DUT/RAM/memory[240]}
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {93562 ps} 0}
+WaveRestoreCursors {{Cursor 1} {331449623 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 432
 configure wave -valuecolwidth 100
@@ -63,4 +61,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ns
 update
-WaveRestoreZoom {0 ps} {2149588 ps}
+WaveRestoreZoom {325979843 ps} {342679935 ps}

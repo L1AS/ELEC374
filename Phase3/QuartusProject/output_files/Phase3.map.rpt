@@ -1,5 +1,5 @@
 Analysis & Elaboration report for Phase3
-Thu Apr 04 02:17:47 2024
+Thu Apr 04 11:04:08 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -78,9 +78,12 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
  70. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[0].b_cell_i"
  71. Port Connectivity Checks: "Datapath:DUT|alu:ALU|add_op:add"
  72. Port Connectivity Checks: "Datapath:DUT|encoder_32_to_5:BusEncoder"
- 73. Port Connectivity Checks: "register_gen:MAR"
- 74. Analysis & Elaboration Messages
- 75. Analysis & Elaboration Suppressed Messages
+ 73. Port Connectivity Checks: "Datapath:DUT|register_gen:In_Port"
+ 74. Port Connectivity Checks: "register_gen:MAR"
+ 75. Port Connectivity Checks: "seven_segment_display:display_lower"
+ 76. Port Connectivity Checks: "seven_segment_display:display_upper"
+ 77. Analysis & Elaboration Messages
+ 78. Analysis & Elaboration Suppressed Messages
 
 
 
@@ -106,7 +109,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                  ;
 +-------------------------------+-------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Thu Apr 04 02:17:47 2024           ;
+; Analysis & Elaboration Status ; Successful - Thu Apr 04 11:04:08 2024           ;
 ; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                 ; Phase3                                          ;
 ; Top-level Entity Name         ; miniSRC                                         ;
@@ -126,8 +129,8 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 32          ;
-; Maximum allowed            ; 16          ;
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -997,6 +1000,15 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------------+-------+----------+---------------------------+
 
 
++---------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:DUT|register_gen:In_Port" ;
++-------+-------+----------+------------------------------------+
+; Port  ; Type  ; Severity ; Details                            ;
++-------+-------+----------+------------------------------------+
+; clear ; Input ; Info     ; Stuck at GND                       ;
++-------+-------+----------+------------------------------------+
+
+
 +---------------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "register_gen:MAR"                                                                              ;
 +-----------------+--------+----------+-------------------------------------------------------------------------------------+
@@ -1006,16 +1018,34 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "seven_segment_display:display_lower"                                                   ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; outputt ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "seven_segment_display:display_upper"                                                   ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; outputt ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
 +---------------------------------+
 ; Analysis & Elaboration Messages ;
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Thu Apr 04 02:17:42 2024
+    Info: Processing started: Thu Apr 04 11:03:55 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Phase3 -c Phase3 --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 16 of the 24 processors detected
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file testbench/phase3_tb.v
     Info (12023): Found entity 1: phase3_tb File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/TESTBENCH/phase3_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file reg/register_gen.v
@@ -1077,13 +1107,16 @@ Info (12021): Found 1 design units, including 1 entities, in source file alu/add
     Info (12023): Found entity 1: add_op File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/add_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file control/control_unit.v
     Info (12023): Found entity 1: control_unit File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file io/seven_segment_display.v
+    Info (12023): Found entity 1: seven_segment_display File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/IO/seven_segment_display.v Line: 1
 Info (12127): Elaborating entity "miniSRC" for the top level hierarchy
-Info (12128): Elaborating entity "con_ff" for hierarchy "con_ff:branch_condition" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v Line: 25
-Info (12128): Elaborating entity "flip_flop" for hierarchy "con_ff:branch_condition|flip_flop:CON" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CON_FF/con_ff.v Line: 30
-Info (12128): Elaborating entity "register_gen" for hierarchy "register_gen:PC" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v Line: 29
-Info (12128): Elaborating entity "select_encode" for hierarchy "select_encode:ir_encode_select" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v Line: 36
+Info (12128): Elaborating entity "con_ff" for hierarchy "con_ff:branch_condition" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v Line: 28
+Warning (10235): Verilog HDL Always Construct warning at con_ff.v(30): variable "con_data" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CON_FF/con_ff.v Line: 30
+Info (12128): Elaborating entity "seven_segment_display" for hierarchy "seven_segment_display:display_upper" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v Line: 32
+Info (12128): Elaborating entity "register_gen" for hierarchy "register_gen:PC" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v Line: 39
+Info (12128): Elaborating entity "select_encode" for hierarchy "select_encode:ir_encode_select" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v Line: 46
 Info (12128): Elaborating entity "decoder_4_to_16" for hierarchy "select_encode:ir_encode_select|decoder_4_to_16:decoder_4_to_16_i" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/select_encode.v Line: 21
-Info (12128): Elaborating entity "memory_custom" for hierarchy "memory_custom:RAM" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v Line: 45
+Info (12128): Elaborating entity "memory_custom" for hierarchy "memory_custom:RAM" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v Line: 55
 Warning (10240): Verilog HDL Always Construct warning at memory_custom.v(33): inferring latch(es) for variable "data_out", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v Line: 33
 Info (10041): Inferred latch for "data_out[0]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v Line: 33
 Info (10041): Inferred latch for "data_out[1]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v Line: 33
@@ -1117,80 +1150,78 @@ Info (10041): Inferred latch for "data_out[28]" at memory_custom.v(33) File: C:/
 Info (10041): Inferred latch for "data_out[29]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v Line: 33
 Info (10041): Inferred latch for "data_out[30]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v Line: 33
 Info (10041): Inferred latch for "data_out[31]" at memory_custom.v(33) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v Line: 33
-Info (12128): Elaborating entity "mux_2_to_1" for hierarchy "mux_2_to_1:MDRMux" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v Line: 59
-Info (12128): Elaborating entity "control_unit" for hierarchy "control_unit:control" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v Line: 74
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "Gra", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "Grb", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "Grc", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "Rin", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "Rout", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "BAout", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "PCout_en", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "IncPC", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "PC_en", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "IR_en", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "Yin", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "HIout", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "HIin", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "LOout", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "LOin", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "Cout", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "Zhighout", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "Zlowout", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "Zin", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "MDRout", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "MDRin", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "MARin", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "memRead", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "memWrite", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "inPort_en", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "outPort_en", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "inPortOut", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "jal_R15", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "CONin", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "run", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "clear", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Warning (10240): Verilog HDL Always Construct warning at control_unit.v(221): inferring latch(es) for variable "alu_opcode", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "alu_opcode[0]" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "alu_opcode[1]" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "alu_opcode[2]" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "alu_opcode[3]" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "alu_opcode[4]" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "clear" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "run" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "CONin" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "jal_R15" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "inPortOut" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "outPort_en" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "inPort_en" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "memWrite" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "memRead" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "MARin" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "MDRin" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "MDRout" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "Zin" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "Zlowout" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "Zhighout" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "Cout" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "LOin" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "LOout" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "HIin" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "HIout" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "Yin" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "IR_en" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "PC_en" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "IncPC" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "PCout_en" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "BAout" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "Rout" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "Rin" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "Grc" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "Grb" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (10041): Inferred latch for "Gra" at control_unit.v(221) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 221
-Info (12128): Elaborating entity "Datapath" for hierarchy "Datapath:DUT" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v Line: 89
-Info (12128): Elaborating entity "encoder_32_to_5" for hierarchy "Datapath:DUT|encoder_32_to_5:BusEncoder" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/Datapath.v Line: 86
-Info (12128): Elaborating entity "mux_32_to_1" for hierarchy "Datapath:DUT|mux_32_to_1:busMux" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/Datapath.v Line: 95
-Info (12128): Elaborating entity "alu" for hierarchy "Datapath:DUT|alu:ALU" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/Datapath.v Line: 98
+Info (12128): Elaborating entity "mux_2_to_1" for hierarchy "mux_2_to_1:MDRMux" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v Line: 69
+Info (12128): Elaborating entity "control_unit" for hierarchy "control_unit:control" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v Line: 84
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "Gra", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "Grb", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "Grc", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "Rin", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "Rout", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "BAout", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "PCout_en", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "IncPC", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "PC_en", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "IR_en", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "Yin", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "HIout", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "HIin", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "LOout", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "LOin", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "Cout", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "Zhighout", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "Zlowout", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "Zin", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "MDRout", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "MDRin", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "MARin", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "memRead", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "memWrite", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "outPort_en", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "inPortOut", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "jal_R15", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "CONin", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "run", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "clear", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(222): inferring latch(es) for variable "alu_opcode", which holds its previous value in one or more paths through the always construct File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "alu_opcode[0]" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "alu_opcode[1]" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "alu_opcode[2]" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "alu_opcode[3]" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "alu_opcode[4]" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "clear" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "run" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "CONin" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "jal_R15" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "inPortOut" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "outPort_en" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "memWrite" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "memRead" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "MARin" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "MDRin" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "MDRout" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "Zin" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "Zlowout" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "Zhighout" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "Cout" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "LOin" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "LOout" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "HIin" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "HIout" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "Yin" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "IR_en" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "PC_en" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "IncPC" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "PCout_en" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "BAout" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "Rout" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "Rin" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "Grc" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "Grb" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (10041): Inferred latch for "Gra" at control_unit.v(222) File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v Line: 222
+Info (12128): Elaborating entity "Datapath" for hierarchy "Datapath:DUT" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v Line: 99
+Info (12128): Elaborating entity "encoder_32_to_5" for hierarchy "Datapath:DUT|encoder_32_to_5:BusEncoder" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/Datapath.v Line: 87
+Info (12128): Elaborating entity "mux_32_to_1" for hierarchy "Datapath:DUT|mux_32_to_1:busMux" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/Datapath.v Line: 96
+Info (12128): Elaborating entity "alu" for hierarchy "Datapath:DUT|alu:ALU" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/Datapath.v Line: 99
 Info (12128): Elaborating entity "IncPC" for hierarchy "Datapath:DUT|alu:ALU|IncPC:pc_inc" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/alu.v Line: 86
 Info (12128): Elaborating entity "add_op" for hierarchy "Datapath:DUT|alu:ALU|add_op:add" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/alu.v Line: 87
 Info (12128): Elaborating entity "b_cell" for hierarchy "Datapath:DUT|alu:ALU|add_op:add|b_cell:gen_sum[0].b_cell_i" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/add_op.v Line: 28
@@ -1217,10 +1248,10 @@ Info (12128): Elaborating entity "neg_op" for hierarchy "Datapath:DUT|alu:ALU|ne
 Info (12128): Elaborating entity "not_op" for hierarchy "Datapath:DUT|alu:ALU|not_op:not_" File: C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/alu.v Line: 100
 Info (144001): Generated suppressed messages file C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/output_files/Phase3.map.smsg
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 43 warnings
-    Info: Peak virtual memory: 4795 megabytes
-    Info: Processing ended: Thu Apr 04 02:17:47 2024
-    Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Peak virtual memory: 4794 megabytes
+    Info: Processing ended: Thu Apr 04 11:04:08 2024
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:12
 
 
 +--------------------------------------------+

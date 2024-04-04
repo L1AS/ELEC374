@@ -8,7 +8,7 @@ module control_unit (
                 Cout, Zhighout, Zlowout, Zin,                       // datapath MUX signals
                 MDRout, MDRin, MARin,                               // Mem Data Interface signals
                 memRead, memWrite,                                  // memory read enable and write enable signals
-                inPort_en, outPort_en,                              // Input/Output signals
+                outPort_en,                              // Input/Output signals
                 inPortOut, jal_R15,
                 CONin, 
                 clear, run,
@@ -29,7 +29,7 @@ module control_unit (
         Cout <= 0; Zhighout <= 0; Zlowout <= 0; Zin <= 0;                       // datapath MUX signals
         MDRout <= 0; MDRin <= 0; MARin <= 0;                               // Mem Data Interface signals
         memRead <= 0; memWrite <= 0;                                  // memory read enable and write enable signals
-        inPort_en <= 0; outPort_en <= 0;                              // Input/Output signals
+        outPort_en <= 0;                              // Input/Output signals
         inPortOut <= 0; jal_R15 <= 0;
         CONin <= 0; 
         clear <= 1; run <= 1;
@@ -228,7 +228,7 @@ module control_unit (
                 Cout <= 0; Zhighout <= 0; Zlowout <= 0; Zin <= 0;                       // datapath MUX signals
                 MDRout <= 0; MDRin <= 0; MARin <= 0;                               // Mem Data Interface signals
                 memRead <= 0; memWrite <= 0;                                  // memory read enable and write enable signals
-                inPort_en <= 0; outPort_en <= 0;                              // Input/Output signals
+                outPort_en <= 0;                              // Input/Output signals
                 inPortOut <= 0; jal_R15 <= 0;
                 CONin <= 0; run <= 1;
                 clear <= 0;

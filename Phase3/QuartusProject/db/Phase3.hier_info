@@ -1,37 +1,37 @@
 |miniSRC
-outPortData[0] <= Datapath:DUT.outPortData
-outPortData[1] <= Datapath:DUT.outPortData
-outPortData[2] <= Datapath:DUT.outPortData
-outPortData[3] <= Datapath:DUT.outPortData
-outPortData[4] <= Datapath:DUT.outPortData
-outPortData[5] <= Datapath:DUT.outPortData
-outPortData[6] <= Datapath:DUT.outPortData
-outPortData[7] <= Datapath:DUT.outPortData
-outPortData[8] <= Datapath:DUT.outPortData
-outPortData[9] <= Datapath:DUT.outPortData
-outPortData[10] <= Datapath:DUT.outPortData
-outPortData[11] <= Datapath:DUT.outPortData
-outPortData[12] <= Datapath:DUT.outPortData
-outPortData[13] <= Datapath:DUT.outPortData
-outPortData[14] <= Datapath:DUT.outPortData
-outPortData[15] <= Datapath:DUT.outPortData
-outPortData[16] <= Datapath:DUT.outPortData
-outPortData[17] <= Datapath:DUT.outPortData
-outPortData[18] <= Datapath:DUT.outPortData
-outPortData[19] <= Datapath:DUT.outPortData
-outPortData[20] <= Datapath:DUT.outPortData
-outPortData[21] <= Datapath:DUT.outPortData
-outPortData[22] <= Datapath:DUT.outPortData
-outPortData[23] <= Datapath:DUT.outPortData
-outPortData[24] <= Datapath:DUT.outPortData
-outPortData[25] <= Datapath:DUT.outPortData
-outPortData[26] <= Datapath:DUT.outPortData
-outPortData[27] <= Datapath:DUT.outPortData
-outPortData[28] <= Datapath:DUT.outPortData
-outPortData[29] <= Datapath:DUT.outPortData
-outPortData[30] <= Datapath:DUT.outPortData
-outPortData[31] <= Datapath:DUT.outPortData
-run <= control_unit:control.run
+outPortData[0] << outPortData[0].DB_MAX_OUTPUT_PORT_TYPE
+outPortData[1] << outPortData[1].DB_MAX_OUTPUT_PORT_TYPE
+outPortData[2] << outPortData[2].DB_MAX_OUTPUT_PORT_TYPE
+outPortData[3] << outPortData[3].DB_MAX_OUTPUT_PORT_TYPE
+outPortData[4] << outPortData[4].DB_MAX_OUTPUT_PORT_TYPE
+outPortData[5] << outPortData[5].DB_MAX_OUTPUT_PORT_TYPE
+outPortData[6] << outPortData[6].DB_MAX_OUTPUT_PORT_TYPE
+outPortData[7] << outPortData[7].DB_MAX_OUTPUT_PORT_TYPE
+outPortData[8] << Datapath:DUT.outPortData
+outPortData[9] << Datapath:DUT.outPortData
+outPortData[10] << Datapath:DUT.outPortData
+outPortData[11] << Datapath:DUT.outPortData
+outPortData[12] << Datapath:DUT.outPortData
+outPortData[13] << Datapath:DUT.outPortData
+outPortData[14] << Datapath:DUT.outPortData
+outPortData[15] << Datapath:DUT.outPortData
+outPortData[16] << Datapath:DUT.outPortData
+outPortData[17] << Datapath:DUT.outPortData
+outPortData[18] << Datapath:DUT.outPortData
+outPortData[19] << Datapath:DUT.outPortData
+outPortData[20] << Datapath:DUT.outPortData
+outPortData[21] << Datapath:DUT.outPortData
+outPortData[22] << Datapath:DUT.outPortData
+outPortData[23] << Datapath:DUT.outPortData
+outPortData[24] << Datapath:DUT.outPortData
+outPortData[25] << Datapath:DUT.outPortData
+outPortData[26] << Datapath:DUT.outPortData
+outPortData[27] << Datapath:DUT.outPortData
+outPortData[28] << Datapath:DUT.outPortData
+outPortData[29] << Datapath:DUT.outPortData
+outPortData[30] << Datapath:DUT.outPortData
+outPortData[31] << Datapath:DUT.outPortData
+run << control_unit:control.run
 inPortDataIn[0] => inPortDataIn[0].IN1
 inPortDataIn[1] => inPortDataIn[1].IN1
 inPortDataIn[2] => inPortDataIn[2].IN1
@@ -64,14 +64,15 @@ inPortDataIn[28] => inPortDataIn[28].IN1
 inPortDataIn[29] => inPortDataIn[29].IN1
 inPortDataIn[30] => inPortDataIn[30].IN1
 inPortDataIn[31] => inPortDataIn[31].IN1
-clock => clock.IN6
+clock => clock.IN8
 reset => reset.IN1
 stop => stop.IN1
+inPort_en => inPort_en.IN1
 
 
 |miniSRC|con_ff:branch_condition
-conff_out <= flip_flop:CON.Q
-CONin => CONin.IN1
+conff_out <= con_data.DB_MAX_OUTPUT_PORT_TYPE
+CONin => ~NO_FANOUT~
 IRout[0] => ~NO_FANOUT~
 IRout[1] => ~NO_FANOUT~
 IRout[2] => ~NO_FANOUT~
@@ -92,21 +93,9 @@ IRout[16] => ~NO_FANOUT~
 IRout[17] => ~NO_FANOUT~
 IRout[18] => ~NO_FANOUT~
 IRout[19] => Decoder0.IN3
-IRout[19] => Decoder1.IN3
-IRout[19] => Decoder2.IN3
-IRout[19] => Decoder3.IN3
 IRout[20] => Decoder0.IN2
-IRout[20] => Decoder1.IN2
-IRout[20] => Decoder2.IN2
-IRout[20] => Decoder3.IN2
 IRout[21] => Decoder0.IN1
-IRout[21] => Decoder1.IN1
-IRout[21] => Decoder2.IN1
-IRout[21] => Decoder3.IN1
 IRout[22] => Decoder0.IN0
-IRout[22] => Decoder1.IN0
-IRout[22] => Decoder2.IN0
-IRout[22] => Decoder3.IN0
 IRout[23] => ~NO_FANOUT~
 IRout[24] => ~NO_FANOUT~
 IRout[25] => ~NO_FANOUT~
@@ -184,10 +173,50 @@ busMuxOut[31] => w4.IN1
 busMuxOut[31] => w3.IN1
 
 
-|miniSRC|con_ff:branch_condition|flip_flop:CON
-Q <= q_internal.DB_MAX_OUTPUT_PORT_TYPE
-D => q_internal.DATAIN
-clk => q_internal.CLK
+|miniSRC|seven_segment_display:display_upper
+outputt[0] <= outputt[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+outputt[1] <= outputt[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+outputt[2] <= outputt[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+outputt[3] <= outputt[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+outputt[4] <= outputt[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+outputt[5] <= outputt[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+outputt[6] <= outputt[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+outputt[7] <= outputt[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk => outputt[0]~reg0.CLK
+clk => outputt[1]~reg0.CLK
+clk => outputt[2]~reg0.CLK
+clk => outputt[3]~reg0.CLK
+clk => outputt[4]~reg0.CLK
+clk => outputt[5]~reg0.CLK
+clk => outputt[6]~reg0.CLK
+clk => outputt[7]~reg0.CLK
+data[0] => Decoder0.IN3
+data[1] => Decoder0.IN2
+data[2] => Decoder0.IN1
+data[3] => Decoder0.IN0
+
+
+|miniSRC|seven_segment_display:display_lower
+outputt[0] <= outputt[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+outputt[1] <= outputt[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+outputt[2] <= outputt[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+outputt[3] <= outputt[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+outputt[4] <= outputt[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+outputt[5] <= outputt[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+outputt[6] <= outputt[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+outputt[7] <= outputt[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk => outputt[0]~reg0.CLK
+clk => outputt[1]~reg0.CLK
+clk => outputt[2]~reg0.CLK
+clk => outputt[3]~reg0.CLK
+clk => outputt[4]~reg0.CLK
+clk => outputt[5]~reg0.CLK
+clk => outputt[6]~reg0.CLK
+clk => outputt[7]~reg0.CLK
+data[0] => Decoder0.IN3
+data[1] => Decoder0.IN2
+data[2] => Decoder0.IN1
+data[3] => Decoder0.IN0
 
 
 |miniSRC|register_gen:PC
@@ -1236,7 +1265,6 @@ MDRin <= MDRin$latch.DB_MAX_OUTPUT_PORT_TYPE
 MARin <= MARin$latch.DB_MAX_OUTPUT_PORT_TYPE
 memRead <= memRead$latch.DB_MAX_OUTPUT_PORT_TYPE
 memWrite <= memWrite$latch.DB_MAX_OUTPUT_PORT_TYPE
-inPort_en <= <GND>
 outPort_en <= outPort_en$latch.DB_MAX_OUTPUT_PORT_TYPE
 inPortOut <= inPortOut$latch.DB_MAX_OUTPUT_PORT_TYPE
 jal_R15 <= jal_R15$latch.DB_MAX_OUTPUT_PORT_TYPE
@@ -1603,7 +1631,7 @@ inPortDataIn[29] => inPortDataIn[29].IN1
 inPortDataIn[30] => inPortDataIn[30].IN1
 inPortDataIn[31] => inPortDataIn[31].IN1
 clock => clock.IN23
-clear => clear.IN23
+clear => clear.IN22
 Yin => Yin.IN1
 HIout => HIout.IN1
 HIin => HIin.IN1

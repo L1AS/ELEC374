@@ -2,15 +2,18 @@ module miniSRC(
     output[31:0] outPortData,               // output.
     output run,
     input[31:0] inPortDataIn,               // input.
-    input clock, reset, stop
+    input clock, reset, stop, inPort_en
 );
+
+    wire [7:0] display_lower_hex, display_upper_hex;
+
     wire Gra, Grb, Grc, Rin, Rout, BAout,         // control signals for IR select/encode
         PCout_en, IncPC, PC_en, IR_en,                      // PC and IR signals
         Yin, HIout, HIin, LOout, LOin,                      // datapath MUX signals
         Cout, Zhighout, Zlowout, Zin,                       // datapath MUX signals
         MDRout, MDRin, MARin,                               // Mem Data Interface signals
         memRead, memWrite,                                  // memory read enable and write enable signals
-        inPort_en, outPort_en,                              // Input/Output signals
+        outPort_en,                              // Input/Output signals
         inPortOut, jal_R15,
         CONin, CONFF_out, 
         clear;
@@ -22,6 +25,13 @@ module miniSRC(
 
     con_ff branch_condition(
         CONFF_out, CONin, IRout, busMuxOut
+    );
+
+    seven_segment_display display_upper(
+        .outputt(display_upper_hex), .clk(clock), .data(outPortData[7:4])
+    );
+    seven_segment_display display_lower(
+        .outputt(display_lower_hex), .clk(clock), .data(outPortData[3:0])
     );
 
     // csigned extended
@@ -66,7 +76,7 @@ module miniSRC(
         .Cout(Cout), .Zhighout(Zhighout), .Zlowout(Zlowout), .Zin(Zin),
         .MDRout(MDRout), .MDRin(MDRin), .MARin(MARin), 
         .memRead(memRead), .memWrite(memWrite),
-        .inPort_en(inPort_en), .outPort_en(outPort_en),
+        .outPort_en(outPort_en),
         .CONin(CONin), .clear(clear), .run(run), 
         .alu_opcode(alu_opcode), .IR(IRout), 
         .clock(clock), .reset(reset), .stop(stop), .CONFF_out(CONFF_out),
@@ -74,18 +84,18 @@ module miniSRC(
     );
 
     Datapath DUT (
-            .outPortData(outPortData), .busMuxOut(busMuxOut),          // outputs
-            .inPortDataIn(inPortDataIn),                   // inputs
-            .clock(clock), .clear(clear),                    // control signals  
-            .Yin(Yin), .HIout(HIout), .HIin(HIin), .LOout(LOout), .LOin(LOin),      // datapath MUX signals.
-            .Zhighout(Zhighout), .Zlowout(Zlowout), .Zin(Zin),         //
-            .PCout_en(PCout_en), .IncPC(IncPC), .busMuxInPC(busMuxInPC),       // PC signals
-            .MDRout(MDRout), .inPortOut(inPortOut), .busMuxInMDR(busMuxInMDR),            // Memory data interface signal
-            .inPort_en(inPort_en), .outPort_en(outPort_en),            // input/output
-            .Cout(Cout), .cSignExtended(cSignExtended),             // imediate value signals   
-            .alu_opcode(alu_opcode),                                                         //ALU opcode 
-            .reg_in(reg_in), .reg_out(reg_out), .BAout(BAout),          // register control signals
-            .jal_R15(jal_R15)
+        .outPortData(outPortData), .busMuxOut(busMuxOut),          // outputs
+        .inPortDataIn(inPortDataIn),                   // inputs
+        .clock(clock), .clear(clear),                    // control signals  
+        .Yin(Yin), .HIout(HIout), .HIin(HIin), .LOout(LOout), .LOin(LOin),      // datapath MUX signals.
+        .Zhighout(Zhighout), .Zlowout(Zlowout), .Zin(Zin),         //
+        .PCout_en(PCout_en), .IncPC(IncPC), .busMuxInPC(busMuxInPC),       // PC signals
+        .MDRout(MDRout), .inPortOut(inPortOut), .busMuxInMDR(busMuxInMDR),            // Memory data interface signal
+        .inPort_en(inPort_en), .outPort_en(outPort_en),            // input/output
+        .Cout(Cout), .cSignExtended(cSignExtended),             // imediate value signals   
+        .alu_opcode(alu_opcode),                                                         //ALU opcode 
+        .reg_in(reg_in), .reg_out(reg_out), .BAout(BAout),          // register control signals
+        .jal_R15(jal_R15)
     );
 
 endmodule

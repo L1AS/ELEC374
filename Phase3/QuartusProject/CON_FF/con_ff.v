@@ -1,5 +1,5 @@
 module con_ff (
-    output conff_out,  // might need to be register
+    output reg conff_out,  // might need to be register
     input wire CONin,
     input [31:0] IRout, busMuxOut
 );
@@ -26,7 +26,9 @@ module con_ff (
     assign w4 = branch_condition[3] & busMuxOut[31];
 
     assign con_data = w1 | w2 | w3 | w4;
-
-    flip_flop CON (.Q(conff_out), .D(con_data), .clk(CONin));
+    always@(CONin) begin
+        conff_out <= con_data;
+    end
+    //flip_flop CON (.Q(conff_out), .D(con_data), .clk(CONin));
 
 endmodule
