@@ -1,5 +1,5 @@
 module con_ff (
-    output reg conff_out,  // might need to be register
+    output conff_out,  // might need to be register
     input wire CONin,
     input [31:0] IRout, busMuxOut
 );

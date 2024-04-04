@@ -1,27 +1,22 @@
 `timescale 1ns/10ps
 
 module phase3_tb;
-	reg clk, rst, stop;
-	wire[31:0] InPort_input, OutPort_output, bus_contents;
-	wire [4:0] operation;
+	reg clock, reset, stop;
+	wire[31:0] inPortDataIn, outPortData;
 
-CPUproject DUT(
-	.clk(clk),
-	.rst(rst),
+miniSRC DUT(
+	.clock(clock),
+	.reset(reset),
 	.stop(stop),
-	.InPort_input(InPort_input), 
-	.OutPort_output(OutPort_output),
-	.bus_contents(bus_contents),
-	.operation(operation)
+	.outPortData(outPortData), 
+	.inPortDataIn(inPortDataIn)
 );
 
-initial
-	begin
-		clk = 0;
-		rst = 0;
-end
+	initial begin
+		clock = 0;
+		reset = 0;
+	end
 
-always
-		#10 clk <= ~clk;
+	always #10 clock <= ~clock;
 
 endmodule

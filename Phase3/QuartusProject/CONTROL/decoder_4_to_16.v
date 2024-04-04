@@ -15,13 +15,14 @@ module decoder_4_to_16 (
             4'b0101: decoded_value = 16'h0020; // R5
             4'b0110: decoded_value = 16'h0040; // R6
             4'b0111: decoded_value = 16'h0080; // R7
-            4'b1000: decoded_value = 16'h0200; // R9
-            4'b1001: decoded_value = 16'h0400; // R10
-            4'b1010: decoded_value = 16'h0800; // R11
-            4'b1011: decoded_value = 16'h1000; // R12
-            4'b1100: decoded_value = 16'h2000; // R13
-            4'b1101: decoded_value = 16'h4000; // R14
-            4'b1110: decoded_value = 16'h8000; // R15
+            4'b1000: decoded_value = 16'h0100; // R8
+            4'b1001: decoded_value = 16'h0200; // R9
+            4'b1010: decoded_value = 16'h0400; // R10
+            4'b1011: decoded_value = 16'h0800; // R11
+            4'b1100: decoded_value = 16'h1000; // R12
+            4'b1101: decoded_value = 16'h2000; // R13
+            4'b1110: decoded_value = 16'h4000; // R14
+            4'b1111: decoded_value = 16'h8000; // R15
 			default: decoded_value = 16'h0;
         endcase
     end

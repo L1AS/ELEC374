@@ -74,19 +74,6 @@ module and_tb;
             .Zhighout(Zhighout), .Zlowout(Zlowout), .Zin(Zin),
             .MDRout(MDRout), .MDRin(MDRin), .MARin(MARin),
             .IncPC(IncPC), .Read(Read), .IRin(IRin), .Yin(Yin),
-<<<<<<< HEAD
-            .Mdatain(Mdatain), .opcode(operation), .Cout(Cout)
-    );
-
-    // Clock generation
-    initial begin
-        Clock = 0;
-        forever #10 Clock = ~Clock;
-    end
-
-    // State transitions
-    always @(posedge Clock) begin
-=======
             .Mdatain(Mdatain), .opcode(operation), .Cout(Cout),
             .inPortOut(inPortOut)
     );
@@ -99,7 +86,6 @@ module and_tb;
 
     // State transitions
     always @(posedge clock) begin
->>>>>>> main
         case (Present_state)
             Default: Present_state = Reg_load1a;
             Reg_load1a: Present_state = Reg_load1b;
@@ -113,13 +99,8 @@ module and_tb;
             T2: Present_state = T3;
             T3: Present_state = T4;
             T4: Present_state = T5;
-<<<<<<< HEAD
-            T5: ;//Present_state = T6; // enable for division/multiplication
-            // T6: ; // No next state defined for T6, assuming end of test or loop back to another state
-=======
             T5: Present_state = Default;// enable for division/multiplication
             T6: ; // No next state defined for T6, assuming end of test or loop back to another state
->>>>>>> main
         endcase
     end
 
@@ -127,69 +108,6 @@ module and_tb;
     always @(Present_state) begin
         case (Present_state)
             Default: begin
-<<<<<<< HEAD
-                PCout <= 0; Zlowout <= 0; MDRout <= 0; R2out <= 0; R3out <= 0;
-                MARin <= 0; Zin <= 0; PCin <= 0; MDRin <= 0; IRin <= 0; Yin <= 0;
-                IncPC <= 0; Read <= 0; R1in <= 0; Cout <= 0; R2in <= 0; R3in <= 0;
-                Mdatain <= 32'h00000000;
-            end
-            Reg_load1a: begin   
-                Mdatain <= 32'h00000001;  //prepare memory data for R2
-                Read <= 0; MDRin <= 0;
-                #10 Read <= 1; MDRin <= 1;
-                #15 Read <= 0; MDRin <= 0;
-            end
-            Reg_load1b: begin
-                #10 MDRout <= 1; R2in <= 1; 
-                #15 MDRout <= 0; R2in <= 0; // initialize R2 with the value $1 
-                end
-            Reg_load2a: begin 
-                Mdatain <= 32'h00000001;   //prepare memory data for R3
-                #10 Read <= 1; MDRin <= 1; 
-                #15 Read <= 0; MDRin <= 0; 
-            end
-            Reg_load2b: begin
-                #10 MDRout <= 1; R3in <= 1; 
-                #15 MDRout <= 0; R3in <= 0; // initialize R3 with the value $1
-            end
-            Reg_load3a: begin 
-                Mdatain <= 32'h00000000;    ////prepare memory data for R0
-                #10 Read <= 1; MDRin <= 1; 
-                #15 Read <= 0; MDRin <= 0;
-            end
-            Reg_load3b: begin
-                #10 MDRout <= 1; R0in <= 1; 
-                #15 MDRout <= 0; R0in <= 0; // initialize R0 with the value $0 
-            end
-            T0: begin // see if you need to de-assert these signals
-                PCout <= 1; MARin <= 1; IncPC <= 1; Zin <= 1;
-                #15 PCout <= 0; MARin <= 0; IncPC <= 0; Zin <= 0;
-            end
-            T1: begin
-                #10 Zlowout <= 1; PCin <= 1; Read <= 1; MDRin <= 1;
-                Mdatain <= 32'h00000; // opcode for “and R1, R2, R3”
-                #15 Zlowout <= 0; PCin <= 0; Read <= 0; MDRin <= 0;
-            end
-            T2: begin
-                MDRout <= 1; IRin <= 1; 
-                #15 MDRout <= 0; IRin <= 0;
-            end
-            T3: begin
-                R2out <= 1; Yin <= 1; 
-                #15 R2out <= 0; Yin <= 0;
-            end
-            T4: begin
-                R3out <= 1; operation <= 5'b0; Zin <= 1; 
-                #15 R3out <= 0; Zin <= 0; 
-            end
-            T5: begin
-                Zlowout <= 1; R1in <= 1; 
-                #15 Zlowout <= 0; R1in <= 0;        
-            end
-            // T6: begin   //only for division and multiplication
-            //     Zhighout <= 1;
-            // end
-=======
                 PCout <= 0; MDRout <= 0; MARin <= 0; Zin <= 0; 
                 PCin <= 0; MDRin <= 0; IRin <= 0; Yin <= 0;
                 IncPC <= 0; Read <= 0; R1in <= 0; 
@@ -278,7 +196,6 @@ module and_tb;
 //            T6: begin   //only for division and multiplication
 //					 
 //            end
->>>>>>> main
             
             // Continue defining other states similarly...
         endcase

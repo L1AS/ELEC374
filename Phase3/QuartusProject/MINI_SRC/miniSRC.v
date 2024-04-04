@@ -3,15 +3,16 @@ module miniSRC(
     input[31:0] inPortDataIn,               // input.
     input clock, reset, stop
 );
-    wire Gra, Grb, Grc, Rin, Rout, BAout,     // control signals for IR
-        PCout_en, IncPC, PC_en, IR_en,    // PC and IR signals.
-        Yin, HIout, HIin, LOout, LOin,    // datapath MUX signals.
-        Cout, Zhighout, Zlowout, Zin,     //
-        MDRout, MDRin, MARin,             // Mem Data Interface signals.
-        memRead, memWrite,                // memory read enable and write enable signals.
-        inPort_en, outPort_en,            // Input/Output signals.
-        inPortOut, jal_R15, 
-        CONFF_out, clear, CONin;
+    wire Gra, Grb, Grc, Rin, Rout, BAout,         // control signals for IR select/encode
+        PCout_en, IncPC, PC_en, IR_en,                      // PC and IR signals
+        Yin, HIout, HIin, LOout, LOin,                      // datapath MUX signals
+        Cout, Zhighout, Zlowout, Zin,                       // datapath MUX signals
+        MDRout, MDRin, MARin,                               // Mem Data Interface signals
+        memRead, memWrite,                                  // memory read enable and write enable signals
+        inPort_en, outPort_en,                              // Input/Output signals
+        inPortOut, jal_R15,
+        CONin, CONFF_out, 
+        clear, run;
 	
 	wire [4:0] alu_opcode;		//conff logic signals for branch
 
@@ -36,7 +37,6 @@ module miniSRC(
      // memory
      memory_custom RAM (
                      .data_out(Mdatain),
-                     .clk(clock), 
                      .addr(MARdata[8:0]), 
                      .data_in(busMuxInMDR), 
                      .read_enable(memRead), 
@@ -58,9 +58,18 @@ module miniSRC(
     mux_2_to_1 MDRMux (MDRMuxOut, busMuxOut, Mdatain, memRead);
     register_gen MDR (busMuxInMDR, clear, clock, MDRin, MDRMuxOut);
 
-    control_unit cont(
-        .Gra(Gra), .Grb(Grb), .Grc(Grc), .Rin(Rin), .BAout(BAout),
-        .PCout(PCout_en), .IncPC(IncPC), .clear(clear)  //unfinished
+    control_unit control(
+        .Gra(Gra), .Grb(Grb), .Grc(Grc), .Rin(Rin), .Rout(Rout), .BAout(BAout),
+        .PCout_en(PCout_en), .IncPC(IncPC), .PC_en(PC_en), .IR_en(IR_en),
+        .Yin(Yin), .HIout(HIout), .HIin(HIin), .LOout(LOout), .LOin(LOin),
+        .Cout(Cout), .Zhighout(Zhighout), .Zlowout(Zlowout), .Zin(Zin),
+        .MDRout(MDRout), .MDRin(MDRin), .MARin(MARin), 
+        .memRead(memRead), .memWrite(memWrite),
+        .inPort_en(inPort_en), .outPort_en(outPort_en),
+        .CONin(CONin), .clear(clear), .run(run), 
+        .alu_opcode(alu_opcode), .IR(IRout), 
+        .clock(clock), .reset(reset), .stop(stop), .CONFF_out(CONFF_out),
+        .inPortOut(inPortOut), .jal_R15(jal_R15)
     );
 
     Datapath DUT (

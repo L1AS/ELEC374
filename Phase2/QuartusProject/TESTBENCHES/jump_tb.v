@@ -110,7 +110,7 @@ module jump_tb;
             end
             T3: begin //4
 				Rin <= 0; inPortOut <= 0;
-                Rout <= 1; PC_en <= 1; // select register Rb by assert Grb and BAout signals, put the content of Rb in PC register
+                Gra <= 1; Rout <= 1; PC_en <= 1; // select register Rb by assert Grb and BAout signals, put the content of Rb in PC register
             end
             T4: begin //5
 			    Gra <= 0; Rout <= 0; PC_en <= 0;
