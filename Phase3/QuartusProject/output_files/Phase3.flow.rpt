@@ -1,6 +1,6 @@
 Flow report for Phase3
-Thu Apr 04 20:15:04 2024
-Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Fri Apr 05 01:55:59 2024
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
 ---------------------
@@ -37,24 +37,24 @@ refer to the applicable agreement for further details.
 
 
 
-+---------------------------------------------------------------------------+
-; Flow Summary                                                              ;
-+-----------------------------+---------------------------------------------+
-; Flow Status                 ; Successful - Thu Apr 04 20:15:04 2024       ;
-; Quartus Prime Version       ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
-; Revision Name               ; Phase3                                      ;
-; Top-level Entity Name       ; miniSRC                                     ;
-; Family                      ; Cyclone V                                   ;
-; Device                      ; 5CEFA9F23C7                                 ;
-; Timing Models               ; Final                                       ;
-; Logic utilization (in ALMs) ; N/A until Partition Merge                   ;
-; Total registers             ; N/A until Partition Merge                   ;
-; Total pins                  ; N/A until Partition Merge                   ;
-; Total virtual pins          ; N/A until Partition Merge                   ;
-; Total block memory bits     ; N/A until Partition Merge                   ;
-; Total PLLs                  ; N/A until Partition Merge                   ;
-; Total DLLs                  ; N/A until Partition Merge                   ;
-+-----------------------------+---------------------------------------------+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++-----------------------------+-------------------------------------------------+
+; Flow Status                 ; Flow Failed - Fri Apr 05 01:55:59 2024          ;
+; Quartus Prime Version       ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
+; Revision Name               ; Phase3                                          ;
+; Top-level Entity Name       ; miniSRC                                         ;
+; Family                      ; Cyclone V                                       ;
+; Device                      ; 5CEFA9F23C7                                     ;
+; Timing Models               ; Final                                           ;
+; Logic utilization (in ALMs) ; N/A until Partition Merge                       ;
+; Total registers             ; N/A until Partition Merge                       ;
+; Total pins                  ; N/A until Partition Merge                       ;
+; Total virtual pins          ; N/A until Partition Merge                       ;
+; Total block memory bits     ; N/A until Partition Merge                       ;
+; Total PLLs                  ; N/A until Partition Merge                       ;
+; Total DLLs                  ; N/A until Partition Merge                       ;
++-----------------------------+-------------------------------------------------+
 
 
 +-----------------------------------------+
@@ -62,7 +62,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/04/2024 20:14:50 ;
+; Start date & time ; 04/05/2024 01:55:53 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Phase3              ;
 +-------------------+---------------------+
@@ -73,7 +73,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 24580031108013.171227609003384         ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 215893810745053.171229655305140        ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; memory_custom  ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; phase3_tb      ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; phase3_tb                              ; --            ; --          ; eda_simulation ;
@@ -101,29 +101,29 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                          ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:15     ; 1.0                     ; 4779 MB             ; 00:00:14                           ;
-; Total                  ; 00:00:15     ; --                      ; --                  ; 00:00:14                           ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:07     ; 1.0                     ; 4903 MB             ; 00:00:04                           ;
+; Total                ; 00:00:07     ; --                      ; --                  ; 00:00:04                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+--------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                      ;
-+------------------------+------------------+------------+------------+----------------+
-; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+------------------------+------------------+------------+------------+----------------+
-; Analysis & Elaboration ; Tristan-PC       ; Windows 10 ; 10.0       ; x86_64         ;
-+------------------------+------------------+------------+------------+----------------+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; WL214-35         ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
-quartus_map --read_settings_files=on --write_settings_files=off Phase3 -c Phase3 --analysis_and_elaboration
+quartus_map --read_settings_files=on --write_settings_files=off Phase3 -c Phase3
 
 
 
