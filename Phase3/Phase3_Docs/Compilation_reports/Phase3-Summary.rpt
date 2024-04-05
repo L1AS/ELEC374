@@ -1,0 +1,58 @@
+Summary report for Phase3
+Fri Apr 05 01:08:41 2024
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Fitter Summary
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------------+
+; Fitter Summary                                                                    ;
++---------------------------------+-------------------------------------------------+
+; Fitter Status                   ; Successful - Fri Apr 05 01:00:31 2024           ;
+; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
+; Revision Name                   ; Phase3                                          ;
+; Top-level Entity Name           ; miniSRC                                         ;
+; Family                          ; Cyclone V                                       ;
+; Device                          ; 5CEFA9F23C7                                     ;
+; Timing Models                   ; Final                                           ;
+; Logic utilization (in ALMs)     ; 16,572 / 113,560 ( 15 % )                       ;
+; Total registers                 ; 921                                             ;
+; Total pins                      ; 69 / 224 ( 31 % )                               ;
+; Total virtual pins              ; 0                                               ;
+; Total block memory bits         ; 0 / 12,492,800 ( 0 % )                          ;
+; Total RAM Blocks                ; 0 / 1,220 ( 0 % )                               ;
+; Total DSP Blocks                ; 0 / 342 ( 0 % )                                 ;
+; Total HSSI RX PCSs              ; 0                                               ;
+; Total HSSI PMA RX Deserializers ; 0                                               ;
+; Total HSSI TX PCSs              ; 0                                               ;
+; Total HSSI PMA TX Serializers   ; 0                                               ;
+; Total PLLs                      ; 0 / 8 ( 0 % )                                   ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                                   ;
++---------------------------------+-------------------------------------------------+
+
+
