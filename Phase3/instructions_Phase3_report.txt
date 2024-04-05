@@ -1,0 +1,27 @@
+    ldi R2, 0x69        ; R2 = 0x69  
+    ld R1, 0x47         ; R1 = (0x47) = 0x94
+    brmi R2, 3          ; continue with the next instruction (will not branch)
+    nop
+    brpl R7, target     ; continue with the instruction at “target” (will branch)
+    add R2, R2, R3      ; R2 = 0x4C
+addi R7, R7, 3      ; R7 = 0x97
+neg R7, R7          ; R7 = 0xFFFFFF69
+not R7, R7          ; R7 = 0x96
+andi R7, R7, 0xF    ; R7 = 6
+ror R1, R0, R3      ; R1 = 0x80000006
+ori R7, R1, 9       ; R7 = 0x8000000F
+shra R1, R7, R3     ; R1 = 0xF0000001
+shr R2, R2, R3      ; R2 = 9
+st 0x8E, R2         ; (0x8E) = 9 new value in memory with address 0x58
+rol R2, R0, R3      ; R2 = 0x1A0
+or R4, R3, R0       ; R4 = 0x37
+and R1, R2, R0      ; R1 = 0x20
+sub R0, R2, R4      ; R0 = 0x169
+shl R1, R2, R3      ; R1 = 0xD00
+ mul R5, R4          ; HI = 0; LO = 0xA2
+mfhi R7             ; R7 = 0
+mflo R6             ; R6 = 0xA2
+div R5, R4          ; HI = 3, LO = 4
+jal R12             ; address of subroutine subA in R12 - return address in R15
+jr R15              ; return from procedure
+halt                ; upon return, the program halts

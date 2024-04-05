@@ -1,0 +1,46 @@
+0x00: :     ldi R2, 0x69               :  0x09000069
+0x01: :     ldi R2, 2(R2)              :  0x09100002
+0x02: :     ld R1, 0x47                :  0x00800047
+0x03: :     ldi R1, 1(R1)              :  0x08880001
+0x04: :     ld R0, -7(R1)              :  0x000ffff9
+0x05: :     ldi R3, 3                  :  0x09800003
+0x06: :     ldi R2, 0x43               :  0x09000043
+0x07: :     brmi R2, 3                 :  0x99180003
+0x08: :     ldi R2, 6(R2)              :  0x09100006
+0x09: :     ld R7, -2(R2)              :  0x0397fffe
+0x0a: :     nop                        :  0xd0000000
+0x0b: :     brpl R7, target            :  0x9b900003
+0x0c: :     ldi R5, 4(R2)              :  0x0a900004
+0x0d: :     ldi R4, -3(R5)             :  0x0a2ffffd
+0x0e: :     add R2, R2, R3             :  0x19118000
+    0x0f: :     addi R7, R7, 3             :  0x63b80003
+0x10: :     neg R7, R7                 :  0x8bb80000
+0x11: :     not R7, R7                 :  0x93b80000
+0x12: :     andi R7, R7, 0xF           :  0x6bb8000f
+0x13: :     ror R1, R0, R3             :  0x40818000
+0x14: :     ori R7, R1, 9              :  0x73880009
+0x15: :     shra R1, R7, R3            :  0x30b98000
+0x16: :     shr R2, R2, R3             :  0x29118000
+0x17: :     st 0x8E, R2                :  0x1100008e
+0x18: :     rol R2, R0, R3             :  0x49018000
+0x19: :     or R4, R3, R0              :  0x5a180000
+0x1a: :     and R1, R2, R0             :  0x50900000
+    0x1b: :     st 0x27(R1), R4            :  0x12080027
+0x1c: :     sub R0, R2, R4             :  0x20120000
+0x1d: :     shl R1, R2, R3             :  0x38918000
+0x1e: :     ldi R4, 6                  :  0x0a000006
+0x1f: :     ldi R5, 0x1B               :  0x0a80001b
+0x20: :     mul R5, R4                 :  0x7aa00000
+0x21: :     mfhi R7                    :  0xc3800000
+0x22: :     mflo R6                    :  0xcb000000
+0x23: :     div R5, R4                 :  0x82a00000
+0x24: :     ldi R10, 1(R4)             :  0x0d200001
+0x25: :     ldi R11, -2(R5)            :  0x0daffffe
+0x26: :     ldi R12, 0(R6)             :  0x0e300000
+0x27: :     ldi R13, 3(R7)             :  0x0eb80003
+0x28: :     jal R12                    :  0xae000000
+0x29: :     halt                       :  0xd8000000
+0xa2: :     add R9, R10, R12           :  0x1cd60000
+0xa3: :     sub R8, R11, R13           :  0x245e8000
+0xa4: :     sub R9, R9, R8             :  0x24cc0000
+0xa5: :     jr R15                     :  0xa7800000

@@ -15,7 +15,7 @@ module memory_custom #(
     reg [DATA_WIDTH-1:0] memory [0:MEM_DEPTH-1];
 
     initial begin
-        $readmemh("C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/asm_program.txt", memory);
+        $readmemh("C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/asm_HEX_Phase3", memory);
     end
     // Asynchronous Write Operation
     always @(write_enable, addr, data_in) begin

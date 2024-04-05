@@ -41,7 +41,7 @@ set_global_assignment -name DEVICE 5CEFA9F23C7
 set_global_assignment -name TOP_LEVEL_ENTITY miniSRC
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "23:26:25  APRIL 02, 2024"
-set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Standard Edition"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
@@ -95,7 +95,8 @@ set_global_assignment -name VERILOG_FILE ALU/b_cell.v
 set_global_assignment -name VERILOG_FILE ALU/and_op.v
 set_global_assignment -name VERILOG_FILE ALU/alu.v
 set_global_assignment -name VERILOG_FILE ALU/add_op.v
-set_global_assignment -name TEXT_FILE asm_program.txt
 set_global_assignment -name VERILOG_FILE CONTROL/control_unit.v
 set_global_assignment -name VERILOG_FILE IO/seven_segment_display.v
+set_global_assignment -name SOURCE_FILE asm_HEX_Phase3
+set_global_assignment -name TEXT_FILE asm_HEX_Phase4.txt
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
