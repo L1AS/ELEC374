@@ -21,7 +21,8 @@ module memory_custom #(
 	reg [ADDR_WIDTH-1:0] addr_reg;
 
     initial begin
-        $readmemh("asm_HEX_Phase3", memory);
+//        $readmemh("asm_HEX_Phase3_test.hex", memory);
+		(* ram_init_file = "asm_HEX_Phase3_test.mif" *) reg [DATA_WIDTH-1:0] memory [MEM_DEPTH-1:0];
     end
     // Asynchronous Write Operation
     always @(write_enable, addr, data_in) begin
