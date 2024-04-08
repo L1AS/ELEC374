@@ -1,0 +1,725 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clock'
+Slack : -115.710
+TNS   : -22285.594
+
+Type  : Slow 1100mV 85C Model Setup 'control_unit:control|present_state.reset_state'
+Slack : -14.087
+TNS   : -159.847
+
+Type  : Slow 1100mV 85C Model Setup 'control_unit:control|present_state.fetch1'
+Slack : -13.834
+TNS   : -59.955
+
+Type  : Slow 1100mV 85C Model Setup 'control_unit:control|present_state.br7'
+Slack : -13.258
+TNS   : -70.163
+
+Type  : Slow 1100mV 85C Model Setup 'control_unit:control|present_state.div6'
+Slack : -11.957
+TNS   : -45.105
+
+Type  : Slow 1100mV 85C Model Setup 'control_unit:control|present_state.addi4'
+Slack : -11.598
+TNS   : -59.110
+
+Type  : Slow 1100mV 85C Model Setup 'control_unit:control|present_state.add3'
+Slack : -11.285
+TNS   : -36.863
+
+Type  : Slow 1100mV 85C Model Setup 'control_unit:control|present_state.out3'
+Slack : -11.202
+TNS   : -29.970
+
+Type  : Slow 1100mV 85C Model Setup 'control_unit:control|present_state.ld3'
+Slack : -11.012
+TNS   : -43.881
+
+Type  : Slow 1100mV 85C Model Setup 'control_unit:control|present_state.div5'
+Slack : -10.431
+TNS   : -61.285
+
+Type  : Slow 1100mV 85C Model Setup 'control_unit:control|present_state.add5'
+Slack : -10.321
+TNS   : -69.047
+
+Type  : Slow 1100mV 85C Model Setup 'control_unit:control|present_state.jal3'
+Slack : -9.743
+TNS   : -32.492
+
+Type  : Slow 1100mV 85C Model Setup 'control_unit:control|present_state.fetch0'
+Slack : -8.789
+TNS   : -20.870
+
+Type  : Slow 1100mV 85C Model Setup 'control_unit:control|memWrite'
+Slack : -4.994
+TNS   : -49889.136
+
+Type  : Slow 1100mV 85C Model Setup 'control_unit:control|memRead'
+Slack : -3.460
+TNS   : -28.317
+
+Type  : Slow 1100mV 85C Model Hold 'clock'
+Slack : -3.975
+TNS   : -15.190
+
+Type  : Slow 1100mV 85C Model Hold 'control_unit:control|present_state.reset_state'
+Slack : -1.975
+TNS   : -5.791
+
+Type  : Slow 1100mV 85C Model Hold 'control_unit:control|present_state.br7'
+Slack : -1.856
+TNS   : -1.856
+
+Type  : Slow 1100mV 85C Model Hold 'control_unit:control|present_state.ld3'
+Slack : -1.640
+TNS   : -1.640
+
+Type  : Slow 1100mV 85C Model Hold 'control_unit:control|present_state.jal3'
+Slack : -1.602
+TNS   : -2.016
+
+Type  : Slow 1100mV 85C Model Hold 'control_unit:control|present_state.addi4'
+Slack : -1.591
+TNS   : -1.591
+
+Type  : Slow 1100mV 85C Model Hold 'control_unit:control|present_state.fetch1'
+Slack : -1.567
+TNS   : -2.533
+
+Type  : Slow 1100mV 85C Model Hold 'control_unit:control|present_state.fetch0'
+Slack : -1.343
+TNS   : -1.888
+
+Type  : Slow 1100mV 85C Model Hold 'control_unit:control|present_state.add3'
+Slack : -1.263
+TNS   : -1.263
+
+Type  : Slow 1100mV 85C Model Hold 'control_unit:control|present_state.out3'
+Slack : -1.046
+TNS   : -1.046
+
+Type  : Slow 1100mV 85C Model Hold 'control_unit:control|memWrite'
+Slack : -0.297
+TNS   : -0.378
+
+Type  : Slow 1100mV 85C Model Hold 'control_unit:control|present_state.add5'
+Slack : 0.161
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'control_unit:control|present_state.div5'
+Slack : 0.328
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'control_unit:control|present_state.div6'
+Slack : 0.621
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'control_unit:control|memRead'
+Slack : 1.954
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_unit:control|memWrite'
+Slack : -0.984
+TNS   : -9048.493
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock'
+Slack : -0.538
+TNS   : -697.114
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.jal3'
+Slack : -0.103
+TNS   : -0.145
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_unit:control|memRead'
+Slack : 0.017
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.ld3'
+Slack : 0.020
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.br7'
+Slack : 0.041
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.reset_state'
+Slack : 0.072
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.fetch1'
+Slack : 0.094
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.add3'
+Slack : 0.096
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.out3'
+Slack : 0.122
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.div6'
+Slack : 0.141
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.fetch0'
+Slack : 0.173
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.add5'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.div5'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.addi4'
+Slack : 0.216
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'clock'
+Slack : -120.732
+TNS   : -22084.647
+
+Type  : Slow 1100mV 0C Model Setup 'control_unit:control|present_state.reset_state'
+Slack : -13.994
+TNS   : -160.314
+
+Type  : Slow 1100mV 0C Model Setup 'control_unit:control|present_state.fetch1'
+Slack : -13.755
+TNS   : -59.988
+
+Type  : Slow 1100mV 0C Model Setup 'control_unit:control|present_state.br7'
+Slack : -13.151
+TNS   : -70.032
+
+Type  : Slow 1100mV 0C Model Setup 'control_unit:control|present_state.div6'
+Slack : -11.835
+TNS   : -44.935
+
+Type  : Slow 1100mV 0C Model Setup 'control_unit:control|present_state.addi4'
+Slack : -11.370
+TNS   : -58.663
+
+Type  : Slow 1100mV 0C Model Setup 'control_unit:control|present_state.add3'
+Slack : -11.151
+TNS   : -36.905
+
+Type  : Slow 1100mV 0C Model Setup 'control_unit:control|present_state.out3'
+Slack : -10.983
+TNS   : -30.087
+
+Type  : Slow 1100mV 0C Model Setup 'control_unit:control|present_state.ld3'
+Slack : -10.850
+TNS   : -43.775
+
+Type  : Slow 1100mV 0C Model Setup 'control_unit:control|present_state.div5'
+Slack : -10.375
+TNS   : -61.152
+
+Type  : Slow 1100mV 0C Model Setup 'control_unit:control|present_state.add5'
+Slack : -10.215
+TNS   : -69.031
+
+Type  : Slow 1100mV 0C Model Setup 'control_unit:control|present_state.jal3'
+Slack : -9.622
+TNS   : -32.751
+
+Type  : Slow 1100mV 0C Model Setup 'control_unit:control|present_state.fetch0'
+Slack : -8.831
+TNS   : -21.184
+
+Type  : Slow 1100mV 0C Model Setup 'control_unit:control|memWrite'
+Slack : -5.160
+TNS   : -53559.245
+
+Type  : Slow 1100mV 0C Model Setup 'control_unit:control|memRead'
+Slack : -3.626
+TNS   : -30.116
+
+Type  : Slow 1100mV 0C Model Hold 'clock'
+Slack : -3.978
+TNS   : -15.852
+
+Type  : Slow 1100mV 0C Model Hold 'control_unit:control|present_state.reset_state'
+Slack : -1.994
+TNS   : -5.945
+
+Type  : Slow 1100mV 0C Model Hold 'control_unit:control|present_state.ld3'
+Slack : -1.971
+TNS   : -1.971
+
+Type  : Slow 1100mV 0C Model Hold 'control_unit:control|present_state.br7'
+Slack : -1.902
+TNS   : -1.902
+
+Type  : Slow 1100mV 0C Model Hold 'control_unit:control|present_state.jal3'
+Slack : -1.801
+TNS   : -2.348
+
+Type  : Slow 1100mV 0C Model Hold 'control_unit:control|present_state.addi4'
+Slack : -1.573
+TNS   : -1.573
+
+Type  : Slow 1100mV 0C Model Hold 'control_unit:control|present_state.fetch1'
+Slack : -1.563
+TNS   : -2.574
+
+Type  : Slow 1100mV 0C Model Hold 'control_unit:control|present_state.add3'
+Slack : -1.533
+TNS   : -1.533
+
+Type  : Slow 1100mV 0C Model Hold 'control_unit:control|present_state.fetch0'
+Slack : -1.350
+TNS   : -2.033
+
+Type  : Slow 1100mV 0C Model Hold 'control_unit:control|present_state.out3'
+Slack : -1.089
+TNS   : -1.239
+
+Type  : Slow 1100mV 0C Model Hold 'control_unit:control|memWrite'
+Slack : -0.158
+TNS   : -0.158
+
+Type  : Slow 1100mV 0C Model Hold 'control_unit:control|present_state.add5'
+Slack : -0.084
+TNS   : -0.084
+
+Type  : Slow 1100mV 0C Model Hold 'control_unit:control|present_state.div5'
+Slack : 0.011
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'control_unit:control|present_state.div6'
+Slack : 0.465
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'control_unit:control|memRead'
+Slack : 2.087
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_unit:control|memWrite'
+Slack : -1.003
+TNS   : -9283.152
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock'
+Slack : -0.538
+TNS   : -752.014
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.jal3'
+Slack : -0.121
+TNS   : -0.227
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_unit:control|memRead'
+Slack : -0.064
+TNS   : -0.064
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.ld3'
+Slack : 0.027
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.br7'
+Slack : 0.058
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.fetch1'
+Slack : 0.063
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.out3'
+Slack : 0.110
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.div6'
+Slack : 0.111
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.reset_state'
+Slack : 0.123
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.add3'
+Slack : 0.134
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.add5'
+Slack : 0.155
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.div5'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.fetch0'
+Slack : 0.191
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.addi4'
+Slack : 0.282
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'clock'
+Slack : -55.323
+TNS   : -12049.078
+
+Type  : Fast 1100mV 85C Model Setup 'control_unit:control|present_state.reset_state'
+Slack : -6.702
+TNS   : -71.150
+
+Type  : Fast 1100mV 85C Model Setup 'control_unit:control|present_state.fetch1'
+Slack : -6.308
+TNS   : -27.923
+
+Type  : Fast 1100mV 85C Model Setup 'control_unit:control|present_state.addi4'
+Slack : -6.171
+TNS   : -28.474
+
+Type  : Fast 1100mV 85C Model Setup 'control_unit:control|present_state.add3'
+Slack : -5.958
+TNS   : -17.780
+
+Type  : Fast 1100mV 85C Model Setup 'control_unit:control|present_state.br7'
+Slack : -5.882
+TNS   : -32.026
+
+Type  : Fast 1100mV 85C Model Setup 'control_unit:control|present_state.ld3'
+Slack : -5.840
+TNS   : -21.510
+
+Type  : Fast 1100mV 85C Model Setup 'control_unit:control|present_state.div6'
+Slack : -5.789
+TNS   : -21.602
+
+Type  : Fast 1100mV 85C Model Setup 'control_unit:control|present_state.out3'
+Slack : -5.554
+TNS   : -14.233
+
+Type  : Fast 1100mV 85C Model Setup 'control_unit:control|present_state.add5'
+Slack : -5.502
+TNS   : -33.868
+
+Type  : Fast 1100mV 85C Model Setup 'control_unit:control|present_state.div5'
+Slack : -4.994
+TNS   : -28.997
+
+Type  : Fast 1100mV 85C Model Setup 'control_unit:control|present_state.jal3'
+Slack : -4.554
+TNS   : -14.404
+
+Type  : Fast 1100mV 85C Model Setup 'control_unit:control|present_state.fetch0'
+Slack : -3.854
+TNS   : -9.123
+
+Type  : Fast 1100mV 85C Model Setup 'control_unit:control|memWrite'
+Slack : -2.371
+TNS   : -15669.924
+
+Type  : Fast 1100mV 85C Model Setup 'control_unit:control|memRead'
+Slack : -1.022
+TNS   : -7.995
+
+Type  : Fast 1100mV 85C Model Hold 'clock'
+Slack : -1.972
+TNS   : -7.456
+
+Type  : Fast 1100mV 85C Model Hold 'control_unit:control|present_state.reset_state'
+Slack : -0.979
+TNS   : -2.787
+
+Type  : Fast 1100mV 85C Model Hold 'control_unit:control|present_state.br7'
+Slack : -0.937
+TNS   : -0.937
+
+Type  : Fast 1100mV 85C Model Hold 'control_unit:control|present_state.addi4'
+Slack : -0.774
+TNS   : -0.774
+
+Type  : Fast 1100mV 85C Model Hold 'control_unit:control|present_state.jal3'
+Slack : -0.770
+TNS   : -0.833
+
+Type  : Fast 1100mV 85C Model Hold 'control_unit:control|present_state.fetch1'
+Slack : -0.765
+TNS   : -1.119
+
+Type  : Fast 1100mV 85C Model Hold 'control_unit:control|present_state.fetch0'
+Slack : -0.654
+TNS   : -0.915
+
+Type  : Fast 1100mV 85C Model Hold 'control_unit:control|present_state.ld3'
+Slack : -0.578
+TNS   : -0.578
+
+Type  : Fast 1100mV 85C Model Hold 'control_unit:control|present_state.out3'
+Slack : -0.496
+TNS   : -0.496
+
+Type  : Fast 1100mV 85C Model Hold 'control_unit:control|present_state.add3'
+Slack : -0.427
+TNS   : -0.427
+
+Type  : Fast 1100mV 85C Model Hold 'control_unit:control|memWrite'
+Slack : -0.421
+TNS   : -88.072
+
+Type  : Fast 1100mV 85C Model Hold 'control_unit:control|present_state.div6'
+Slack : 0.444
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'control_unit:control|present_state.add5'
+Slack : 0.449
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'control_unit:control|present_state.div5'
+Slack : 0.497
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'control_unit:control|memRead'
+Slack : 0.894
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_unit:control|memWrite'
+Slack : -0.870
+TNS   : -7805.089
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock'
+Slack : -0.060
+TNS   : -46.759
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.jal3'
+Slack : -0.050
+TNS   : -0.100
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.br7'
+Slack : 0.051
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_unit:control|memRead'
+Slack : 0.068
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.reset_state'
+Slack : 0.103
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.ld3'
+Slack : 0.119
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.fetch1'
+Slack : 0.129
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.add3'
+Slack : 0.143
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.div6'
+Slack : 0.199
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.out3'
+Slack : 0.207
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.fetch0'
+Slack : 0.231
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.div5'
+Slack : 0.318
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.addi4'
+Slack : 0.335
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_unit:control|present_state.add5'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clock'
+Slack : -52.554
+TNS   : -10709.418
+
+Type  : Fast 1100mV 0C Model Setup 'control_unit:control|present_state.reset_state'
+Slack : -6.068
+TNS   : -64.667
+
+Type  : Fast 1100mV 0C Model Setup 'control_unit:control|present_state.fetch1'
+Slack : -5.860
+TNS   : -25.848
+
+Type  : Fast 1100mV 0C Model Setup 'control_unit:control|present_state.addi4'
+Slack : -5.568
+TNS   : -26.049
+
+Type  : Fast 1100mV 0C Model Setup 'control_unit:control|present_state.br7'
+Slack : -5.483
+TNS   : -29.458
+
+Type  : Fast 1100mV 0C Model Setup 'control_unit:control|present_state.add3'
+Slack : -5.396
+TNS   : -16.313
+
+Type  : Fast 1100mV 0C Model Setup 'control_unit:control|present_state.ld3'
+Slack : -5.281
+TNS   : -19.641
+
+Type  : Fast 1100mV 0C Model Setup 'control_unit:control|present_state.div6'
+Slack : -5.231
+TNS   : -19.764
+
+Type  : Fast 1100mV 0C Model Setup 'control_unit:control|present_state.out3'
+Slack : -5.008
+TNS   : -13.055
+
+Type  : Fast 1100mV 0C Model Setup 'control_unit:control|present_state.add5'
+Slack : -4.934
+TNS   : -30.963
+
+Type  : Fast 1100mV 0C Model Setup 'control_unit:control|present_state.div5'
+Slack : -4.569
+TNS   : -26.637
+
+Type  : Fast 1100mV 0C Model Setup 'control_unit:control|present_state.jal3'
+Slack : -4.114
+TNS   : -13.299
+
+Type  : Fast 1100mV 0C Model Setup 'control_unit:control|present_state.fetch0'
+Slack : -3.525
+TNS   : -8.521
+
+Type  : Fast 1100mV 0C Model Setup 'control_unit:control|memWrite'
+Slack : -2.233
+TNS   : -16387.574
+
+Type  : Fast 1100mV 0C Model Setup 'control_unit:control|memRead'
+Slack : -1.081
+TNS   : -8.712
+
+Type  : Fast 1100mV 0C Model Hold 'clock'
+Slack : -1.914
+TNS   : -7.288
+
+Type  : Fast 1100mV 0C Model Hold 'control_unit:control|present_state.reset_state'
+Slack : -0.896
+TNS   : -2.575
+
+Type  : Fast 1100mV 0C Model Hold 'control_unit:control|present_state.br7'
+Slack : -0.854
+TNS   : -0.854
+
+Type  : Fast 1100mV 0C Model Hold 'control_unit:control|present_state.jal3'
+Slack : -0.736
+TNS   : -0.835
+
+Type  : Fast 1100mV 0C Model Hold 'control_unit:control|present_state.fetch1'
+Slack : -0.699
+TNS   : -1.047
+
+Type  : Fast 1100mV 0C Model Hold 'control_unit:control|present_state.addi4'
+Slack : -0.698
+TNS   : -0.698
+
+Type  : Fast 1100mV 0C Model Hold 'control_unit:control|present_state.ld3'
+Slack : -0.616
+TNS   : -0.616
+
+Type  : Fast 1100mV 0C Model Hold 'control_unit:control|present_state.fetch0'
+Slack : -0.596
+TNS   : -0.858
+
+Type  : Fast 1100mV 0C Model Hold 'control_unit:control|present_state.out3'
+Slack : -0.467
+TNS   : -0.467
+
+Type  : Fast 1100mV 0C Model Hold 'control_unit:control|present_state.add3'
+Slack : -0.460
+TNS   : -0.460
+
+Type  : Fast 1100mV 0C Model Hold 'control_unit:control|memWrite'
+Slack : -0.134
+TNS   : -1.336
+
+Type  : Fast 1100mV 0C Model Hold 'control_unit:control|present_state.add5'
+Slack : 0.302
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'control_unit:control|present_state.div5'
+Slack : 0.339
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'control_unit:control|present_state.div6'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'control_unit:control|memRead'
+Slack : 1.036
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_unit:control|memWrite'
+Slack : -0.642
+TNS   : -4290.131
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock'
+Slack : -0.063
+TNS   : -49.670
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.jal3'
+Slack : 0.021
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_unit:control|memRead'
+Slack : 0.112
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.br7'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.ld3'
+Slack : 0.163
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.reset_state'
+Slack : 0.174
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.fetch1'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.add3'
+Slack : 0.195
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.out3'
+Slack : 0.235
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.div6'
+Slack : 0.248
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.fetch0'
+Slack : 0.279
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.div5'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.addi4'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_unit:control|present_state.add5'
+Slack : 0.360
+TNS   : 0.000
+
+------------------------------------------------------------

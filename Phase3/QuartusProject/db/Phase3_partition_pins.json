@@ -1,0 +1,153 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "outPortData[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[4]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[5]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[6]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[7]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[8]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[9]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[10]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[11]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[12]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[13]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[14]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[15]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[16]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[17]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[18]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[19]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[20]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[21]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[22]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[23]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[24]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[25]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[26]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[27]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[28]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[29]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[30]",
+					"strict" : false
+				},
+				{
+					"name" : "outPortData[31]",
+					"strict" : false
+				},
+				{
+					"name" : "run",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "stop",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

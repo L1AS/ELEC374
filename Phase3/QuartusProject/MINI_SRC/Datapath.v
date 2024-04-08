@@ -8,7 +8,7 @@ module Datapath (
     input [31:0] busMuxInPC,                    // PC data
     input MDRout, inPortOut,
 	input[31:0] busMuxInMDR,  					          // Memory data interface signal
-    input inPort_en, outPort_en,                // input/output
+    input outPort_en,                // input/output
     input Cout, 								                // immediate value signals
 	input[31:0] cSignExtended,      			       //
     input[4:0] alu_opcode,                    // ALU opcode
@@ -76,7 +76,7 @@ module Datapath (
   register_gen Zhigh (busMuxInZhigh, clear, clock, Zin, alu_out[63:32]);
   register_gen Zlow (busMuxInZlow, clear, clock, Zin, alu_out[31:0]);
   // Input, Output Ports
-  register_gen In_Port (busMuxInInport, 1'b0, clock, inPort_en, inPortDataIn);
+  register_gen In_Port (busMuxInInport, 1'b1, clock, inPort_en, inPortDataIn);
   register_gen Out_port (outPortData, clear, clock, outPort_en, busMuxOut);
 
   // Bus

@@ -7,446 +7,446 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/simulation/modelsim
+Z0 dC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/simulation/modelsim
 vadd_op
-Z1 !s110 1712276123
+Z1 !s110 1712539453
 !i10b 1
 !s100 8PVcYBaSd;mQm<hiY4@>R1
-ISCLPN^O9hMSkmmXeYHa=S2
+Iaz:of^KEZKGk5deRiKJAm2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1711851925
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/add_op.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/add_op.v
+Z3 w1712527086
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/add_op.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/add_op.v
 L0 1
 Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1712276123.000000
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/add_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/add_op.v|
+Z5 !s108 1712539453.000000
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/add_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/add_op.v|
 !i113 1
 Z6 o-vlog01compat -work work
-Z7 !s92 -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU
 Z8 tCvgOpt 0
 valu
 R1
 !i10b 1
 !s100 EFGShBF2n_CKB5Zhia35j0
-I5cl3U6`YhE[KQMBa_FaHf2
+IL<TGIBn:=7]<?nW=G0DNG1
 R2
 R0
 R3
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/alu.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/alu.v
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/alu.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/alu.v
 L0 1
 R4
 r1
 !s85 0
 31
-Z9 !s108 1712276122.000000
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/alu.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/alu.v|
+R5
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/alu.v|
 !i113 1
 R6
 R7
 R8
 vand_op
-Z10 !s110 1712276122
+R1
 !i10b 1
 !s100 6`>]iL^HdICgnnXj^D2LA0
-I5<9Q;al2L`_K2?<gnH2^40
+IS^E5MmnJ5:MX7a[?^JJGX1
 R2
 R0
 R3
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/and_op.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/and_op.v
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/and_op.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/and_op.v
 L0 1
 R4
 r1
 !s85 0
 31
-R9
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/and_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/and_op.v|
+R5
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/and_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/and_op.v|
 !i113 1
 R6
 R7
 R8
 vb_cell
-R10
+R1
 !i10b 1
 !s100 1=@[[E6FXnR>PUX`U2U4z3
-InV69:^f<FemIBI?fSGbIY0
+IEcNV1ddY;6:>7MS7cHANE2
 R2
 R0
 R3
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/b_cell.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/b_cell.v
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/b_cell.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/b_cell.v
 L0 1
 R4
 r1
 !s85 0
 31
-R9
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/b_cell.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/b_cell.v|
+R5
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/b_cell.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/b_cell.v|
 !i113 1
 R6
 R7
 R8
 vcon_ff
-Z11 !s110 1712276121
+Z9 !s110 1712539452
 !i10b 1
 !s100 WTO@3IXJlkeJVdWj9OiLU3
-I3dAMXWkh6LW23ka2T_A`[3
+I>[<=FekjJVT3?nA<5NlbS0
 R2
 R0
-Z12 w1712275132
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/CON_FF/con_ff.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/CON_FF/con_ff.v
+Z10 w1712527135
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CON_FF/con_ff.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CON_FF/con_ff.v
 L0 1
 R4
 r1
 !s85 0
 31
-Z13 !s108 1712276121.000000
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/CON_FF/con_ff.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/CON_FF|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/CON_FF/con_ff.v|
+Z11 !s108 1712539452.000000
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CON_FF/con_ff.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CON_FF|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CON_FF/con_ff.v|
 !i113 1
 R6
-!s92 -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/CON_FF
+!s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CON_FF
 R8
 vcontrol_unit
 R1
 !i10b 1
 !s100 KFJYheMH1K]GlUWR9S6d]1
-IlK=Z7FW_nHec`i5JTDXVI3
+I]@ZmSH1E@h=JDCT_O0o0M1
 R2
 R0
-R12
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v
+R10
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v
 L0 3
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/CONTROL|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v|
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/control_unit.v|
 !i113 1
 R6
-Z14 !s92 -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/CONTROL
+Z12 !s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL
 R8
 vDatapath
-R11
+R9
 !i10b 1
-!s100 m3zVmAfN==Lkoo2dRoKeo1
-IC:93mmA_MMQ9W3i4KhV:e0
+!s100 Y8Iz4zOanOG_B:LAG>lEJ3
+I7z6@2f@0WVF;FOWz0hJQ11
 R2
 R0
-R12
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/MINI_SRC/Datapath.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/MINI_SRC/Datapath.v
+w1712534706
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/Datapath.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/Datapath.v
 L0 1
 R4
 r1
 !s85 0
 31
-Z15 !s108 1712276120.000000
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/MINI_SRC/Datapath.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/MINI_SRC|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/MINI_SRC/Datapath.v|
+R11
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/Datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/Datapath.v|
 !i113 1
 R6
-Z16 !s92 -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/MINI_SRC
+Z13 !s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC
 R8
 n@datapath
 vdecoder_4_to_16
-R11
+R9
 !i10b 1
 !s100 0icW97bSA:ml]lCDS_1W73
-IcVn=Y[3RgW;1>MQEKYk:41
+Im7[KMVVJKKe<XIIMLY9LQ1
 R2
 R0
-R12
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/CONTROL/decoder_4_to_16.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/CONTROL/decoder_4_to_16.v
+R10
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/decoder_4_to_16.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/decoder_4_to_16.v
 L0 1
 R4
 r1
 !s85 0
 31
-R13
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/CONTROL/decoder_4_to_16.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/CONTROL|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/CONTROL/decoder_4_to_16.v|
+R11
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/decoder_4_to_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/decoder_4_to_16.v|
 !i113 1
 R6
-R14
+R12
 R8
 vdiv_op
-R10
+R1
 !i10b 1
 !s100 T=NdHl<c=_?9f7YJfU3dK3
-I4:L^N=o3F_Rd8hA^]4KV@1
+Iin3<FaTR]7=GShdGh6b;V0
 R2
 R0
 R3
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/div_op.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/div_op.v
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/div_op.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/div_op.v
 L0 1
 R4
 r1
 !s85 0
 31
-R9
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/div_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/div_op.v|
+R5
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/div_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/div_op.v|
 !i113 1
 R6
 R7
 R8
 vencoder_32_to_5
-R11
+R9
 !i10b 1
 !s100 mC>jSB[S[WkS07J<;RGGg2
-IPoJQD^^n3=1OLEMVEFbm32
+IVakCP_ORUMCglCCaoeT@@2
 R2
 R0
 R3
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/BUS/encoder_32_to_5.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/BUS/encoder_32_to_5.v
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/BUS/encoder_32_to_5.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/BUS/encoder_32_to_5.v
 L0 2
 R4
 r1
 !s85 0
 31
-R13
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/BUS/encoder_32_to_5.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/BUS|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/BUS/encoder_32_to_5.v|
+R11
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/BUS/encoder_32_to_5.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/BUS|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/BUS/encoder_32_to_5.v|
 !i113 1
 R6
-Z17 !s92 -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/BUS
+Z14 !s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/BUS
 R8
 vIncPC
-R10
+R9
 !i10b 1
 !s100 2GOz]M8l[N5b5USBm=e4d1
-IGjLWZKldWe?8c]n5?L@h73
+IG=UB@4oBK2?0d5zHTdTfW1
 R2
 R0
 R3
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/IncPC.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/IncPC.v
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/IncPC.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/IncPC.v
 L0 1
 R4
 r1
 !s85 0
 31
-R9
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/IncPC.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/IncPC.v|
+R11
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/IncPC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/IncPC.v|
 !i113 1
 R6
 R7
 R8
 n@inc@p@c
 vmemory_custom
-R1
+Z15 !s110 1712539451
 !i10b 1
-!s100 0CH?Wo`mfYGJT=CWV:ZWG0
-IYfOB8QG7n6bJ]CmEG7RA50
+!s100 ]@FkCh65JoJmUlBNmV[3C1
+Iz<T>>TW8DXVKbZ?UQXo5B0
 R2
 R0
-Z18 w1712275911
-Z19 8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v
-Z20 FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v
+Z16 w1712539413
+Z17 8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v
+Z18 FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v
 L0 1
 R4
 r1
 !s85 0
 31
-R5
-Z21 !s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v|
-Z22 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/RAM|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v|
+Z19 !s108 1712539451.000000
+Z20 !s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v|
+Z21 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM/memory_custom.v|
 !i113 1
 R6
-Z23 !s92 -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/RAM
+Z22 !s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/RAM
 R8
 vmemory_test
-R1
+R15
 !i10b 1
-!s100 586OFC[HD=6]?D9GafOI10
-I5Dg]dR32NA:OjS07<<jL43
+!s100 bUZ8P?0k=1Zif9^oRMZ9]0
+IH1jcBz<gA0N^5<g;?a0;W3
 R2
 R0
+R16
+R17
 R18
-R19
-R20
-L0 53
+L0 39
 R4
 r1
 !s85 0
 31
-R5
+R19
+R20
 R21
-R22
 !i113 1
 R6
-R23
+R22
 R8
 vminiSRC
-Z24 !s110 1712276120
+R9
 !i10b 1
-!s100 kDF1::z_0PH@koLUA3V]C1
-Im1mjFMBe9EbC@<UgSfI]A0
+!s100 H;]24YZ`PJnZi5NaAm<mZ2
+IEVYBEzP^fKYj]Ml=ILoIk0
 R2
 R0
-R12
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v
+w1712534804
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v
 L0 1
 R4
 r1
 !s85 0
 31
-R15
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/MINI_SRC|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v|
+R19
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MINI_SRC/miniSRC.v|
 !i113 1
 R6
-R16
+R13
 R8
 nmini@s@r@c
 vmul_op
-R10
+R9
 !i10b 1
 !s100 [^kScIUnT^4>4b8D20ne42
-I5a?<Mhzf4GmER<X9BA];>0
+IJD`C20oLneeGkBzHIh^QY3
 R2
 R0
 R3
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/mul_op.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/mul_op.v
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/mul_op.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/mul_op.v
 L0 1
 R4
 r1
 !s85 0
 31
-R9
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/mul_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/mul_op.v|
+R11
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/mul_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/mul_op.v|
 !i113 1
 R6
 R7
 R8
 vmux_2_to_1
-R11
+R9
 !i10b 1
 !s100 5iXH2KX^J^OP;NaAfkIBH1
-IFXEi2YIjlF:[b:4Un2P]N2
+IW]9OGc6<=bk3ILdDS_MQM1
 R2
 R0
 R3
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/MDI/mux_2_to_1.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/MDI/mux_2_to_1.v
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MDI/mux_2_to_1.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MDI/mux_2_to_1.v
 L0 3
 R4
 r1
 !s85 0
 31
-R13
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/MDI/mux_2_to_1.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/MDI|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/MDI/mux_2_to_1.v|
+R11
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MDI/mux_2_to_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MDI|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MDI/mux_2_to_1.v|
 !i113 1
 R6
-!s92 -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/MDI
+!s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/MDI
 R8
 vmux_32_to_1
-R11
+R9
 !i10b 1
 !s100 B:aAE@?TOnggg_@lFI3WG2
-I7d<EZ]OzZh9LQjBOz4DOY1
+IS3[4>`?mLhjGSn<VYZN5C1
 R2
 R0
 R3
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/BUS/mux_32_to_1.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/BUS/mux_32_to_1.v
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/BUS/mux_32_to_1.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/BUS/mux_32_to_1.v
 L0 3
 R4
 r1
 !s85 0
 31
-R13
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/BUS/mux_32_to_1.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/BUS|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/BUS/mux_32_to_1.v|
+R11
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/BUS/mux_32_to_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/BUS|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/BUS/mux_32_to_1.v|
 !i113 1
 R6
-R17
+R14
 R8
 vneg_op
-R10
+R9
 !i10b 1
 !s100 8Vj[?VokZiFPdAdaD7K^z3
-I;b4:zo=MCh7k5b8hg`aL?1
+I[eBo^XmN2[C9;WWIMiI5[0
 R2
 R0
 R3
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/neg_op.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/neg_op.v
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/neg_op.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/neg_op.v
 L0 1
 R4
 r1
 !s85 0
 31
-R9
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/neg_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/neg_op.v|
+R11
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/neg_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/neg_op.v|
 !i113 1
 R6
 R7
 R8
 vnot_op
-R10
+R9
 !i10b 1
 !s100 Mo24053V[S5Q;16^Y9[?c0
-IhFJ]F>BFc80N>3PgmT9Ze1
+INLaBS;_ei?K7HeiA_3UFn3
 R2
 R0
 R3
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/not_op.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/not_op.v
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/not_op.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/not_op.v
 L0 1
 R4
 r1
 !s85 0
 31
-R9
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/not_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/not_op.v|
+R11
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/not_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/not_op.v|
 !i113 1
 R6
 R7
 R8
 vor_op
-R10
+R9
 !i10b 1
 !s100 WCiF4ofcLLgL];YRmQcfk1
-IU^;zc=_I9Hc>2;QIAE8h<3
+I?Ug5Elk^1Gb6YYaETE`<C0
 R2
 R0
 R3
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/or_op.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/or_op.v
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/or_op.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/or_op.v
 L0 1
 R4
 r1
 !s85 0
 31
-R9
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/or_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/or_op.v|
+R11
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/or_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/or_op.v|
 !i113 1
 R6
 R7
@@ -454,219 +454,219 @@ R8
 vphase3_tb
 R1
 !i10b 1
-!s100 OXNbnEQ]DfWA25ib85I@K1
-Ii=F84D3@eNWOkfLd[0CQ41
+!s100 Q5c=SV<iRj[Z?BaF8;1nX1
+I<@e`:X<fO@e1`8olfZ3n`0
 R2
 R0
-R12
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/TESTBENCH/phase3_tb.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/TESTBENCH/phase3_tb.v
+w1712534736
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/TESTBENCH/phase3_tb.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/TESTBENCH/phase3_tb.v
 L0 3
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/TESTBENCH/phase3_tb.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/TESTBENCH|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/TESTBENCH/phase3_tb.v|
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/TESTBENCH/phase3_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/TESTBENCH|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/TESTBENCH/phase3_tb.v|
 !i113 1
 R6
-!s92 -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/TESTBENCH
+!s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/TESTBENCH
 R8
 vregister_gen
-R24
+R15
 !i10b 1
 !s100 KoJZmDD?CQ`c>[3_bJ9HV3
-IU1z8mWNlIYQ7mCWOE2A9O0
+Iho1VQS=eU9gA=oQMkO^HJ3
 R2
 R0
 R3
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/REG/register_gen.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/REG/register_gen.v
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/REG/register_gen.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/REG/register_gen.v
 L0 1
 R4
 r1
 !s85 0
 31
-R15
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/REG/register_gen.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/REG|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/REG/register_gen.v|
+R19
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/REG/register_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/REG|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/REG/register_gen.v|
 !i113 1
 R6
-!s92 -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/REG
+!s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/REG
 R8
 vrol_op
-R10
+R9
 !i10b 1
 !s100 S`AYnY;5zXmdWS]J;CBU@2
-IM=11?KZ7Wj6e2GGIz]GfX1
+I7;XinGQREeHjXf:a=fbiK0
 R2
 R0
 R3
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/rol_op.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/rol_op.v
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/rol_op.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/rol_op.v
 L0 1
 R4
 r1
 !s85 0
 31
-R9
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/rol_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/rol_op.v|
+R11
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/rol_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/rol_op.v|
 !i113 1
 R6
 R7
 R8
 vror_op
-R10
+R9
 !i10b 1
 !s100 So57dZLZ1JR5gSDoFJEl30
-IgKz<KhBV3I=hRU8M^E4Bj2
+IcfA;4aCik6zAHKM8Vl_Ga0
 R2
 R0
 R3
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/ror_op.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/ror_op.v
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/ror_op.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/ror_op.v
 L0 1
 R4
 r1
 !s85 0
 31
-R9
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/ror_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/ror_op.v|
+R11
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/ror_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/ror_op.v|
 !i113 1
 R6
 R7
 R8
 vselect_encode
-R11
+R9
 !i10b 1
 !s100 MY]l=L6TX7b;gO>Oa;kfE1
-I1bXlDWl;d19WSVo;n^9N>3
+I5<aiC5e9K7O;Rf`^VYUgm3
 R2
 R0
-R12
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/CONTROL/select_encode.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/CONTROL/select_encode.v
+R10
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/select_encode.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/select_encode.v
 L0 1
 R4
 r1
 !s85 0
 31
-R13
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/CONTROL/select_encode.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/CONTROL|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/CONTROL/select_encode.v|
+R11
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/select_encode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/CONTROL/select_encode.v|
 !i113 1
 R6
-R14
+R12
 R8
 vseven_segment_display
 R1
 !i10b 1
 !s100 CD3MeWz4B?@`Qc:]G9CK73
-Iai<e=T>BUzD81OET8j3oW3
+IZ[6C@3cg0Y2I[LJ0_`J`L2
 R2
 R0
-R12
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/IO/seven_segment_display.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/IO/seven_segment_display.v
+R10
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/IO/seven_segment_display.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/IO/seven_segment_display.v
 L0 1
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/IO/seven_segment_display.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/IO|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/IO/seven_segment_display.v|
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/IO/seven_segment_display.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/IO|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/IO/seven_segment_display.v|
 !i113 1
 R6
-!s92 -vlog01compat -work work +incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/IO
+!s92 -vlog01compat -work work +incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/IO
 R8
 vshl_op
-R10
+R9
 !i10b 1
 !s100 GB>SDVSLg7ikjCjnVOVfb1
-IlBef@>=o^9oQU^DRl_Q;N3
+I?9cBT0Pn:gaj;L>a2V^R@0
 R2
 R0
 R3
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/shl_op.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/shl_op.v
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/shl_op.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/shl_op.v
 L0 1
 R4
 r1
 !s85 0
 31
-R13
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/shl_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/shl_op.v|
+R11
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/shl_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/shl_op.v|
 !i113 1
 R6
 R7
 R8
 vshr_op
-R11
+R9
 !i10b 1
 !s100 =1>z<hQfgBXZV^DkRfZBj2
-I<lAaV3bme;C:oh]onZao20
+IP<7ZeozG603YcGZPOD;142
 R2
 R0
 R3
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/shr_op.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/shr_op.v
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/shr_op.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/shr_op.v
 L0 1
 R4
 r1
 !s85 0
 31
-R13
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/shr_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/shr_op.v|
+R11
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/shr_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/shr_op.v|
 !i113 1
 R6
 R7
 R8
 vshra_op
-R11
+R9
 !i10b 1
 !s100 0jAzb2o`PFYL[L@0>Vaij3
-I^VLK<zbLQ[oK3n2MVO_fl3
+I]Tn7WlM`E^@6ZUdP>8zk63
 R2
 R0
 R3
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/shra_op.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/shra_op.v
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/shra_op.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/shra_op.v
 L0 1
 R4
 r1
 !s85 0
 31
-R13
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/shra_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/shra_op.v|
+R11
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/shra_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/shra_op.v|
 !i113 1
 R6
 R7
 R8
 vsub_op
-R11
+R9
 !i10b 1
 !s100 RiGimI=d@7OfQZ<ni8KG<1
-IkkLG8aY<:g7GkCSP`gO[>2
+IbWo;3]N8mZFK4V?D?46QU0
 R2
 R0
 R3
-8C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/sub_op.v
-FC:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/sub_op.v
+8C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/sub_op.v
+FC:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/sub_op.v
 L0 1
 R4
 r1
 !s85 0
 31
-R13
-!s107 C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/sub_op.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU|C:/Users/trist/OneDrive/Documents/GitHub/ELEC374/Phase3/QuartusProject/ALU/sub_op.v|
+R11
+!s107 C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/sub_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU|C:/Users/19tja3/Documents/ELEC374/Phase3/QuartusProject/ALU/sub_op.v|
 !i113 1
 R6
 R7

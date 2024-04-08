@@ -2,7 +2,7 @@ module miniSRC(
     output[31:0] outPortData,               // output.
     output run,
     input[31:0] inPortDataIn,               // input.
-    input clock, reset, stop, inPort_en
+    input clock, reset, stop
 );
 
     wire [7:0] display_lower_hex, display_upper_hex;
@@ -53,14 +53,6 @@ module miniSRC(
                      .read_enable(memRead), 
                      .write_enable(memWrite) 
                      );
-//
-//    memory RAM (.address(MARdata[8:0]),
-//                     .clock(clock),
-//                     .data(busMuxInMDR),
-//                     .rden(memRead),
-//                     .wren(memWrite),
-//                     .q(Mdatain)
-//					);
     
 
 
@@ -91,7 +83,7 @@ module miniSRC(
         .Zhighout(Zhighout), .Zlowout(Zlowout), .Zin(Zin),         //
         .PCout_en(PCout_en), .IncPC(IncPC), .busMuxInPC(busMuxInPC),       // PC signals
         .MDRout(MDRout), .inPortOut(inPortOut), .busMuxInMDR(busMuxInMDR),            // Memory data interface signal
-        .inPort_en(inPort_en), .outPort_en(outPort_en),            // input/output
+        .outPort_en(outPort_en),            // input/output
         .Cout(Cout), .cSignExtended(cSignExtended),             // imediate value signals   
         .alu_opcode(alu_opcode),                                                         //ALU opcode 
         .reg_in(reg_in), .reg_out(reg_out), .BAout(BAout),          // register control signals
